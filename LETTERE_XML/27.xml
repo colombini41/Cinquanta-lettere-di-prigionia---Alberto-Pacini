@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_027">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 27 - 23 maggio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>027</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>17,8</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>discreto</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <accMat>
+                                È presente anche la busta da lettera relativa (in condizioni buone), su cui sono indicati mittente e destinatario.
+                                <address>
+                                    <addrLine facs="#mittente_27B">
+                                        Mittente
+                                    </addrLine>
+                                    <addrLine>
+                                        <persName ref="#LM" facs="#nome_27B">Martini Liana</persName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#SE" facs="#localita_27B">Selvatelle</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#PI" facs="#provincia_27B">PISA</placeName>
+                                    </addrLine>
+                                </address>
+                                Destinatario: 
+                                <address>
+                                    <addrLine facs="#addrline1_27A">Ai <addName type="honorific">Signori</addName> Pacini</addrLine>
+                                    <addrLine>
+                                        <persName ref="#AE" facs="#nome1_27A">Argia</persName> <seg facs="#seg_27A">e</seg> <persName ref="#AnP" facs="#nome2_27A">Angelo</persName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#NU" facs="#localita_27A">Nugola</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#LI" facs="#provincia_27A">Livorno</placeName>
+                                    </addrLine>
+                                </address>
+                                Sono presenti anche quattro timbri (uno sul retro e tre sul fronte della busta) e quattro francobolli (tutti sul fronte):
+                                <stamp type="postmark" xml:id="timbro_fronte1_27" facs="#timbro1_27A">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1944-05-23">23.5.44 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_fronte2_27" facs="#timbro2_27A">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1944-05-23">23.5.44 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_fronte3_27" facs="#timbro3_27A">
+                                    <gap reason="illegible"/>
+                                </stamp>
+                                <stamp type="postage" xml:id="francobollo_fronte1_27" facs="#francobollo1_27A">
+                                    Francobollo da Lire 1.25 di Poste Italiane raffigurante Vittorio Emanuele III
+                                </stamp>
+                                <stamp type="postage" xml:id="francobollo_fronte2_27" facs="#francobollo2_27A">
+                                    Francobollo da 15 cent di Poste Italiane
+                                </stamp>
+                                <stamp type="postage" xml:id="francobollo_fronte3_27" facs="#francobollo3_27A">
+                                    Francobollo da 15 cent di Poste Italiane
+                                </stamp>
+                                <stamp type="postage" xml:id="francobollo_fronte4_27" facs="#francobollo4_27A">
+                                    Francobollo da 5 cent di Poste Italiane raffigurante la Lupa Capitolina
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_retro_27" facs="#timbro_27B">
+                                    <mentioned>NUGOLA</mentioned>
+                                    <date when="1944-05-26">26.5.44 XX</date>
+                                    <mentioned>LIVORNO</mentioned>
+                                </stamp>
+                            </accMat>
+                        </physDesc>
+                        
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1944-05-05">5-5-1944</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AnP">Angiolo Pacini</persName>
+                        <persName ref="#AE">Argia Pacini</persName>
+                        <placeName ref="https://www.geonames.org/3172160/nugola.html">Nugola</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_026"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_028"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="busta_fronte_27" type="fronte">
+                <graphic url='27_A.png' width='2121.33334px' height='1225.33334px' />
+                <zone ulx="134" uly="409" lrx="931" lry="520" xml:id="addrline1_27A"/>
+                <zone ulx="458" uly="576" lrx="730" lry="685" xml:id="nome1_27A"/>
+                <zone ulx="743" uly="609" lrx="786" lry="673" xml:id="seg_27A"/>
+                <zone ulx="798" uly="565" lrx="1100" lry="680" xml:id="nome2_27A"/>
+                <zone ulx="1350" uly="710" lrx="1674" lry="860" xml:id="localita_27A"/>
+                <zone ulx="1263" uly="949" lrx="1556" lry="1112" xml:id="provincia_27A"/>
+                <zone ulx="1156" uly="135" lrx="1555" lry="539" xml:id="timbro1_27A"/>
+                <zone ulx="487" uly="253" lrx="894" lry="659" xml:id="timbro2_27A"/>
+                <zone ulx="1622" uly="217" lrx="2019" lry="559" xml:id="timbro3_27A"/>
+                <zone ulx="1378" uly="155" lrx="1628" lry="449" xml:id="francobollo1_27A"/>
+                <zone ulx="1627" uly="50" lrx="1870" lry="341" xml:id="francobollo2_27A"/>
+                <zone ulx="1870" uly="74" lrx="2104" lry="366" xml:id="francobollo3_27A"/>
+                <zone ulx="1624" uly="351" lrx="1870" lry="635" xml:id="francobollo4_27A"/>
+            </surface>
+            <surface xml:id="busta_retro_27" type="retro">
+                <graphic url='image/27_B.png' width='2121.33334px' height='1225.33334px' />
+                <zone ulx="196" uly="27" lrx="480" lry="127" xml:id="mittente_27B"/>
+                <zone ulx="512" uly="28" lrx="1068" lry="128" xml:id="nome_27B"/>
+                <zone ulx="1112" uly="28" lrx="1471" lry="139" xml:id="localita_27B"/>
+                <zone ulx="1514" uly="47" lrx="1682" lry="148" xml:id="provincia_27B"/>
+                <zone ulx="380" uly="512" lrx="732" lry="866" xml:id="timbro_27B"/>
+            </surface>
+            <surface xml:id="fronte1_27" type="fronte">
+                <graphic url='image/27_C.png' width='1676.33334px' height='2061.33334px' />
+                <zone ulx="978" uly="1" lrx="1316" lry="135" xml:id="luogo_27C"/>
+                <zone ulx="1327" uly="33" lrx="1612" lry="139" xml:id="data_27C"/>
+                <zone ulx="30" uly="2" lrx="898" lry="218" xml:id="salute_27C"/>
+                <zone ulx="31" uly="218" lrx="1591" lry="312" xml:id="riga1_27C"/>
+                <zone ulx="20" uly="316" lrx="1610" lry="431" xml:id="riga2_27C"/>
+                <zone points = ' 23,432 1658,441 1660,608 1587,605 1570,565 26,524 ' xml:id="riga3_27C"/>
+                <zone points = ' 32,515 1602,573 1659,621 1650,712 1574,713 1504,676 28,640 ' xml:id="riga4_27C"/>
+                <zone points = ' 30,647 1498,689 1564,725 1655,722 1659,858 1602,857 1560,811 34,757 ' xml:id="riga5_27C"/>
+                <zone points = ' 35,763 1552,817 1600,861 1656,863 1659,983 1607,982 1532,911 39,863 ' xml:id="riga6_27C"/>
+                <zone points = ' 32,871 1516,924 1602,985 1654,989 1658,1077 1542,1072 1448,1029 200,1007 23,971 ' xml:id="riga7_27C"/>
+                <zone points = ' 27,1005 1436,1051 1534,1089 1655,1085 1659,1205 1587,1205 1532,1167 371,1156 22,1109 ' xml:id="riga8_27C"/>
+                <zone points = ' 28,1132 355,1162 1524,1184 1583,1218 1662,1215 1660,1355 1592,1358 1526,1303 23,1262 ' xml:id="riga9_27C"/>
+                <zone points = ' 28,1269 1514,1311 1583,1370 1656,1359 1658,1483 1580,1471 1562,1425 24,1349 ' xml:id="riga10_27C"/>
+                <zone points = ' 30,1355 1550,1431 1571,1480 1658,1493 1660,1537 26,1489 ' xml:id="riga11_27C"/>
+                <zone points = ' 32,1503 1632,1546 1628,1667 376,1627 34,1606 ' xml:id="riga12_27C"/>
+                <zone points = ' 27,1619 820,1674 1659,1685 1659,1802 458,1766 28,1714 ' xml:id="riga13_27C"/>
+                <zone points = ' 38,1763 1666,1814 1667,1961 1574,1954 1575,1905 279,1882 28,1847 ' xml:id="riga14_27C"/>
+                <zone points = ' 24,1857 274,1887 1562,1917 1564,1962 1652,1966 1652,2031 35,2017 ' xml:id="riga15_27C"/>
+            </surface>
+            <surface xml:id="retro1_27" type="retro">
+                <graphic url='image/27_D.png' width='1681.33334px' height='2106.33334px' />
+                <zone ulx="427" uly="6" lrx="498" lry="90" xml:id="span_27D"/>
+                <zone ulx="46" uly="67" lrx="1630" lry="146" xml:id="riga1_27D"/>
+                <zone ulx="36" uly="162" lrx="1611" lry="254" xml:id="riga2_27D"/>
+                <zone ulx="31" uly="273" lrx="1663" lry="363" xml:id="riga3_27D"/>
+                <zone ulx="26" uly="367" lrx="1670" lry="471" xml:id="riga4_27D"/>
+                <zone ulx="35" uly="478" lrx="1655" lry="574" xml:id="riga5_27D"/>
+                <zone ulx="34" uly="587" lrx="1639" lry="692" xml:id="riga6_27D"/>
+                <zone ulx="30" uly="702" lrx="1655" lry="808" xml:id="riga7_27D"/>
+                <zone ulx="22" uly="808" lrx="1612" lry="908" xml:id="riga8_27D"/>
+                <zone ulx="22" uly="916" lrx="1598" lry="1017" xml:id="riga9_27D"/>
+                <zone ulx="18" uly="1027" lrx="1654" lry="1129" xml:id="riga10_27D"/>
+                <zone ulx="30" uly="1131" lrx="1587" lry="1222" xml:id="riga11_27D"/>
+                <zone ulx="23" uly="1233" lrx="1628" lry="1335" xml:id="riga12_27D"/>
+                <zone ulx="27" uly="1349" lrx="1616" lry="1438" xml:id="riga13_27D"/>
+                <zone ulx="26" uly="1473" lrx="1659" lry="1574" xml:id="riga14_27D"/>
+                <zone ulx="20" uly="1587" lrx="1627" lry="1686" xml:id="riga15_27D"/>
+                <zone ulx="12" uly="1713" lrx="1598" lry="1814" xml:id="riga16_27D"/>
+                <zone ulx="12" uly="1839" lrx="1588" lry="1929" xml:id="riga17_27D"/>
+                <zone ulx="11" uly="1934" lrx="1640" lry="2082" xml:id="riga18_27D"/>
+            </surface>
+            <surface xml:id="fronte2_27" type="fronte">
+                <graphic url='image/27_E.png' width='1689.33334px' height='2166.33334px' />
+                <zone ulx="250" uly="6" lrx="290" lry="68" xml:id="span_27E"/>
+                <zone ulx="35" uly="26" lrx="1656" lry="138" xml:id="riga1_27E"/>
+                <zone ulx="39" uly="148" lrx="1592" lry="276" xml:id="riga2_27E"/>
+                <zone ulx="40" uly="276" lrx="1662" lry="404" xml:id="riga3_27E"/>
+                <zone ulx="42" uly="402" lrx="1664" lry="535" xml:id="riga4_27E"/>
+                <zone points = ' 40,515 376,516 1634,567 1630,673 370,615 20,617 ' xml:id="riga5_27E"/>
+                <zone points = ' 31,642 432,643 1632,702 1638,798 562,773 18,734 ' xml:id="riga6_27E"/>
+                <zone points = ' 23,762 318,762 1003,817 1678,819 1671,929 764,917 20,846 ' xml:id="riga7_27E"/>
+                <zone points = ' 28,868 758,929 1667,945 1663,1059 736,1049 14,972 ' xml:id="riga8_27E"/>
+                <zone points = ' 20,997 406,1017 742,1053 1672,1072 1667,1221 1590,1220 1564,1180 18,1089 ' xml:id="riga9_27E"/>
+                <zone points = ' 27,1106 1556,1187 1582,1230 1672,1227 1667,1343 1591,1351 1538,1303 20,1230 ' xml:id="riga10_27E"/>
+                <zone points = ' 30,1246 1532,1310 1576,1359 1674,1355 1678,1466 1618,1466 1591,1419 936,1394 22,1358 ' xml:id="riga11_27E"/>
+                <zone points = ' 19,1370 1588,1422 1614,1475 1668,1475 1660,1547 1523,1550 1290,1502 15,1469 ' xml:id="riga12_27E"/>
+                <zone points = ' 28,1491 1459,1543 1655,1561 1654,1637 18,1599 ' xml:id="riga13_27E"/>
+                <zone points = ' 26,1611 1656,1678 1667,1760 14,1706 ' xml:id="riga14_27E"/>
+                <zone ulx="20" uly="1727" lrx="1654" lry="1866" xml:id="riga15_27E"/>
+                <zone points = ' 19,1864 1660,1894 1660,2022 1582,2023 1527,1984 731,1998 14,1956 ' xml:id="riga16_27E"/>
+                <zone points = ' 16,1974 735,2004 1502,1998 1578,2038 1663,2035 1666,2138 1580,2128 1539,2106 23,2102 ' xml:id="riga17_27E"/>
+            </surface>
+            <surface xml:id="retro2_27" type="retro">
+                <graphic url='image/27_F.png' width='1675.33334px' height='2155.33334px' />
+                <zone ulx="23" uly="31" lrx="1594" lry="120" xml:id="riga1_27F"/>
+                <zone ulx="23" uly="122" lrx="1612" lry="219" xml:id="riga2_27F"/>
+                <zone ulx="23" uly="236" lrx="1648" lry="334" xml:id="riga3_27F"/>
+                <zone ulx="16" uly="348" lrx="1647" lry="447" xml:id="riga4_27F"/>
+                <zone ulx="14" uly="450" lrx="1622" lry="555" xml:id="riga5_27F"/>
+                <zone ulx="12" uly="556" lrx="1642" lry="676" xml:id="riga6_27F"/>
+                <zone ulx="12" uly="679" lrx="1598" lry="762" xml:id="riga7_27F"/>
+                <zone ulx="8" uly="797" lrx="1648" lry="874" xml:id="riga8_27F"/>
+                <zone ulx="15" uly="915" lrx="1666" lry="1008" xml:id="riga9_2FD"/>
+                <zone ulx="15" uly="1022" lrx="1626" lry="1130" xml:id="riga10_27F"/>
+                <zone ulx="20" uly="1136" lrx="1660" lry="1240" xml:id="riga11_27F"/>
+                <zone ulx="19" uly="1256" lrx="1666" lry="1355" xml:id="riga12_27F"/>
+                <zone ulx="15" uly="1359" lrx="1654" lry="1467" xml:id="riga13_27F"/>
+                <zone ulx="19" uly="1470" lrx="1671" lry="1587" xml:id="riga14_27F"/>
+                <zone ulx="23" uly="1587" lrx="1614" lry="1663" xml:id="riga15_27F"/>
+                <zone ulx="15" uly="1663" lrx="1663" lry="1764" xml:id="riga16_27F"/>
+                <zone ulx="20" uly="1767" lrx="1664" lry="1855" xml:id="riga17_27F"/>
+                <zone ulx="15" uly="1856" lrx="1660" lry="1962" xml:id="riga18_27F"/>
+                <zone ulx="12" uly="1958" lrx="1324" lry="2031" xml:id="riga19_27F"/>
+                <zone points = ' 1327,1962 1670,1970 1668,2154 11,2144 14,2031 ' xml:id="closer_27F"/>
+            </surface>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_27">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <pb n="1"/>
+                    <div type="fronte">
+                        <div type="messaggio">
+                            <lb n="1"/>
+                            <opener>
+                                <dateline>
+                                    <placeName ref="#SE" facs="#luogo_27C">Selvatelle</placeName><date when="1944-05-23" facs="#data_27C">23-5-1944</date>
+                                </dateline>
+                                <lb n="2"/>
+                                <salute facs="#salute_27C">Carissimi saluti da <persName ref="#MM">Milena</persName> un bacino da <persName ref="#AM">Anna</persName></salute>
+                            </opener>
+                            <ab>
+                                <lb facs="#riga1_27C" n="3"/>questa sera, ho ricevuto due vostre care lettere del
+                                <lb facs="#riga2_27C" n="4"/><date when="1944-05-10">10</date>e del <date when="1944-05-14">14</date>, come vedete ci hanno messo parecchio a
+                                <lb facs="#riga3_27C" n="5"/>venire, avevo ragione, di stare ad attendere la posta
+                                <lb facs="#riga4_27C" n="6"/>ma lo immaginavo che il ritardo era per causa del
+                                <lb facs="#riga5_27C" n="7"/>serivizio postale. Sento con piacere che state bene come
+                                <lb facs="#riga6_27C" n="8"/>salute, io pure sto bene e i miei familiari. Mi dispiace
+                                <lb facs="#riga7_27C" n="9"/>che non abbiate ricevuto la posta che certamente Berto
+                                <lb facs="#riga8_27C" n="10"/>vi ha scritta prima della mia, si vede bene che non tutte
+                                <lb facs="#riga9_27C" n="11"/>quelle che scrive arrivano a destinazione, mi dispia-
+                                <lb facs="#riga10_27C" n="12"/>ce di non essere venuta subito io a portarvi la carto-
+                                <lb facs="#riga11_27C" n="13"/>lina che ho ricevuto, ma credete i miei mi mandano
+                                <lb facs="#riga12_27C" n="14"/>troppo malvolentieri perchè, anno paura di tutto,
+                                <lb facs="#riga13_27C" n="15"/>almeno l'avreste veduta subito e saresti stati contenti
+                                <lb facs="#riga14_27C" n="16"/>qualche giorno prima, perchè vedo che le lettere ci metto-
+                                <lb facs="#riga15_27C" n="17"/>no troppo ad arrivare, ma anche, perchè la verità, mi
+                            </ab> 
+                        </div>
+                    </div>
+                    <div type="retro">
+                        <div type="messaggio">
+                            <span>
+                                <idno facs="#span_27D">2</idno>
+                            </span>
+                            <ab>
+                                <lb facs="#riga1_27D" n="18"/>credevo che insieme alla mia ne avesse scritta
+                                <lb facs="#riga2_27D" n="19"/>una pure a voi a <placeName ref="Nugola">Nugola</placeName>, e che Angiolino sarebbe
+                                <lb facs="#riga3_27D" n="20"/>venuto qua, dato che non ha più da andare a Livorno
+                                <lb facs="#riga4_27D" n="21"/>e per questo vi scrissi copiandola senza mandarvela
+                                <lb facs="#riga5_27D" n="22"/>subito, ma domenica però, che non l'veduto e
+                                <lb facs="#riga6_27D" n="23"/>visto che, tanto, me là non mi vogliono mandare,
+                                <lb facs="#riga7_27D" n="24"/>vi scrissi la lettera e ve la inviai subito, però la pos-
+                                <lb facs="#riga8_27D" n="25"/>tina non potè farmi la raccomandata e temo
+                                <lb facs="#riga9_27D" n="26"/>che anche per questo arrivi con ritardo a voi, che
+                                <lb facs="#riga10_27D" n="27"/>mi immagino, quanto vi farà piacere rivedere
+                                <lb facs="#riga11_27D" n="28"/>il suo scritto. Sento con dispiacere di nonna
+                                <lb facs="#riga12_27D" n="29"/>ma voglio sperare che stia benino e che il cuore le
+                                <lb facs="#riga13_27D" n="30"/>riprenda forza, così anche lei, potrebbe arrivare
+                                <lb facs="#riga14_27D" n="31"/>magari a rivedere il suo Albertino a cui vuole
+                                <lb facs="#riga15_27D" n="32"/>tanto bene, sono contenta di sentire che anche
+                                <lb facs="#riga16_27D" n="33"/>nelle condizioni che è si ricorda pure di me
+                                <lb facs="#riga17_27D" n="34"/>se andate a trovarla salutatela per me, e ditele
+                                <lb facs="#riga18_27D" n="35"/>che <persName ref="#AlP">Alberto</persName> ha scritto un'altra volta le farà piacere
+                            </ab>
+                        </div>
+                    </div>
+                <pb n="2"/>
+                    <div type="fronte">
+                        <div type="messaggio">
+                            <span>
+                                <idno facs="#span_27E">3</idno>
+                            </span>
+                            <ab>
+                                <lb facs="#riga1_27E" n="36"/>Sento con piacere che avete trovato la maniera
+                                <lb facs="#riga2_27E" n="37"/>di scrivere a Berto vi prego nelle vostre lettere
+                                <lb facs="#riga3_27E" n="38"/>che c'è più probabilità che le riceva delle mie, (che
+                                <lb facs="#riga4_27E" n="39"/>tornano quasi tutte indietro) parlategli anche un
+                                <lb facs="#riga5_27E" n="40"/>poco di me, magari mi basta i saluti, ma purchè
+                                <lb facs="#riga6_27E" n="41"/>veda il mio pensiero in qualche modo, perchè
+                                <lb facs="#riga7_27E" n="42"/>mi dispiace, di sentire come nella cartolina che
+                                <lb facs="#riga8_27E" n="43"/>non riceve mie notizie, io continuo ancora a scri-
+                                <lb facs="#riga9_27E" n="44"/>vere letttere semplici aperte e dato che non ritornano
+                                <lb facs="#riga10_27E" n="45"/>indietro tutte, spero che magari qualc'una di ques-
+                                <lb facs="#riga11_27E" n="46"/>te la riceva, speriamolo, perchè ricevendo magari posta
+                                <lb facs="#riga12_27E" n="47"/>stia un poco più contento! Argia sento che farebbe
+                                <lb facs="#riga13_27E" n="48"/>il cambio di quella roba per ... , senta per dire la
+                                <lb facs="#riga14_27E" n="49"/>verità, sono cose che qui mancano molto e tirano
+                                <lb facs="#riga15_27E" n="50"/>la gola tutte due, anche la razione è tanto che non
+                                <lb facs="#riga16_27E" n="51"/>la danno e tutti senza, anche il mio <persName ref="#AnP">babbo</persName> s'ar-
+                                <lb facs="#riga17_27E" n="52"/>rabbia perchè non ha mai da fumare, e la mia mam-
+                            </ab> 
+                        </div>
+                    </div>
+                    <div type="retro">
+                        <div type="messaggio">
+                            <ab>
+                                <lb facs="#riga1_27F" n="53"/>ma perchè è tanto che l'ha finito, e li tocca
+                                <lb facs="#riga2_27F" n="54"/>stare sempre a chiedere a mia zia che pure lei a finito
+                                <lb facs="#riga3_27F" n="55"/>il rifornimento; ho domandato a qualcun'uno, ma
+                                <lb facs="#riga4_27F" n="56"/>qui dei paesani, non c'è da fare bene, però lo voglio
+                                <lb facs="#riga5_27F" n="57"/>domandare a qualche contadino, vi farò sapere
+                                <lb facs="#riga6_27F" n="58"/>qualc'osa appena vi scrivo di nuovo. Sento che quan-
+                                <lb facs="#riga7_27F" n="59"/>to alla domanda per il rimpatrio di Berto pure
+                                <lb facs="#riga8_27F" n="60"/>voi dite che è un sogno, lo capisco anchio è molto
+                                <lb facs="#riga9_27F" n="61"/>difficile, ma se si potessero fare, si avrebbe magari
+                                <lb facs="#riga10_27F" n="62"/>la speranza che con quei fogli si potesse ottenere
+                                <lb facs="#riga11_27F" n="63"/>qualche cosa e anche poi, non si riuscisse a niente
+                                <lb facs="#riga12_27F" n="64"/>ma potremmo avere la soddisfazione di dire a lui
+                                <lb facs="#riga13_27F" n="65"/>quando tornerà, noi abbiamo fatto tutto il pos-
+                                <lb facs="#riga14_27F" n="66"/>sibile per liberarti dalla prigionia, se non è stato
+                                <lb facs="#riga15_27F" n="67"/>possibile la colpa non è nostra, non è vero? Sono
+                                <lb facs="#riga16_27F" n="68"/>contenta che <persName ref="#MC">Maria</persName> scriva, comprendo la vita che fa
+                                <lb facs="#riga17_27F" n="69"/>pure lei, speriamo la Madonnina ci faccia la grazia
+                                <lb facs="#riga18_27F" n="70"/>di far finire tutto molto presto che noi lo desideriamo
+                                <lb facs="#riga19_27F" n="71"/>per tante cose. Per ora vi lascio e abbraccio
+                            </ab>
+                            <lb n="72"/>
+                            <closer facs="#closer_27F">
+                                <signed>vostra <choice><abbr>aff.ma</abbr><expan>affettuosissima</expan></choice><persName ref="#LM">Liana</persName></signed>salutetate tutti ricevete tanti saluti dai miei familiari
+                            </closer>
+                        </div>
+                    </div>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_002">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 2 - 25 settembre 1943</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>002</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>18,7</height>
+                                            <width>27,7</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <accMat>
+                                È presente anche la busta da lettera relativa (in condizioni discrete), su cui sono indicati mittente e destinatario.
+                                <address> 
+                                    <addrLine facs="#mit_add_02B">
+                                        Mitt.
+                                    </addrLine>
+                                    <addrLine>
+                                        <persName ref="#LM" facs="#mit_nome_02B">Martini Liana</persName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#SE" facs="#mit_localita_02B">Selvatelle</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#PI" facs="#mit_provincia_02B">PISA</placeName>
+                                    </addrLine>
+                                </address>
+                                <seg rend="underline" facs="#seg_espresso_02A" hand="#LM">ESPRESSO</seg>
+                                <address>
+                                    <addrLine facs="#grado_02A">
+                                        Marinaio
+                                    </addrLine>
+                                    <addrLine>
+                                        <del rend="overtype"><persName ref="#AlP" facs="#nome_02A">Pacini Alberto</persName></del>
+                                        <add hand="#U" facs="#del_mittente_02A">Mittente</add>
+                                    </addrLine>
+                                    <addrLine>
+                                        <del rend="overstrike" hand="#U"><placeName facs="#ran_02A">R.A.N. (Excelsior)</placeName></del>
+                                    </addrLine>
+                                    <addrLine>
+                                        <del rend="overstrike" hand="#U"><placeName ref="#VE" facs="#luogo_02A">Venezia Lido</placeName></del>
+                                    </addrLine>
+                                </address>
+                                
+                                Sono presenti anche quattro timbri (due sul retro e due sul fronte della busta) e un francobollo:
+                                <stamp type="postmark" xml:id="timbro_fronte1_2" facs="#timbro1_02A">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1943-09-25">25.9.43 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_fronte2_2" facs="#timbro2_02A">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1943-09-25">25.9.43 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp type="postage" xml:id="francobollo_fronte_2" facs="#francobollo_02A">
+                                    Francobollo da Lire 1.75 di Poste Italiane
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_retro1_2" facs="#timbro1_02B">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned>data illeggibile</mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp type="postmark" xml:id="timbro_retro2_2" facs="#timbro2_02B">
+                                    <mentioned>VENEZIA CORR. PACCHI</mentioned>
+                                    <mentioned><date when="1943-10-08">10.43-8</date></mentioned>
+                                    <mentioned>ESPRESI</mentioned>
+                                </stamp>
+                            </accMat>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1943-09-07">7/9/43</date>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_001"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_003"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="busta_fronte_02" type="fronte">
+                <graphic url='image/02_A.png' width='1825.33334px' height='1201.33334px' />
+                <zone ulx="230" uly="38" lrx="1144" lry="248" xml:id="seg_espresso_02A"/>
+                <zone ulx="1331" uly="82" lrx="1716" lry="483" xml:id="timbro1_02A"/>
+                <zone ulx="203" uly="617" lrx="632" lry="1005" xml:id="timbro2_02A"/>
+                <zone ulx="1448" uly="67" lrx="1700" lry="378" xml:id="francobollo_02A"/>
+                <zone ulx="322" uly="353" lrx="772" lry="488" xml:id="grado_02A"/>
+                <zone ulx="662" uly="530" lrx="1243" lry="649" xml:id="nome_02A"/>
+                <zone ulx="939" uly="736" lrx="1652" lry="877" xml:id="ran_02A"/>
+                <zone ulx="952" uly="998" lrx="1524" lry="1129" xml:id="luogo_02A"/>
+                <zone ulx="536" uly="500" lrx="1619" lry="728" xml:id="del_mittente_02A"/>
+            </surface>
+            <surface xml:id="busta_retro_02" type="retro">
+                <graphic url='02_B.png' width='1809.33334px' height='1209.33334px' />
+                <zone ulx="242" uly="19" lrx="446" lry="83" xml:id="mit_add_02B"/>
+                <zone ulx="454" uly="15" lrx="1012" lry="94" xml:id="mit_nome_02B"/>
+                <zone ulx="1060" uly="12" lrx="1444" lry="92" xml:id="mit_localita_02B"/>
+                <zone ulx="1459" uly="14" lrx="1688" lry="96" xml:id="mit_provincia_02B"/>
+                <zone ulx="260" uly="429" lrx="703" lry="816" xml:id="timbro1_02B"/>
+                <zone ulx="818" uly="246" lrx="1220" lry="620" xml:id="timbro2_02B"/>
+            </surface>
+            <surfaceGrp xml:id="fronte_02" type="fronte">
+                <surface xml:id="fronte1_02" type="fronte">
+                    <graphic url='image/02_C.png' width='3309.56666px' height='2070.56666px'/>
+                    <zone ulx="2525" uly="11" lrx="2771" lry="90" xml:id="luogo_02C_1"/>
+                    <zone ulx="2784" uly="14" lrx="3309" lry="149" xml:id="data_02C_1"/>
+                    <zone ulx="1727" uly="34" lrx="2523" lry="127" xml:id="salute_02C_1"/>
+                    <zone ulx="1694" uly="142" lrx="3307" lry="271" xml:id="riga1_02C_1"/>
+                    <zone ulx="1680" uly="276" lrx="3292" lry="398" xml:id="riga2_02C_1"/>
+                    <zone ulx="1674" uly="400" lrx="3230" lry="507" xml:id="riga3_02C_1"/>
+                    <zone ulx="1678" uly="511" lrx="3263" lry="635" xml:id="riga4_02C_1"/>
+                    <zone ulx="1678" uly="638" lrx="3303" lry="759" xml:id="riga5_02C_1"/>
+                    <zone ulx="1667" uly="762" lrx="3283" lry="868" xml:id="riga6_02C_1"/>
+                    <zone ulx="1669" uly="875" lrx="3279" lry="986" xml:id="riga7_02C_1"/>
+                    <zone ulx="1667" uly="986" lrx="3270" lry="1099" xml:id="riga8_02C_1"/>
+                    <zone ulx="1671" uly="1099" lrx="3256" lry="1223" xml:id="riga9_02C_1"/>
+                    <zone ulx="1667" uly="1233" lrx="3265" lry="1362" xml:id="riga10_02C_1"/>
+                    <zone ulx="1665" uly="1364" lrx="3252" lry="1486" xml:id="riga11_02C_1"/>
+                    <zone ulx="1667" uly="1488" lrx="3301" lry="1605" xml:id="riga12_02C_1"/>
+                    <zone ulx="1665" uly="1609" lrx="3281" lry="1714" xml:id="riga13_02C_1"/>
+                    <zone ulx="1667" uly="1720" lrx="3287" lry="1909" xml:id="riga14_02C_1"/>
+                    <zone ulx="1671" uly="1913" lrx="3276" lry="2046" xml:id="riga15_02C_1"/>
+                </surface>
+                <surface xml:id="fronte4_02" type="fronte">
+                    <graphic url='image/02_C.png' width='3309.56666px' height='2070.56666px'/>
+                    <zone ulx="64" uly="3" lrx="1660" lry="180" xml:id="riga1_02C_4"/>
+                    <zone ulx="62" uly="180" lrx="1607" lry="276" xml:id="riga2_02C_4"/>
+                    <zone ulx="62" uly="280" lrx="1596" lry="395" xml:id="riga3_02C_4"/>
+                    <zone ulx="80" uly="431" lrx="1614" lry="542" xml:id="riga4_02C_4"/>
+                    <zone ulx="71" uly="564" lrx="1652" lry="719" xml:id="riga5_02C_4"/>
+                    <zone ulx="64" uly="721" lrx="1629" lry="828" xml:id="riga6_02C_4"/>
+                    <zone ulx="51" uly="837" lrx="1643" lry="976" xml:id="riga7_02C_4"/>
+                    <zone ulx="53" uly="978" lrx="1640" lry="1116" xml:id="riga8_02C_4"/>
+                    <zone points = ' 79,1089 1585,1167 1580,1269 57,1191 ' xml:id="riga9_02C_4"/>
+                    <zone points = ' 64,1232 1649,1306 1642,1412 62,1342 ' xml:id="riga10_02C_4"/>
+                    <zone points = ' 64,1361 1579,1439 1565,1546 50,1472 ' xml:id="riga11_02C_4"/>
+                    <zone points = ' 50,1479 1657,1564 1652,1682 52,1574 ' xml:id="riga12_02C_4"/>
+                    <zone points = ' 56,1583 1552,1679 1558,1767 42,1692 ' xml:id="riga13_02C_4"/>
+                    <zone points = ' 38,1694 1643,1787 1643,1882 1483,1843 36,1814 ' xml:id="riga14_02C_4"/>
+                    <zone points = ' 40,1820 1476,1851 1647,1898 1645,2018 1576,2002 1572,1951 1133,1920 29,1902 ' xml:id="riga15_02C_4"/>
+                    <zone points = ' 24,1907 1563,1958 1563,2013 1640,2015 1640,2066 1474,2066 1410,2011 27,1964 ' xml:id="riga16_02C_4"/>
+                    <zone ulx="9" uly="1980" lrx="541" lry="2066" xml:id="riga17_02C_4"/>
+                    <zone ulx="548" uly="1989" lrx="1423" lry="2066" xml:id="closer_02C_4"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="retro_02" type="retro">
+                <surface xml:id="retro2_02" type="retro">
+                    <graphic url='image/02_D.png' width='3297.56666px' height='2088.56666px' />
+                    <zone ulx="891" uly="4" lrx="953" lry="60" xml:id="numpagina_02D_2"/>
+                    <zone ulx="73" uly="4" lrx="1576" lry="146" xml:id="riga1_02D_2"/>
+                    <zone ulx="62" uly="153" lrx="1654" lry="257" xml:id="riga2_02D_2"/>
+                    <zone ulx="56" uly="272" lrx="1652" lry="414" xml:id="riga3_02D_2"/>
+                    <zone ulx="49" uly="417" lrx="1618" lry="507" xml:id="riga4_02D_2"/>
+                    <zone ulx="49" uly="521" lrx="1634" lry="643" xml:id="riga5_02D_2"/>
+                    <zone ulx="44" uly="643" lrx="1589" lry="776" xml:id="riga6_02D_2"/>
+                    <zone ulx="33" uly="778" lrx="1647" lry="911" xml:id="riga7_02D_2"/>
+                    <zone ulx="49" uly="913" lrx="1643" lry="1051" xml:id="riga8_02D_2"/>
+                    <zone ulx="58" uly="1048" lrx="1603" lry="1153" xml:id="riga9_02D_2"/>
+                    <zone ulx="53" uly="1157" lrx="1581" lry="1279" xml:id="riga10_02D_2"/>
+                    <zone ulx="47" uly="1288" lrx="1636" lry="1423" xml:id="riga11_02D_2"/>
+                    <zone ulx="62" uly="1430" lrx="1618" lry="1550" xml:id="riga12_02D_2"/>
+                    <zone ulx="49" uly="1581" lrx="1629" lry="1705" xml:id="riga13_02D_2"/>
+                    <zone ulx="56" uly="1714" lrx="1614" lry="1845" xml:id="riga14_02D_2"/>
+                    <zone ulx="58" uly="1841" lrx="1572" lry="1972" xml:id="riga15_02D_2"/>
+                </surface>
+                <surface xml:id="retro3_02" type="retro">
+                    <graphic url='image/02_D.png' width='3297.56666px' height='2088.56666px' />
+                    <zone ulx="2168" uly="2" lrx="2235" lry="73" xml:id="numpagina_02D_3"/>
+                    <zone ulx="1707" uly="31" lrx="3185" lry="113" xml:id="riga1_02D_3"/>
+                    <zone ulx="1696" uly="129" lrx="3283" lry="248" xml:id="riga2_02D_3"/>
+                    <zone ulx="1705" uly="259" lrx="3287" lry="359" xml:id="riga3_02D_3"/>
+                    <zone ulx="1680" uly="370" lrx="3290" lry="514" xml:id="riga4_02D_3"/>
+                    <zone ulx="1685" uly="514" lrx="3250" lry="603" xml:id="riga5_02D_3"/>
+                    <zone ulx="1694" uly="616" lrx="3281" lry="741" xml:id="riga6_02D_3"/>
+                    <zone ulx="1691" uly="747" lrx="3292" lry="860" xml:id="riga7_02D_3"/>
+                    <zone ulx="1663" uly="865" lrx="3239" lry="1000" xml:id="riga8_02D_3"/>
+                    <zone ulx="1694" uly="1025" lrx="3283" lry="1171" xml:id="riga9_02D_3"/>
+                    <zone ulx="1678" uly="1168" lrx="3292" lry="1285" xml:id="riga10_02D_3"/>
+                    <zone ulx="1680" uly="1297" lrx="3279" lry="1438" xml:id="riga11_02D_3"/>
+                    <zone ulx="1683" uly="1447" lrx="3287" lry="1574" xml:id="riga12_02D_3"/>
+                    <zone ulx="1678" uly="1569" lrx="3274" lry="1718" xml:id="riga13_02D_3"/>
+                    <zone ulx="1689" uly="1724" lrx="3292" lry="1850" xml:id="riga14_02D_3"/>
+                    <zone ulx="1687" uly="1886" lrx="3279" lry="2034" xml:id="riga15_02D_3"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_2">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <pb n="1"/>
+                    <div type="fronte">
+                        <div type="messaggio">
+                            <lb n="1"/>
+                            <opener>
+                                <dateline>
+                                    <placeName ref="#SE" facs="#luogo_02C_1">Selvatelle</placeName>
+                                    <date when="1943-09-25" facs="#data_02C_1">ore 12 del 25-9-43</date>
+                                </dateline>
+                                <lb n="2"/>
+                                <salute facs="#salute_02C_1">Tesorino mio adorato</salute>
+                            </opener>
+                            <ab>
+                                <lb facs="#riga1_02C_1" n="3"/>Ti scrivo questi pochi righi solo per non avere
+                                <lb facs="#riga2_02C_1" n="4"/>il rimorso di non averti scritto ma credimi non so=
+                                <lb facs="#riga3_02C_1" n="5"/>no proprio per niente convinta che tu possa
+                                <lb facs="#riga4_02C_1" n="6"/>ricerverli, ormai non ho più speranza che tu
+                                <lb facs="#riga5_02C_1" n="7"/>sia ancora là, perchè, non ho più ricevuto
+                                <lb facs="#riga6_02C_1" n="8"/>un rigo di posta da lunedì e oggi è sabato
+                                <lb facs="#riga7_02C_1" n="9"/>come posso fare ad illudermi per la tua sor=
+                                <lb facs="#riga8_02C_1" n="10"/>te? Spero ancora un po' bene, può darsi
+                                <lb facs="#riga9_02C_1" n="11"/>che tu sia andato al sicuro con le navi, ma
+                                <lb facs="#riga10_02C_1" n="12"/>come si fa a vivere così in questa terribile in=
+                                <lb facs="#riga11_02C_1" n="13"/>certezza? Magari può anche darsi che sia
+                                <lb facs="#riga12_02C_1" n="14"/>stata interrotta la linea ferroviaria lassù,
+                                <lb facs="#riga13_02C_1" n="15"/>per via dei rifornimenti dei tedeschi qua
+                                <lb facs="#riga14_02C_1" n="16"/>in basso, ma non si sa niente e si sta male.
+                                <lb facs="#riga15_02C_1" n="17"/>Qui non so se lo sai è stata bombardata
+                            </ab>
+                        </div>
+                    </div>
+                <pb n="2"/>
+                    <div type="retro">
+                        <span>
+                            <idno facs="#numpagina_02D_2">2</idno>
+                        </span>
+                        <div type="messaggio"> 
+                            <ab>
+                                <lb facs="#riga1_02D_2" n="18"/>già altre due volte <placeName ref="#PI">Pisa</placeName> è andata distrutta la
+                                <lb facs="#riga2_02D_2" n="19"/>stazione e ora ci sono di nuovo i ritardi
+                                <lb facs="#riga3_02D_2" n="20"/>dei treni che solo pochi giorni fa avevano
+                                <lb facs="#riga4_02D_2" n="21"/>ricominciato a funzionare al normale.
+                                <lb facs="#riga5_02D_2" n="22"/>Ieri sera di qua si vedeva e si sentiva bene
+                                <lb facs="#riga6_02D_2" n="23"/>che <placeName ref="#LI">Livorno</placeName>è stata bombardata di nuovo, e
+                                <lb facs="#riga7_02D_2" n="24"/>stamani babbo è andato a vedere se la casa
+                                <lb facs="#riga8_02D_2" n="25"/>è rimasta in piedi perchè ci devono essere
+                                <lb facs="#riga9_02D_2" n="26"/>stati fatti molti danni. L'ho pregato
+                                <lb facs="#riga10_02D_2" n="27"/>d'andare a vedere se a casa di tua nonna
+                                <lb facs="#riga11_02D_2" n="28"/>c'era Mario o xxx per vedere se magari
+                                <lb facs="#riga12_02D_2" n="29"/>a tua <persName ref="#AE">mamma</persName> ha avuto notizie e così
+                                <lb facs="#riga13_02D_2" n="30"/>ora io sono nella grande attesa che venga
+                                <lb facs="#riga14_02D_2" n="31"/>presto sera per la posta della sera e le no-
+                                <lb facs="#riga15_02D_2" n="32"/>tizie che forse mi porterà mio padre.
+                            </ab>
+                        </div>
+                    </div>
+                <pb n="3"/>
+                    <div type="retro">
+                        <span>
+                            <idno facs="#numpagina_02D_3">3</idno>
+                        </span>
+                        <div type="messaggio">
+                            <ab>
+                                <lb facs="#riga1_02D_3" n="33"/>Credi Amore mio che questa mia è una
+                                <lb facs="#riga2_02D_3" n="34"/>vita insopportabile da lunedì che struggo
+                                <lb facs="#riga3_02D_3" n="35"/>per un po' di posta e invece niente fino
+                                <lb facs="#riga4_02D_3" n="36"/>a stamani che mi ero alzata con la speran=
+                                <lb facs="#riga5_02D_3" n="37"/>za buona invece ho atteso fino ad ora e
+                                <lb facs="#riga6_02D_3" n="38"/>poi è passata la ... senza portare nien-
+                                <lb facs="#riga7_02D_3" n="39"/>te di posta. Vivo sempre con la speranza
+                                <lb facs="#riga8_02D_3" n="40"/>che tu venga in persona ma ora poi
+                                <lb facs="#riga9_02D_3" n="41"/>anche questo credo non ci sia più da sperar=
+                                <lb facs="#riga10_02D_3" n="42"/>lo perchè sebbene sia lontana, Venezia, ma
+                                <lb facs="#riga11_02D_3" n="43"/>ora, tesoro saresti arrivato anche a piedi
+                                <lb facs="#riga12_02D_3" n="44"/>come già molti sono arrivati. Bisogna
+                                <lb facs="#riga13_02D_3" n="45"/>che non mi prolunghi molto perchè è
+                                <lb facs="#riga14_02D_3" n="46"/>tardi e se no non parte più, tanto
+                                <lb facs="#riga15_02D_3" n="47"/>se avrai la fortuna di poter ricevere ma-
+                            </ab>
+                        </div>
+                    </div>
+                <pb n="4"/>
+                    <div type="fronte">
+                        <div type="messaggio">
+                            <ab>
+                                <lb facs="#riga1_02C_4" n="48"/>gari tu sono certa che sarai contento ugual-
+                                <lb facs="#riga2_02C_4" n="49"/>mente anche se non è una lunga lettera.
+                                <lb facs="#riga3_02C_4" n="50"/>Amore bello io mi contenterei anche di
+                                <lb facs="#riga4_02C_4" n="51"/>una cartolina con la sola firma, basta ci
+                                <lb facs="#riga5_02C_4" n="52"/>sia una data recente e vedere di dove viene
+                                <lb facs="#riga6_02C_4" n="53"/>poi mi basta. Credi Tesoro chiedo alla Ma-
+                                <lb facs="#riga7_02C_4" n="54"/>donnina solo questo è già passato un lungo
+                                <lb facs="#riga8_02C_4" n="55"/>mese che non ti vedo ma pazienza, se mi
+                                <lb facs="#riga9_02C_4" n="56"/>dicessero anche che devo stare senza vederti
+                                <lb facs="#riga10_02C_4" n="57"/>altri due o tre mesi non mi importerebbe
+                                <lb facs="#riga11_02C_4" n="58"/>niente vorrei solo notizie che stai bene.
+                                <lb facs="#riga12_02C_4" n="59"/>Tesoro attendo notizie da babbo anche dei tuoi
+                                <lb facs="#riga13_02C_4" n="60"/>per ora non so niente di nessuno mio molto
+                                <lb facs="#riga14_02C_4" n="61"/>male non credevo mai di poter arrivare senza
+                                <lb facs="#riga15_02C_4" n="62"/>morire a soffrire così tanto, ti voglio ogni giorno
+                                <lb facs="#riga16_02C_4" n="63"/>sempre di più bene tu fai lo stesso ti bacio tanto
+                                <lb facs="#riga17_02C_4" n="64"/>e ti penso sempre
+                            </ab>
+                            <lb n="65"/>
+                            <closer>
+                                <signed facs="#closer_02C_4">tua <persName ref="#LM">Liana</persName> per sempre sempre tua</signed>
+                            </closer>
+                        </div>
+                    </div>
+            </body>
+        </text>
+    </TEI>

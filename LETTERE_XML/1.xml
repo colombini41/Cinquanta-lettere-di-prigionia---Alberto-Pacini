@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_001">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 1 - 7 settembre 1943</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>001</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>10,5</height>
+                                            <width>15</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/3164603/venice.html">Venezia</placeName>
+                        <date type="writing" when="1943-09-07">7/9/43</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AE">Argia Pacini</persName>
+                        <placeName ref="https://www.geonames.org/3172160/nugola.html">Nugola</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="next" subtype="toAlberto" target="#Lettera_002"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="fronte_01">
+                <graphic url='image/01_A.png' width='1777.33334px' height='1251.33334px' />
+                <zone ulx="211" uly="68" lrx="462" lry="364" xml:id="logo1_01A"/>
+                <zone ulx="466" uly="111" lrx="1307" lry="307" xml:id="logo2_01A"/>
+                <zone ulx="1311" uly="50" lrx="1559" lry="363" xml:id="logo3_01A"/>
+                <zone ulx="124" uly="6" lrx="450" lry="316" xml:id="timbro1_01A"/>
+                <zone ulx="1007" uly="303" lrx="1322" lry="571" xml:id="timbro2_01A"/>
+                <zone ulx="964" uly="499" lrx="1106" lry="603" xml:id="destinatario1_01A"/>
+                <zone ulx="1171" uly="503" lrx="1651" lry="619" xml:id="destinatario2_01A"/>
+                <zone ulx="1107" uly="635" lrx="1700" lry="747" xml:id="destinatario3_01A"/>
+                <zone ulx="1168" uly="752" lrx="1568" lry="931" xml:id="destinatario4_01A"/>
+                <zone ulx="1232" uly="944" lrx="1650" lry="1095" xml:id="destinatario5_01A"/>
+                <zone ulx="140" uly="905" lrx="212" lry="1140" xml:id="mittente_01A"/>
+                <zone ulx="266" uly="926" lrx="330" lry="1125" xml:id="label_cognome_01A"/>
+                <zone ulx="210" uly="486" lrx="326" lry="804" xml:id="cognome_01A"/>
+                <zone ulx="378" uly="976" lrx="428" lry="1122" xml:id="label_nome_01A"/>
+                <zone ulx="348" uly="541" lrx="427" lry="770" xml:id="nome_01A"/>
+                <zone ulx="488" uly="984" lrx="547" lry="1126" xml:id="label_grado_01A"/>
+                <zone ulx="443" uly="388" lrx="539" lry="856" xml:id="grado_01A"/>
+                <zone ulx="592" uly="921" lrx="648" lry="1130" xml:id="label_indirizzo_01A"/>
+                <zone ulx="564" uly="362" lrx="758" lry="761" xml:id="indirizzo_01A"/>
+                <zone ulx="144" uly="251" lrx="223" lry="888" xml:id="seg1_01A"/>
+                <zone ulx="46" uly="177" lrx="138" lry="1117" xml:id="seg2_01A"/>
+            </surface>
+            <surface xml:id="retro_01" type="retro">
+                <graphic url="image/01_B.png" width='1785.33334px' height='1250.33334px'/>
+                <zone ulx="950" uly="23" lrx="1182" lry="99" xml:id="luogo_01B"/>
+                <zone ulx="1238" uly="14" lrx="1616" lry="85" xml:id="data_01B"/>
+                <zone ulx="311" uly="62" lrx="862" lry="167" xml:id="salute_01B"/>
+                <zone ulx="87" uly="174" lrx="1660" lry="260" xml:id="riga1_01B"/>
+                <zone ulx="54" uly="268" lrx="1719" lry="358" xml:id="riga2_01B"/>
+                <zone ulx="38" uly="374" lrx="1699" lry="450" xml:id="riga3_01B"/>
+                <zone ulx="39" uly="467" lrx="1663" lry="554" xml:id="riga4_01B"/>
+                <zone ulx="32" uly="562" lrx="1764" lry="647" xml:id="riga5_01B"/>
+                <zone ulx="36" uly="658" lrx="1699" lry="765" xml:id="riga6_01B"/>
+                <zone ulx="38" uly="776" lrx="1706" lry="861" xml:id="riga7_01B"/>
+                <zone ulx="50" uly="878" lrx="1686" lry="953" xml:id="riga8_01B"/>
+                <zone ulx="51" uly="974" lrx="1704" lry="1070" xml:id="riga9_01B"/>
+                <zone ulx="55" uly="1080" lrx="1699" lry="1141" xml:id="riga10_01B"/>
+                <zone ulx="51" uly="1146" lrx="1740" lry="1238" xml:id="closer_01B"/>
+            </surface>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_1">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#logo1_01A">Logo</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#logo2_01A">CARTOLINA POSTALE PER LE FORZE ARMATE</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#logo3_01A">ESENTE DA TASSA PER L'ITALIA E SVE COLONIE</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_01A" type="postmark">
+                                <mentioned>13 E (1)</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro1_02A" type="postmark">
+                                <mentioned>quasi del tutto illeggibile, tranne "R. ACCADEMIA NAVALE"</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#destinatario1_01A">A</stamp><seg hand="#AlP" facs="#destinatario2_01A">lla <addName type="honorific">Signora</addName></seg>
+                                </addrLine>
+                                <addrLine>
+                                    <persName ref="#AE" facs="#destinatario3_01A">Argia Pacini</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#NU" facs="#destinatario4_01A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#LI" facs="#destinatario5_01A">prov. Livorno</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#mittente_01A">Mittente</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp type="print" facs="#label_cognome_01A">Cognome</stamp>
+                                    <persName ref="#AlP" facs="#cognome_01A">Pacini</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#label_nome_01A">Nome</stamp>
+                                    <persName ref="#AlP" facs="#nome_01A">Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#label_grado_01A">Grado</stamp>
+                                    <seg facs="#grado_01A">
+                                        Marinaio
+                                        <choice>
+                                            <abbr>scritt.</abbr>
+                                            <expan>scrittore</expan>
+                                        </choice>
+                                    </seg>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#label_indirizzo_01A">Indirizzo</stamp>
+                                    <choice facs="#indirizzo_01A">
+                                        <abbr>R.A.N. Venezia Lido</abbr>
+                                        <expan>Regia Accademia Navale Venezia Lido</expan>
+                                    </choice>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="messaggio_aggiunto">
+                        <ab>
+                            <seg hand="#AlP">
+                                <lb facs="#seg1_01A"/>Saluta tutti, appena
+                                <lb facs="#seg2_01A"/>posso vi scrivo. Baci ai bimbi
+                            </seg>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="message">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#VE" facs="#luogo_01B">Venezia</placeName>
+                                <date facs="#data_01B">7/9/43 ore 10</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_01B"><persName ref="#AE">Mammina</persName> carissima,</salute>
+                        </opener>
+                        <ab>
+                            <lb facs="#riga1_01B" n="3"/>Ho ricevuto posta tua del <date when="1943-08-29">29</date>, <date when="1943-08-31">31</date> e <date when="1943-09-02">2 settembre</date>, ti rin=
+                            <lb facs="#riga2_01B" n="4"/>grazio molto degli auguri che mi hai inviato, dimo=
+                            <lb facs="#riga3_01B" n="5"/>strando che nulla ti passa per quel che riguarda i
+                            <lb facs="#riga4_01B" n="6"/>tuoi figli. Non ho avuto ancora il piacere di
+                            <lb facs="#riga5_01B" n="7"/>ricevere da <persName ref="#LI">Liana</persName> posta da dopo che sono ritornato
+                            <lb facs="#riga6_01B" n="8"/>da <placeName ref="#LI">Livorno</placeName>. Ora scrivo a lungo a <persName ref="#AnP">babbo</persName> e gli ... 
+                            <lb facs="#riga7_01B" n="9"/>per mezzo di un marinaio. Io di salute ora
+                            <lb facs="#riga8_01B" n="10"/>sto bene. Non vedo l'ora di ritornare fra le
+                            <lb facs="#riga9_01B" n="11"/>tue braccia, sono stufo di questa vita, specialmente
+                            <lb facs="#riga10_01B" n="12"/>ora, qua non c'è più nessuno essendo chiusi i bagni.
+                        </ab>
+                        <lb n="13"/>
+                        <closer facs="#closer_01B">
+                            Ricevi tanti forti baci e abbracci affettuosi <signed facs="#" n="">da <persName ref="#AlP">tuo figlio Alberto</persName></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

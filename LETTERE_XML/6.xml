@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_006">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 6 - 8 febbraio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>006</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9,8</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>cattive</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AnP">Angiolo Pacini</persName>
+                        <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
+                        <date type="writing" when="1944-02-08">8.2.944</date>
+                        <date type="postage" when="1943-02-07">7.2.44</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-03-25">25/3/44</date>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_005"/>
+                        <ptr type="next" subtype="toAlberto" target="#Lettera_007"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="fronte_06" type="fronte">
+                <graphic url='image_06_A.png' width='1779.33334px' height='1185.33334px' />
+                <zone ulx="312" uly="30" lrx="844" lry="95" xml:id="kriegsg_06A"/>
+                <zone ulx="319" uly="95" lrx="1016" lry="146" xml:id="corr_06A"/>
+                <zone ulx="315" uly="155" lrx="907" lry="222" xml:id="antwort_06A"/>
+                <zone ulx="315" uly="218" lrx="752" lry="266" xml:id="carte_06A"/>
+                <zone ulx="1219" uly="52" lrx="1574" lry="390" xml:id="timbro1_06A"/>
+                <zone ulx="210" uly="162" lrx="586" lry="508" xml:id="timbro2_06A"/>
+                <zone ulx="844" uly="172" lrx="1123" lry="448" xml:id="timbro3_06A"/>
+                <zone ulx="919" uly="28" lrx="1300" lry="384" xml:id="timbro4_06A"/>
+                <zone ulx="98" uly="524" lrx="388" lry="576" xml:id="gebuh_06A"/>
+                <zone ulx="410" uly="524" lrx="722" lry="582" xml:id="franco_06A"/>
+                <zone ulx="316" uly="288" lrx="844" lry="348" xml:id="label_nome1_06A"/>
+                <zone ulx="315" uly="343" lrx="546" lry="383" xml:id="label_nome2_06A"/>
+                <zone points = ' 690,350 806,341 814,414 1294,402 1320,521 691,505 ' xml:id="nome_06A"/>
+    	        <zone ulx="1110" uly="516" lrx="1336" lry="625" xml:id="dataricezione_06A"/>
+                <zone ulx="842" uly="629" lrx="1184" lry="676" xml:id="label_num1_06A"/>
+                <zone ulx="846" uly="669" lrx="1094" lry="702" xml:id="numero_06A"/>
+                <zone ulx="1308" uly="592" lrx="1618" lry="673" xml:id="label_num2_06A"/>
+                <zone ulx="839" uly="745" lrx="1180" lry="786" xml:id="label_campo1_06A"/>
+                <zone ulx="839" uly="780" lrx="1039" lry="822" xml:id="label_campo2_06A"/>
+                <zone ulx="1068" uly="798" lrx="1576" lry="861" xml:id="campo_06A"/>
+                <zone ulx="914" uly="865" lrx="1207" lry="966" xml:id="seg_06A"/>
+                <zone ulx="1091" uly="989" lrx="1696" lry="1090" xml:id="stato_06A"/>
+                <zone ulx="390" uly="589" lrx="560" lry="633" xml:id="absender_06A"/>
+                <zone ulx="370" uly="626" lrx="574" lry="670" xml:id="expediteur_06A"/>
+                <zone ulx="143" uly="658" lrx="468" lry="704" xml:id="mit_label_nome1_06A"/>
+                <zone ulx="150" uly="701" lrx="366" lry="732" xml:id="mit_label_nome2_06A"/>
+                <zone ulx="188" uly="736" lrx="778" lry="814" xml:id="mit_nome_06A"/>
+                <zone ulx="143" uly="846" lrx="220" lry="885" xml:id="mit_label_localita1_06A"/>
+                <zone ulx="140" uly="885" lrx="215" lry="920" xml:id="mit_label_localita2_06A"/>
+                <zone ulx="130" uly="937" lrx="252" lry="966" xml:id="mit_label_via1_06A"/>
+                <zone ulx="136" uly="972" lrx="200" lry="1001" xml:id="mit_label_via2_06A"/>
+                <zone ulx="268" uly="884" lrx="699" lry="986" xml:id="localita_06A"/>
+                <zone ulx="143" uly="1021" lrx="240" lry="1058" xml:id="mit_label_provincia1_06A"/>
+                <zone ulx="143" uly="1056" lrx="310" lry="1088" xml:id="mit_label_provincia2_06A"/>
+                <zone ulx="308" uly="980" lrx="707" lry="1058" xml:id="mit_provincia_06A"/>
+                <zone ulx="318" uly="1068" lrx="616" lry="1161" xml:id="mit_stato_06A"/>
+            </surface>
+            <surface xml:id="retro_06" type="retro">
+                <graphic url='image/06_B.png' width='1777.33334px' height='1169.33334px' />
+                <zone ulx="370" uly="24" lrx="656" lry="68" xml:id="stamp1_06B"/>
+                <zone ulx="891" uly="22" lrx="1404" lry="60" xml:id="stamp2_06B"/>
+                <zone ulx="146" uly="131" lrx="854" lry="242" xml:id="stamp3_06B"/>
+                <zone ulx="950" uly="132" lrx="1652" lry="251" xml:id="stamp4_06B"/>
+                <zone ulx="252" uly="50" lrx="638" lry="136" xml:id="luogo1_06B"/>
+                <zone ulx="714" uly="54" lrx="1032" lry="135" xml:id="luogo2_06B"/>
+                <zone ulx="1038" uly="66" lrx="1339" lry="131" xml:id="data_06B"/>
+                <zone ulx="136" uly="257" lrx="682" lry="373" xml:id="salute_06B"/>
+                <zone ulx="700" uly="260" lrx="1660" lry="373" xml:id="iniziomessaggio_06B"/>
+                <zone ulx="146" uly="386" lrx="1647" lry="489" xml:id="riga2_06B"/>
+                <zone ulx="155" uly="493" lrx="1738" lry="604" xml:id="riga3_06B"/>
+                <zone ulx="152" uly="610" lrx="1607" lry="714" xml:id="riga4_06B"/>
+                <zone ulx="146" uly="730" lrx="1646" lry="845" xml:id="riga5_06B"/>
+                <zone ulx="148" uly="848" lrx="1676" lry="945" xml:id="riga6_06B"/>
+                <zone ulx="128" uly="952" lrx="1598" lry="1053" xml:id="riga7_06B"/>
+                <zone ulx="496" uly="1056" lrx="1514" lry="1133" xml:id="signed_06B"/>
+
+            </surface>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_6">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_06A">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#corr_06A">Correspondance des prisonniers de guerre</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#antwort_06A" rend="Bold">Antwort-Postkarte</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#carte_06A">Carte postale de réponse</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_06A" type="postmark">
+                                <mentioned>NUGOLA LIVORNO</mentioned>
+                                <date when="1944-02-07">7.2.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_06A" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA 28 geprüft", quasi del tutto illeggibile</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_06A" type="postmark">
+                                <mentioned>timbro viola con numero 40 all'interno</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro4_06A" type="postmark">
+                                <mentioned>timbro tondo con bordi viola, con scritte illeggibili</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_06A">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#franco_06A">Franc de port!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_06A">An den Kriegsgefangenen</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_nome2_06A">Au prisonnier</stamp>
+                                    <persName ref="#AlP" facs="#nome_06A">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_06A">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_num2_06A">No. du prisonnier</stamp>
+                                    <idno type="prigioniero" facs="#numero_06A">158767</idno>
+                                    <add hand="#AlP" facs="#dataricezione_06A">
+                                        <date when="1944-03-25">25/3/44</date>
+                                        <note>Data di ricezione apposta dal destinatario</note>
+                                    </add>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_06A">Leger-Bezeichnung</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_campo2_06A">Nom du camp</stamp>
+                                    <stamp type="print" facs="#campo_06A"><placeName ref="#LU">M.-Stammlager III A </placeName></stamp>
+                                    <seg facs="#seg_06B" hand="#AnP"><idno type="reparto">782c</idno></seg>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_06A">Deutschland (Allemagne)</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#absender_06A">Absender:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#expediteur_06A">Expèditeur:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_06A">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_nome2_06A">Nom et prénom:</stamp>
+                                    <persName ref="#AnP" facs="#mit_nome_06A">Pacini Angiolo</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_localita1_06A">Ort:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_localita2_06A">Lieu</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_06A">Straße:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_via2_06A">Rue</stamp>
+                                    <placeName ref="#NU" facs="#localita_06A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_label_provincia1_06A">Kreis:</stamp>
+                                    <placeName ref="#LI" facs="#mit_provincia_06A">Livorno</placeName>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_provincia2_06A">Département</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#IT" facs="#mit_stato_06A">Italia</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_06B">Hier abtrennen!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp2_06B">Détacher le long du pointillé!</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp3_06B">diese Seite is fut die Angehörigen des Kriegsgenfangenen bestimmt. Detulich auf die Zeilen schreiben!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp4_06B">Ce côté est réservé aux proches parents du prissonier de guerre! N'écrite que sur les lignes et lisiblmente!</stamp>
+                        </ab>
+                    </div>
+                    <div type="message">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#LI" facs="#luogo1_06B">Livorno</placeName>
+                                <placeName ref="#NU" facs="#luogo2_06B">Nugola</placeName>
+                                <date when="1944-02-08" facs="#data_06B">8.2.944</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_06B">Figlio adorato.</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_06B" type="start_message"/>Abbiamo ricevuto tue care
+                            <lb facs="#riga2_06B" n="3"/>notizie ci assicuri che tu stai bene. Stai
+                            <lb facs="#riga3_06B" n="4"/>tranquillo che anche noi siamo tutti insieme
+                            <lb facs="#riga4_06B" n="5"/>desideriamo che tutto finisca co<gap reason="illegible" quantity="2" unit="char"/>tu
+                            <lb facs="#riga5_06B" n="6"/>possa ritornare nelle nostre braccia ...
+                            <lb facs="#riga6_06B" n="7"/>... tutti a te <persName ref="#AE">mamma</persName> prega
+                            <lb facs="#riga7_06B" n="8"/>per te baci da tutti con tante cose
+                        </ab>
+                        <lb n="9"/>
+                        <closer>
+                            <signed facs="#signed_06B">tuo <persName ref="#AnP">babbo</persName> e tua mamma</signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

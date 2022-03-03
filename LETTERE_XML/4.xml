@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_004">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 4 - 9 gennaio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>004</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9,8</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>cattive</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AnP">Angiolo Pacini</persName>
+                        <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
+                        <date type="writing" when="1944-01-09">9.1.944</date>
+                        <date type="postage" when="1943-12-18">10.1.44</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-03-22">22/3/44</date>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_003"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_005"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surface xml:id="fronte_04" type="fronte">
+                <graphic url='04_A.png' width='1777.33334px' height='1185.33334px' />
+                <zone ulx="292" uly="46" lrx="819" lry="95" xml:id="kriegsg_04A"/>
+                <zone ulx="299" uly="102" lrx="1004" lry="147" xml:id="corr_04A"/>
+                <zone ulx="295" uly="168" lrx="890" lry="231" xml:id="antwort_04A"/>
+                <zone ulx="294" uly="232" lrx="736" lry="268" xml:id="carte_04A"/>
+                <zone ulx="1260" uly="44" lrx="1619" lry="400" xml:id="timbro1_04A"/>
+                <zone ulx="843" uly="149" lrx="1074" lry="337" xml:id="timbro2_04A"/>
+                <zone ulx="92" uly="538" lrx="378" lry="589" xml:id="gebuh_04A"/>
+                <zone ulx="391" uly="538" lrx="708" lry="585" xml:id="franc_04A"/>
+                <zone ulx="294" uly="300" lrx="832" lry="346" xml:id="label_nome1_04A"/>
+                <zone ulx="299" uly="358" lrx="530" lry="396" xml:id="label_nome2_04A"/>
+                <zone ulx="452" uly="388" lrx="680" lry="512" xml:id="data_ricezione_04A"/>
+                <zone points = ' 708,352 850,349 840,414 1404,416 1410,528 719,520 ' xml:id="nome_04A"/>
+                <zone ulx="827" uly="633" lrx="1174" lry="672" xml:id="label_num1_04A"/>
+                <zone ulx="832" uly="675" lrx="1076" lry="705" xml:id="label_num2_04A"/>
+                <zone ulx="1280" uly="583" lrx="1576" lry="672" xml:id="numero_04A"/>
+                <zone ulx="823" uly="749" lrx="1163" lry="788" xml:id="label_campo1_04A"/>
+                <zone ulx="827" uly="787" lrx="1023" lry="821" xml:id="label_campo2_04A"/>
+                <zone ulx="1055" uly="797" lrx="1579" lry="861" xml:id="campo_04A"/>
+                <zone ulx="1316" uly="865" lrx="1674" lry="993" xml:id="seg_04A"/>
+                <zone ulx="1091" uly="1001" lrx="1702" lry="1080" xml:id="stato_04A"/>
+                <zone ulx="363" uly="605" lrx="558" lry="642" xml:id="absender_04A"/>
+                <zone ulx="360" uly="642" lrx="559" lry="680" xml:id="expediteur_04A"/>
+                <zone ulx="132" uly="680" lrx="450" lry="713" xml:id="mit_label_nome1_04A"/>
+                <zone ulx="135" uly="713" lrx="346" lry="748" xml:id="mit_label_nome2_04A"/>
+                <zone ulx="244" uly="753" lrx="788" lry="822" xml:id="mit_nome_04A"/>
+                <zone ulx="128" uly="865" lrx="208" lry="901" xml:id="mit_label_localita1_04A"/>
+                <zone ulx="275" uly="824" lrx="694" lry="910" xml:id="mit_label_localita2_04A"/>
+                <zone ulx="131" uly="900" lrx="199" lry="924" xml:id="mit_localita_04A"/>
+                <zone ulx="134" uly="950" lrx="256" lry="990" xml:id="mit_label_via1_04A"/>
+                <zone ulx="471" uly="914" lrx="794" lry="993" xml:id="mit_label_via2_04A"/>
+                <zone ulx="131" uly="988" lrx="190" lry="1018" xml:id="mit_citta_04A"/>
+                <zone ulx="136" uly="1036" lrx="239" lry="1078" xml:id="mit_label_stato1_04A"/>
+                <zone ulx="396" uly="988" lrx="652" lry="1080" xml:id="mit_label_stato2_04A"/>
+                <zone ulx="134" uly="1077" lrx="306" lry="1108" xml:id="mit_stato_04A"/>
+            </surface>
+            <surface xml:id="retro_04" type="retro">
+                <graphic url='image/04_B.png' width='1769.33334px' height='1193.33334px' />
+                <zone ulx="356" uly="34" lrx="639" lry="80" xml:id="stamp1_04B"/>
+                <zone ulx="882" uly="34" lrx="1394" lry="78" xml:id="stamp2_04B"/>
+                <zone ulx="135" uly="138" lrx="835" lry="255" xml:id="stamp3_04B"/>
+                <zone ulx="932" uly="142" lrx="1644" lry="256" xml:id="stamp4_04B"/>
+                <zone ulx="166" uly="254" lrx="582" lry="382" xml:id="luogo_04B"/>
+                <zone ulx="602" uly="293" lrx="902" lry="389" xml:id="data_04B"/>
+                <zone ulx="919" uly="277" lrx="1400" lry="398" xml:id="salute_04B"/>
+                <zone ulx="1407" uly="309" lrx="1728" lry="398" xml:id="iniziomessaggio_04B"/>
+                <zone ulx="130" uly="406" lrx="1694" lry="506" xml:id="riga2_04B"/>
+                <zone ulx="135" uly="516" lrx="1676" lry="628" xml:id="riga3_04B"/>
+                <zone ulx="142" uly="633" lrx="1676" lry="728" xml:id="riga4_04B"/>
+                <zone ulx="139" uly="730" lrx="1683" lry="846" xml:id="riga5_04B"/>
+                <zone ulx="142" uly="854" lrx="1708" lry="960" xml:id="riga6_04B"/>
+                <zone ulx="144" uly="964" lrx="1624" lry="1066" xml:id="riga7_04B"/>
+                <zone ulx="795" uly="1070" lrx="1298" lry="1145" xml:id="riga8_04B"/>
+                <zone points = ' 998,1150 996,1170 1368,1171 1367,1150 1712,1145 1711,1071 1304,1070 1303,1151 ' xml:id="signed_04B"/>
+            </surface>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_4">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_04A">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#corr_04A">Correspondance des prisonniers de guerre</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#antwort_04A" rend="Bold">Antwort-Postkarte</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#carte_04A">Carte postale de réponse</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_04A" type="postmark">
+                                <mentioned>NUGOLA LIVORNO</mentioned>
+                                <date when="1944-01-10">10.1.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_04A" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA geprüft", totalmente illeggibile tranne "IIIA"</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_04A">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#franc_04A">Franc de port!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_04A">An den Kriegsgefangenen</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_nome2_04A">Au prisonnier</stamp>
+                                    <add hand="#AlP" facs="#data_ricezione_04A">
+                                        <date when="1944-03-22">22/3/44</date>
+                                        <note>Data ricezione lettera apposta dal destinatario</note>
+                                    </add>
+                                    <persName ref="#AlP" facs="#nome_04A">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_04A">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_num2_04A">No. du prisonnier</stamp>
+                                    <idno type="prigioniero" facs="#numero_04A">158767</idno>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_04A">Leger-Bezeichnung</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_campo2_04A">Nom du camp</stamp>
+                                    <stamp type="print" facs="#campo_04A"><placeName ref="#LU">M.-Stammlager III A </placeName></stamp>
+                                    <seg facs="#seg_04A" hand="#AnP"><idno type="reparto">782c</idno></seg>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_04A">Deutschland (Allemagne)</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#absender_04A">Absender:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#expediteur_04A">Expèditeur:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_04A">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_nome2_04A">Nom et prénom:</stamp>
+                                    <persName ref="#AnP" facs="#mit_nome_04A">Pacini Angiolo</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_localita1_04A">Ort:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_localita2_04A">Lieu</stamp>
+                                    <placeName ref="#NU" facs="#mit_localita_04A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_04A">Straße:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#">Rue</stamp>
+                                    <placeName ref="#LI" facs="#mit_citta_04A">Livorno</placeName> 
+                                </addrLine>
+                                <addrLine>
+                                    <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_label_stato1_04A">Kreis:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_stato2_04A">Département</stamp>
+                                    <placeName ref="IT" facs="#mit_stato_04A">Italia</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_04B">Hier abtrennen!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp2_04B">Détacher le long du pointillé!</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp3_04B">diese Seite is fut die Angehörigen des Kriegsgenfangenen bestimmt. Detulich auf die Zeilen schreiben!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp4_04B">Ce côté est réservé aux proches parents du prissonier de guerre! N'écrite que sur les lignes et lisiblmente!</stamp>
+                        </ab>
+                    </div>
+                    <div type="message">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#NU" facs="#luogo_04B">Nugola</placeName><date facs="#data_04B" when="1944-01-09">9/1/44</date>
+                            </dateline>
+                            <salute facs="#salute_04B">Adorato figlio</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_04B" type="start_message"/>con imm-
+                            <lb facs="#riga2_04B" n="2"/>ensa gioia abbiamo ricevuto una tua. Credi
+                            <lb facs="#riga3_04B" n="3"/>a quanta gioia sapendoti in salute, come pure
+                            <lb facs="#riga4_04B" n="4"/>è di tutti noi. Spero che tu abbia ricevuto
+                            <lb facs="#riga5_04B" n="5"/>nostre notizie così sapendo dei tuoi cari sarai
+                            <lb facs="#riga6_04B" n="6"/>più contento. <persName ref="#AlP">Alberto</persName> stai contento che procediamo
+                            <lb facs="#riga7_04B" n="7"/>che presto finisca tutto. baci infiniti dai tuoi
+                            <lb facs="#riga8_04B" n="8"/>genitori e tutti
+                        </ab>
+                        <lb n="9"/>
+                        <closer>
+                            <signed facs="#signed_04B">tuo <persName ref="#AnP">babbo</persName> e <persName ref="#AE">mamma</persName></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
