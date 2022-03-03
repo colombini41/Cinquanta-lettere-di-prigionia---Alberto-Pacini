@@ -300,14 +300,6 @@
                             <signed facs="#signed_35B">Il vostro <choice><abbr>dev.mo</abbr><expan>devotissimo</expan></choice><hi rend="underline"><persName ref="#AlP">Alberto</persName></hi></signed>
                         </closer>
                     </div>
-                    <div type="intestazione">
-                        <ab>
-                            <stamp xml:lang="#GE" type="print" facs="#">Diese Seite ist fur die Angehörigen des Kriegsgefangenen bestimmt!</stamp>
-                            <stamp xml:lang="#FR" type="print" facs="#">Cette page est réservé aux proches parents du prisonnier de guerre!</stamp>
-                            <stamp xml:lang="#GE" type="print" facs="#">Deutlich auf die Zeilen schreiben!</stamp>
-                            <stamp xml:lang="#FR" type="print" facs="#">N'écrire que sur les lignes et lisiblement!</stamp>
-                        </ab>
-                    </div>
                 </div>
             </body>
         </text>
