@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_049">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 49 - 28 febbraio 1945</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>49</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>29</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>discreto</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1945-02-28">28-2-1945</date> 
+                        </correspAction>
+                    <correspAction type="received">
+                    <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_048"/>
+                        <ptr type="next" subtype="toAlberto" target="#Lettera_050"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp xml:id="fronte_49" type="fronte">
+                <surface xml:id="fronte1_49" type="fronte">
+                    <graphic url='Immagini/image/49_A.png' width='851.1px' height='2001.1px' />
+                    <zone ulx="252" uly="428" lrx="582" lry="472" xml:id="kriegsg_49A1"/>
+                    <zone ulx="282" uly="494" lrx="547" lry="532" xml:id="ruckant_49A1"/>
+                    <zone ulx="335" uly="531" lrx="509" lry="557" xml:id="lett_49A1"/>
+                    <zone ulx="19" uly="535" lrx="192" lry="704" xml:id="timbro1_49A1"/>
+                    <zone ulx="317" uly="459" lrx="575" lry="611" xml:id="timbro2_49A1"/>
+                    <zone ulx="13" uly="925" lrx="162" lry="958" xml:id="gebuh_49A1"/>
+                    <zone ulx="162" uly="928" lrx="331" lry="960" xml:id="franco_49A1"/>
+                    <zone ulx="121" uly="612" lrx="388" lry="644" xml:id="label_nome1_49A1"/>
+                    <zone ulx="119" uly="642" lrx="290" lry="661" xml:id="label_nome2_49A1"/>
+                    <zone ulx="425" uly="575" lrx="793" lry="646" xml:id="nome_49A1"/>
+                    <zone ulx="227" uly="747" lrx="442" lry="775" xml:id="label_num1_49A1"/>
+                    <zone ulx="226" uly="774" lrx="384" lry="797" xml:id="label_num2_49A1"/>
+                    <zone ulx="470" uly="703" lrx="741" lry="805" xml:id="num_49A1"/>
+                    <zone ulx="224" uly="807" lrx="392" lry="834" xml:id="label_campo1_49A1"/>
+                    <zone ulx="230" uly="834" lrx="389" lry="854" xml:id="label_campo2_49A1"/>
+                    <zone ulx="441" uly="806" lrx="693" lry="836" xml:id="campo_49A1"/>
+                    <zone ulx="494" uly="914" lrx="770" lry="963" xml:id="stato_49A1"/>
+                    
+                    <zone ulx="708" uly="1382" lrx="821" lry="1407" rotate="180" xml:id="mit_absender_49A2"/>
+                    <zone ulx="742" uly="1365" lrx="820" lry="1384" rotate="180" xml:id="mit_mittente_49A2"/>
+                    <zone ulx="657" uly="1313" lrx="817" lry="1338" rotate="180" xml:id="mit_label_nome1_49A2"/>
+                    <zone ulx="280" uly="1313" lrx="649" lry="1397" rotate="180" xml:id="mit_label_nome2_49A2"/>
+                    <zone ulx="656" uly="1295" lrx="766" lry="1313" rotate="180" xml:id="mit_nome_49A2"/>
+                    <zone ulx="658" uly="1242" lrx="697" lry="1262" rotate="180" xml:id="mit_label_domicilio1_49A2"/>
+                    <zone ulx="657" uly="1225" lrx="805" lry="1242" rotate="180" xml:id="mit_label_domicilio2_49A2"/>
+                    <zone ulx="407" uly="1248" lrx="563" lry="1303" rotate="180" xml:id="mit_domicilio_49A2"/>
+                    <zone ulx="658" uly="1170" lrx="724" lry="1191" rotate="180" xml:id="mit_label_via1_49A2"/>
+                    <zone ulx="656" uly="1156" lrx="678" lry="1171" rotate="180" xml:id="mit_label_via3_49A2"/>
+                    <zone ulx="306" uly="1172" lrx="643" lry="1229" rotate="180" xml:id="mit_via_49A2"/>
+                    <zone ulx="658" uly="1099" lrx="755" lry="1123" rotate="180" xml:id="mit_label_provincia1_49A2"/>
+                    <zone ulx="656" uly="1082" lrx="715" lry="1098" rotate="180" xml:id="mit_label_provincia2_49A2"/>
+                    <zone ulx="494" uly="1100" lrx="623" lry="1161" rotate="180" xml:id="mit_provincia_49A2"/>
+                    <zone ulx="289" uly="1100" lrx="427" lry="1161" rotate="180" xml:id="mit_stato_49A2"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp>
+                <surface xml:id="retro_49" type="retro">
+                    <graphic url='Immagini/image/49_B.png' width='852.1px' height='2001.1px' />
+                    <zone ulx="266" uly="240" lrx="591" lry="281" xml:id="stamp1_49B"/>
+                    <zone ulx="267" uly="281" lrx="582" lry="323" xml:id="stamp2_49B"/>
+                    <zone ulx="287" uly="325" lrx="573" lry="348" xml:id="stamp3_49B"/>
+                    <zone ulx="240" uly="353" lrx="608" lry="369" xml:id="stamp4_49B"/>
+                    <zone ulx="554" uly="370" lrx="656" lry="397" xml:id="luogo_49B"/>
+                    <zone ulx="674" uly="361" lrx="829" lry="402" xml:id="data_49B"/>
+                    <zone ulx="24" uly="398" lrx="369" lry="458" xml:id="salute_49B"/>
+                    <zone ulx="374" uly="406" lrx="816" lry="455" xml:id="iniziomessaggio_49B"/>
+                    <zone ulx="13" uly="463" lrx="850" lry="508" xml:id="riga2_49B"/>
+                    <zone ulx="12" uly="514" lrx="800" lry="563" xml:id="riga3_49B"/>
+                    <zone ulx="21" uly="570" lrx="850" lry="632" xml:id="riga4_49B"/>
+                    <zone ulx="14" uly="634" lrx="842" lry="679" xml:id="riga5_49B"/>
+                    <zone ulx="12" uly="690" lrx="848" lry="742" xml:id="riga6_49B"/>
+                    <zone ulx="16" uly="750" lrx="841" lry="800" xml:id="riga7_49B"/>
+                    <zone ulx="16" uly="809" lrx="819" lry="865" xml:id="riga8_49B"/>
+                    <zone ulx="10" uly="868" lrx="832" lry="923" xml:id="riga9_49B"/>
+                    <zone ulx="14" uly="926" lrx="814" lry="974" xml:id="riga10_49B"/>
+                    <zone ulx="8" uly="980" lrx="851" lry="1033" xml:id="riga11_49B"/>
+                    <zone ulx="9" uly="1039" lrx="839" lry="1101" xml:id="riga12_49B"/>
+                    <zone ulx="12" uly="1103" lrx="839" lry="1152" xml:id="riga13_49B"/>
+                    <zone ulx="6" uly="1159" lrx="851" lry="1216" xml:id="riga14_49B"/>
+                    <zone ulx="4" uly="1220" lrx="844" lry="1267" xml:id="riga15_49B"/>
+                    <zone ulx="3" uly="1272" lrx="843" lry="1334" xml:id="riga16_49B"/>
+                    <zone ulx="2" uly="1337" lrx="778" lry="1385" xml:id="riga17_49B"/>
+                    <zone ulx="2" uly="1387" lrx="850" lry="1442" xml:id="riga18_49B"/>
+                    <zone ulx="12" uly="1446" lrx="849" lry="1494" xml:id="riga19_49B"/>
+                    <zone ulx="6" uly="1499" lrx="836" lry="1554" xml:id="riga20_49B"/>
+                    <zone ulx="10" uly="1556" lrx="804" lry="1610" xml:id="riga21_49B"/>
+                    <zone ulx="7" uly="1616" lrx="799" lry="1667" xml:id="riga22_49B"/>
+                    <zone ulx="5" uly="1674" lrx="837" lry="1729" xml:id="riga23_49B"/>
+                    <zone ulx="11" uly="1738" lrx="839" lry="1782" xml:id="riga24_49B"/>
+                    <zone ulx="10" uly="1789" lrx="843" lry="1838" xml:id="riga25_49B"/>
+                    <zone ulx="6" uly="1841" lrx="845" lry="1888" xml:id="riga26_49B"/>
+                    <zone ulx="12" uly="1893" lrx="848" lry="1937" xml:id="riga27_49B"/>
+                    <zone ulx="20" uly="1937" lrx="774" lry="1975" xml:id="riga28_49B"/>
+                    <zone ulx="75" uly="1973" lrx="649" lry="2000" xml:id="closer_49B"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_49">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_49A1">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#ruckant_49A1">Ruckantwortbrief</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#lett_49A1">Lettera di risposta</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_49A1" type="postmark">
+                                <mentioned><placeName ref="#LI">Livorno</placeName> PIAZZA VITT. EMAN.</mentioned>
+                                <date when="1945-02-28">28.2.45</date>
+                            </stamp>
+                            <stamp facs="#timbro2_49A1" type="postmark">
+                                <mentioned>U.S ARMY P/W EXAMINER</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#gebuh_49A1">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#franco_49A1">Franco di porto!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_49A1">An den Kriegsgefangenen</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome2_49A1">Al prigioniero di guerra</stamp>
+                                    <persName ref="#AlP" facs="#nome_49A1">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_49A1">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_49A1">Numero del prigioniero</stamp>
+                                    <idno type="prigioniero" facs="#num_49A1">158767</idno>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_49A1">Lager-Bezeichnung:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_49A1">Designazione del campo</stamp>
+                                    <stamp type="print" facs="#campo_49A1"><placeName ref="#LU"><hi rend="bold">M.-Stammlager III A</hi></placeName></stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp rend="bold underline">
+                                        <placeName ref="#GE" facs="#stato_49A1">Deutschland (Germania)</placeName>
+                                    </stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_49A2">Absender:</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#mit_mittente_49A2">Mittente:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_49A2">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome2_49A2">Nome e cognome</stamp>
+                                    <persName ref="#LM" facs="#mit_nome_49A2">Liana Martini</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_domicilio1_49A2">Ort:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_domicilio2_49A2">Domicilio del mittente</stamp>
+                                    <placeName ref="#LI" facs="#mit_domicilio_49A2">Livorno</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_49A2">Straße:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via3_49A2">Via</stamp>
+                                    <placeName ref="#vR" facs="#mit_via_49A2">Via Roma N88</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_provincia1_49A2">Landesteil:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_provincia2_49A2">Provincia</stamp>
+                                    <placeName ref="#LI" facs="#mit_provincia_49A2">Livorno</placeName>
+                                    <placeName ref="#IT" facs="#mit_stato_49A2">Italia</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_49B">Diese Seite ist fur die Angehörigen des Kriegsgefangenen bestimmt!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp2_49B">Questa pagina è riservata ai familiari del prigioniero di guerra!</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp3_49B">Deutlich auf die Zeilen schreiben!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp4_49B">Scrivere soltanto sulle linee e leggibilmente</stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#LI" facs="#luogo_49B">Livorno</placeName>
+                                <date when="1945-02-28" facs="#data_49B">28-2-1945</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_49B">Mio adorato Albertino</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_49B" type="start_message"/>avevo tanto desiderio di dirti
+                            <lb facs="#riga2_49B" n="3"/>tante cose e la tua <persName ref="#AE">mamma</persName> mi ha contentato cedendomi una delle
+                            <lb facs="#riga3_49B" n="4"/>sue lettere di risposta. Apprendo con vero piacere dalla tua
+                            <lb facs="#riga4_49B" n="5"/>ultima scritta in data <date when="1944-09-11">11-9-44</date> che con il nuovo stato ti trovi abbas-
+                            <lb facs="#riga5_49B" n="6"/>tanza bene, e il nuovo lavoro non ti crea tanta fatica a cui non eri
+                            <lb facs="#riga6_49B" n="7"/>abituato. Tesoro mio non vedo l'ora di riabbracciarti per farti dimen-
+                            <lb facs="#riga7_49B" n="8"/>ticare tutto quello che hai sofferto. Non voglio stare a ricordartelo
+                            <lb facs="#riga8_49B" n="9"/>ma credi; quando ho appreso che oltre le altre grandi sofferenze
+                            <lb facs="#riga9_49B" n="10"/>hai anche avuto male, non ho potuto fare a meno di piangere
+                            <lb facs="#riga10_49B" n="11"/>a lungo, perchè pensarti ammalato solo senza nessuna
+                            <lb facs="#riga11_49B" n="12"/>cura è una cosa orribile. Amore mio, ora ti parlo un po' della mia
+                            <lb facs="#riga12_49B" n="13"/>vita, che come puoi immaginare è sempre la solita, specialmente
+                            <lb facs="#riga13_49B" n="14"/>qua a <placeName ref="#LI">Livorno</placeName> dove tutto mi ricorda le ore felici trascorse vicina a te è
+                            <lb facs="#riga14_49B" n="15"/>per me una gioia e una tristezza insieme. Le giornate le passo lavo-
+                            <lb facs="#riga15_49B" n="16"/>rando in casa mia, esco solo per andare dai tuoi i quali hanno molto
+                            <lb facs="#riga16_49B" n="17"/>desiderio di un poco di compagnia e anche a me fà molto piacere stare
+                            <lb facs="#riga17_49B" n="18"/>con loro perchè parliamo solo di te e del nostro felice avvenire.
+                            <lb facs="#riga18_49B" n="19"/>Vorrei tu potessi vedermi, perchè io ora sono molto cambiata
+                            <lb facs="#riga19_49B" n="20"/>oltre che di carattere, ma anche di fisico. Prima di tutto perchè
+                            <lb facs="#riga20_49B" n="21"/>per obbedire al tuo piccolo desiderio espressomi l'ultima volta che ci
+                            <lb facs="#riga21_49B" n="22"/>siamo veduti (ti ricordi?) Io non ho più tagliato i miei capelli e
+                            <lb facs="#riga22_49B" n="23"/>porto le trecce che sono già lunghe appuntate alla nuca cioe sono
+                            <lb facs="#riga23_49B" n="24"/>pettinate quasi come la tua <persName ref="#AE">mamma</persName>, perchè fino a che non avrò il mio
+                            <lb facs="#riga24_49B" n="25"/>amore vicino non ho desiderio di essere bella, poi sono un poco ingras-
+                            <lb facs="#riga25_49B" n="26"/>sata e quindi quando ci rivedremo non mi riconoscerai più. Vorrei
+                            <lb facs="#riga26_49B" n="27"/>solo però che fosse domani non desidero altro Amore mio. Per ora
+                            <lb facs="#riga27_49B" n="28"/>ricevi tanti cari saluti da tutti i miei e tuoi familiari e tanti
+                            <lb facs="#riga28_49B" n="29"/>tanti baci e mille abbracci dalla tua mogliettina <persName ref="#LM">Liana</persName>
+                        </ab>
+                        <lb n="30"/>
+                        <closer facs="#closer_49B">
+                            Stai contento pensami. Ciao a presto
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_036">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 36 - 28 luglio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>36</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>19,8</height>
+                                            <width>14,9</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>mediocre</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-07-06">6/7/1944</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AlP">Angiolo Pacini</persName>
+                        <placeName ref="https://www.geonames.org/3172160/nugola.html">Nugola</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_035"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_037"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte_36" type="fronte">
+                    <graphic url='Immagini/image/36_A.png' width='1777.33334px' height='2489.33334px' />
+                    <zone ulx="123" uly="108" lrx="318" lry="290" xml:id="logocr_36A"/>
+                    <zone ulx="351" uly="156" lrx="1530" lry="224" xml:id="comitato_36A"/>
+                    <zone ulx="1572" uly="119" lrx="1635" lry="163" xml:id="numpag_36A"/>
+                    <zone ulx="620" uly="242" lrx="1150" lry="290" xml:id="palazzo_36A"/>
+                    <zone ulx="714" uly="307" lrx="1070" lry="355" xml:id="ginevra_36A"/>
+                    <zone ulx="1300" uly="190" lrx="1619" lry="491" xml:id="timbro1_36A"/>
+                    <zone ulx="870" uly="133" lrx="1250" lry="534" xml:id="timbro2_36A"/>
+                    <zone ulx="1312" uly="1492" lrx="1664" lry="1840" xml:id="timbro3_36A"/>
+                    <zone ulx="326" uly="427" lrx="604" lry="483" xml:id="mit_mittente_36A"/>
+                    <zone ulx="659" uly="431" lrx="1116" lry="484" xml:id="mit_anfragesteller_36A"/>
+                    <zone ulx="1179" uly="428" lrx="1450" lry="491" xml:id="mit_enquirer_36A"/>
+                    <zone ulx="143" uly="531" lrx="295" lry="568" xml:id="mit_label_cognome1_36A"/>
+                    <zone ulx="350" uly="531" lrx="451" lry="567" xml:id="mit_label_cognome2_36A"/>
+                    <zone ulx="714" uly="484" lrx="1026" lry="576" xml:id="mit_cognome_36A"/>
+                    <zone ulx="144" uly="604" lrx="235" lry="642" xml:id="mit_label_nome1__36A"/>
+                    <zone ulx="283" uly="603" lrx="426" lry="644" xml:id="mit_label_nome2_36A"/>
+                    <zone ulx="476" uly="606" lrx="731" lry="651" xml:id="mit_label_nome3_36A"/>
+                    <zone ulx="1051" uly="564" lrx="1399" lry="636" xml:id="mit_nome_36A"/>
+                    <zone ulx="140" uly="673" lrx="246" lry="712" xml:id="mit_label_num1_36A"/>
+                    <zone ulx="283" uly="679" lrx="402" lry="712" xml:id="mit_label_num2_36A"/>
+                    <zone ulx="447" uly="680" lrx="546" lry="715" xml:id="mit_label_num3_36A"/>
+                    <zone ulx="668" uly="645" lrx="1315" lry="712" xml:id="mit_num_36A"/>
+                    <zone ulx="139" uly="744" lrx="271" lry="783" xml:id="mit_label_localita1_36A"/>
+                    <zone ulx="326" uly="751" lrx="475" lry="787" xml:id="mit_label_localita2_36A"/>
+                    <zone ulx="526" uly="748" lrx="655" lry="788" xml:id="mit_label_localita3_36A"/>
+                    <zone ulx="866" uly="720" lrx="1394" lry="788" xml:id="mit_campo_36A"/>
+                    <zone ulx="138" uly="817" lrx="291" lry="855" xml:id="mit_label_provincia1_36A"/>
+                    <zone ulx="335" uly="820" lrx="468" lry="859" xml:id="mit_label_provincia2_36A"/>
+                    <zone ulx="508" uly="817" lrx="627" lry="860" xml:id="mit_label_provincia3_36A"/>
+                    <zone ulx="1183" uly="795" lrx="1702" lry="873" xml:id="mit_stato_36A"/>
+                    <zone ulx="142" uly="889" lrx="234" lry="925" xml:id="mit_label_stato1_36A"/>
+                    <zone ulx="279" uly="885" lrx="363" lry="928" xml:id="mit_label_stato2_36A"/>
+                    <zone ulx="414" uly="888" lrx="543" lry="935" xml:id="mit_label_stato3_36A"/>
+                    <zone ulx="134" uly="980" lrx="691" lry="1039" xml:id="messaggio_36A"/>
+                    <zone ulx="752" uly="983" lrx="980" lry="1038" xml:id="mitteilung_36A"/>
+                    <zone ulx="1040" uly="986" lrx="1228" lry="1036" xml:id="message_36A"/>
+                    <zone ulx="135" uly="1047" lrx="1367" lry="1091" xml:id="parole_36A"/>
+                    <zone points = ' 1439,1050 1635,1056 1634,1100 906,1095 903,1142 132,1130 134,1094 1438,1098 ' xml:id="worte_36A"/>
+                    <zone points = ' 951,1098 1644,1106 1644,1147 951,1151 468,1142 463,1180 135,1179 130,1134 938,1144 ' xml:id="words_36A"/>
+                    <zone ulx="172" uly="1174" lrx="423" lry="1222" xml:id="salute_36A"/>
+                    <zone ulx="451" uly="1171" lrx="1666" lry="1242" xml:id="iniziomessaggio_36A"/>
+                    <zone ulx="168" uly="1235" lrx="1658" lry="1306" xml:id="riga2_36A"/>
+                    <zone ulx="179" uly="1317" lrx="1654" lry="1371" xml:id="riga3_36A"/>
+                    <zone ulx="183" uly="1378" lrx="1094" lry="1438" xml:id="riga4_36A"/>
+                    <zone ulx="815" uly="1439" lrx="1446" lry="1517" xml:id="signed_36A"/>
+                    <zone ulx="143" uly="1614" lrx="216" lry="1652" xml:id="label_data1_36A"/>
+                    <zone ulx="262" uly="1614" lrx="379" lry="1655" xml:id="label_data2_36A"/>
+                    <zone ulx="543" uly="1572" lrx="978" lry="1674" xml:id="data_36A"/>
+                    <zone ulx="323" uly="1719" lrx="715" lry="1762" xml:id="destinatario_36A"/>
+                    <zone ulx="767" uly="1722" lrx="1091" lry="1774" xml:id="empfanger_36A"/>
+                    <zone ulx="1147" uly="1720" lrx="1455" lry="1774" xml:id="addressee_36A"/>
+                    <zone ulx="132" uly="1805" lrx="292" lry="1840" xml:id="label_cognome1_36A"/>
+                    <zone ulx="328" uly="1809" lrx="434" lry="1849" xml:id="label_cognome2_36A"/>
+                    <zone ulx="611" uly="1762" lrx="978" lry="1838" xml:id="cognome_36A"/>
+                    <zone ulx="136" uly="1876" lrx="231" lry="1913" xml:id="label_nome1_36A"/>
+                    <zone ulx="276" uly="1872" lrx="426" lry="1921" xml:id="label_nome2_36A"/>
+                    <zone ulx="470" uly="1873" lrx="719" lry="1916" xml:id="label_nome3_36A"/>
+                    <zone ulx="968" uly="1840" lrx="1310" lry="1916" xml:id="nome_36A"/>
+                    <zone ulx="138" uly="1945" lrx="238" lry="1988" xml:id="label_via1_36A"/>
+                    <zone ulx="283" uly="1952" lrx="400" lry="1986" xml:id="label_via2_36A"/>
+                    <zone ulx="444" uly="1950" lrx="544" lry="1992" xml:id="label_via3_36A"/>
+                    <zone ulx="824" uly="1922" lrx="1200" lry="1997" xml:id="via_36A"/>
+                    <zone ulx="132" uly="2018" lrx="263" lry="2060" xml:id="label_localita1_36A"/>
+                    <zone ulx="320" uly="2021" lrx="475" lry="2056" xml:id="label_localita2_36A"/>
+                    <zone ulx="524" uly="2022" lrx="660" lry="2058" xml:id="label_localita3_36A"/>
+                    <zone ulx="1152" uly="1996" lrx="1499" lry="2069" xml:id="localita_36A"/>
+                    <zone ulx="136" uly="2090" lrx="286" lry="2125" xml:id="label_provincia1_36A"/>
+                    <zone ulx="335" uly="2090" lrx="460" lry="2128" xml:id="label_provincia2_36A"/>
+                    <zone ulx="506" uly="2093" lrx="622" lry="2130" xml:id="label_provincia3_36A"/>
+                    <zone ulx="896" uly="2056" lrx="1420" lry="2145" xml:id="provincia_36A"/>
+                    <zone ulx="1422" uly="2065" lrx="1698" lry="2138" xml:id="regione_36A"/>
+                    <zone ulx="136" uly="2164" lrx="231" lry="2199" xml:id="label_stato1_36A"/>
+                    <zone ulx="282" uly="2162" lrx="374" lry="2198" xml:id="label_stato2_36A"/>
+                    <zone ulx="416" uly="2166" lrx="559" lry="2203" xml:id="label_stato3_36A"/>
+                    <zone ulx="159" uly="2252" lrx="586" lry="2284" xml:id="risposta_36A"/>
+                    <zone ulx="131" uly="2298" lrx="608" lry="2333" xml:id="scrivere_36A"/>
+                    <zone ulx="695" uly="2249" lrx="1107" lry="2289" xml:id="antwort_36A"/>
+                    <zone ulx="652" uly="2293" lrx="1152" lry="2333" xml:id="bitte_36A"/>
+                    <zone ulx="1240" uly="2250" lrx="1591" lry="2290" xml:id="reply_36A"/>
+                    <zone ulx="1200" uly="2293" lrx="1624" lry="2340" xml:id="please_36A"/>
+                    <zone ulx="154" uly="2365" lrx="234" lry="2405" xml:id="numero_36A"/>
+
+                </surface>
+                <surface xml:id="retro_36" type="retro">
+                    <graphic url='Immagini/image/36_B.png' width='1779.33334px' height='2489.33334px' />
+                    <zone points = ' 692,200 1650,191 1650,238 635,250 638,310 346,314 343,254 691,248 ' xml:id="stamp1_36B"/>
+                    <zone points = ' 1448,311 1640,315 1640,350 918,358 918,404 147,411 150,363 1443,351 ' xml:id="stamp2_36B"/>
+                    <zone points = ' 962,360 1646,359 1648,398 468,414 472,446 144,452 143,416 956,407 ' xml:id="stamp3_36B"/>
+                    <zone ulx="270" uly="140" lrx="536" lry="184" xml:id="stamp4_36B"/>
+                    <zone ulx="800" uly="134" lrx="1071" lry="182" xml:id="stamp5_36B"/>
+                    <zone ulx="1330" uly="127" lrx="1504" lry="179" xml:id="stamp6_36B"/>
+                    <zone ulx="143" uly="204" lrx="592" lry="247" xml:id="stamp7_36B"/>
+                    <zone ulx="638" uly="251" lrx="1451" lry="296" xml:id="stamp8_36B"/>
+                    <zone ulx="148" uly="322" lrx="1374" lry="354" xml:id="stamp9_36B"/>
+                    <zone ulx="140" uly="1298" lrx="228" lry="1343" xml:id="stamp10_36B"/>
+                    <zone ulx="139" uly="1342" lrx="262" lry="1374" xml:id="stamp11_36B"/>
+                    <zone ulx="143" uly="2388" lrx="622" lry="2432" xml:id="stamp12_36B"/>
+                    <zone ulx="663" uly="2391" lrx="1163" lry="2432" xml:id="stamp13_36B"/>
+                    <zone ulx="1212" uly="2387" lrx="1630" lry="2429" xml:id="stamp14_36B"/>
+
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_36">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp type="print" facs="#logocr_36A"><mentioned>Logo della Croce Rossa</mentioned></stamp>
+                            <stamp xml:lang="#IT" type="print" rend="bold" facs="#comitato_36A">COMITATO INTERNAZIONALE DELLA CROCE ROSSA</stamp>
+                            <stamp type="print" facs="#numpag_36A"><num>61</num></stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#palazzo_36A">Palazzo del Consiglio Generale</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#ginevra_36A">GINEVRA (Svizzera)</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_36A" type="postmark">
+                                <mentioned>scritture illeggibili dentro al timbro</mentioned>
+                                <date when="1944-08-04">-4.8.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_36A" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA 46 geprüft", ben definito e leggibile</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_36A" type="postmark">
+                                <mentioned>COMITÈ INTERNATIONAL <gap reason="illegible" quantity="3" unit="words"/>ROUGE - GENÈVE -</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" rend="bold" facs="#mit_mittente_36A">MITTENTE</stamp>
+                                    <stamp xml:lang="#GE" type="print" rend="bold" facs="#mit_anfragesteller_36A">ANFRAGESTELLER</stamp>
+                                    <stamp xml:lang="#EN" type="print" rend="bold" facs="#mit_enquirer_36A">ENQUIRER</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_cognome1_36A">Cognome</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_cognome2_36A">Name</stamp>
+                                    <persName ref="#AlP" facs="#mit_cognome_36A">Pacini</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome1__36A">Nome</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome2_36A">Vorname</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#mit_label_nome3_36A">Christian name</stamp>
+                                    <persName ref="#AlP" facs="#mit_nome_36A">Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_num1_36A">Strada</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_num2_36A">Strasse</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#mit_label_num3_36A">Street</stamp>
+                                    <idno type="prigioniero" facs="#mit_num_36A">Numero - 158767</idno>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_localita1_36A">Località</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_localita2_36A">Ortschaft</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#mit_label_localita3_36A">Locality</stamp>
+                                    <placeName ref="#LU" facs="#mit_campo_36A">Stalag III A</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_provincia1_36A">Provincia</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_provincia2_36A">Provinz</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#mit_label_provincia3_36A">County</stamp>
+                                    <placeName ref="#GE" facs="#mit_stato_36A">(Deutschland)</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_stato1_36A">Paese</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_stato2_36A">Land</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#mit_label_stato3_36A">Country</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#messaggio_36A">Messaggio da trasmettere</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#mitteilung_36A">Mitteilung</stamp>
+                            <stamp xml:lang="#EN" type="print" facs="#message_36A">Message</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#parole_36A">(Al massimo 25 parole, solo notizie di carattere personale-famigliare)</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#worte_36A">(nicht uber 25 Worte, nur personliche Familiennachrichten)</stamp>
+                            <stamp xml:lang="#EN" type="print" facs="#words_36A">(not over 25 words, family news or strictly personal character.)</stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <salute facs="#salute_36A" n="723">Adorati.</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_36A" type="start_message"/>Ricevuto pacco. Tanto contento notizie.
+                            <lb facs="#riga2_36A" n="2"/>Sto benissimo. Altra settimana di riposo. State
+                            <lb facs="#riga3_36A" n="3"/>contenti presto ci rivedremo. Bacioni forti
+                            <lb facs="#riga4_36A" n="4"/>a tutti. Salutate tutti
+                        </ab>
+                        <lb n="5"/>
+                        <closer>
+                            <signed facs="#signed_36A">vostro<choice><abbr><hi rend="underline">Berto</hi></abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
+                            <lb n="6"/>
+                            <dateline>
+                                <stamp xml:lang="#IT" type="print" facs="#label_data1_36A">Data</stamp>
+                                <stamp xml:lang="#GE" type="print" facs="#label_data2_36A">Datum</stamp>
+                                <date when="1944-07-28" facs="#data_36A">28/7/44</date>
+                            </dateline>   
+                        </closer>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" rend="bold" facs="#destinatario_36A">DESTINATARIO</stamp>
+                                    <stamp xml:lang="#GE" type="print" rend="bold" facs="#empfanger_36A">EMPFÄNGER</stamp>
+                                    <stamp xml:lang="#EN" type="print" rend="bold" facs="#addressee_36A">ADDRESSEE</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_cognome1_36A">Cognome</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_cognome2_36A">Name</stamp>
+                                    <persName ref="#AnP" facs="#cognome_36A">Pacini</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome1_36A">Nome</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome2_36A">Vorname</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#label_nome3_36A">Christian name</stamp>
+                                    <persName ref="#AnP" facs="#nome_36A">Angiolo</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_via1_36A">Strada</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_via2_36A">Strasse</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#label_via3_36A">Street</stamp>
+                                    <placeName ref="Nugola" facs="#via_36A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_localita1_36A">Località</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_localita2_36A">Ortschaft</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#label_localita3_36A">Locality</stamp>
+                                    <placeName ref="#NU" facs="#localita_36A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_provincia1_36A">Provincia</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_provincia2_36A">Provinz</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#label_provincia3_36A">County</stamp>
+                                    <placeName ref="#LI" facs="#provincia_36A">(Livorno)</placeName>
+                                    <placeName ref="#TO" facs="#regione_36A">(Toscana)</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_stato1_36A">Paese</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_stato2_36A">Land</stamp>
+                                    <stamp xml:lang="#EN" type="print" facs="#label_stato3_36A">Country</stamp>
+                                </addrLine>
+                            </address>
+                            <stamp xml:lang="#IT" type="print" rend="bold" facs="#risposta_36A">RISPOSTA SUL RETRO</stamp>
+                            <stamp xml:lang="#IT" type="print" rend="bold" facs="#scrivere_36A">Scrivere molto chiaramente</stamp>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#antwort_36A">ANTWORT UMSEITIG</stamp>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#bitte_36A">Bitte sehr deutlich schreiben</stamp>
+                            <stamp xml:lang="#EN" type="print" rend="bold" facs="#reply_36A">REPLY OVERLEAF</stamp>
+                            <stamp xml:lang="#EN" type="print" rend="bold" facs="#please_36A">Please write very clearly</stamp>
+                            <stamp type="print" facs="#numero_36A"><num>C/1348</num></stamp>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" rend="bold" facs="#stamp1_36B">RISPOSTA</stamp>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#stamp2_36B">ANTWORT</stamp>
+                            <stamp xml:lang="#EN" type="print" rend="bold" facs="#stamp3_36B">REPLY</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp4_36B">Notizie al mittente</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp5_36B">Mitteilung and den Anfragesteller zuruck-zusenden</stamp>
+                            <stamp xml:lang="#EN" type="print" facs="#stamp6_36B">Message to be returned to enquirer</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp7_36B">(Al massimo 25 parole, solo notizie di carattere personale-famigliare)</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp8_36B">(nicht uber 25 Worte, nur personliche Familiennachrichten)</stamp>
+                            <stamp xml:lang="#EN" type="print" facs="#stamp9_36B">(not over 25 words, family news or strictly personal character.)</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp10_36B">Data</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp11_36B">Datum</stamp>
+                            <stamp xml:lang="#IT" type="print" rend="bold" facs="#stamp12_36B">Scrivere molto chiaramente</stamp>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#stamp13_36B">Bitte sehr deutlich schreiben</stamp>
+                            <stamp xml:lang="#EN" type="print" rend="bold" facs="#stamp14_36B">Please write very clearly</stamp>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

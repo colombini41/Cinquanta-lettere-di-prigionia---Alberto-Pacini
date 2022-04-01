@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_024">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 24 - 5 maggio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>24</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9,8</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>mediocre</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-05-05">5/5/44</date>
+                        <date type="postage" when="1944-05-17">17.5.44</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_023"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_025"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte_24" type="fronte">
+                    <graphic url='Immagini/image/24_A.png' width='1761.33334px' height='1161.33334px' />
+                    <zone ulx="354" uly="76" lrx="888" lry="136" xml:id="kriegsg_24A"/>
+                    <zone ulx="354" uly="146" lrx="998" lry="184" xml:id="corr_24A"/>
+                    <zone ulx="354" uly="218" lrx="667" lry="284" xml:id="postkarte_24A"/>
+                    <zone ulx="674" uly="240" lrx="955" lry="280" xml:id="cart_24A"/>
+                    <zone ulx="1284" uly="110" lrx="1623" lry="432" xml:id="timbro1_24A"/>
+                    <zone ulx="730" uly="82" lrx="1079" lry="419" xml:id="timbro2_24A"/>
+                    <zone ulx="1139" uly="195" lrx="1614" lry="318" xml:id="seg_24A"/>
+                    <zone ulx="36" uly="543" lrx="322" lry="584" xml:id="gebuh_24A"/>
+                    <zone ulx="346" uly="546" lrx="674" lry="595" xml:id="franco_24A"/>
+                    <zone ulx="362" uly="327" lrx="427" lry="372" xml:id="label_nome1_24A"/>
+                    <zone ulx="383" uly="370" lrx="418" lry="406" xml:id="label_nome2_24A"/>
+                    <zone ulx="615" uly="398" lrx="1666" lry="535" xml:id="nome_24A"/>
+                    <zone ulx="790" uly="646" lrx="1011" lry="679" xml:id="label_localita1_24A"/>
+                    <zone ulx="787" uly="682" lrx="1107" lry="710" xml:id="label_localita2_24A"/>
+                    <zone ulx="1084" uly="579" lrx="1650" lry="683" xml:id="localita_24A"/>
+                    <zone ulx="895" uly="807" lrx="1015" lry="848" xml:id="label_via1_24A"/>
+                    <zone ulx="902" uly="843" lrx="943" lry="874" xml:id="label_via2_24A"/>
+                    <zone ulx="1047" uly="730" lrx="1671" lry="836" xml:id="via_24A"/>
+                    <zone ulx="888" uly="957" lrx="1078" lry="993" xml:id="label_provincia1_24A"/>
+                    <zone ulx="894" uly="990" lrx="1023" lry="1024" xml:id="label_provincia2_24A"/>
+                    <zone ulx="1234" uly="873" lrx="1603" lry="994" xml:id="provincia_24A"/>
+                    <zone ulx="330" uly="614" lrx="507" lry="644" xml:id="mit_absender_24A"/>
+                    <zone ulx="356" uly="648" lrx="472" lry="674" xml:id="mit_mittente_24A"/>
+                    <zone ulx="92" uly="668" lrx="419" lry="709" xml:id="mit_label_nome1_24A"/>
+                    <zone ulx="92" uly="714" lrx="308" lry="742" xml:id="mit_label_nome2_24A"/>
+                    <zone ulx="176" uly="745" lrx="712" lry="805" xml:id="mit_nome_24A"/>
+                    <zone ulx="95" uly="854" lrx="439" lry="889" xml:id="mit_label_num1_24A"/>
+                    <zone ulx="442" uly="814" lrx="734" lry="889" xml:id="mit_num_24A"/>
+                    <zone ulx="95" uly="886" lrx="406" lry="920" xml:id="mit_label_num2_24A"/>
+                    <zone ulx="98" uly="941" lrx="427" lry="973" xml:id="mit_label_campo1_24A"/>
+                    <zone ulx="114" uly="978" lrx="403" lry="1002" xml:id="mit_label_campo2_24A"/>
+                    <zone ulx="436" uly="981" lrx="744" lry="1014" xml:id="mit_campo1_24A"/>
+                    <zone ulx="523" uly="1026" lrx="676" lry="1053" xml:id="mit_campo2_24A"/>
+                    <zone ulx="227" uly="1073" lrx="603" lry="1108" xml:id="mit_stato_24A"/>
+                </surface>
+                <surface xml:id="retro_24" type="retro">
+                    <graphic url='Immagini/image/24_B.png' width='1761.33334px' height='1177.33334px' />
+                    <zone ulx="84" uly="71" lrx="627" lry="115" xml:id="stamp1_24B"/>
+                    <zone ulx="92" uly="123" lrx="612" lry="163" xml:id="stamp2_24B"/>
+                    <zone ulx="719" uly="62" lrx="1080" lry="108" xml:id="campo_24B"/>
+                    <zone ulx="1080" uly="47" lrx="1226" lry="122" xml:id="seg_24B"/>
+                    <zone ulx="1315" uly="63" lrx="1438" lry="100" xml:id="label_data1_24B"/>
+                    <zone ulx="1314" uly="106" lrx="1368" lry="143" xml:id="data_24B"/>
+                    <zone ulx="1444" uly="24" lrx="1723" lry="116" xml:id="label_data2_24B"/>
+                    <zone ulx="128" uly="266" lrx="579" lry="370" xml:id="salute_24B"/>
+                    <zone ulx="591" uly="293" lrx="1679" lry="385" xml:id="iniziomessaggio_24B"/>
+                    <zone ulx="132" uly="406" lrx="1692" lry="498" xml:id="riga2_24B"/>
+                    <zone ulx="144" uly="520" lrx="1650" lry="608" xml:id="riga3_24B"/>
+                    <zone ulx="142" uly="630" lrx="1739" lry="738" xml:id="riga4_24B"/>
+                    <zone ulx="150" uly="753" lrx="1656" lry="848" xml:id="riga5_24B"/>
+                    <zone ulx="159" uly="857" lrx="1688" lry="960" xml:id="riga6_24B"/>
+                    <zone points = ' 154,970 1751,969 1754,1094 1672,1062 155,1070 ' xml:id="riga7_24B"/>
+                    <zone ulx="1204" uly="1065" lrx="1722" lry="1148" xml:id="signed_24B"/>
+
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_24">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_24A">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#corr_24A">Corrispondenza dei prigionieri di guerra</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#postkarte_24A" rend="Bold">Postkarte</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#cart_24A">Cartolina postale</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_24A" type="postmark">
+                                <mentioned>scritture illeggibili dentro al timbro</mentioned>
+                                <date when="1944-05-17">17.5.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_24A" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA 28 geprüft", non leggibile</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <seg rend="underline" facs="#seg_24A">Nord Italia</seg>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_24A">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#franco_24A">Franco di porto</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_24A">An</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome2_24A">A</stamp>
+                                    <persName ref="#LM" facs="#nome_24A"><addName type="honorific">Signorina</addName><name>Liana Martini</name></persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_localita1_24A">Empfangsort:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_localita2_24A">Lieu de destination</stamp>
+                                    <placeName ref="#SE" facs="#localita_24A">Selvatelle</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_via1_24A">Straße:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_via2_24A">Via</stamp>
+                                    <placeName ref="#SE" facs="#via_24A">Selvatelle</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_provincia1_24A">Landesteil</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_provincia2_24A">Provincia</stamp>
+                                    <placeName ref="#PI" facs='#provincia_24A'>Pisa</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_24A">Absender:</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#mit_mittente_24A">Mittente:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_24A">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome2_24A">Nome e cognome:</stamp>
+                                    <persName ref="#AlP" facs='#mit_nome_24A'>Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_num1_24A">Gefangenennummer:</stamp>
+                                    <idno type="prigioniero" facs='#mit_num_24A'>158767</idno>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_num2_24A">Numero del prigioniero</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_campo1_24A">Lager-Bezeichnung:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_campo2_24A">Designazione del campo</stamp>
+                                    <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_campo1_24A">siehe Rüchseite</stamp>
+                                    <stamp xml:lang="IT" type="print" facs="#mit_campo2_24A">vedi retro</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#mit_stato_24A"><placeName ref="#GE">Deutschland (Germania)</placeName></stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_24B">Kriegsgenlangenenlager</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp2_24B">Campo dei prigionieri di guerra</stamp>
+                            <stamp type="print" facs="#campo_24B">M.-Stammlager III A</stamp><seg facs="#seg_24B" hand="#AlP"><idno type="reparto">782c</idno></seg>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <stamp xml:lang="#GE" type="print" facs="#label_data1_24B">Datum:</stamp><date when="1944-05-05" facs="#data_24B">5/5/44</date>
+                                <stamp xml:lang="#IT" type="print" facs="#label_data2_24B">Date</stamp>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_24B"><persName ref="#LM">Liana</persName> carissima.</salute>
+                        </opener>
+                        <ab> 
+                            <anchor facs="#iniziomessaggio_24B" type="start_message"/>Ho attesso molto un tuo scritto ma per ora nul-
+                            <lb facs="#riga2_24B" n="3"/>la. Di salute stò bene come spero sia di te. Questa vita
+                            <lb facs="#riga3_24B" n="4"/>e la stiuazione ci costringe ad attendere ancora il
+                            <lb facs="#riga4_24B" n="5"/>giorno della felicità. Ma starai tranquilla pure questa
+                            <lb facs="#riga5_24B" n="6"/>guerra firrà e ritornero per sempre da te che sei
+                            <lb facs="#riga6_24B" n="7"/>la mia cocchina adorata. Preghiamo che DIo ci farà
+                            <lb facs="#riga7_24B" n="8"/>la grazia. Tanti bacioni e abbracci affettuosità ai tuoi.
+                        </ab>
+                        <lb n="9"/>
+                        <closer>
+                            <signed facs="#signed_24B">tuo <choice><abbr>dev.mo <persName ref="#AP">Berto</persName></abbr><expan>devotissimo Alberto</expan></choice></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    

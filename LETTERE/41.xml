@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_041">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 41- 5 agosto 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>41</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>19,5</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>discrete</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-08-06">6/8/44</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_040"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_042"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp xml:id="fronte_41" type="fronte">
+                <surface xml:id="fronte1_41" type="fronte">
+                    <graphic url='Immagini/image/41_A.png' width='1761.33334px' height='2337.33334px' />
+                    <zone ulx="398" uly="1238" lrx="910" lry="1303" xml:id="kriegsg_41A1"/>
+                    <zone ulx="398" uly="1311" lrx="1091" lry="1358" xml:id="corr_41A1"/>
+                    <zone ulx="395" uly="1388" lrx="702" lry="1463" xml:id="postk_41A1"/>
+                    <zone ulx="716" uly="1406" lrx="948" lry="1459" xml:id="carte_41A1"/>
+                    <zone ulx="98" uly="1287" lrx="347" lry="1334" xml:id="besetzes_41A1"/>
+                    <zone ulx="118" uly="1339" lrx="326" lry="1372" xml:id="terro_41A1"/>
+                    <zone ulx="118" uly="1392" lrx="322" lry="1447" xml:id="unbestzes_41A1"/>
+                    <zone ulx="103" uly="1446" lrx="332" lry="1484" xml:id="terrno_41A1"/>
+                    <zone ulx="118" uly="1510" lrx="318" lry="1572" xml:id="nichtz_41A1"/>
+                    <zone ulx="103" uly="1572" lrx="338" lry="1636" xml:id="biffer_41A1"/>
+                    <zone ulx="1312" uly="1259" lrx="1648" lry="1583" xml:id="timbro1_41A1"/>
+                    <zone ulx="1163" uly="1238" lrx="1604" lry="1348" xml:id="seg_41A1"/>
+                    <zone ulx="759" uly="1178" lrx="1159" lry="1583" xml:id="timbro2_41A1"/>
+                    <zone ulx="75" uly="1709" lrx="359" lry="1761" xml:id="gebuh_41A1"/>
+                    <zone ulx="378" uly="1711" lrx="694" lry="1759" xml:id="franco_41A1"/>
+                    <zone ulx="403" uly="1481" lrx="468" lry="1527" xml:id="label_nome1_41A1"/>
+                    <zone ulx="414" uly="1526" lrx="464" lry="1566" xml:id="label_nome2_41A1"/>
+                    <zone ulx="630" uly="1545" lrx="1596" lry="1746" xml:id="nome_41A1"/>
+                    <zone ulx="816" uly="1835" lrx="1042" lry="1882" xml:id="label_localita1_41A1"/>
+                    <zone ulx="822" uly="1881" lrx="1087" lry="1917" xml:id="label_localita2_41A1"/>
+                    <zone ulx="1051" uly="1746" lrx="1524" lry="1887" xml:id="localita_41A1"/>
+                    <zone ulx="980" uly="1981" lrx="1107" lry="2021" xml:id="label_via1_41A1"/>
+                    <zone ulx="976" uly="2025" lrx="1039" lry="2058" xml:id="label_via2_41A1"/>
+                    <zone ulx="1203" uly="1905" lrx="1654" lry="2026" xml:id="via_41A1"/>
+                    <zone ulx="972" uly="2122" lrx="1084" lry="2162" xml:id="label_provincia1_41A1"/>
+                    <zone ulx="976" uly="2166" lrx="1324" lry="2203" xml:id="label_provincia2_41A1"/>
+                    <zone ulx="978" uly="2203" lrx="1158" lry="2246" xml:id="label_provincia3_41A1"/>
+                    <zone ulx="1164" uly="2054" lrx="1499" lry="2170" xml:id="provincia_41A1"/>
+                    <zone ulx="1508" uly="2069" lrx="1730" lry="2174" xml:id="regione_41A1"/>
+                    <zone ulx="1302" uly="2203" lrx="1595" lry="2314" xml:id="stato_41A1"/>
+                    <zone ulx="362" uly="1777" lrx="539" lry="1814" xml:id="mit_absender_41A1"/>
+                    <zone ulx="340" uly="1814" lrx="536" lry="1853" xml:id="mit_expediteur_41A1"/>
+                    <zone ulx="130" uly="1857" lrx="439" lry="1894" xml:id="mit_label_nome1_41A1"/>
+                    <zone ulx="128" uly="1894" lrx="338" lry="1923" xml:id="mit_label_nome2_41A1"/>
+                    <zone ulx="268" uly="1923" lrx="694" lry="1983" xml:id="mit_nome_41A1"/>
+                    <zone ulx="128" uly="2007" lrx="470" lry="2046" xml:id="mit_label_num1_41A1"/>
+                    <zone ulx="128" uly="2045" lrx="367" lry="2079" xml:id="mit_label_num2_41A1"/>
+                    <zone ulx="522" uly="1986" lrx="727" lry="2062" xml:id="mit_num_41A1"/>
+                    <zone ulx="132" uly="2082" lrx="458" lry="2119" xml:id="mit_label_campo1_41A1"/>
+                    <zone ulx="135" uly="2115" lrx="322" lry="2151" xml:id="mit_label_campo2_41A1"/>
+                    <zone ulx="466" uly="2137" lrx="734" lry="2182" xml:id="mit_campo1_411A"/>
+                    <zone ulx="468" uly="2183" lrx="671" lry="2217" xml:id="mit_campo2_41A1"/>
+                    <zone ulx="240" uly="2233" lrx="656" lry="2282" xml:id="mit_stato_41A1"/>
+                    
+                    <zone ulx="1128" uly="1097" lrx="1402" lry="1146" rotate="180" xml:id="stamp1_41A2"/>
+                    <zone ulx="378" uly="1094" lrx="887" lry="1144" rotate="180" xml:id="stamp2_41A2"/>
+                    <zone ulx="926" uly="922" lrx="1631" lry="1045" rotate="180" xml:id="stamp3_41A2"/>
+                    <zone ulx="131" uly="916" lrx="826" lry="1040" rotate="180" xml:id="stamp4_41A2"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="retro_41" type="fronte">
+                <surface xml:id="retro1_41" type="retro">
+                    <graphic url='Immagini/image/41_B.png' width='1769.33334px' height='2345.33334px' />
+                    <zone ulx="86" uly="1305" lrx="618" lry="1359" xml:id="stamp1_41B1"/>
+                    <zone ulx="83" uly="1374" lrx="452" lry="1415" xml:id="stamp2_41B1"/>
+                    <zone ulx="700" uly="1297" lrx="1076" lry="1341" xml:id="campo_41B1"/>
+                    <zone ulx="1258" uly="1299" lrx="1378" lry="1335" xml:id="label_data1_41B1"/>
+                    <zone ulx="1380" uly="1225" lrx="1599" lry="1375" xml:id="data_41B1"/>
+                    <zone ulx="1255" uly="1337" lrx="1322" lry="1363" xml:id="label_data2_41B1"/>
+                    <zone ulx="120" uly="1424" lrx="542" lry="1535" xml:id="salute_41B1"/>
+                    <zone ulx="554" uly="1435" lrx="1639" lry="1539" xml:id="iniziomessaggio_41B1"/>
+                    <zone ulx="140" uly="1572" lrx="1663" lry="1664" xml:id="riga2_41B1"/>
+                    <zone ulx="136" uly="1678" lrx="1632" lry="1783" xml:id="riga3_41B1"/>
+                    <zone ulx="135" uly="1799" lrx="1640" lry="1899" xml:id="riga4_41B1"/>
+                    <zone ulx="140" uly="1914" lrx="1723" lry="1998" xml:id="riga5_41B1"/>
+                    <zone ulx="144" uly="2028" lrx="1678" lry="2128" xml:id="riga6_41B1"/>
+                    <zone ulx="127" uly="2137" lrx="1751" lry="2245" xml:id="riga7_41B1"/>
+                    <zone ulx="462" uly="2247" lrx="1343" lry="2317" xml:id="riga8_41B1"/>
+                    <zone ulx="1355" uly="2247" lrx="1736" lry="2319" xml:id="signed_41B1"/>
+                    
+                    <zone ulx="962" uly="1059" lrx="1479" lry="1124" rotate="180" xml:id="kriegsg_41B2"/>
+                    <zone ulx="783" uly="1021" lrx="1474" lry="1057" rotate="180" xml:id="corr_41B2"/>
+                    <zone ulx="890" uly="949" lrx="1476" lry="1003" rotate="180" xml:id="antw_41B2"/>
+                    <zone ulx="1034" uly="904" lrx="1471" lry="944" rotate="180" xml:id="carte_41B2"/>
+                    <zone ulx="1396" uly="598" lrx="1686" lry="651" rotate="180" xml:id="gebuh_41B2"/>
+                    <zone ulx="1066" uly="602" lrx="1379" lry="654" rotate="180" xml:id="franco_41B2"/>
+                    <zone ulx="944" uly="832" lrx="1474" lry="883" rotate="180" xml:id="label_nome1_41B2"/>
+                    <zone ulx="1234" uly="794" lrx="1471" lry="832" rotate="180" xml:id="label_nome2_41B2"/>
+                    <zone ulx="395" uly="682" lrx="1171" lry="819" rotate="180" xml:id="nome_41B2"/>
+                    <zone ulx="592" uly="548" lrx="932" lry="588" rotate="180" xml:id="label_num1_41B2"/>
+                    <zone ulx="692" uly="510" lrx="938" lry="542" rotate="180" xml:id="label_num2_41B2"/>
+                    <zone ulx="168" uly="542" lrx="548" lry="659" rotate="180" xml:id="num_41B2"/>
+                    <zone ulx="604" uly="422" lrx="934" lry="467" rotate="180" xml:id="label_campo1_41B2"/>
+                    <zone ulx="738" uly="393" lrx="930" lry="419" rotate="180" xml:id="label_campo2_41B2"/>
+                    <zone ulx="196" uly="358" lrx="704" lry="415" rotate="180" xml:id="campo_41B2"/>
+                    <zone ulx="62" uly="123" lrx="676" lry="214" rotate="180" xml:id="stato_41B2"/>
+                    <zone ulx="1218" uly="546" lrx="1388" lry="587" rotate="180" xml:id="mit_absender_41B2"/>
+                    <zone ulx="1226" uly="511" lrx="1386" lry="545" rotate="180" xml:id="mit_expediteur_41B2"/>
+                    <zone ulx="1315" uly="474" lrx="1627" lry="506" rotate="180" xml:id="mit_label_nome1_41B2"/>
+                    <zone ulx="1410" uly="445" lrx="1624" lry="471" rotate="180" xml:id="mit_label_nome2_41B2"/>
+                    <zone ulx="1548" uly="283" lrx="1622" lry="331" rotate="180" xml:id="mit_label_localita1_41B2"/>
+                    <zone ulx="1560" uly="254" lrx="1624" lry="285" rotate="180" xml:id="mit_label_localita2_41B2"/>
+                    <zone ulx="1498" uly="198" lrx="1624" lry="234" rotate="180" xml:id="mit_label_via1_41B2"/>
+                    <zone ulx="1571" uly="169" lrx="1619" lry="197" rotate="180" xml:id="mit_label_via2_41B2"/>
+                    <zone ulx="1514" uly="109" lrx="1624" lry="146" rotate="180" xml:id="mit_label_provinia1_41B2"/>
+                    <zone ulx="1446" uly="77" lrx="1622" lry="106" rotate="180" xml:id="mit_label_provincia2_41B2"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_41">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_41A1">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#corr_41A1">Correspondance des prisonniers de guerre</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#postk_41A1" rend="Bold">Postkarte</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#carte_41A1">Carte postale</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#besetzes_41A1" rend="Bold">Besetztes Gebiet</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#terro_41A1">Territoire occupé</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#unbestzes_41A1" rend="Bold">Unbesetztes Gebiet</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#terrno_41A1">Territoire non occupé</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#nichtz_41A1">Nichtzutreffendes streichen</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#biffer_41A1">Biffer les mentions inutiles</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_41A1" type="postmark">
+                                <mentioned>scritture illeggibili dentro al timbro</mentioned>
+                                <date when="1944-08-14">14.8.44</date>
+                                <seg facs="#seg_41A1">Italia Sud</seg>
+                        </stamp>
+                            <stamp facs="#timbro2_41A1" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA 51 geprüft", leggibile</mentioned>
+                        </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_41A1">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#franco_41A1">Franc de port!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_41A1">An</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_nome2_41A1">A</stamp>
+                                    <persName ref="#LM" facs="#nome_41A1"><addName type="honorific">Signorina</addName><name>Liana Martini</name></persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_localita1_41A1">Empfangsort:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_localita2_41A1">Lieu de destination</stamp>
+                                    <placeName ref="#SE" facs="#localita_41A1">Selvatelle</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_via1_41A1">Straße:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_via2_41A1">Rue</stamp>
+                                    <placeName ref="#SE" facs="#via_41A1">Selvatelle</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_provincia1_41A1">Land:</stamp>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_provincia2_41A1">Landesteil (Provinc usw.)</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_provincia3_41A1">Département</stamp>
+                                    <placeName ref="#PI" facs="#provincia_41A1">Pisa</placeName>
+                                    <placeName ref="#TO" facs="#regione_41A1">Toscana</placeName>
+                                    <hi rend="underline" facs="#stato_41A1">Italia</hi>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_41A1">Absender:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_expediteur_41A1">Expéditeur:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_41A1">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_nome2_41A1">Nom et prénom:</stamp>
+                                    <persName ref="#AlP" facs="#mit_nome_41A1">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_num1_41A1">Gefangenennummer:</stamp>
+                                    <idno type="prigioniero" facs="#mit_num_41A1">158767</idno>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_num2_41A1">No du prisoner</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_campo1_41A1">Lager-Bezeichnung:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_label_campo2_41A1">Nom du camp</stamp>
+                                    <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_campo1_411A">siehe Rüchseite</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#mit_campo2_41A1">voir au dos</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#mit_stato_41A1"><placeName ref="#GE">Deutschland (Allemagne)</placeName></stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_41A2">Hier abtrennen!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp2_41A2">Détacher le long du pointillé</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp3_41A2">Diese Seite is fut die Angehörigen des Kriegsgenfangenen bestimmt. Detulich auf die Zeilen schreiben!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp4_41A2">Ce côté est réservé aux proches parents du prisonnier de guerre! N'écrire que sur les lignes et lisiblment</stamp>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_41B1">Kriegsgenlangenenlager</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#stamp2_41B1">Camp des prisonniers</stamp>
+                            <stamp type="print" facs="#campo_41B1"><placeName ref="#LU">M.-Stammlager III A</placeName></stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <stamp xml:lang="#GE" type="print" facs="#label_data1_41B1">Datum:</stamp><date when="1944-08-06" facs="#data_41B1">6/8/1944</date>
+                                <stamp xml:lang="#FR" type="print" facs="#label_data2_41B1">Date</stamp>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_41B1"><persName ref="#LM">Liana</persName> adorata.</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_41B1" type="start_message"/>Sono le 16 del pomeriggio, è domenica, e
+                            <lb facs="#riga2_41B1" n="3"/>come sempre ricordo con grande nostalgi i bei tempi
+                            <lb facs="#riga3_41B1" n="4"/>trascorsi. Sai la vita è poco monotona, questi
+                            <lb facs="#riga4_41B1" n="5"/>reticolati infastidirebbero chiunque. Per fortuna ho
+                            <lb facs="#riga5_41B1" n="6"/>da mangiare in abbondanza altrimenti il mio morale
+                            <lb facs="#riga6_41B1" n="7"/>cadrebbe. Cocca cara, sappi che io ti amo sempre di
+                            <lb facs="#riga7_41B1" n="8"/>più e che presto ritornerò, per questo fatti ancora coraggio.
+                            <lb facs="#riga8_41B1" n="9"/>Tanti bacioni e abbracci <choice><abbr>aff.si</abbr><expan>affettuosi</expan></choice>
+                        </ab>
+                        <closer>
+                            <signed facs="#signed_41B1">il tuo marito<choice><abbr rend="underline">Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
+                        </closer>
+                    </div>
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_41B2">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#corr_41B2">Correspondance des prissonniers de guerre</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#antw_41B2" rend="Bold">Antwort-Postkarte</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#carte_41B2" rend="Bold">Carte postale de réponse</stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_41B2">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#franco_41B2">Franco di porto!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_41B2">An den Kriegsgefangenen</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_nome2_41B2">Au prisonnier</stamp>
+                                    <persName ref="#AlP" facs="#nome_41B2">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_41B2">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_num2_41B2">No. du prisonnier</stamp>
+                                    <idno type="prigioniero" facs="#num_41B2">158767</idno>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_41B2">Leger-Bezeichnung</stamp>
+                                    <stamp xml:lang="#FR" type="print" facs="#label_campo2_41B2">Nom du camp</stamp>
+                                    <stamp type="print" facs="#campo_41B2"><placeName ref="#LU">M.-Stammlager III A</placeName></stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" rend="bold underline" facs="#stato_41B2">Deutschland (Allemagne)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_41B2">Absender:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_expediteur_41B2">Expéditeur:</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_41B2">Vor-und Zuname:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_label_nome2_41B2">Nom et prénom</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#mit_label_localita1_41B2">Ort:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_label_localita2_41B2">Lieu</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_41B2">Straße:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_label_via2_41B2">Rue</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#mit_label_provinia1_41B2">Kreis:</stamp>
+                            <stamp xml:lang="#FR" type="print" facs="#mit_label_provincia2_41B2">Provincia</stamp>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

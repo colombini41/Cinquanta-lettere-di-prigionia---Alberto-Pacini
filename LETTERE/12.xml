@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_012">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 12 - 19 marzo 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>12</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>29</height>
+                                            <width>14,5</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>discreto</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1943-03-19">19-3-1944</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_011"/>
+                        <ptr type="next" subtype="toAlberto" target="#Lettera_013"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp xml:id="fronte_12" type="fronte">
+                <surface xml:id="fronte2_12" type="fronte">
+                    <graphic url='Immagini/image/12_A.png' width='1732.33334px' height='3769.33334px' />
+                    <zone ulx="98" uly="790" lrx="1596" lry="882" xml:id="stamp1_12A"/>
+                    <zone ulx="1151" uly="860" lrx="1611" lry="1250" xml:id="timbro1_12A"/>
+                    <zone points = ' 984,1354 1602,1038 1699,1235 1083,1562 ' xml:id="timbro2_12A"/>
+                    <zone ulx="879" uly="905" lrx="991" lry="980" xml:id="timbro3_12A"/>
+                    <zone points = ' 734,312 998,138 1012,191 766,356 ' xml:id="men1_timbro4_12A"/>
+                    <zone points = ' 766,364 1016,195 1030,266 871,386 858,362 790,403 766,368 ' xml:id="men3_timbro4_12A"/>
+                    <zone points = ' 823,454 1055,303 1090,351 858,515 ' xml:id="men4_timbro4_12A"/>
+                    <zone points = ' 1018,2032 1386,1796 1412,1846 1023,2090 ' xml:id="men2_timbro4_12A"/>
+                    <zone points = ' 1095,2052 1414,1856 1446,1882 1366,1933 1378,1962 1210,2066 1186,2037 1114,2082 ' xml:id="men5_timbro4_12A"/>
+                    <zone points = ' 1151,2142 1472,1934 1506,1992 1186,2200 ' xml:id="men6_timbro4_12A"/>
+                    <zone ulx="94" uly="995" lrx="159" lry="1051" xml:id="label_nome_12A"/>
+                    <zone ulx="210" uly="976" lrx="1314" lry="1054" xml:id="nome_12A"/>
+                    <zone ulx="203" uly="1060" lrx="508" lry="1094" xml:id="grado_12A"/>
+                    <zone ulx="112" uly="1100" lrx="994" lry="1186" xml:id="add1_12A"/>
+                    <zone ulx="559" uly="1186" lrx="1142" lry="1216" xml:id="label_cognome_12A"/>
+                    <zone ulx="96" uly="1251" lrx="414" lry="1316" xml:id="label_num_12A"/>
+                    <zone ulx="427" uly="1248" lrx="647" lry="1315" xml:id="num_12A"/>
+                    <zone ulx="687" uly="1236" lrx="1410" lry="1327" xml:id="add2_12A"/>
+                    <zone ulx="276" uly="1320" lrx="1419" lry="1352" xml:id="label_classificazione_12A"/>
+                    <zone ulx="96" uly="1395" lrx="338" lry="1457" xml:id="label_campo1_12A"/>
+                    <zone ulx="339" uly="1393" lrx="1575" lry="1461" xml:id="campo_12A"/>
+                    <zone ulx="99" uly="1466" lrx="1614" lry="1529" xml:id="label_campo2_12A"/>
+                    <zone ulx="831" uly="1545" lrx="1692" lry="1645" xml:id="stato_12A"/>
+                    <zone ulx="1022" uly="1645" lrx="1427" lry="1669" xml:id="label_stato_12A"/>
+                    
+                    <zone ulx="1410" uly="615" lrx="1606" lry="672" xml:id="mit_mittente_12A"/>
+                    <zone ulx="330" uly="614" lrx="1387" lry="712" xml:id="mit_nomecognome_12A"/>
+                    <zone ulx="1172" uly="580" lrx="1411" lry="606" xml:id="mit_label_nomecognome_12A"/>
+                    <zone ulx="1398" uly="492" lrx="1602" lry="547" xml:id="mit_label_via1_12A"/>
+                    <zone ulx="696" uly="486" lrx="1190" lry="564" xml:id="mit_via_12A"/>
+                    <zone ulx="1363" uly="454" lrx="1411" lry="479" xml:id="mit_label_via2_12A"/>
+                    <zone ulx="1278" uly="383" lrx="1502" lry="447" xml:id="mit_provincia_12A"/>
+                    <zone ulx="1283" uly="352" lrx="1395" lry="372" xml:id="mit_label_provincia_12A"/>
+                    <zone ulx="759" uly="364" lrx="1043" lry="456" xml:id="mit_stato_12A"/>
+                    <zone ulx="172" uly="394" lrx="632" lry="478" xml:id="mit_localita_12A"/>
+                    <zone ulx="206" uly="344" lrx="566" lry="380" xml:id="mit_label_localita_12A"/>
+                    
+                    <zone ulx="6" uly="3625" lrx="1666" lry="3709" xml:id="riga1_12A"/>
+                    <zone ulx="19" uly="3513" lrx="1667" lry="3581" xml:id="riga2_12A"/>
+                    <zone ulx="418" uly="3481" lrx="1304" lry="3515" xml:id="stamp2_12A"/>
+                    <zone ulx="3" uly="3366" lrx="1647" lry="3442" xml:id="riga3_12A"/>
+                    <zone ulx="3" uly="3234" lrx="1692" lry="3302" xml:id="riga4_12A"/>
+                    <zone ulx="0" uly="3117" lrx="1698" lry="3206" xml:id="riga5_12A"/>
+                    <zone ulx="2" uly="2998" lrx="1684" lry="3086" xml:id="riga6_12A"/>
+                    <zone ulx="4" uly="2883" lrx="1690" lry="2978" xml:id="riga7_12A"/>
+                    <zone ulx="3" uly="2777" lrx="1683" lry="2867" xml:id="riga8_12A"/>
+                    <zone ulx="458" uly="2721" lrx="642" lry="2777" xml:id="riga9_12A"/>
+                    <zone ulx="2" uly="2697" lrx="448" lry="2775" xml:id="signed_12A"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="retro_12" type="retro">
+                <surface xml:id="retro1_12" type="retro">
+                    <graphic url='Immagini/image/12_B.png' width='1728.33334px' height='3779.33334px' />
+                    <zone ulx="151" uly="418" lrx="1598" lry="574" xml:id="stamp1_12B"/>
+                    <zone ulx="998" uly="622" lrx="1306" lry="722" xml:id="luogo_12B"/>
+                    <zone ulx="1312" uly="640" lrx="1615" lry="722" xml:id="data_12B"/>
+                    <zone ulx="112" uly="602" lrx="903" lry="724" xml:id="salute_12B"/>
+                    <zone ulx="92" uly="734" lrx="1690" lry="846" xml:id="riga1_12B"/>
+                    <zone ulx="92" uly="864" lrx="1711" lry="970" xml:id="riga2_12B"/>
+                    <zone ulx="72" uly="978" lrx="1667" lry="1074" xml:id="riga3_12B"/>
+                    <zone ulx="71" uly="1091" lrx="1694" lry="1208" xml:id="riga4_12B"/>
+                    <zone ulx="74" uly="1218" lrx="1708" lry="1309" xml:id="riga5_12B"/>
+                    <zone ulx="51" uly="1330" lrx="1712" lry="1445" xml:id="riga6_12B"/>
+                    <zone ulx="64" uly="1445" lrx="1663" lry="1541" xml:id="riga7_12B"/>
+                    <zone ulx="50" uly="1565" lrx="1656" lry="1669" xml:id="riga8_12B"/>
+                    <zone ulx="35" uly="1678" lrx="1727" lry="1806" xml:id="riga9_12B"/>
+                    <zone ulx="47" uly="1808" lrx="1686" lry="1892" xml:id="riga10_12B"/>
+                    <zone ulx="58" uly="1909" lrx="1718" lry="2020" xml:id="riga11_12B"/>
+                    <zone ulx="58" uly="2023" lrx="1724" lry="2147" xml:id="riga12_12B"/>
+                    <zone ulx="56" uly="2148" lrx="1722" lry="2240" xml:id="riga13_12B"/>
+                    <zone ulx="47" uly="2257" lrx="1666" lry="2355" xml:id="riga14_12B"/>
+                    <zone ulx="60" uly="2374" lrx="1668" lry="2487" xml:id="riga15_12B"/>
+                    <zone ulx="64" uly="2496" lrx="1616" lry="2595" xml:id="riga16_12B"/>
+                    <zone ulx="60" uly="2607" lrx="1724" lry="2712" xml:id="riga17_12B"/>
+                    <zone ulx="43" uly="2723" lrx="1718" lry="2831" xml:id="riga18_12B"/>
+                    <zone ulx="51" uly="2840" lrx="1651" lry="2940" xml:id="riga19_12B"/>
+                    <zone ulx="43" uly="2950" lrx="1716" lry="3055" xml:id="riga20_12B"/>
+                    <zone ulx="34" uly="3067" lrx="1724" lry="3192" xml:id="riga21_12B"/>
+                    <zone ulx="42" uly="3191" lrx="1676" lry="3287" xml:id="riga22_12B"/>
+                    <zone ulx="28" uly="3295" lrx="1651" lry="3412" xml:id="riga23_12B"/>
+                    <zone ulx="38" uly="3419" lrx="1704" lry="3524" xml:id="riga24_12B"/>
+                    <zone ulx="34" uly="3538" lrx="1724" lry="3664" xml:id="riga25_12B"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_12">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                            <ab>
+                                <stamp xml:lang="#IT" type="print" facs="#stamp1_12A">POSTA per PRIGIONIERI e INTERNATI CIVILI di GUERRA</stamp>
+                            </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_12A" type="postmark">
+                                <mentioned>SELVATELLE PISA</mentioned>
+                                <date when="1944-03-20">20.3.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_12A" type="postmark">
+                                <mentioned>MODULO NON AMMESSO</mentioned>
+                                <mentioned>AL MITTENTE</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_12A" type="postmark">
+                                <mentioned>23</mentioned>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned facs="#men1_timbro4_12A">COMMISSIONE P</mentioned><mentioned facs="#men2_timbro4_12A">ROV. DI CENSURA 67-R</mentioned>
+                                <mentioned facs="#men3_timbro4_12A">PRELEVATA PER CENSURA IL </mentioned><mentioned facs="#men4_timbro4_12A"><date when="1944-03-28">21.MAR.44XXII</date></mentioned>
+                                <mentioned facs="#men5_timbro4_12A">RESTITITUITA ALLE RR. PP. IL </mentioned><mentioned facs="#men6_timbro4_12A"><date when="1944-03-28">21.MAR.44XXII</date></mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_12A">Al</stamp><persName ref="#AlP" facs="#nome_12A">Pacini Alberto di Angelo</persName>
+                                    <stamp xml:lang="#IT" type="print" facs="#grado_12A">Grado del destinatario</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <seg facs="#add1_12A">Siehe Rucheite vou au dos</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_cognome_12A">Cognome, Nome, Paternità del destinatario</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num_12A">Matricola N.</stamp><idno type="prigioniero" facs="#num_12A">158767</idno><seg facs="#add2_12A">Prigioniero di Guerra</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_classificazione_12A">di seguito scrivere: "PRIGIONIERO DI GUERRA" oppure "INTERNATO CIVILE"</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_12A">Campo N.</stamp><placeName ref="#LU" facs="#campo_12A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_12A">Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo, ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile.</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_12A">Deutschland/Allegmagne</placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_stato_12A">Stato o Paese di destinazione</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_mittente_12A">Mittente:</stamp><persName ref="#LM" facs="#mit_nomecognome_12A">Liana Pacini Martini</persName>
+                                    <stamp type="print" facs="#mit_label_nomecognome_12A">cognome e nome</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_12A">Indirizzo</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_12A">via</stamp>
+                                    <placeName ref="#VO" facs="#mit_via_12A">Volterrana</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#PI" facs="#mit_provincia_12A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia_12A">(Provincia)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#IT" facs="#mit_stato_12A">Italia</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#SE" facs="#mit_localita_12A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_12A">Paese o città di residenza)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp1_12B">Se volete che la corrispondenza arrivi a destinazione scrivete chiaro e con caratteri non troppo piccoli - È consentito scrivere sulle righe e non fra le righe</stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#SE" facs="#luogo_12B">Selvatelle</placeName><date facs="#data_12B" when="1944-03-19">19-3-1944</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_12B">Carissimo <persName ref="#AlP">Alberto</persName> mio</salute>
+                        </opener>
+                        <ab>
+                            <lb facs="#riga1_12B" n="3"/>sperando che queste mie righe, non siano scritte
+                            <lb facs="#riga2_12B" n="4"/>invano, ti scrivo perchè tu ricevendoli sia conten-
+                            <lb facs="#riga3_12B" n="5"/>to di sapere che sto bene io, come pure i familiari
+                            <lb facs="#riga4_12B" n="6"/>tutti. Stai contento per noi, siamo in campa-
+                            <lb facs="#riga5_12B" n="7"/>gna qua tutto è calmo non c'e nessun pericolo, non
+                            <lb facs="#riga6_12B" n="8"/>ci manca niente, sola nostra grande pena è l'ave-
+                            <lb facs="#riga7_12B" n="9"/>re tu, nostro bene infinito così lontanto ed, avere
+                            <lb facs="#riga8_12B" n="10"/>così rade tue notizie. Maritino mio, perchè tu lo
+                            <lb facs="#riga9_12B" n="11"/>desideri e per fare contenti i tuoi, questa settimana
+                            <lb facs="#riga10_12B" n="12"/>sono stata due giorni là da loro, a <placeName ref="Nugola">Nugola</placeName> puoi im-
+                            <lb facs="#riga11_12B" n="13"/>maginare come sia stata contenta ci ho trovato la
+                            <lb facs="#riga12_12B" n="14"/>tua cartolina scritta ultima in data <date when="1944-03-02">3-2-44</date>trovandomi
+                            <lb facs="#riga13_12B" n="15"/>li ho potuto scrivere sulla risposta che forse ti arriva
+                            <lb facs="#riga14_12B" n="16"/>prima di questa mia. Poi credi, i tuoi genitori sono
+                            <lb facs="#riga15_12B" n="17"/>adorabili, mi colmano anche delle più piccole
+                            <lb facs="#riga16_12B" n="18"/>attenzioni, proprio con loro mi sembra d'essere
+                            <lb facs="#riga17_12B" n="19"/>vicina a te perchè in tutto ti somigliano e sanno
+                            <lb facs="#riga18_12B" n="20"/>farsi tanto amare. Amore mi dispiace di vedere
+                            <lb facs="#riga19_12B" n="21"/>che ancora non avevi ricevuto nostre notizie
+                            <lb facs="#riga20_12B" n="22"/>e mi immagino quanto tu sia stato male
+                            <lb facs="#riga21_12B" n="23"/>tanti lunghi mesi senza sapere niente della tua mogliet
+                            <lb facs="#riga22_12B" n="24"/>tina e dei tuoi genitori. Amore noi ti scriviamo
+                            <lb facs="#riga23_12B" n="25"/>molto spesso perchè tu sia contento di ricevere
+                            <lb facs="#riga24_12B" n="26"/>tanta posta ma se tutta non ti arrivasse non sta-
+                            <lb facs="#riga25_12B" n="27"/>re male, sappi sempre che il nostro unico scopo nella
+                        </ab>
+                    </div>
+                </div>
+                <div type="fronte">
+                    <div type="messaggio">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp2_12A">Spazio supplementare riservato alla corrispondenza</stamp>
+                        </ab>
+                        <ab>
+                            <lb facs="#riga1_12A" n="28"/>vita sei tu, quindi è inutile stare a dirti che non abbia-
+                            <lb facs="#riga2_12A" n="29"/>mo altro pensiero, che noi facciamo quanto ci
+                            <lb facs="#riga3_12A" n="30"/>è possibile per te, tu lo sai, vorremmo fare tanto
+                            <lb facs="#riga4_12A" n="31"/>ma ci limitiamo a scrivere come fai tu. Tu sai tutto
+                            <lb facs="#riga5_12A" n="32"/>però di noi e noi invece vorremmo poter sapere tante
+                            <lb facs="#riga6_12A" n="33"/>cose di te. Amore fai sempre tutto il meglio possibile
+                            <lb facs="#riga7_12A" n="34"/>stai contento non te la prendere la Madonnina ti pro-
+                            <lb facs="#riga8_12A" n="35"/>tegge perchè noi tutti la preghiamo tanto. Ricevi tanti cari baci
+                            <lb facs="#riga9_12A" n="36"/>da tutti.
+                        </ab>
+                        <closer>
+                            <signed facs="#signed_12A">Tua per sempre Liana</signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

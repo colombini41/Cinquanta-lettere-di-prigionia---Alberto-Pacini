@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_023">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 23 - 5 maggio 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>23</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>17,8</height>
+                                            <width>12</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>discreto</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <accMat>
+                                È presente anche la busta da lettera relativa (in condizioni buone), su cui sono indicati mittente e destinatario.
+                                <address>
+                                    <addrLine facs="#mittente_23B">
+                                        Mittente
+                                    </addrLine>
+                                    <addrLine>
+                                        <persName ref="#LM" facs="#nome_23B">Liana Pacini Martini</persName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#SE" facs="#localita_23B">Selvatelle</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#PI" facs="#provincia_23B">PISA</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#IT" facs="#stato_23B">Italia</placeName>
+                                    </addrLine>
+                                </address>
+                                Destinatario: 
+                                <address>
+                                    <addrLine>
+                                        <persName ref="#AlP" facs="#nome_23A">Pacini Alberto</persName>
+                                    </addrLine>
+                                    <addrLine><idno type="prigioniero" facs="#num_23A">Nº 158767</idno></addrLine>
+                                    <addrLine>
+                                        <placeName ref="#LU" facs="#campo_23A">M.Stammlager Selterhof 782 C</placeName>
+                                    </addrLine>
+                                    <addrLine>
+                                        <placeName ref="#GE" facs="#stato_23A">Deutschland</placeName>
+                                    </addrLine>
+                                </address>
+                                La lettera è tornata a mittente.
+                                Sul retro è presente una porzione di adesivo su cui era scritto "verificato per censura"da:
+                                <stamp facs="#stamp1_23B" type="postage" xml:id="stamp_23B">
+                                    <gap reason="deleted" quantity="2" unit="letters"/>rificato per censura
+                                </stamp>
+                                Sono presenti anche cinque timbri (due sul retro e tre sul fronte della busta):
+                                <stamp facs="#timbro1_23A" type="postmark" xml:id="timbro_fronte1_23">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1944-05-8">8.5.44 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp facs="#timbro2_23A" type="postmark" xml:id="timbro_fronte2_23">
+                                    <mentioned>SOV</mentioned>
+                                </stamp>
+                                <stamp facs="#timbro3_23A" type="postmark" xml:id="timbro_fronte3_23">
+                                    <mentioned>MODULO NON AMMESSO</mentioned>
+                                    <mentioned>AL MITTENTE</mentioned>
+                                </stamp>
+                                <stamp facs="#timbro1_23B" type="postmark" xml:id="timbro_retro1_23">
+                                    <mentioned>SELVATELLE</mentioned>
+                                    <mentioned><date when="1945-01-20">20.1.45 XX</date></mentioned>
+                                    <mentioned>PISA</mentioned>
+                                </stamp>
+                                <stamp facs="#timbro2_23B" type="postmark" xml:id="timbro_retro2_23">
+                                    <mentioned>COMMISSIONE PROVA DI CENSURA 67-R</mentioned>
+                                    <mentioned>PRELEVATA PER LA CENSURA IL <date when="1944-05-08">8MAG.44XXII</date></mentioned>
+                                    <mentioned>RESTITITUITA ALLE RR. PP. IL <date when="1944-05-08">8MAG.44XXII</date></mentioned>
+                                </stamp>
+                            </accMat>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1944-05-05">5-5-1944</date>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_022"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_024"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp xml:id="busta_23">
+                <surface xml:id="busta_fronte_23" type="fronte">
+                    <graphic url='Immagini/image/23_A.png' width='1689.33334px' height='1169.33334px' />
+                    <zone ulx="507" uly="152" lrx="1148" lry="310" xml:id="nome_23A"/>
+                    <zone ulx="464" uly="362" lrx="940" lry="480" xml:id="num_23A"/>
+                    <zone ulx="275" uly="566" lrx="1252" lry="930" xml:id="campo_23A"/>
+                    <zone ulx="862" uly="957" lrx="1475" lry="1142" xml:id="stato_23A"/>
+                    <zone ulx="1152" uly="149" lrx="1563" lry="559" xml:id="timbro1_23A"/>
+                    <zone points = ' 990,551 1179,296 1294,357 1118,641 ' xml:id="timbro2_23A"/>
+                    <zone points = ' 882,726 1547,580 1576,814 915,959 ' xml:id="timbro3_23A"/>
+                </surface>
+                <surface xml:id="busta_retro_23" type="retro">
+                    <graphic url='Immagini/image/23_B.png' width='1689.33334px' height='1177.33334px' />
+                    <zone ulx="155" uly="18" lrx="471" lry="110" xml:id="mittente_23B"/>
+                    <zone ulx="480" uly="11" lrx="1216" lry="95" xml:id="nome_23B"/>
+                    <zone ulx="1232" uly="6" lrx="1539" lry="80" xml:id="localita_23B"/>
+                    <zone ulx="487" uly="139" lrx="704" lry="234" xml:id="provincia_23B"/>
+                    <zone ulx="750" uly="143" lrx="1003" lry="243" xml:id="stato_23B"/>
+                    <zone ulx="458" uly="526" lrx="878" lry="920" xml:id="timbro1_23B"/>
+                    <zone points = ' 916,173 1215,290 876,1054 548,922 ' xml:id="timbro2_23B"/>
+                    <zone points = ' 455,502 1394,615 1372,709 452,570 ' rotate="173" xml:id="stamp1_23B"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="corpo_23">
+                <surface xml:id="fronte_23" type="fronte">
+                    <graphic url='Immagini/image/23_C.png' width='1435.33334px' height='2095.33334px'/>
+                    <zone ulx="840" uly="8" lrx="1156" lry="95" xml:id="luogo_23C"/>
+                    <zone ulx="1166" uly="31" lrx="1420" lry="111" xml:id="data_23C"/>
+                    <zone ulx="54" uly="39" lrx="887" lry="196" xml:id="salute_23C"/>
+                    <zone ulx="36" uly="205" lrx="1407" lry="362" xml:id="riga1_23C"/>
+                    <zone ulx="39" uly="364" lrx="1319" lry="457" xml:id="riga2_23C"/>
+                    <zone ulx="39" uly="461" lrx="1336" lry="616" xml:id="riga3_23C"/>
+                    <zone ulx="43" uly="616" lrx="1412" lry="756" xml:id="riga4_23C"/>
+                    <zone ulx="44" uly="757" lrx="1410" lry="895" xml:id="riga5_23C"/>
+                    <zone ulx="40" uly="893" lrx="1394" lry="1043" xml:id="riga6_23C"/>
+                    <!-- controllare possibili errori di associazioni zone-id -->
+                    <zone points = ' 32,1048 1408,1072 1414,1234 31,1115 ' xml:id="riga7_23C"/>
+                    <zone points = ' 3,1166 1408,1241 1414,1365 2,1245 ' xml:id="riga8_23C"/>
+                    <zone points = ' 2,1302 1406,1393 1410,1505 456,1485 348,1436 16,1413 ' xml:id="riga9_23C"/>
+                    <zone points = ' 15,1440 334,1462 451,1500 1412,1548 1414,1656 19,1551 ' xml:id="riga10_23C"/>
+                    <zone points = ' 3,1600 1354,1679 1354,1780 20,1710 ' xml:id="riga11_23C"/>
+                    <zone points = ' 30,1739 1358,1827 1368,1939 28,1863 ' xml:id="riga12_23C"/>
+                    <zone ulx="23" uly="1896" lrx="1358" lry="2080" xml:id="riga13_23C"/>
+                </surface>
+                <surface xml:id="retro_23" type="retro">
+                    <graphic url='Immagini/image/23_D.png' width='1462.33334px' height='2074.33334px' />
+                    <zone ulx="36" uly="98" lrx="1378" lry="220" xml:id="riga1_23D"/>
+                    <zone ulx="51" uly="226" lrx="1372" lry="328" xml:id="riga2_23D"/>
+                    <zone ulx="46" uly="375" lrx="1415" lry="455" xml:id="riga3_23D"/>
+                    <zone ulx="42" uly="519" lrx="1382" lry="614" xml:id="riga4_23D"/>
+                    <zone ulx="38" uly="690" lrx="1371" lry="788" xml:id="riga5_23D"/>
+                    <zone ulx="47" uly="854" lrx="1414" lry="940" xml:id="riga6_23D"/>
+                    <zone ulx="50" uly="982" lrx="1399" lry="1087" xml:id="riga7_23D"/>
+                    <zone ulx="67" uly="1120" lrx="1392" lry="1223" xml:id="riga8_23D"/>
+                    <zone ulx="70" uly="1266" lrx="1304" lry="1366" xml:id="riga9_23D"/>
+                    <zone ulx="48" uly="1408" lrx="1422" lry="1518" xml:id="riga10_23D"/>
+                    <zone ulx="36" uly="1574" lrx="1458" lry="1683" xml:id="riga11_23D"/>
+                    <zone ulx="46" uly="1705" lrx="583" lry="1821" xml:id="riga12_23D"/>
+                    <zone ulx="598" uly="1711" lrx="1138" lry="1813" xml:id="signed_23D"/>
+
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_23">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#SE" facs="#luogo_23C">Selvatelle</placeName>
+                                <date when="1944-05-05" facs="#data_23C">5-5-1944</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_23C">Carissimo <persName ref="#AlP">Alberto</persName> mio</salute>
+                        </opener>
+                        <ab>
+                            <lb facs="#riga1_23C" n="3"/>spero che starai bene come pure per il mo-
+                            <lb facs="#riga2_23C" n="4"/>mento segue di me e familiari tutti
+                            <lb facs="#riga3_23C" n="5"/>attendo sempre con maggiore ansia
+                            <lb facs="#riga4_23C" n="6"/>tue care notizie. Spero ti giungano ma-
+                            <lb facs="#riga5_23C" n="7"/>gari questi miei pochi righi perchè tu rice-
+                            <lb facs="#riga6_23C" n="8"/>vendoli stia contento, per noi, non pen-
+                            <lb facs="#riga7_23C" n="9"/>sare a niente, quà tutto procede bene vivia-
+                            <lb facs="#riga8_23C" n="10"/>mo col continuo pensiero a te che sei lon-
+                            <lb facs="#riga9_23C" n="11"/>tano e preghiamo tanto perchè tu possa trova-
+                            <lb facs="#riga10_23C" n="12"/>re la calma la rassegnazione per poter sop-
+                            <lb facs="#riga11_23C" n="13"/>portare tutto con pazienza pensando che
+                            <lb facs="#riga12_23C" n="14"/> poi tornando tra le braccia di tutti noi
+                            <lb facs="#riga13_23C" n="15"/>tuoi cari sarai compensato di quanto
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="messaggio">
+                        <ab>
+                            <lb facs="#riga1_23D" n="16"/>soffri ora, stai contento, abbi fiducia nella
+                            <lb facs="#riga2_23D" n="17"/>Madonnina Santa prega e sii buono
+                            <lb facs="#riga3_23D" n="18"/>vedrai non ti abbandonerà mai e presto
+                            <lb facs="#riga4_23D" n="19"/>sano e salvo potrai tornare tra noi tutti.
+                            <lb facs="#riga5_23D" n="20"/>Io vivo solo di questa speranza Amore ti
+                            <lb facs="#riga6_23D" n="21"/>penso tanto ti sono sempre vicina col pen-
+                            <lb facs="#riga7_23D" n="22"/>siero Tu pure pensa tanto alla tua mo-
+                            <lb facs="#riga8_23D" n="23"/>gliettina che tanto ti ama. Ricevi tanti
+                            <lb facs="#riga9_23D" n="24"/>forti abbracci e baci dalla tua Liana.
+                            <lb facs="#riga10_23D" n="25"/>Saluti da tutti familiari e parenti. Baci
+                            <lb facs="#riga11_23D" n="26"/>da <persName ref="#AM">Anna</persName> e <persName ref="#FC">Franchina</persName> un'altro bacio dalla
+                            <lb facs="#riga12_23D" n="27"/>tua per l'eternità
+                        </ab>
+                        <closer>
+                            <signed facs="#signed_23D"><persName ref="#LM">Liana Pacini</persName></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

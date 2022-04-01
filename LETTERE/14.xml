@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_014">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 14 - 26 marzo 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>14</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>29</height>
+                                            <width>14,5</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#LM">Liana Martini</persName>
+                        <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
+                        <date type="writing" when="1944-03-26">26-3-1944</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="toAlberto" target="#Lettera_013"/>
+                        <ptr type="next" subtype="toAlberto" target="#Lettera_015"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp xml:id="fronte_14" type="fronte">
+                <surface xml:id="fronte2_14" type="fronte">
+                    <graphic url='Immagini/image/14_A.png' width='1673.33334px' height='3707.33334px' />
+                    <zone ulx="102" uly="983" lrx="1555" lry="1088" xml:id="stamp1_14A"/>
+                    <zone ulx="1132" uly="1061" lrx="1580" lry="1425" xml:id="timbro1_14A"/>
+                    <zone ulx="1188" uly="1191" lrx="1528" lry="1502" xml:id="timbro2_14A"/>
+                    <zone points = ' 980,1593 1636,1375 1659,1453 1600,1477 1642,1605 1107,1779 1068,1651 1006,1663 ' xml:id="timbro3_14A"/>
+                    <zone ulx="212" uly="1052" lrx="356" lry="1174" xml:id="timbro4_14A"/>
+                    <zone points = ' 1547,2174 1594,2212 1502,2315 1444,2291 ' xml:id="men1_timbro5_14A"/>
+                    <zone points = ' 1539,2172 1436,2284 1392,2270 1511,2151 ' xml:id="men3_timbro5_14A"/>
+                    <zone points = ' 1450,2211 1428,2188 1368,2259 1392,2268 ' xml:id="men5_timbro5_14A"/>
+                    <zone points = ' 1464,2096 1326,2236 1279,2218 1424,2067 ' xml:id="men7_timbro5_14A"/>
+                    <zone points = ' 1487,381 1028,828 991,795 1427,357 ' xml:id="men2_timbro5_14A"/>
+                    <zone points = ' 1423,354 1270,510 1240,480 1387,339 ' xml:id="men4_timbro5_14A"/>
+                    <zone points = ' 1386,338 1291,426 1270,402 1354,326 ' xml:id="men6_timbro5_14A"/>
+                    <zone points = ' 1316,311 1192,428 1155,396 1275,292 ' xml:id="men8_timbro5_14A"/>
+                    <zone points = ' 1268,511 987,789 959,751 1031,689 1007,661 1147,526 1168,547 1232,491 ' xml:id="men9_timbro5_14A"/>
+                    <zone points = ' 1178,440 911,703 879,663 1146,400 ' xml:id="men10_timbro5_14A"/>
+                    <zone ulx="142" uly="1149" lrx="296" lry="1225" xml:id="label_grado1_14A"/>
+                    <zone ulx="319" uly="1153" lrx="994" lry="1234" xml:id="add1_14A"/>
+                    <zone ulx="320" uly="1233" lrx="662" lry="1255" xml:id="label_grado2_14A"/>
+                    <zone ulx="126" uly="1259" lrx="1006" lry="1349" xml:id="nome_14A"/>
+                    <zone ulx="315" uly="1346" lrx="936" lry="1375" xml:id="label_nome_14A"/>
+                    <zone ulx="100" uly="1417" lrx="384" lry="1481" xml:id="label_num1_14A"/>
+                    <zone ulx="391" uly="1421" lrx="596" lry="1485" xml:id="num_14A"/>
+                    <zone ulx="616" uly="1415" lrx="1484" lry="1491" xml:id="add2_14A"/>
+                    <zone ulx="315" uly="1486" lrx="1396" lry="1518" xml:id="label_num2_14A"/>
+                    <zone ulx="103" uly="1559" lrx="346" lry="1616" xml:id="label_campo1_14A"/>
+                    <zone ulx="352" uly="1551" lrx="1538" lry="1635" xml:id="campo_14A"/>
+                    <zone ulx="104" uly="1632" lrx="1550" lry="1684" xml:id="label_campo2_14A"/>
+                    <zone ulx="811" uly="1700" lrx="1671" lry="1775" xml:id="stato_14A"/>
+                    <zone ulx="930" uly="1790" lrx="1364" lry="1819" xml:id="label_stato_14A"/>
+                    
+                    <zone ulx="1339" uly="808" lrx="1556" lry="865" rotate="180" xml:id="mit_label_nome1_14A"/>
+                    <zone ulx="347" uly="789" lrx="1268" lry="908" rotate="180" xml:id="mit_nome_14A"/>
+                    <zone ulx="1259" uly="765" lrx="1508" lry="794" rotate="180" xml:id="mit_label_nome2_14A"/>
+                    <zone ulx="1322" uly="696" lrx="1556" lry="748" rotate="180" xml:id="mit_label_via1_14A"/>
+                    <zone ulx="756" uly="670" lrx="1174" lry="756" rotate="180" xml:id="mit_via_14A"/>
+                    <zone ulx="1380" uly="650" lrx="1450" lry="680" rotate="180" xml:id="mit_label_via2_14A"/>
+                    <zone ulx="1287" uly="547" lrx="1478" lry="623" rotate="180" xml:id="mit_provincia_14A"/>
+                    <zone ulx="1263" uly="516" lrx="1416" lry="542" rotate="180" xml:id="mit_label_provincia_14A"/>
+                    <zone ulx="814" uly="503" lrx="1059" lry="611" rotate="180" xml:id="mit_stato_14A"/>
+                    <zone ulx="280" uly="544" lrx="690" lry="631" rotate="180" xml:id="mit_localita_14A"/>
+                    <zone ulx="232" uly="510" lrx="618" lry="538" rotate="180" xml:id="mit_label_localita_14A"/>
+                    
+                    <zone ulx="219" uly="3600" lrx="1432" lry="3648" xml:id="stamp_14A"/>
+                    <zone ulx="71" uly="2846" lrx="1672" lry="2938" xml:id="riga1_14A"/>
+                    <zone ulx="27" uly="2955" lrx="1670" lry="3051" xml:id="riga2_14A"/>
+                    <zone ulx="10" uly="3067" lrx="1672" lry="3164" xml:id="riga3_14A"/>
+                    <zone ulx="18" uly="3190" lrx="1590" lry="3280" xml:id="riga4_14A"/>
+                    <zone ulx="27" uly="3296" lrx="1602" lry="3383" xml:id="riga5_14A"/>
+                    <zone ulx="30" uly="3411" lrx="1672" lry="3507" xml:id="riga6_14A"/>
+                    <zone ulx="12" uly="3515" lrx="1619" lry="3590" xml:id="riga7_14A"/>
+                    <zone ulx="10" uly="3612" lrx="192" lry="3672" xml:id="riga8_14A"/>
+                    <zone ulx="8" uly="3674" lrx="1415" lry="3706" xml:id="riga9_14A"/>
+                    <zone ulx="1426" uly="3646" lrx="1671" lry="3707" xml:id="signed_14A"/>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="retro_14" type="retro">
+                <surface xml:id="retro1_14" type="retro">
+                    <graphic url='Immagini/image/14_B.png' width='1669.33334px' height='3716.33334px' />
+                    <zone ulx="196" uly="502" lrx="1460" lry="626" xml:id="stamp1_14B"/>
+                    <zone ulx="954" uly="673" lrx="1291" lry="773" xml:id="luogo_14B"/>
+                    <zone ulx="1311" uly="680" lrx="1643" lry="772" xml:id="data_14B"/>
+                    <zone ulx="3" uly="667" lrx="742" lry="772" xml:id="salute_14B"/>
+                    <zone ulx="0" uly="816" lrx="1654" lry="895" xml:id="riga1_14B"/>
+                    <zone ulx="2" uly="920" lrx="1667" lry="1015" xml:id="riga2_14B"/>
+                    <zone ulx="4" uly="1019" lrx="1612" lry="1123" xml:id="riga3_14B"/>
+                    <zone ulx="3" uly="1144" lrx="1668" lry="1226" xml:id="riga4_14B"/>
+                    <zone ulx="2" uly="1266" lrx="1666" lry="1350" xml:id="riga5_14B"/>
+                    <zone ulx="0" uly="1371" lrx="1662" lry="1467" xml:id="riga6_14B"/>
+                    <zone ulx="0" uly="1475" lrx="1628" lry="1576" xml:id="riga7_14B"/>
+                    <zone ulx="0" uly="1612" lrx="1668" lry="1700" xml:id="riga8_14B"/>
+                    <zone ulx="3" uly="1716" lrx="1668" lry="1815" xml:id="riga9_14B"/>
+                    <zone ulx="3" uly="1827" lrx="1667" lry="1934" xml:id="riga10_14B"/>
+                    <zone ulx="2" uly="1941" lrx="1666" lry="2039" xml:id="riga11_14B"/>
+                    <zone ulx="3" uly="2074" lrx="1666" lry="2158" xml:id="riga12_14B"/>
+                    <zone ulx="2" uly="2180" lrx="1624" lry="2272" xml:id="riga13_14B"/>
+                    <zone ulx="0" uly="2302" lrx="1664" lry="2393" xml:id="riga14_14B"/>
+                    <zone ulx="3" uly="2425" lrx="1647" lry="2508" xml:id="riga15_14B"/>
+                    <zone ulx="3" uly="2528" lrx="1652" lry="2628" xml:id="riga16_14B"/>
+                    <zone ulx="0" uly="2651" lrx="1668" lry="2758" xml:id="riga17_14B"/>
+                    <zone ulx="2" uly="2762" lrx="1668" lry="2855" xml:id="riga18_14B"/>
+                    <zone ulx="4" uly="2873" lrx="1654" lry="2965" xml:id="riga19_14B"/>
+                    <zone ulx="2" uly="2995" lrx="1668" lry="3087" xml:id="riga20_14B"/>
+                    <zone ulx="2" uly="3113" lrx="1667" lry="3209" xml:id="riga21_14B"/>
+                    <zone ulx="2" uly="3225" lrx="1667" lry="3316" xml:id="riga22_14B"/>
+                    <zone ulx="0" uly="3344" lrx="1656" lry="3427" xml:id="riga23_14B"/>
+                    <zone ulx="2" uly="3468" lrx="1662" lry="3545" xml:id="riga24_14B"/>
+                    <zone ulx="3" uly="3573" lrx="1662" lry="3701" xml:id="riga25_14B"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_14">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                            <ab>
+                                <stamp xml:lang="#IT" type="print" facs="#stamp1_14A">POSTA PER PRIGIONIERI E INTERNATI CIVILI DI GUERRA</stamp>
+                            </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_14A" type="postmark">
+                                <mentioned>SELVATELLE PISA</mentioned>
+                                <date when="1944-03-27">27.3.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_14A" type="postmark">
+                                <mentioned>CROCE ROSSA ITALIANA PONTEDERA</mentioned>
+                                <mentioned>SOTTOCOMITATO</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_14A" type="postmark">
+                                <mentioned>MODULO NON AMMESSO</mentioned>
+                                <mentioned>AL MITTENTE</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro4_14A" type="postmark">
+                                <mentioned>27</mentioned>
+                            </stamp>
+                            <stamp facs="#" type="postmark">
+                                <mentioned facs="#men1_timbro5_14A">COMMIS</mentioned><mentioned facs="#men2_timbro5_14A">SIONE PROV. DI CENSURA 67-R</mentioned>
+                                <mentioned facs="#men3_timbro5_14A">PRELEVA</mentioned><mentioned facs="#men4_timbro5_14A">TA PER LA </mentioned><mentioned facs="#men5_timbro5_14A">CEN</mentioned><mentioned facs="#men6_timbro5_14A">SURA</mentioned><mentioned facs="#men7_timbro5_14A"> IL <date when="1944-03-28">28.MAR</date></mentioned><mentioned facs="#men8_timbro5_14A"><date when="1944-03-28">44XXII</date></mentioned>
+                                <mentioned facs="#men9_timbro5_14A">RESTITITUITA ALLE RR. PP. </mentioned><mentioned facs="#men10_timbro5_14A">IL <date when="1944-03-28">28.MAR.44XXII</date></mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado1_14A">Al</stamp><seg hand="#LM" facs="#add1_14A">Prigioniero di Guerra</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado2_14A">(GRADO DEL DESTINATARIO)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <persName ref="#AlP" facs="#nome_14A">Pacini Alberto di Angelo</persName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_14A">(COGNOME - NOME - PATERNITÀ DEL DESTINATARIO)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num1_14A">Matricola N.</stamp><idno type="prigioniero" facs="#num_14A">158767</idno><seg hand="#LM" facs="#add2_14A">Siehe Ruchseite voir au dois</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_14A">DI SEGUITO SCRIVERE "PRIGIONIERO DI GUERRA" OPPURE "INTERNATO CIVILE"</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_14A">Campo N.</stamp><placeName ref="#LU" facs="#campo_14A">483 Selterhot c-1 M. Stammlager IIIA </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_14A">RIPORTARE TUTTE LE INDICAZIONI RELATIVE AL NUMERO E NOME DEL CAMPO, SEZIONE DI CAMPO ETC.. (SECONDO LE INDICAZIONI FORNITE DAL PRIGIONIERA DI GUERRA O INTERNATO CIVILE)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_14A">Deutschland/Allegmagne</placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_stato_14A">(STATO O PAESE DI DESTINAZIONE)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome1_14A">Mittente:</stamp><persName ref="#LM" facs="#mit_nome_14A">Liana Pacini Martini</persName>
+                                    <stamp type="print" facs="#mit_label_nome2_14A">(COGNOME E NOME)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_14A">Indirizzo</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_14A">(VIA)</stamp>
+                                    <placeName ref="#VO" facs="#mit_via_14A">Volterrana</placeName>
+
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#PI" facs="#mit_provincia_14A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia_14A">(PROVINCIA)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#IT" facs="#mit_stato_14A">Italia</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#SE" facs="#mit_localita_14A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_14A">(PAESE O CITTÀ DI RESIDENZA)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp1_14B">SE VOLETE CHE LA CORRISPONDENZA ARRIVI A DESTINAZIONE SCRIVETE CHIARO E CON CARATTERI NON TROPPO PICCOLI - È CONSENTITO SCRIVERE SULLE RIGHE E NON FRA LE RIGHE</stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <placeName ref="#SE" facs="#luogo_14B">Selvatelle</placeName><date when="1944-03-26" facs="#data_14B">26-3-1944</date>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_14B">Carissimo <persName ref="#AlP">Alberto</persName> mio</salute>
+                        </opener>
+                        <ab>
+                            <lb facs="#riga1_14B" n="3"/>vengo a scriverti per farti sapere che, tanto io, che i fa-
+                            <lb facs="#riga2_14B" n="4"/>miliari tutti stiamo bene, come pure vogliamo spera-
+                            <lb facs="#riga3_14B" n="5"/>re sia sempre di te, nostro adorato che sei lontano,
+                            <lb facs="#riga4_14B" n="6"/>ma credi tanto ti pensiamo che ci sembra d'averti
+                            <lb facs="#riga5_14B" n="7"/>sempre vicino a noi. Amore stai certo verrà presto
+                            <lb facs="#riga6_14B" n="8"/>il momento in cui potremmo stringerti tra le nostre
+                            <lb facs="#riga7_14B" n="9"/>braccia, cerca di stare contento pensa sermpe alla
+                            <lb facs="#riga8_14B" n="10"/>nostra felicità di quei momenti e di tutto il restante
+                            <lb facs="#riga9_14B" n="11"/>della nostra vita, che ora, mi sembra sia ben meritata no?
+                            <lb facs="#riga10_14B" n="12"/><persName ref="#AlP">Alberto</persName> fatti coraggio prega e spera sempre in bene
+                            <lb facs="#riga11_14B" n="13"/>la Madonnina ti protegge perchè tu sei buono e perchè
+                            <lb facs="#riga12_14B" n="14"/>noi tutti la preghiamo tanto per te. Tesoro ora se Dio
+                            <lb facs="#riga13_14B" n="15"/>vuole anche il freddo è passato e con la primavera io
+                            <lb facs="#riga14_14B" n="16"/>sono un po' più contenta per te, che certo soffrirari un po'
+                            <lb facs="#riga15_14B" n="17"/>meno, ho tanto pensiero per quest'inverno che tu non sia
+                            <lb facs="#riga16_14B" n="18"/>coperto abbastanza e che ti dovessi ammalare ma voglio
+                            <lb facs="#riga17_14B" n="19"/>sperare che tu abbia sempre salute, così ora con la stagione
+                            <lb facs="#riga18_14B" n="20"/>buona la vita è meno triste e anche il tempo ti passerà
+                            <lb facs="#riga19_14B" n="21"/>meglio. Maritino mio tu avrai desiderio di sapere da noi
+                            <lb facs="#riga20_14B" n="22"/>tante cose, come pure noi da te ma è impossibile sapere le tue
+                            <lb facs="#riga21_14B" n="23"/>perchè tu ci scrivi troppo poco e noi della tua vita non sap-
+                            <lb facs="#riga22_14B" n="24"/>piamo niente, mentre qua, tutto è come prima, la vita
+                            <lb facs="#riga23_14B" n="25"/>è la solita io e i miei genitori e i tuoi lavoriamo un poco
+                            <lb facs="#riga24_14B" n="26"/>per sbarcare il lunario, per passare questo triste momento,
+                            <lb facs="#riga25_14B" n="27"/>stiamo in campagna perchè la vita è più calma e a casa
+                        </ab>
+                    </div>
+                </div>
+                <div type="fronte">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp_14A">SPAZIO SUPPLEMENTARE RISERVATO ALLA CORRISPONDENZA</stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <ab>
+                            <lb facs="#riga1_14A" n="28"/>ci ritorneremo quando ci sarai anche tu tutti insieme
+                            <lb facs="#riga2_14A" n="29"/>così saremo più contenti, le giornate trascorrono tutte
+                            <lb facs="#riga3_14A" n="30"/>con la grande ansia di ricevere le tue care notizie che ogni
+                            <lb facs="#riga4_14A" n="31"/>tanto riceviamo e che ci danno un poco di gioia. Tesoro
+                            <lb facs="#riga5_14A" n="32"/>preghiamo e facciamoci coraggio stai contento ricevi
+                            <lb facs="#riga6_14A" n="33"/>tanti cari bacioni e abbracci forti dalla tua mogliettina
+                            <lb facs="#riga7_14A" n="34"/>tanti saluti dai familiari e parenti tutti baci delle bimbe.
+                            <lb facs="#riga8_14A" n="35"/>Tanti 
+                            <lb facs="#riga9_14A" n="36"/>saluti dalla mia nonna. Ti bacio eternamente
+                        </ab>
+                        <closer>
+                            <signed facs="#signed_14A">tua <persName ref="#LM">Liana</persName></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+    <TEI xml:id="Lettera_045">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="desc" level="u">Lettera 45 - 22 agosto 1944</title>
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name>Collezione privata</name>
+                    </respStmt>
+                </titleStmt> 
+
+                <editionStmt>
+                    <edition>Studente tirocinante per il Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2021</date>
+                    </edition>
+
+                    <respStmt>
+                        <resp>Codificate da</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Compilatore</resp>
+                        <name ref="#LC">Leonardo Colombini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Supervisore codifica</resp>
+                        <name ref="#MR">Marina Riccucci</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Livorno</settlement>
+                            <repository>Collezione privata famiglia Pacini</repository>
+                            <idno>45</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Lettera</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9,8</height>
+                                            <width>14,8</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>mediocre</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#AlP">Alberto Pacini</persName>
+                        <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
+                        <date type="writing" when="1944-08-22">22/8/44</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AnP">Angiolo Pacini</persName>
+                        <placeName ref="https://www.geonames.org/3172160/nugola.html">Nugola</placeName>
+                    </correspAction>
+                    <correspContext>
+                        <ptr type="prev" subtype="fromAlberto" target="#Lettera_044"/>
+                        <ptr type="next" subtype="fromAlberto" target="#Lettera_046"/>
+                    </correspContext>
+                </correspDesc>
+            </profileDesc>
+            
+        </teiHeader>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte_45" type="fronte">
+                    <graphic url='Immagini/image/45_A.png' width='1841.33334px' height='1169.33334px' />
+                    <zone ulx="435" uly="86" lrx="948" lry="146" xml:id="kriegsg_45A"/>
+                    <zone ulx="436" uly="152" lrx="1068" lry="195" xml:id="corr_45A"/>
+                    <zone ulx="434" uly="227" lrx="747" lry="295" xml:id="postk_45A"/>
+                    <zone ulx="755" uly="248" lrx="1028" lry="288" xml:id="cart_45A"/>
+                    <zone ulx="1410" uly="123" lrx="1732" lry="458" xml:id="timbro1_45A"/>
+                    <zone ulx="1136" uly="106" lrx="1688" lry="248" xml:id="seg_45A"/>
+                    <zone ulx="819" uly="70" lrx="1212" lry="432" xml:id="timbro2_45A"/>
+                    <zone ulx="798" uly="236" lrx="1348" lry="506" xml:id="timbro3_45A"/>
+                    <zone ulx="116" uly="550" lrx="400" lry="600" xml:id="gebuh_45A"/>
+                    <zone ulx="422" uly="552" lrx="739" lry="600" xml:id="franco_45A"/>
+                    <zone ulx="438" uly="334" lrx="503" lry="374" xml:id="label_nome1_45A"/>
+                    <zone ulx="459" uly="379" lrx="491" lry="410" xml:id="label_nome2_45A"/>
+                    <zone ulx="724" uly="402" lrx="1650" lry="556" xml:id="nome_45A"/>
+                    <zone ulx="863" uly="662" lrx="1086" lry="698" xml:id="label_localita1_45A"/>
+                    <zone ulx="868" uly="699" lrx="1172" lry="724" xml:id="label_localita2_45A"/>
+                    <zone ulx="1288" uly="570" lrx="1654" lry="738" xml:id="localita_45A"/>
+                    <zone ulx="962" uly="814" lrx="1096" lry="858" xml:id="label_via1_45A"/>
+                    <zone ulx="972" uly="855" lrx="1018" lry="883" xml:id="label_via2_45A"/>
+                    <zone ulx="1334" uly="747" lrx="1670" lry="891" xml:id="via_45A"/>
+                    <zone ulx="971" uly="966" lrx="1151" lry="1008" xml:id="label_provincia1_45A"/>
+                    <zone ulx="975" uly="1005" lrx="1098" lry="1032" xml:id="label_provincia2_45A"/>
+                    <zone ulx="1175" uly="892" lrx="1690" lry="1033" xml:id="provincia_45A"/>
+                    <zone ulx="1396" uly="1034" lrx="1746" lry="1121" xml:id="regione_45A"/>
+                    <zone ulx="400" uly="618" lrx="587" lry="654" xml:id="mit_absender_45A"/>
+                    <zone ulx="432" uly="654" lrx="551" lry="682" xml:id="mit_mittente_45A"/>
+                    <zone ulx="170" uly="682" lrx="487" lry="721" xml:id="mit_label_nome1_45A"/>
+                    <zone ulx="170" uly="725" lrx="390" lry="750" xml:id="mit_label_nome2_45A"/>
+                    <zone ulx="252" uly="748" lrx="699" lry="820" xml:id="mit_nome_45A"/>
+                    <zone ulx="166" uly="858" lrx="510" lry="904" xml:id="mit_label_num1_45A"/>
+                    <zone ulx="163" uly="904" lrx="486" lry="937" xml:id="mit_label_num2_45A"/>
+                    <zone ulx="568" uly="834" lrx="775" lry="908" xml:id="mit_num_45A"/>
+                    <zone ulx="166" uly="944" lrx="495" lry="985" xml:id="mit_label_campo1_45A"/>
+                    <zone ulx="195" uly="985" lrx="476" lry="1018" xml:id="mit_label_campo2_45A"/>
+                    <zone ulx="510" uly="981" lrx="815" lry="1030" xml:id="mit_campo1_45A"/>
+                    <zone ulx="599" uly="1033" lrx="747" lry="1066" xml:id="mit_campo2_45A"/>
+                    <zone ulx="298" uly="1080" lrx="687" lry="1126" xml:id="mit_stato_45A"/>
+                </surface>
+                <surface xml:id="retro_45" type="retro">
+                    <graphic url='Immagini/image/45_B.png' width='1833.33334px' height='1161.33334px' />
+                    <zone ulx="99" uly="67" lrx="640" lry="124" xml:id="stamp1_45B"/>
+                    <zone ulx="102" uly="124" lrx="610" lry="172" xml:id="stamp2_45B"/>
+                    <zone ulx="728" uly="60" lrx="1088" lry="118" xml:id="campo_45B"/>
+                    <zone ulx="1322" uly="70" lrx="1439" lry="114" xml:id="label_data1_45B"/>
+                    <zone ulx="1476" uly="24" lrx="1734" lry="130" xml:id="data_45B"/>
+                    <zone ulx="1310" uly="116" lrx="1384" lry="151" xml:id="label_data2_45B"/>
+                    <zone ulx="154" uly="295" lrx="584" lry="390" xml:id="salute_45B"/>
+                    <zone ulx="591" uly="292" lrx="1723" lry="402" xml:id="iniziomessaggio_45B"/>
+                    <zone ulx="143" uly="407" lrx="1796" lry="506" xml:id="riga2_45B"/>
+                    <zone ulx="136" uly="510" lrx="1726" lry="642" xml:id="riga3_45B"/>
+                    <zone ulx="151" uly="643" lrx="1786" lry="735" xml:id="riga4_45B"/>
+                    <zone ulx="160" uly="752" lrx="1703" lry="864" xml:id="riga5_45B"/>
+                    <zone ulx="140" uly="868" lrx="1694" lry="982" xml:id="riga6_45B"/>
+                    <zone ulx="155" uly="986" lrx="1754" lry="1068" xml:id="riga7_45B"/>
+                    <zone ulx="32" uly="1069" lrx="1655" lry="1125" xml:id="riga8_45B"/>
+                    <zone ulx="486" uly="1128" lrx="1151" lry="1160" xml:id="riga9_45B"/>
+                    <zone ulx="1159" uly="1125" lrx="1567" lry="1156" xml:id="signed_45B"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+            <!-- DEFINIZIONE -->
+        <text type="lettera" xml:id="lettera_45">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div type="fronte">
+                    <div type="stamp">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_45A">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#corr_45A">Corrispondenza dei prigionieri di guerra</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#postk_45A" rend="Bold">Postkarte</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#cart_45A">Cartolina postale</stamp>
+                        </ab>
+                    </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_45A" type="postmark">
+                                <mentioned>scritture illeggibili dentro al timbro</mentioned>
+                                <date when="1944-09-04">4.9.44</date>
+                                <seg rend="double underline" facs="#seg_45A">Italia sud</seg>
+                            </stamp>
+                            <stamp facs="#timbro2_45A" type="postmark">
+                                <mentioned>timbro del campo con bordi viola "Stalag IIIA 42 geprüft", leggibile in parte</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_45A" type="postmark">
+                                <mentioned>"U.S ARMY P/W EXAMINER", metà impercettibile, metà ben leggibile</mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" rend="Bold" facs="#gebuh_45A">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#franco_45A">Franco di porto!</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_45A">An</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome2_45A">A</stamp>
+                                    <persName ref="#AnP" facs="#nome_45A"><addName type="honorific">Signor</addName><name>Pacini Angelo</name></persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_localita1_45A">Empangsort:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_localita2_45A">Località di destinazione</stamp>
+                                    <placeName ref="#NU" facs="#localita_45A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_via1_45A">Straße:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_via2_45A">Via</stamp>
+                                    <placeName ref="#NU" facs="#via_45A">Nugola</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_provincia1_45A">Landesteil (Provinc usw.)</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_provincia2_45A">Provincia</stamp>
+                                    <placeName ref="#LI" facs="#provincia_45A">Livorno</placeName>
+                                    <placeName ref="#TO" facs="#regione_45A">(Toscana)</placeName>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_45A">Absender:</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#mit_mittente_45A">Mittente:</stamp>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_45A">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome2_45A">Nome e cognome</stamp>
+                                    <persName ref="#AlP" facs="#mit_nome_45A">Pacini Alberto</persName>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_num1_45A">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_num2_45A">Numero del prigioniero</stamp>
+                                    <idno type="prigioniero" facs="#mit_num_45A">158767</idno>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_campo1_45A">Lager-Bezeichnung:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_campo2_45A"><gap reason="illegible" quantity="1" unit="chars"/>Designazione del campo</stamp>
+                                    <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_campo1_45A">siehe Rüchseite</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_campo2_45A">vedi retro</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp type="print" facs="#mit_stato_45A"><placeName ref="#GE">Deutschland (Allemagne)</placeName></stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                </div>
+                <div type="retro">
+                    <div type="intestazione">
+                        <ab>
+                            <stamp xml:lang="#GE" type="print" facs="#stamp1_45B">Kriegsgenlangenenlager</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#stamp2_45B">Campo dei prigionieri di guerra</stamp>
+                            <stamp type="print" facs="#campo_45B"><placeName ref="#LU">M.-Stammlager III A</placeName></stamp>
+                        </ab>
+                    </div>
+                    <div type="messaggio">
+                        <lb n="1"/>
+                        <opener>
+                            <dateline>
+                                <stamp xml:lang="#GE" type="print" facs="#label_data1_45B">Datum:</stamp><date when="1944-08-22" facs="#data_45B">22/8/44</date>
+                                <stamp xml:lang="#IT" type="print" facs="#label_data2_45B">Data</stamp>
+                            </dateline>
+                            <lb n="2"/>
+                            <salute facs="#salute_45B">Carissimi genitori.</salute>
+                        </opener>
+                        <ab>
+                            <anchor facs="#iniziomessaggio_45B" type="start_message"/>Ieri secondo il desiderio di questa gente ab-
+                            <lb facs="#riga2_45B" n="3"/>biamo dovuto firmare il passaggio da Internati a civili, pure ieri
+                            <lb facs="#riga3_45B" n="4"/>ho cambiato baracca e sono qua in attesa di ripartire per il
+                            <lb facs="#riga4_45B" n="5"/>campo di 5 mesi fa. Mi trovo in ottime condizioni
+                            <lb facs="#riga5_45B" n="6"/>di salute come spero segua di voi, da cui non ho più
+                            <lb facs="#riga6_45B" n="7"/>notizie da un bel pezzo. Con le speranze che presto
+                            <lb facs="#riga7_45B" n="8"/>finisca tutto, ricordando che in questi giorni si compie
+                            <lb facs="#riga8_45B" n="9"/>1 anno dal distacco da <persName ref="#AE">mamma</persName> e <persName ref="#LM">Liana</persName> vi bacio forte e vi
+                            <lb facs="#riga9_45B" n="10"/>abbraccio con amore
+                        </ab>
+                        <closer>
+                            <signed facs="#signed_45B">il vostro <choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
+                        </closer>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
