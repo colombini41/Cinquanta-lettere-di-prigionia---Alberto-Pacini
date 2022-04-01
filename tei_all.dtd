@@ -7,6 +7,12 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
 
 -->
 
+<!-- caratteri aggiunti -->
+
+<!ENTITY fdestra CDATA "&#8658;">
+
+<!ENTITY fsinistra CDATA "&#8656;">
+
 <!-- start datatypes -->
 
 <!ENTITY % teidata.certainty '(high|medium|low|unknown)' >
