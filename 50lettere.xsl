@@ -9,6 +9,8 @@
                 <script type="text/javascript" src="css_javascript/slider.js" defer="yes"></script>
                 <script type="text/javascript" src="css_javascript/50lettere.js"></script>
                 <link rel= "stylesheet" href="css_javascript/50lettere.css"/>
+                <script src="https://kit.fontawesome.com/1d7498dc84.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/tt-norms-medium" type="text/css"/> 
             </head>
             <body>
                 <header id="sezione_centrale">
@@ -33,56 +35,17 @@
 
                 <div class="container" id="contenitore_galleria">
                     <div class="slides">
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/primo_piano.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Alberto Pacini in divisa, 1938</p>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/abito_bianco.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Alberto in abito bianco. Taranto, 14 luglio 1939</p>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/taranto.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939</p>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/acrobazie.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939</p>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/pranzo_miseno.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Altra foto con i compagni sul Rimorchiatore Miseno. 1939</p>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <img src="Immagini/fotografie/alberto/abito_terrazza.png" alt=""/>
-                            <div class="slide-content">
-                                <p>Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942</p>
-                            </div>
-                        </div>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_galleria']"/>
                     </div>
-                    <div class="frecce-slides">
-                        <button id="prev-btn">
-                            <i class="icon-chevron-left"></i>
-                        </button>
-                        <button id="next-btn">
-                            <i class="icon-chevron-right"></i>
-                        </button>
-                    </div>
+                </div>
+                <div class="frecce-slides">
+                    <button id="prev-btn"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button id="next-btn"><i class="fa-solid fa-circle-arrow-right"></i></button>
                 </div>
 
                 <div class="contenitori_body" id="contenitore_presentazione">
                     <div id="sottotitolo" class="sottotitoli">
-                        <h1>Alberto Pacini e la corrispondenza</h1>
+                        <h1>ALBERTO PACINI E LA CORRISPONDENZA</h1>
                     </div>
 
                     <div id="testo_presentazione">
@@ -123,18 +86,18 @@
                 <div class="contenitori_body" id="contenitore_biografia">
                     <h1>La biografia di Alberto Pacini</h1>
                     <div class="biografia" id="biografia_testo">    
-                        <p class="p_biografia">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
-                        <img class="img_biografia" id="angiolo" src="Immagini/fotografie/genitori/angiolo.png"/>
-                        <img class="img_biografia" id="argia" src="Immagini/fotografie/genitori/argia.png"/>
-                        <p class="p_biografia">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='1']"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo']"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='argia']"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='2']"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='3']"/>
                     </div>
                     <div class="biografia" id="biografia_galleria">
-                        <img class="img_biografia" id="famiglia1" src="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='famiglia1']"/>
                     </div>
                     <div class="biografia" id="biografia_maxi">
-                        <p class="p_biografia">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
-                        <p class="p_biografia">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e di conseguenza Alberto vive questa realtà quotidianamente: crescendo in un contesto militare con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
-                        <img class="img_biografia" id="angiolo_cuoco" src="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
+                    <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='4']"/>
+                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo_cuoco']"/>
                     </div>
                 </div>
 
@@ -148,6 +111,48 @@
 
             </body>
         </html>
+    </xsl:template>
+
+
+    <xsl:template match="//tei:back/tei:div">
+        <xsl:for-each select="tei:figure">
+            <div class="slide">
+                <xsl:element name="img">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="src">
+                        <xsl:value-of select='tei:graphic/@url'/>
+                    </xsl:attribute>
+                </xsl:element>
+                <div class="slide-content">
+                    <p><xsl:value-of select="tei:head"/></p>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template match="//tei:back/tei:div/tei:figure">
+        <xsl:element name="img">
+            <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:attribute name="src">
+                <xsl:value-of select='tei:graphic/@url'/>
+            </xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="//tei:back/tei:div/tei:p">
+        <xsl:element name="p">
+            <xsl:attribute name="class">
+                <xsl:value-of select="@class"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@n"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
 
     <!-- ######################################################## -->
@@ -309,28 +314,6 @@
             </p>
         </xsl:template>
 
-        <!-- mittente -->
-        <xsl:template match="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName">
-            <xsl:element name="td">
-                <xsl:attribute name="id">
-                    <!-- utilizzo substring per non considerare il puntatore "#" -->
-                    <xsl:value-of select="substring(@facs,2)"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        </xsl:template>
-
-        <!-- destinatario -->
-        <xsl:template match="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName">
-            <xsl:element name="td">
-                <xsl:attribute name="id">
-                    <!-- utilizzo substring per non considerare il puntatore "#" -->
-                    <xsl:value-of select="substring(@facs,2)"/>
-                </xsl:attribute>
-                <xsl:value-of select="."/>
-            </xsl:element>
-        </xsl:template>
-        
         <!-- immagine -->
         <xsl:template match="tei:surface/tei:graphic/@url">
             <xsl:element name="img">
@@ -362,13 +345,7 @@
                 <xsl:for-each select="*">
                     <xsl:choose>  
                         <xsl:when test="tei:choice">
-                            <xsl:element name="td">
-                                <xsl:attribute name="id">
-                                    <!-- utilizzo substring per non considerare il puntatore "#" -->
-                                    <xsl:value-of select="tei:choice/../substring(@facs,2)"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="tei:choice/tei:expan"/>
-                            </xsl:element>
+                            <xsl:apply-templates select="tei:choice"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:element name="td">
@@ -379,35 +356,48 @@
                                 <xsl:value-of select="."/>
                             </xsl:element>
                         </xsl:otherwise>
-                    </xsl:choose>  
+                    </xsl:choose>
                 </xsl:for-each>
             </xsl:element>
         </xsl:template> 
 
-
         <!-- stampe + timbri e francobolli -->
         <xsl:template match="tei:stamp">
             <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:attribute name="id">
-                        <!-- utilizzo substring per non considerare il puntatore "#" -->
-                        <xsl:value-of select="substring(@facs,2)"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
+                <xsl:choose>  
+                    <xsl:when test="tei:choice">
+                        <xsl:apply-templates select="tei:choice"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:element name="td">
+                            <xsl:attribute name="id">
+                                <!-- utilizzo substring per non considerare il puntatore "#" -->
+                                <xsl:value-of select="substring(@facs,2)"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="."/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:element>
         </xsl:template>
 
         <!-- aggiunte -->
         <xsl:template match="tei:seg">
             <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:attribute name="id">
-                        <!-- utilizzo substring per non considerare il puntatore "#" -->
-                        <xsl:value-of select="substring(@facs,2)"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
+                <xsl:choose>  
+                    <xsl:when test="tei:choice">
+                        <xsl:apply-templates select="tei:choice"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:element name="td">
+                            <xsl:attribute name="id">
+                                <!-- utilizzo substring per non considerare il puntatore "#" -->
+                                <xsl:value-of select="substring(@facs,2)"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="."/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:element>
         </xsl:template>
 
@@ -419,11 +409,9 @@
                 </xsl:element>
                 <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:opener/tei:dateline"/>
             </xsl:element>
-            <xsl:element name="table">
-                <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:opener/tei:salute"/>
-                <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:ab"/>
-                <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:closer"/>
-            </xsl:element>
+            <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:opener/tei:salute"/>
+            <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:ab"/>
+            <xsl:apply-templates select="tei:div/tei:div[@type='messaggio']/tei:closer"/>
         </xsl:template>
 
         <!-- data e luogo -->
@@ -474,49 +462,127 @@
 
         <!-- saluto iniziale -->
         <xsl:template match="tei:div/tei:div[@type='messaggio']/tei:opener/tei:salute">
-            <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:attribute name="id">
-                        <!-- utilizzo substring per non considerare il puntatore "#" -->
-                        <xsl:value-of select="substring(@facs,2)"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:element>   
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring(@facs,2)"/>
+                </xsl:attribute>
+                2 ➛ &#160;
+            </xsl:element>
+            <xsl:value-of select="."/>
         </xsl:template>
 
         <!-- righe -->
         <xsl:template match="tei:div/tei:div[@type='messaggio']/tei:ab">
-            <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:apply-templates/>
-                </xsl:element>
-            </xsl:element>
+            <xsl:apply-templates select="node() except tei:anchor"/>
         </xsl:template>
 
-        <xsl:template match="tei:l">
-            <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:attribute name="id">
-                        <!-- utilizzo substring per non considerare il puntatore "#" -->
-                        <xsl:value-of select="substring(@facs,2)"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
+        <xsl:template match="tei:ab/tei:lb[1]">
+            <br/>
+            <br/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring(@facs,2)"/>
+                </xsl:attribute>
+                <xsl:value-of select="@n"/> ➛
             </xsl:element>
+            &#160;
         </xsl:template>
+
+        <xsl:template match="tei:ab/tei:lb[position() > 1]">
+            <br/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring(@facs,2)"/>
+                </xsl:attribute>
+                <xsl:value-of select="@n"/> ➛
+            </xsl:element>
+            &#160;
+        </xsl:template>
+
+        <xsl:template match="tei:anchor">
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring(@facs,2)"/>
+                </xsl:attribute>
+                2 ➛
+            </xsl:element>
+            &#160;
+        </xsl:template>
+        
+        <xsl:template match="tei:persName">
+            <xsl:choose>    
+                <xsl:when test="tei:choice">
+                    <xsl:apply-templates select="tei:choice"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    &#160;<xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:template>
+        
+        
 
         <!-- closer -->
         <xsl:template match="tei:div/tei:div[@type='messaggio']/tei:closer">
-            <xsl:element name="tr">
-                <xsl:element name="td">
-                    <xsl:attribute name="id">
-                        <!-- utilizzo substring per non considerare il puntatore "#" -->
-                        <xsl:value-of select="substring(@facs,2)"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:element> 
+            <br/>
+            <br/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:choose>
+                        <xsl:when test="@facs">
+                            <!-- utilizzo substring per non considerare il puntatore "#" -->
+                            <xsl:value-of select="substring(@facs,2)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="substring(tei:signed/@facs,2)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+                <xsl:value-of select="preceding-sibling::*[1]/@n"/> ➛
+                &#160;
+            </xsl:element>
+            <xsl:apply-templates/>
+        </xsl:template>
+
+        <xsl:template match="tei:closer/tei:seg">
+            <br/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    span_righe
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="substring(@facs,2)"/>
+                </xsl:attribute>
+                <xsl:value-of select="@n"/> ➛
+            </xsl:element>
+            <xsl:value-of select="."/>
+            &#160;
+        </xsl:template>
+
+        <!-- template per scegliere l'espansione quando ho un abbreviazione -->
+        <xsl:template match="tei:choice">
+            <xsl:element name="td">
+                <xsl:attribute name="id">
+                    <!-- utilizzo substring per non considerare il puntatore "#" -->
+                    <xsl:value-of select="tei:choice/../substring(@facs,2)"/>
+                </xsl:attribute>
+                &#160;<xsl:value-of select="tei:choice/tei:expan"/>
+            </xsl:element>
         </xsl:template>
                     
         <!-- ######################################################### -->  
@@ -527,6 +593,24 @@
                 <xsl:attribute name="name">
                     <xsl:value-of select="concat('mappa_', @xml:id)"/>
                 </xsl:attribute>
+                <xsl:variable name="width_original">
+                    <xsl:value-of select="substring-before(tei:graphic/@width,'px')"/>
+                </xsl:variable>
+                <xsl:variable name="height_original">
+                    <xsl:value-of select="substring-before(tei:graphic/@height,'px')"/>
+                </xsl:variable>
+                <xsl:variable name="width_site">
+                    436.367
+                </xsl:variable>
+                <xsl:variable name="height_site">
+                    1
+                </xsl:variable>
+                <xsl:variable name="rapp_width">
+                    <xsl:value-of select="$width_original div $width_site"/>
+                </xsl:variable>
+                <xsl:variable name="rapp_height">
+                    <xsl:value-of select="$height_original div $height_site"/>
+                </xsl:variable>
                 <xsl:for-each select="tei:zone">
                     <xsl:element name="area">   
                         <xsl:attribute name="id">
@@ -538,17 +622,11 @@
                                         <xsl:text>rect</xsl:text>
                                     </xsl:attribute>
                                     <xsl:attribute name="coords">
-                                        <xsl:value-of select="@ulx div 4"/>,<xsl:value-of select="@uly div 4"/>,<xsl:value-of select="@lrx div 4"/>,<xsl:value-of select="@lry div 4"/>
+                                        <xsl:value-of select="@ulx div $rapp_width"/>,<xsl:value-of select="@uly div $rapp_width"/>,<xsl:value-of select="@lrx div $rapp_width"/>,<xsl:value-of select="@lry div $rapp_width"/>
                                     </xsl:attribute>
+                                    <!-- moltiplico le coordinate originali (zona per zona) per i rapporti tra le grandezze delle immagini (originali e del sito), in questo modo ottengo le coordinate proporzionali delle zone appartenenti alle immagini sul sito-->
                                 </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:attribute name="shape">
-                                        <xsl:text>polygon</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="coords">
-                                        <xsl:value-of select="fn:substring-after(@points, ' ')"/>
-                                    </xsl:attribute>
-                                </xsl:otherwise>
+                               
                             </xsl:choose>
                         <xsl:attribute name="onmouseover">
                             <xsl:value-of select="concat('gestoreEvidenzia(&quot;', @xml:id, '&quot;)' )"/>

@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Cinquanta lettere di prigionia - Alberto Pacini</title>
+                <title>CINQUANTA LETTERE DI PRIGIONIA - ALBERTO PACINI</title>
                 <respStmt>
                     <resp>Trascritte da</resp>
                     <name xml:id="LC">Leonardo Colombini</name>
@@ -847,16 +847,16 @@
                             <salute facs="#salute_01B"><persName ref="#AE">Mammina</persName> carissima,</salute>
                         </opener>
                         <ab>
-                            <lb n="3"/><l facs="#riga1_01B">Ho ricevuto posta tua del <date when="1943-08-29">29</date>, <date when="1943-08-31">31</date> e <date when="1943-09-02">2 settembre</date>, ti rin=</l>
-                            <lb n="4"/><l facs="#riga2_01B">grazio molto degli auguri che mi hai inviato, dimo=</l>
-                            <lb n="5"/><l facs="#riga3_01B">strando che nulla ti passa per quel che riguarda i</l>
-                            <lb n="6"/><l facs="#riga4_01B">tuoi figli. Non ho avuto ancora il piacere di</l>
-                            <lb n="7"/><l facs="#riga5_01B">ricevere da <persName ref="#LI">Liana</persName> posta da dopo che sono ritornato</l>
-                            <lb n="8"/><l facs="#riga6_01B">da <placeName ref="#LI">Livorno</placeName>. Ora scrivo a lungo a <persName ref="#AnP">babbo</persName> e gli ... </l>
-                            <lb n="9"/><l facs="#riga7_01B">per mezzo di un marinaio. Io di salute ora</l>
-                            <lb n="10"/><l facs="#riga8_01B">sto bene. Non vedo l'ora di ritornare fra le</l>
-                            <lb n="11"/><l facs="#riga9_01B">tue braccia, sono stufo di questa vita, specialmente</l>
-                            <lb n="12"/><l facs="#riga10_01B">ora, qua non c'è più nessuno essendo chiusi i bagni.</l>
+                            <lb facs="#riga1_01B" n="3"/>Ho ricevuto posta tua del <date when="1943-08-29">29</date>, <date when="1943-08-31">31</date> e <date when="1943-09-02">2 settembre</date>, ti rin=
+                            <lb facs="#riga2_01B" n="4"/>grazio molto degli auguri che mi hai inviato, dimo=
+                            <lb facs="#riga3_01B" n="5"/>strando che nulla ti passa per quel che riguarda i
+                            <lb facs="#riga4_01B" n="6"/>tuoi figli. Non ho avuto ancora il piacere di
+                            <lb facs="#riga5_01B" n="7"/>ricevere da <persName ref="#LI">Liana</persName> posta da dopo che sono ritornato
+                            <lb facs="#riga6_01B" n="8"/>da <placeName ref="#LI">Livorno</placeName>. Ora scrivo a lungo a <persName ref="#AnP">babbo</persName> e gli ... 
+                            <lb facs="#riga7_01B" n="9"/>per mezzo di un marinaio. Io di salute ora
+                            <lb facs="#riga8_01B" n="10"/>sto bene. Non vedo l'ora di ritornare fra le
+                            <lb facs="#riga9_01B" n="11"/>tue braccia, sono stufo di questa vita, specialmente
+                            <lb facs="#riga10_01B" n="12"/>ora, qua non c'è più nessuno essendo chiusi i bagni.
                         </ab>
                         <lb n="13"/>
                         <closer facs="#closer_01B">
@@ -1107,9 +1107,7 @@
                     <zone ulx="49" uly="1581" lrx="1629" lry="1705" xml:id="riga13_02D_2"/>
                     <zone ulx="56" uly="1714" lrx="1614" lry="1845" xml:id="riga14_02D_2"/>
                     <zone ulx="58" uly="1841" lrx="1572" lry="1972" xml:id="riga15_02D_2"/>
-                </surface>
-                <surface xml:id="retro3_02" type="retro">
-                    <graphic url="Immagini/image/02_D.png" width="3297.56666px" height="2088.56666px"/>
+                    
                     <zone ulx="2168" uly="2" lrx="2235" lry="73" xml:id="numpagina_02D_3"/>
                     <zone ulx="1707" uly="31" lrx="3185" lry="113" xml:id="riga1_02D_3"/>
                     <zone ulx="1696" uly="129" lrx="3283" lry="248" xml:id="riga2_02D_3"/>
@@ -2075,8 +2073,8 @@
                             <lb facs="#riga7_05B" n="8"/>fatevi coraggio, presto ritornerò. Vi bacio e vi abbraccio tutti con affetto.
                         </ab>
                         <lb n="9"/>
-                        <closer>
-                            <signed facs="#signed_05B">vostro<persName ref="#AlP">Alberto</persName></signed>
+                        <closer facs="#signed_05B">
+                            <signed>vostro<persName ref="#AlP">Alberto</persName></signed>
                         </closer>
                     </div>
                 </div>
@@ -4119,8 +4117,8 @@
                             <lb facs="#riga8_12A" n="35"/>tegge perchè noi tutti la preghiamo tanto. Ricevi tanti cari baci
                             <lb facs="#riga9_12A" n="36"/>da tutti.
                         </ab>
-                        <closer>
-                            <signed facs="#signed_12A">Tua per sempre Liana</signed>
+                        <closer facs="#signed_12A">
+                            <signed>Tua per sempre Liana</signed>
                         </closer>
                     </div>
                 </div>
@@ -14901,9 +14899,9 @@
                             <lb facs="#riga6_46B" n="7"/>ogni istante. Preghiamo ancora con la speranza che ritor-
                             <lb facs="#riga7_46B" n="8"/>ni presto a te in piena salute come sono adesso. Ti bacio forte
                             <lb facs="#riga8_46B" n="9"/>e ti abbraccio con grande affetto.
-                            <lb facs="#riga9_46B"/>Saluta tutte e tutti
+                            <lb facs="#riga9_46B" n="10"/>Saluta tutte e tutti
                         </ab>
-                        <lb n="10"/>
+                        <lb n="11"/>
                         <closer>
                             <signed facs="#signed_46B">il tuo <persName ref="#AlP"><choice><abbr>Berto</abbr><expan>Alberto</expan></choice></persName></signed>
                         </closer>
@@ -16100,5 +16098,98 @@
         </text>
     </TEI>
 
-    
+    <text>
+        <back>
+            <div type="immagini_galleria">
+                <figure xml:id="img_primo_piano">
+                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
+                    <head>
+                        Alberto Pacini in divisa, 1938
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_abito">
+                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
+                    <head>
+                        Alberto in abito bianco. Taranto, 14 luglio 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_carboncini">
+                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
+                    <head>
+                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_acrobazie">
+                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
+                    <head>
+                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_pranzo">
+                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
+                    <head>
+                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_terrazza">
+                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
+                    <head>
+                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+            <div type="biografia">
+                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
+                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
+                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
+                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e di conseguenza Alberto vive questa realtà quotidianamente: crescendo in un contesto militare con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
+            </div>
+            <div type="immagini_biografia">
+                <figure xml:id="angiolo">
+                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="argia">
+                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="famiglia1">
+                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="angiolo_cuoco">
+                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+        </back>
+    </text>
 </teiCorpus>

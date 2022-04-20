@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Cinquanta lettere di prigionia - Alberto Pacini</title>
+                <title>CINQUANTA LETTERE DI PRIGIONIA - ALBERTO PACINI</title>
                 <respStmt>
                     <resp>Trascritte da</resp>
                     <name xml:id="LC">Leonardo Colombini</name>
@@ -769,6 +769,99 @@
     <!-- LETTERA 22 GIUGNO 45 da Gaetano a Alberto -->
     <xi:include href="LETTERE/50.xml"/>
 
-    
+    <text>
+        <back>
+            <div type="immagini_galleria">
+                <figure xml:id="img_primo_piano">
+                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
+                    <head>
+                        Alberto Pacini in divisa, 1938
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_abito">
+                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
+                    <head>
+                        Alberto in abito bianco. Taranto, 14 luglio 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_carboncini">
+                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
+                    <head>
+                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_acrobazie">
+                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
+                    <head>
+                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_pranzo">
+                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
+                    <head>
+                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_terrazza">
+                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
+                    <head>
+                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+            <div type="biografia">
+                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
+                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
+                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
+                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e di conseguenza Alberto vive questa realtà quotidianamente: crescendo in un contesto militare con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
+            </div>
+            <div type="immagini_biografia">
+                <figure xml:id="angiolo">
+                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="argia">
+                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="famiglia1">
+                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="angiolo_cuoco">
+                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
+                    <head>
+                        aaa
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+        </back>
+    </text>
 </teiCorpus>
 
