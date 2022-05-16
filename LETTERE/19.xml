@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_019">
+    <TEI xml:id="Lettera19">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_19" type="fronte">
                 <surface xml:id="fronte1_19" type="fronte">
                     <graphic url='Immagini/image/19_A.png' width='1752.66666px' height='4000.66666px' />
@@ -263,6 +263,7 @@
                             <lb facs="#riga23_19B" n="24"/>So che là la vita è difficile ma pazienza! Vi bacio e vi abbrac-
                             <lb facs="#riga24_19B" n="25"/>cio tutti con grande affetto. Ciao a presto.
                         </ab>
+                        <lb n="26"/>
                         <closer>
                             <signed facs="#signed_19B">Il vostro<persName ref="#AlP"><choice><abbr><hi rend="underline">Berto</hi></abbr><expan>Alberto</expan></choice></persName></signed>
                         </closer>

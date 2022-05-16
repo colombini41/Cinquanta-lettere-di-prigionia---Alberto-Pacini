@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_014">
+    <TEI xml:id="Lettera14">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_14" type="fronte">
                 <surface xml:id="fronte2_14" type="fronte">
                     <graphic url='Immagini/image/14_A.png' width='1673.33334px' height='3707.33334px' />
@@ -334,6 +334,7 @@
                             <lb facs="#riga8_14A" n="35"/>Tanti 
                             <lb facs="#riga9_14A" n="36"/>saluti dalla mia nonna. Ti bacio eternamente
                         </ab>
+                        <lb n="37"/>
                         <closer>
                             <signed facs="#signed_14A">tua <persName ref="#LM">Liana</persName></signed>
                         </closer>

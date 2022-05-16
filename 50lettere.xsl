@@ -1,119 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"> 
+<xsl:stylesheet
+    version="1.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"  
+    xmlns:h="http://www.w3.org/1999/xhtml"
+    xmlns:js="http://saxonica.com/ns/globalJS"
+    xmlns:saxon="http://saxon.sf.net/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="h ixsl js saxon xs">
+
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    <xsl:template match="/">
+    
+    <xsl:template name="initial">
 
-        <html>
-            <head> 
-                <script type="text/javascript" src="css_javascript/slider.js" defer="yes"></script>
-                <script type="text/javascript" src="css_javascript/50lettere.js"></script>
-                <link rel= "stylesheet" href="css_javascript/50lettere.css"/>
-                <script src="https://kit.fontawesome.com/1d7498dc84.js" crossorigin="anonymous"></script>
-                <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/tt-norms-medium" type="text/css"/> 
-            </head>
-            <body>
-                <header id="sezione_centrale">
-                    <h1 class="titoli_fissi" id="TITOLO">
-                        <xsl:value-of select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                    </h1>
-                    <h2 class="titoli_fissi" id="TITOLINO">
-                        Corrispondenza epistolare inedita tra Alberto Pacini, marinaio livornese, e la sua famiglia
-                    </h2>
-                    <nav id="barra_navigazione">
-                        <ul>
-                            <li>Home</li>
-                            <li>1943</li>
-                            <li>1944</li>
-                            <li>1945</li>
-                            <li>Tutte le lettere</li>
-                            <li>La biografia</li>
-                        </ul>
-                    </nav>
-                </header>
+        <xsl:call-template name="header"/>
 
+        <xsl:call-template name="home"/>
 
-                <div class="container" id="contenitore_galleria">
-                    <div class="slides">
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_galleria']"/>
-                    </div>
+        <xsl:call-template name="footer"/> 
+        
+    </xsl:template>
+
+    <xsl:template name="header">
+        <xsl:result-document href="#sezione_centrale" method="ixsl:replace-content">
+            <h1 class="titoli_fissi" id="TITOLO">
+                CINQUANTA LETTERE DI PRIGIONIA - ALBERTO PACINI
+            </h1>
+            <h2 class="titoli_fissi" id="TITOLINO">
+                Corrispondenza epistolare inedita tra Alberto Pacini, marinaio livornese, e la sua famiglia
+            </h2>
+            <nav id="barra_navigazione">
+                <ul>
+                    <li id="nav_home">Home</li>
+                    <li id="nav_1943">1943</li>
+                    <li id="nav_1944">1944</li>
+                    <li id="nav_1945">1945</li>
+                    <li id="nav_tutte">Tutte le lettere</li>
+                    <li id="nav_bio">La biografia</li>
+                </ul>
+            </nav>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template name="home">
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <div class="container" id="contenitore_galleria">
+                <div class="slides">
+                    <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_galleria']"/>
                 </div>
-                <div class="frecce-slides">
-                    <button id="prev-btn"><i class="fa-solid fa-circle-arrow-left"></i></button>
-                    <button id="next-btn"><i class="fa-solid fa-circle-arrow-right"></i></button>
-                </div>
-
-                <div class="contenitori_body" id="contenitore_presentazione">
-                    <div id="sottotitolo" class="sottotitoli">
-                        <h1>ALBERTO PACINI E LA CORRISPONDENZA</h1>
-                    </div>
-
-                    <div id="testo_presentazione">
-                        <p class="presentazione">
-                            Alberto Pacini (11 settembre 1919 - 11 gennaio 1995) è stato un Internato Militare Italiano, catturato dopo essersi rifiutato di servire la Repubblica di Salò in seguito all'Armistizio.
-                        </p>
-                        <br/>
-                        <p class="presentazione">
-                            Dopo un primo periodo nel campo di smistamento di Fallingbostel viene trasferito al campo di lavoro di Treuenbrietzen: in un anno e mezzo di fatiche e dolori, scrivere e ricevere lettere lo ha aiutato in qualche modo ad alleggerire la situazione, che era di per sè drammatica.
-                        </p>
-                        <br/>
-                        <p class="presentazione">
-                            Leggere, analizzare e interpretare le suddette lettere può essere un modo per condividere, a distanza di quasi ottant'anni, quelle stesse emozioni e sensazioni.
-                        </p>
-                    </div>
+            </div>
+            <div id="frecce-slides">
+                <button id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        
+            <div id="contenitore_presentazione">
+                <div id="sottotitolo" class="sottotitoli">
+                    <h1>ALBERTO PACINI E LA CORRISPONDENZA</h1>
                 </div>
 
-                <!-- contenitore che racchiude le anteprime delle lettere -->
-                <div class="contenitori_body" id="contenitore_anteprime">
-                    <h1 id="titolo_anteprime">Seleziona una lettera per visualizzarne alcune informazioni e la sua trascrizione</h1>
-                    <xsl:for-each select="tei:teiCorpus/tei:TEI/tei:facsimile">
-                        <div class="div_anteprima" id="anteprima_lettera{position()}">
-                            <xsl:apply-templates select="."/>
-                        </div>
-                    </xsl:for-each>
+                <div id="testo_presentazione">
+                    <p class="presentazione">
+                        Alberto Pacini (11 settembre 1919 - 11 gennaio 1995) è stato un Internato Militare Italiano, catturato dopo essersi rifiutato di servire la Repubblica di Salò in seguito all'Armistizio.
+                    </p>
+                    <br/>
+                    <p class="presentazione">
+                        Dopo un primo periodo nel campo di smistamento di Fallingbostel viene trasferito al campo di lavoro di Treuenbrietzen: in un anno e mezzo di fatiche e dolori, scrivere e ricevere lettere lo ha aiutato in qualche modo ad alleggerire la situazione, che era di per sè drammatica.
+                    </p>
+                    <br/>
+                    <p class="presentazione">
+                        Leggere, analizzare e interpretare le suddette lettere può essere un modo per condividere, a distanza di quasi ottant'anni, quelle stesse emozioni e sensazioni.
+                    </p>
                 </div>
+            </div>
+        </xsl:result-document>
+    </xsl:template>
 
-                <!-- contenitore che racchiude la lettera da visualizzare -->
-                <div class="contenitori_body" id="contenitore_lettere">
-                    <xsl:for-each select="tei:teiCorpus/tei:TEI">
-                        <div class="lettera" id="lettera{position()}">
-                            <xsl:apply-templates select="."/>
-                        </div>
-                    </xsl:for-each>
+    <xsl:template name="anteprime_1943">
+        <!-- contenitore che racchiude le anteprime delle lettere -->
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <h1 class="titolo_contenuti" id="titolo_anteprime">Seleziona una lettera del 1943 per visualizzarne alcune informazioni e la sua trascrizione</h1>
+            <xsl:for-each select="tei:teiCorpus/tei:TEI/tei:facsimile">
+                <xsl:if test="@n &#61; 1943">
+                    <div class="div_anteprima" id="anteprima_lettera{position()}">
+                        <xsl:apply-templates select="."/>
+                    </div>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template name="anteprime_1944">
+        <!-- contenitore che racchiude le anteprime delle lettere -->
+        <xsl:result-document href="#contenitore_contenuti"  method="ixsl:replace-content">
+            <h1 class="titolo_contenuti" id="titolo_anteprime">Seleziona una lettera del 1944 per visualizzarne alcune informazioni e la sua trascrizione</h1>
+            <xsl:for-each select="tei:teiCorpus/tei:TEI/tei:facsimile">
+                <xsl:if test="@n &#61; 1944">
+                    <div class="div_anteprima" id="anteprima_lettera{position()}">
+                        <xsl:apply-templates select="."/>
+                    </div>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:result-document>
+        
+    </xsl:template>
+
+    <xsl:template name="anteprime_1945">
+        <!-- contenitore che racchiude le anteprime delle lettere -->       
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <h1 class="titolo_contenuti" id="titolo_anteprime">Seleziona una lettera del 1945 per visualizzarne alcune informazioni e la sua trascrizione</h1>
+            <xsl:for-each select="tei:teiCorpus/tei:TEI/tei:facsimile">
+                <xsl:if test="@n &#61; 1945">
+                    <div class="div_anteprima" id="anteprima_lettera{position()}">
+                        <xsl:apply-templates select="."/>
+                    </div>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template name="anteprime_tutte">
+        <!-- contenitore che racchiude le anteprime delle lettere -->
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <h1 class="titolo_contenuti" id="titolo_anteprime">Seleziona una lettera per visualizzarne alcune informazioni e la sua trascrizione</h1>
+            <xsl:for-each select="tei:teiCorpus/tei:TEI/tei:facsimile">
+                <div class="div_anteprima" id="anteprima_lettera{position()}">
+                    <xsl:apply-templates select="."/>
                 </div>
+            </xsl:for-each>
+        </xsl:result-document>
+    </xsl:template>
 
-                <!-- contenitore che racchiude la lettera da visualizzare -->
-                <div class="contenitori_body" id="contenitore_biografia">
-                    <h1>La biografia di Alberto Pacini</h1>
-                    <div class="biografia" id="biografia_testo">    
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='1']"/>
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo']"/>
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='argia']"/>
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='2']"/>
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='3']"/>
-                    </div>
-                    <div class="biografia" id="biografia_galleria">
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='famiglia1']"/>
-                    </div>
-                    <div class="biografia" id="biografia_maxi">
-                    <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='4']"/>
-                        <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo_cuoco']"/>
-                    </div>
-                </div>
+    <xsl:template name="lettere">
+        <!-- contenitore che racchiude la lettera da visualizzare -->
+        <xsl:param name="id_lettera" as="xs:string"/>
+        <xsl:variable name="num_lettera" select="substring-after($id_lettera, 'anteprima_lettera')"></xsl:variable>
+        <xsl:variable name="lettera" select="concat('Lettera', $num_lettera)"></xsl:variable>
+        <xsl:message select="$lettera"/>
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <div class="div_lettera">
+                <xsl:apply-templates select="tei:teiCorpus/tei:TEI[@xml:id=$lettera]"/>
+            </div>
+        </xsl:result-document>
+    </xsl:template>
 
-                
-                <!-- footer da cambiare o togliere-->
-                <footer>
-                    <div id="testo_footer"> 
-                        <xsl:apply-templates select="tei:teiCorpus/tei:teiHeader/tei:fileDesc"/>
-                    </div>
-                </footer>
+    <xsl:template name="biografia">
+        <!-- contenitore che racchiude la biografia da visualizzare -->
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <h1 class="titolo_contenuti">La biografia di Alberto Pacini</h1>
+            <div class="biografia" id="biografia_testo">    
+                <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='1']"/>
+                <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo']"/>
+                <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='argia']"/>
+                <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='2']"/>
+                <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='3']"/>
+            </div>
+            <div class="biografia" id="biografia_foto_famiglia">
+                <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='famiglia1']"/>
+            </div>
+            <div class="biografia" id="biografia_maxi">
+            <xsl:apply-templates select="//tei:back/tei:div[@type='biografia']/tei:p[@n='4']"/>
+                <xsl:apply-templates select="//tei:back/tei:div[@type='immagini_biografia']/tei:figure[@xml:id='angiolo_cuoco']"/>
+            </div>
+        </xsl:result-document>
+    </xsl:template>
 
-            </body>
-        </html>
+    <xsl:template name="footer">
+        <xsl:result-document href="#footer" method="ixsl:replace-content">
+            <div id="testo_footer"> 
+                <xsl:apply-templates select="tei:teiCorpus/tei:teiHeader/tei:fileDesc"/>
+            </div>
+        </xsl:result-document>
     </xsl:template>
 
 
+
+
+
+
+    
     <xsl:template match="//tei:back/tei:div">
         <xsl:for-each select="tei:figure">
             <div class="slide">
@@ -159,7 +227,7 @@
     <!-- ##### TEMPLATE PER PRENDERE ANTEPRIME DELLE LETTERE ##### -->
     <!-- ######################################################## -->
     
-    <xsl:template match="tei:teiCorpus/tei:TEI/tei:facsimile">
+    <xsl:template match="tei:facsimile">
         <xsl:element name="p">
             <xsl:attribute name="class">titolo_anteprima_lettera</xsl:attribute>
             <xsl:value-of select="../tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -293,6 +361,16 @@
                         <td> Non disponibili </td>
                     </xsl:otherwise>
                 </xsl:choose>  
+                <xsl:choose>
+                    <xsl:when test="//tei:div[@type='messaggio']/tei:ab">
+                        <xsl:for-each select="//tei:div[@type='messaggio']/tei:ab">
+                            <xsl:apply-templates select="tei:stamp"/> 
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <td> Non disponibili </td>
+                    </xsl:otherwise>
+                </xsl:choose>
             </table>
             <xsl:apply-templates select="tei:text/tei:body"/>
         </div>
@@ -476,7 +554,7 @@
 
         <!-- righe -->
         <xsl:template match="tei:div/tei:div[@type='messaggio']/tei:ab">
-            <xsl:apply-templates select="node() except tei:anchor"/>
+            <xsl:apply-templates select="node() except (tei:anchor | tei:stamp)"/>
         </xsl:template>
 
         <xsl:template match="tei:ab/tei:lb[1]">
@@ -494,6 +572,7 @@
             &#160;
         </xsl:template>
 
+        <!-- per tutte gli lb vado a capo e creo uno span, tranne che per il primo di ogni lettera-->
         <xsl:template match="tei:ab/tei:lb[position() > 1]">
             <br/>
             <xsl:element name="span">
@@ -579,9 +658,9 @@
             <xsl:element name="td">
                 <xsl:attribute name="id">
                     <!-- utilizzo substring per non considerare il puntatore "#" -->
-                    <xsl:value-of select="tei:choice/../substring(@facs,2)"/>
+                    <xsl:value-of select="../substring(@facs,2)"/>
                 </xsl:attribute>
-                &#160;<xsl:value-of select="tei:choice/tei:expan"/>
+                &#160;<xsl:value-of select="tei:expan"/>
             </xsl:element>
         </xsl:template>
                     

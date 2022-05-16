@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_016">
+    <TEI xml:id="Lettera16">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_16" type="fronte">
                     <graphic url='Immagini/image/16_A.png' width='1809.33334px' height='1177.33334px' />
@@ -258,9 +258,9 @@
                             <lb facs="#riga5_16B" n="6"/>Ho tanto desiderio di ritornare per farti finalmente mia
                             <lb facs="#riga6_16B" n="7"/>per tutta la vita. Stai contenta, presto tutto finisce. 
                         </ab>
+                        <lb n="8"/>
                         <closer facs="#closer_16B">
-                            Ricevi 
-                            <lb n="8"/>tanti abbracci e bacioni <signed>dal tuo Berto.</signed> Affettuosità ai tuoi di casa e parenti.
+                            Ricevi tanti abbracci e bacioni <signed>dal tuo Berto.</signed> Affettuosità ai tuoi di casa e parenti.
                         </closer>
                     </div>
                 </div>

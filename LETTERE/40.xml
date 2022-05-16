@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_040">
+    <TEI xml:id="Lettera40">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_40" type="fronte">
                 <surface xml:id="fronte1_40" type="fronte">
                     <graphic url='Immagini/image/40_A.png' width='1761.33334px' height='2369.33334px' />
@@ -318,6 +318,7 @@
                                 <lb facs="#riga7_40B1" n="8"/>mi ha voluto far stare così lontani. Abbracci e affettuosità a
                                 <lb facs="#riga8_40B1" n="9"/>tutti
                             </ab>
+                            <lb n="10"/>
                             <closer>
                                 <signed facs="#signed_40B1">devotissimo<persName ref="#AlP" rend="underline">Alberto</persName></signed>
                             </closer>

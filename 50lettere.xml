@@ -529,7 +529,7 @@
                 <label>Dopo 20 mesi e 11 giorni Alberto, insieme ai compagni della camera, lasciano la fabbrica. Parte il 27 aprile 1945 il lungo viaggio di ritorno verso casa.</label>
             </event>
             <event type="tappa" when="1945-04-27">
-                <label>Il lungo viaggio ha come prima tappa il piccolo comune di Dahme, lontano circa 70 km da Treuenbietzen.</label>
+                <label>Il lungo viaggio ha come prima tappa il piccolo comune di Dahme, lontano circa 45 km da Treuenbietzen.</label>
             </event>
             <event type="tappa" when="1945-04-28">
                 <label>Dopo aver camminato 20 km verso Est raggiungo Schonewalde.</label>
@@ -552,7 +552,7 @@
             <event type="tappa" when="1945-05-03">
                 <label>Raggiungono Cottbus dopo 30km</label>
             </event>
-            <event type="tappa" when="1945-05-04">
+            <event type="arrivo" when="1945-05-04">
                 <label>Da Cottbus raggiungono poi Forst, dove sosteranno per due mesi circa</label>
             </event>
             <event type="firma" when="1945-05-09">
@@ -560,15 +560,19 @@
             </event>
         </listEvent>
 
-        <!-- VIAGGIO DA FORST A LIVORNO, dopo 22 giugno e periodo non compreso nelle lettere -->
+        <!-- VIAGGIO DA FORST A SPREMBERG, dopo 22 giugno e periodo non compreso nelle lettere -->
         <listEvent>
             <event type="partenza" when="1945-07-14">
                 <label>Il 14 luglio Alberto e altri partono da Forst verso l'Italia.</label>
             </event>
-            <event type="tappa" when="1945-07-15">
+            <event type="arrivo" when="1945-07-15">
                 <label>Dopo 32km a piedi, raggiungono Spremberg dove rimarrano fino al 24 agosto.</label>
             </event>
-            <event type="tappa" when="1945-08-25">
+        </listEvent>
+
+        <!-- VIAGGIO DA SPREMBERG A LIVORNO, periodo non compreso nelle lettere -->
+        <listEvent>
+            <event type="partenza" when="1945-08-25">
                 <label>Tornano a Cottbus il 25 agosto, dove il 26 prendono un treno per Dresda.</label>
             </event>
             <event type="tappa" when="1945-08-27">
@@ -618,6 +622,107 @@
             </event>
         </listEvent>
     </standOff>
+
+    <text>
+        <front>
+            <p>Componenti aggiuntive</p>
+        </front>
+        <body>
+            <div></div>
+        </body>
+        <back>
+            <div type="immagini_galleria">
+                <figure xml:id="img_primo_piano">
+                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
+                    <head>
+                        Alberto Pacini in divisa, 1938
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_abito">
+                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
+                    <head>
+                        Alberto in abito bianco. Taranto, 14 luglio 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_carboncini">
+                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
+                    <head>
+                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_acrobazie">
+                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
+                    <head>
+                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_pranzo">
+                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
+                    <head>
+                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_terrazza">
+                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
+                    <head>
+                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+            <div type="biografia">
+                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
+                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
+                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
+                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e, di conseguenza, Alberto vive questa realtà quotidianamente: crescendo in un contesto simile con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
+            </div>
+            <div type="immagini_biografia">
+                <figure xml:id="angiolo">
+                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
+                    <head>
+                        Suo padre Angiolo
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="argia">
+                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
+                    <head>
+                        Sua madre Argia
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="famiglia1">
+                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
+                    <head>
+                        La famiglia
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="angiolo_cuoco">
+                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
+                    <head>
+                        Suo padre Angiolo cuoco imbarcato
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+        </back>
+    </text>
 
     <!-- LETTERA 7 SETTEMBRE 43 CARTOLINA PER LE FORZE ARMATE da Alberto a Argia -->
     <xi:include href="LETTERE/1.xml"/>
@@ -769,99 +874,6 @@
     <!-- LETTERA 22 GIUGNO 45 da Gaetano a Alberto -->
     <xi:include href="LETTERE/50.xml"/>
 
-    <text>
-        <back>
-            <div type="immagini_galleria">
-                <figure xml:id="img_primo_piano">
-                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
-                    <head>
-                        Alberto Pacini in divisa, 1938
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_abito">
-                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
-                    <head>
-                        Alberto in abito bianco. Taranto, 14 luglio 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_carboncini">
-                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
-                    <head>
-                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_acrobazie">
-                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
-                    <head>
-                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_pranzo">
-                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
-                    <head>
-                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_terrazza">
-                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
-                    <head>
-                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-            </div>
-            <div type="biografia">
-                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
-                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
-                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
-                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e di conseguenza Alberto vive questa realtà quotidianamente: crescendo in un contesto militare con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
-            </div>
-            <div type="immagini_biografia">
-                <figure xml:id="angiolo">
-                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="argia">
-                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="famiglia1">
-                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="angiolo_cuoco">
-                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-            </div>
-        </back>
-    </text>
+    
 </teiCorpus>
 

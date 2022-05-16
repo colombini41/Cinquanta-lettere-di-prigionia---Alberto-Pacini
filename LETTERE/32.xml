@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_032">
+    <TEI xml:id="Lettera32">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_32" type="fronte">
                 <surface xml:id="fronte1_32" type="fronte">
                     <graphic url='Immagini/image/32_A.png' width='3459.33334px' height='4038.33334px' />
@@ -426,6 +426,7 @@
                                 <lb facs="#riga23_32B1" n="24"/>desidero tanto rivedere presto. State calmi
                                 <lb facs="#riga24_32B1" n="25"/>e tranquilli ancora un po'. <hi rend="underline">Ritornerò.</hi> Credetemi.
                             </ab>
+                            <lb n="26"/>
                             <closer>
                                 <signed facs="#signed_32B1" n="26">il vostro <choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice><hi rend="underline"><persName ref="#AlP">Alberto</persName></hi></signed>
                             </closer>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_009">
+    <TEI xml:id="Lettera9">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_09" type="retro">
                     <graphic url='Immagini/image/09_A.png' width='1769.33334px' height='1185.33334px' />
@@ -264,7 +264,7 @@
                         </ab>
                         <lb n="9"/>
                         <closer>
-                            <signed facs="#signed_09B">il vostro<choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
+                            <signed facs="#signed_09B">il vostro<persName ref="#AlP"><choice><abbr>Berto</abbr><expan>Alberto</expan></choice></persName></signed>
                         </closer>
                     </div>
                 </div>

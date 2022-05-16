@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_005">
+    <TEI xml:id="Lettera5">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -78,8 +78,7 @@
                     <correspAction type="sent">
                         <persName ref="#AlP">Alberto Pacini</persName>
                         <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
-                        <date type="writing" when="1943-11-14">14/11/1943</date>
-                        <date type="postage" when="1943-12-18">18.12.43</date>
+                        <date type="writing" when="1944-01-16">16/1/1944</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AnP">Angiolo Pacini</persName>
@@ -93,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_05" type="fronte">   
                     <graphic url='Immagini/image/05_A.png' width='1769.33334px' height='1177.33334px' />
@@ -269,8 +268,8 @@
                             <lb facs="#riga7_05B" n="8"/>fatevi coraggio, presto ritornerò. Vi bacio e vi abbraccio tutti con affetto.
                         </ab>
                         <lb n="9"/>
-                        <closer>
-                            <signed facs="#signed_05B">vostro<persName ref="#AlP">Alberto</persName></signed>
+                        <closer facs="#signed_05B">
+                            <signed>vostro<persName ref="#AlP">Alberto</persName></signed>
                         </closer>
                     </div>
                 </div>

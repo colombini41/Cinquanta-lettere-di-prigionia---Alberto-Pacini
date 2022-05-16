@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_002">
+    <TEI xml:id="Lettera2">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -154,7 +154,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1943">
             <surfaceGrp xml:id="busta_02">
                 <surface xml:id="busta_fronte_02" type="fronte">
                     <graphic url='Immagini/image/02_A.png' width='1825.33334px' height='1201.33334px' />
@@ -239,9 +239,7 @@
                     <zone ulx="49" uly="1581" lrx="1629" lry="1705" xml:id="riga13_02D_2"/>
                     <zone ulx="56" uly="1714" lrx="1614" lry="1845" xml:id="riga14_02D_2"/>
                     <zone ulx="58" uly="1841" lrx="1572" lry="1972" xml:id="riga15_02D_2"/>
-                </surface>
-                <surface xml:id="retro3_02" type="retro">
-                    <graphic url='Immagini/image/02_D.png' width='3297.56666px' height='2088.56666px' />
+                    
                     <zone ulx="2168" uly="2" lrx="2235" lry="73" xml:id="numpagina_02D_3"/>
                     <zone ulx="1707" uly="31" lrx="3185" lry="113" xml:id="riga1_02D_3"/>
                     <zone ulx="1696" uly="129" lrx="3283" lry="248" xml:id="riga2_02D_3"/>

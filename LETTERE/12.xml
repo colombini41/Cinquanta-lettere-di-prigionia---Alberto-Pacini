@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_012">
+    <TEI xml:id="Lettera12">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -78,7 +78,7 @@
                     <correspAction type="sent">
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
-                        <date type="writing" when="1943-03-19">19-3-1944</date>
+                        <date type="writing" when="1944-03-19">19-3-1944</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_12" type="fronte">
                 <surface xml:id="fronte2_12" type="fronte">
                     <graphic url='Immagini/image/12_A.png' width='1732.33334px' height='3769.33334px' />
@@ -215,24 +215,25 @@
                         <ab>
                             <address>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_12A">Al</stamp><persName ref="#AlP" facs="#nome_12A">Pacini Alberto di Angelo</persName>
                                     <stamp xml:lang="#IT" type="print" facs="#grado_12A">Grado del destinatario</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_12A">Al</stamp><persName ref="#AlP" facs="#nome_12A">Pacini Alberto di Angelo</persName>
                                 </addrLine>
                                 <addrLine>
-                                    <seg facs="#add1_12A">Siehe Rucheite vou au dos</seg>
                                     <stamp xml:lang="#IT" type="print" facs="#label_cognome_12A">Cognome, Nome, Paternità del destinatario</stamp>
+                                    <seg facs="#add1_12A">Siehe Rucheite vou au dos</seg>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_num_12A">Matricola N.</stamp><idno type="prigioniero" facs="#num_12A">158767</idno><seg facs="#add2_12A">Prigioniero di Guerra</seg>
                                     <stamp xml:lang="#IT" type="print" facs="#label_classificazione_12A">di seguito scrivere: "PRIGIONIERO DI GUERRA" oppure "INTERNATO CIVILE"</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num_12A">Matricola N.</stamp><idno type="prigioniero" facs="#num_12A">158767</idno>
+                                    <seg facs="#add2_12A">Prigioniero di Guerra</seg>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_12A">Campo N.</stamp><placeName ref="#LU" facs="#campo_12A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
                                     <stamp xml:lang="#IT" type="print" facs="#label_campo2_12A">Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo, ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile.</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_12A">Campo N.</stamp><placeName ref="#LU" facs="#campo_12A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
                                 </addrLine>
                                 <addrLine>
-                                    <placeName ref="#GE" facs="#stato_12A">Deutschland/Allegmagne</placeName>
                                     <stamp xml:lang="#IT" type="print" facs="#label_stato_12A">Stato o Paese di destinazione</stamp>
+                                    <placeName ref="#GE" facs="#stato_12A">Deutschland/Allegmagne</placeName>
                                 </addrLine>
                             </address>
                         </ab>
@@ -322,8 +323,9 @@
                             <lb facs="#riga8_12A" n="35"/>tegge perchè noi tutti la preghiamo tanto. Ricevi tanti cari baci
                             <lb facs="#riga9_12A" n="36"/>da tutti.
                         </ab>
-                        <closer>
-                            <signed facs="#signed_12A">Tua per sempre Liana</signed>
+                        <lb n="37"/>
+                        <closer facs="#signed_12A">
+                            <signed>Tua per sempre Liana</signed>
                         </closer>
                     </div>
                 </div>

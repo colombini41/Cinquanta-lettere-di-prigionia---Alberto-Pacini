@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_023">
+    <TEI xml:id="Lettera23">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -149,7 +149,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_23">
                 <surface xml:id="busta_fronte_23" type="fronte">
                     <graphic url='Immagini/image/23_A.png' width='1689.33334px' height='1169.33334px' />
@@ -261,6 +261,7 @@
                             <lb facs="#riga11_23D" n="26"/>da <persName ref="#AM">Anna</persName> e <persName ref="#FC">Franchina</persName> un'altro bacio dalla
                             <lb facs="#riga12_23D" n="27"/>tua per l'eternità
                         </ab>
+                        <lb n="28"/>
                         <closer>
                             <signed facs="#signed_23D"><persName ref="#LM">Liana Pacini</persName></signed>
                         </closer>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_038">
+    <TEI xml:id="Lettera38">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_38" type="fronte">
                 <surface xml:id="fronte1_38" type="fronte">
                     <graphic url='Immagini/image/38_A.png' width='1841.33334px' height='2299.33334px' />

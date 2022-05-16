@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_017">
+    <TEI xml:id="Lettera17">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_17" type="fronte">
                 <surface xml:id="fronte1_17" type="fronte">
                     <graphic url='Immagini/image/17_A.png' width='1722.33334px' height='4119.33334px' />
@@ -298,6 +298,7 @@
                             <lb facs="#riga24_17B" n="25"/>che Dio e la Madonna di Montenero mi protegga.
                             <lb facs="#riga25_17B" n="26"/>Ciao a presto
                         </ab>
+                        <lb n="27"/>
                         <closer>
                             <signed facs="#signed_17B">il vostro <persName ref="#AlP">Berto</persName></signed>
                         </closer>

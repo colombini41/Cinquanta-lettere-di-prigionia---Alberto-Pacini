@@ -7,12 +7,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
 
 -->
 
-<!-- caratteri aggiunti -->
-
-<!ENTITY fdestra CDATA "&#8658;">
-
-<!ENTITY fsinistra CDATA "&#8656;">
-
 <!-- start datatypes -->
 
 <!ENTITY % teidata.certainty '(high|medium|low|unknown)' >
@@ -4222,6 +4216,7 @@ scope %teidata.enumerated;  #IMPLIED >
  %att.declaring.attributes;
  %att.fragmentable.attributes;
  %att.written.attributes; >
+ <!ATTLIST p class CDATA #IMPLIED >
 <!--doc:(pronunciation reference) in a dictionary example, indicates a reference to the pronunciation(s) of the headword. [9.4. Headword and Pronunciation References] -->
 <!ELEMENT pRef (#PCDATA|%model.gLike;|pRef)*>
 <!ATTLIST pRef xmlns CDATA "http://www.tei-c.org/ns/1.0">

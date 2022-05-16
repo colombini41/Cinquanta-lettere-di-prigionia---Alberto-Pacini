@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_004">
+    <TEI xml:id="Lettera_4">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -79,7 +79,7 @@
                         <persName ref="#AnP">Angiolo Pacini</persName>
                         <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
                         <date type="writing" when="1944-01-09">9.1.944</date>
-                        <date type="postage" when="1943-12-18">10.1.44</date>
+                        <date type="postage" when="1944-12-18">10.1.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -94,7 +94,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_04" type="fronte">
                     <graphic url='Immagini/image/04_A.png' width='1777.33334px' height='1185.33334px' />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_015">
+    <TEI xml:id="Lettera15">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -78,7 +78,7 @@
                     <correspAction type="sent">
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
-                        <date type="writing" when="1943-04-02">2-4-44</date>
+                        <date type="writing" when="1944-04-02">2-4-44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_15" type="fronte">
                 <surface xml:id="fronte2_15" type="fronte">
                     <graphic url='Immagini/image/15_A.png' width='1672.33334px' height='3655.33334px' />
@@ -182,81 +182,77 @@
             <!-- TRASCRIZIONE -->
             <body>
                 <div type="fronte">
-                    <div xml:id="fronte_14_1">
-                        <div type="stamp">
-                                <ab>
-                                    <stamp xml:lang="#IT" type="print" facs="#stamp1_15A">POSTA per PRIGIONIERI e INTERNATI CIVILI di GUERRA</stamp>
-                                </ab>
-                        </div>
-                        <div type="francobolli_e_timbri">
+                    <div type="stamp">
                             <ab>
-                                <stamp facs="#timbro1_15A" type="postmark">
-                                    <mentioned>SELVATELLE PISA</mentioned>
-                                    <date when="1944-04-03">3-4.44</date>
-                                </stamp>
-                                <stamp facs="#timbro2_15A" type="postmark">
-                                    <mentioned>MODULO NON AMMESSO</mentioned>
-                                    <mentioned>AL MITTENTE</mentioned>
-                                </stamp>
-                                <stamp facs="#timbro3_15A" type="postmark">
-                                    <mentioned>27</mentioned>
-                                </stamp>
-                                <stamp facs="#" type="postmark">
-                                    <mentioned facs="#men1_timbro4_15A">COMMISSIONE PROV. DI </mentioned><mentioned facs="#men2_timbro4_15A">CENSURA 67-R</mentioned>
-                                    <mentioned facs="#men3_timbro4_15A">PRELEVATA PER LA CENSURA IL</mentioned><mentioned facs="#men4_timbro4_15A"><date when="1944-04-05">5.APR.44XXII</date></mentioned>
-                                    <mentioned facs="#men5_timbro4_15A">RESTITITUITA ALLE RR. PP.</mentioned><mentioned facs="#men6_timbro4_15A"> IL <date when="1944-04-05">5.APR.44XXII</date></mentioned>
-                                </stamp>
+                                <stamp xml:lang="#IT" type="print" facs="#stamp1_15A">POSTA per PRIGIONIERI e INTERNATI CIVILI di GUERRA</stamp>
                             </ab>
-                        </div>
-                        <div type="destinatario">
-                            <ab>
-                                <address>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_grado1_15A">Al</stamp><seg hand="#LM" facs="#grado_15A">Prigioniero di Guerra</seg> 
-                                        <stamp xml:lang="#IT" type="print" facs="#label_grado2_15A">(Grado del destinatario)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <persName ref="#AlP" facs="#nome_15A">Pacini Alberto di Angelo</persName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_nome_15A">(Cognome, Nome, Paternità del destinatario)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_num1_15A">Matricola N.</stamp><idno type="prigioniero" facs="#num_15A">158767</idno><seg hand="#LM" facs="#seg_15A">Siehe Ruchseite voi au dois</seg>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_num2_15A">di seguito scrivere "PRIGIONIERO DI GUERRA" OPPURE "INTERNATO CIVILE"</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_campo1_15A">Campo N.</stamp><placeName ref="#LU" facs="#campo_15A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_campo2_15A">(Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile).</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#GE" facs="#stato_15A">Deutschland/Allemagne </placeName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_stato_15A">Stato o Paese di destinazione</stamp>
-                                    </addrLine>
-                                </address>
-                            </ab>
-                        </div>
                     </div>
-                    <div xml:id="fronte_14_2">
-                        <div type="mittente">
-                            <ab>
-                                <address>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_mittente_15A">Mittente:</stamp><persName ref="#LM" facs="#mit_nome_15A">Liana Pacini Martini</persName>
-                                        <stamp type="print" facs="#mit_label_nome_15A">cognome e nome</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_15A">Indirizzo</stamp>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_15A">via</stamp>
-                                        <placeName ref="#VO" facs="#mit_via_15A">Volterrana</placeName>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#PI" facs="#mit_provincia_15A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia15A">(Provincia)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#SE" facs="#mit_localita_15A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_15A">Paese o città di residenza)</stamp>
-                                    </addrLine>
-                                </address>
-                            </ab>
-                        </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_15A" type="postmark">
+                                <mentioned>SELVATELLE PISA</mentioned>
+                                <date when="1944-04-03">3-4.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_15A" type="postmark">
+                                <mentioned>MODULO NON AMMESSO</mentioned>
+                                <mentioned>AL MITTENTE</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_15A" type="postmark">
+                                <mentioned>27</mentioned>
+                            </stamp>
+                            <stamp facs="#" type="postmark">
+                                <mentioned facs="#men1_timbro4_15A">COMMISSIONE PROV. DI </mentioned><mentioned facs="#men2_timbro4_15A">CENSURA 67-R</mentioned>
+                                <mentioned facs="#men3_timbro4_15A">PRELEVATA PER LA CENSURA IL</mentioned><mentioned facs="#men4_timbro4_15A"><date when="1944-04-05">5.APR.44XXII</date></mentioned>
+                                <mentioned facs="#men5_timbro4_15A">RESTITITUITA ALLE RR. PP.</mentioned><mentioned facs="#men6_timbro4_15A"> IL <date when="1944-04-05">5.APR.44XXII</date></mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado1_15A">Al</stamp><seg hand="#LM" facs="#grado_15A">Prigioniero di Guerra</seg> 
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado2_15A">(Grado del destinatario)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <persName ref="#AlP" facs="#nome_15A">Pacini Alberto di Angelo</persName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_15A">(Cognome, Nome, Paternità del destinatario)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num1_15A">Matricola N.</stamp><idno type="prigioniero" facs="#num_15A">158767</idno><seg hand="#LM" facs="#seg_15A">Siehe Ruchseite voi au dois</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_15A">di seguito scrivere "PRIGIONIERO DI GUERRA" OPPURE "INTERNATO CIVILE"</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_15A">Campo N.</stamp><placeName ref="#LU" facs="#campo_15A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_15A">(Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile).</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_15A">Deutschland/Allemagne </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_stato_15A">Stato o Paese di destinazione</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_mittente_15A">Mittente:</stamp><persName ref="#LM" facs="#mit_nome_15A">Liana Pacini Martini</persName>
+                                    <stamp type="print" facs="#mit_label_nome_15A">cognome e nome</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_15A">Indirizzo</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_15A">via</stamp>
+                                    <placeName ref="#VO" facs="#mit_via_15A">Volterrana</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#PI" facs="#mit_provincia_15A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia15A">(Provincia)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#SE" facs="#mit_localita_15A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_15A">Paese o città di residenza)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
                     </div>
                 </div>
                 <div type="retro">
@@ -318,10 +314,10 @@
                             <lb facs="#riga5_15A" n="32"/>T'invio con i tuoi familiari e i miei, e parenti
                             <lb facs="#riga6_15A" n="33"/>tutti tanti saluti con più tanti forti baci.
                         </ab>
+                        <lb n="34"/>
                         <closer>
                             <signed facs="#signed_15A">
-                                Tua moglietti
-                                <lb n="33"/>na <persName ref="#LM">Liana</persName>
+                                Tua mogliettina <persName ref="#LM">Liana</persName>
                             </signed>
                         </closer>
                     </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_022">
+    <TEI xml:id="Lettera22">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -138,7 +138,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_22">
                 <surface xml:id="busta_fronte_22" type="fronte">
                     <graphic url='Immagini/image/22_A.png' width='2145.33334px' height='1201.33334px' />
@@ -301,6 +301,7 @@
                             <lb facs="#riga25_22D" n="49"/>nonna di nuovo ti faccio forte forte tua per l'eternità
                             <lb facs="#riga26_22D" n="50"/>presa e spera tornerai presto
                         </ab>
+                        <lb n="51"/>
                         <closer>
                             <signed facs="#signed_22D">Ciao, <persName ref="#LM">Liana</persName></signed>
                             <seg facs="#seg_22D"><persName ref="#LM" facs="#seg_22D">Liana</persName></seg>

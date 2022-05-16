@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_011">
+    <TEI xml:id="Lettera11">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -94,7 +94,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface type="fronte" xml:id="fronte_11">
                     <graphic url='Immagini/image/11_A.png' width='1793.33334px' height='1177.33334px' />
@@ -277,6 +277,7 @@
                             <lb facs="#riga6_11B" n="6"/>pure io perchè tu veda che sono già dai tuoi; stò bene ti
                             <lb facs="#riga7_11B" n="7"/>penso tanto e prego tanto per te ti bacio caramente
                         </ab>
+                        <lb n="8"/>
                         <closer facs="#closer_11B">
                             <signed>tua <persName ref="#LM">Liana</persName></signed>
                         </closer>

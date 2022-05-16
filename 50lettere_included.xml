@@ -528,7 +528,7 @@
                 <label>Dopo 20 mesi e 11 giorni Alberto, insieme ai compagni della camera, lasciano la fabbrica. Parte il 27 aprile 1945 il lungo viaggio di ritorno verso casa.</label>
             </event>
             <event type="tappa" when="1945-04-27">
-                <label>Il lungo viaggio ha come prima tappa il piccolo comune di Dahme, lontano circa 70 km da Treuenbietzen.</label>
+                <label>Il lungo viaggio ha come prima tappa il piccolo comune di Dahme, lontano circa 45 km da Treuenbietzen.</label>
             </event>
             <event type="tappa" when="1945-04-28">
                 <label>Dopo aver camminato 20 km verso Est raggiungo Schonewalde.</label>
@@ -551,7 +551,7 @@
             <event type="tappa" when="1945-05-03">
                 <label>Raggiungono Cottbus dopo 30km</label>
             </event>
-            <event type="tappa" when="1945-05-04">
+            <event type="arrivo" when="1945-05-04">
                 <label>Da Cottbus raggiungono poi Forst, dove sosteranno per due mesi circa</label>
             </event>
             <event type="firma" when="1945-05-09">
@@ -559,15 +559,19 @@
             </event>
         </listEvent>
 
-        <!-- VIAGGIO DA FORST A LIVORNO, dopo 22 giugno e periodo non compreso nelle lettere -->
+        <!-- VIAGGIO DA FORST A SPREMBERG, dopo 22 giugno e periodo non compreso nelle lettere -->
         <listEvent>
             <event type="partenza" when="1945-07-14">
                 <label>Il 14 luglio Alberto e altri partono da Forst verso l'Italia.</label>
             </event>
-            <event type="tappa" when="1945-07-15">
+            <event type="arrivo" when="1945-07-15">
                 <label>Dopo 32km a piedi, raggiungono Spremberg dove rimarrano fino al 24 agosto.</label>
             </event>
-            <event type="tappa" when="1945-08-25">
+        </listEvent>
+
+        <!-- VIAGGIO DA SPREMBERG A LIVORNO, periodo non compreso nelle lettere -->
+        <listEvent>
+            <event type="partenza" when="1945-08-25">
                 <label>Tornano a Cottbus il 25 agosto, dove il 26 prendono un treno per Dresda.</label>
             </event>
             <event type="tappa" when="1945-08-27">
@@ -618,8 +622,109 @@
         </listEvent>
     </standOff>
 
+    <text>
+        <front>
+            <p>Componenti aggiuntive</p>
+        </front>
+        <body>
+            <div/>
+        </body>
+        <back>
+            <div type="immagini_galleria">
+                <figure xml:id="img_primo_piano">
+                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
+                    <head>
+                        Alberto Pacini in divisa, 1938
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_abito">
+                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
+                    <head>
+                        Alberto in abito bianco. Taranto, 14 luglio 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_carboncini">
+                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
+                    <head>
+                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_acrobazie">
+                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
+                    <head>
+                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_pranzo">
+                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
+                    <head>
+                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="img_terrazza">
+                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
+                    <head>
+                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+            <div type="biografia">
+                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
+                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
+                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
+                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e, di conseguenza, Alberto vive questa realtà quotidianamente: crescendo in un contesto simile con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
+            </div>
+            <div type="immagini_biografia">
+                <figure xml:id="angiolo">
+                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
+                    <head>
+                        Suo padre Angiolo
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="argia">
+                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
+                    <head>
+                        Sua madre Argia
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="famiglia1">
+                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
+                    <head>
+                        La famiglia
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+                <figure xml:id="angiolo_cuoco">
+                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
+                    <head>
+                        Suo padre Angiolo cuoco imbarcato
+                    </head>
+                    <figDesc>
+                    </figDesc>
+                </figure>
+            </div>
+        </back>
+    </text>
+
     <!-- LETTERA 7 SETTEMBRE 43 CARTOLINA PER LE FORZE ARMATE da Alberto a Argia -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_001" xml:base="LETTERE/1.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera1" xml:base="LETTERE/1.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -709,7 +814,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1943">
             <surfaceGrp>
                 <surface xml:id="fronte_01" type="fronte">
                     <graphic url="Immagini/image/01_A.png" width="1777.33334px" height="1251.33334px"/>
@@ -869,7 +974,7 @@
     </TEI>
 
     <!-- LETTERA 25 SETTEMBRE 43 con busta esterna da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_002" xml:base="LETTERE/2.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera2" xml:base="LETTERE/2.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1022,7 +1127,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1943">
             <surfaceGrp xml:id="busta_02">
                 <surface xml:id="busta_fronte_02" type="fronte">
                     <graphic url="Immagini/image/02_A.png" width="1825.33334px" height="1201.33334px"/>
@@ -1245,7 +1350,7 @@
     </TEI>
 
     <!-- LETTERA 14 NOVEMBRE 43 POSTAKARTE (GE-FR) da Alberto a Angiolo-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_003" xml:base="LETTERE/3.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera3" xml:base="LETTERE/3.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1337,7 +1442,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1943">
             <surfaceGrp>
                 <surface xml:id="fronte_03">
                     <graphic url="Immagini/image/03_A.png" width="1776.66666px" height="1170.66666px"/>
@@ -1530,7 +1635,7 @@
     </TEI>
 
     <!-- LETTERA 9 GENNAIO 44 ANTWORT-POST (GE-FR) da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_004" xml:base="LETTERE/4.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_4" xml:base="LETTERE/4.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1608,7 +1713,7 @@
                         <persName ref="#AnP">Angiolo Pacini</persName>
                         <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
                         <date type="writing" when="1944-01-09">9.1.944</date>
-                        <date type="postage" when="1943-12-18">10.1.44</date>
+                        <date type="postage" when="1944-12-18">10.1.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -1623,7 +1728,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_04" type="fronte">
                     <graphic url="Immagini/image/04_A.png" width="1777.33334px" height="1185.33334px"/>
@@ -1805,7 +1910,7 @@
     </TEI>
 
     <!-- LETTERA 16 GENNAIO 44 POSTKARTE (GE-FR) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_005" xml:base="LETTERE/5.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera5" xml:base="LETTERE/5.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1882,8 +1987,7 @@
                     <correspAction type="sent">
                         <persName ref="#AlP">Alberto Pacini</persName>
                         <placeName ref="https://www.geonames.org/2875484/luckenwalde.html">M.Stammlager III A</placeName>
-                        <date type="writing" when="1943-11-14">14/11/1943</date>
-                        <date type="postage" when="1943-12-18">18.12.43</date>
+                        <date type="writing" when="1944-01-16">16/1/1944</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AnP">Angiolo Pacini</persName>
@@ -1897,7 +2001,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_05" type="fronte">   
                     <graphic url="Immagini/image/05_A.png" width="1769.33334px" height="1177.33334px"/>
@@ -2083,7 +2187,7 @@
     </TEI>
 
     <!-- LETTERA 8 FEBBRAIO 44 ANTWORT-POST da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_006" xml:base="LETTERE/6.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera6" xml:base="LETTERE/6.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -2159,7 +2263,7 @@
                         <persName ref="#AnP">Angiolo Pacini</persName>
                         <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
                         <date type="writing" when="1944-02-08">8.2.944</date>
-                        <date type="postage" when="1943-02-07">7.2.44</date>
+                        <date type="postage" when="1944-02-07">7.2.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -2174,7 +2278,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_06" type="fronte">
                     <graphic url="Immagini/image/06_A.png" width="1779.33334px" height="1185.33334px"/>
@@ -2369,7 +2473,7 @@
     </TEI>
 
     <!-- LETTERA 11 FEBBRAIO 44 ANTWORT-POST da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_007" xml:base="LETTERE/7.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera7" xml:base="LETTERE/7.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -2447,7 +2551,7 @@
                         <persName ref="#AnP">Angiolo Pacini</persName>
                         <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
                         <date type="writing" when="1944-02-11">11.2.944</date>
-                        <date type="postage" when="1943-02-11">11.2.44</date>
+                        <date type="postage" when="1944-02-11">11.2.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -2461,7 +2565,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_07" type="fronte">
                     <graphic url="Immagini/image/07_A.png" width="1785.33334px" height="1179.33334px"/>
@@ -2667,7 +2771,7 @@
     </TEI>
 
     <!-- LETTERA 20 FEBBRAIO 44 POSTKARTE (GE-FR) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_008" xml:base="LETTERE/8.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera8" xml:base="LETTERE/8.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -2759,7 +2863,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_08" type="fronte">
                     <graphic url="Immagini/image/08_A.png" width="1785.33334px" height="1179.33334px"/>
@@ -2934,7 +3038,7 @@
     </TEI>
 
     <!-- LETTERA 29 FEBBRAIO 44 POSTKARTE (GE-FR) da Alberto a Angiolo-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_009" xml:base="LETTERE/9.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera9" xml:base="LETTERE/9.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -3026,7 +3130,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_09" type="retro">
                     <graphic url="Immagini/image/09_A.png" width="1769.33334px" height="1185.33334px"/>
@@ -3197,7 +3301,7 @@
                         </ab>
                         <lb n="9"/>
                         <closer>
-                            <signed facs="#signed_09B">il vostro<choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
+                            <signed facs="#signed_09B">il vostro<persName ref="#AlP"><choice><abbr>Berto</abbr><expan>Alberto</expan></choice></persName></signed>
                         </closer>
                     </div>
                 </div>
@@ -3206,7 +3310,7 @@
     </TEI>
 
     <!-- LETTERA 13 MARZO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_010" xml:base="LETTERE/10.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera10" xml:base="LETTERE/10.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -3298,7 +3402,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_10" type="fronte">
                 <surface xml:id="fronte1_10" type="fronte">
                     <graphic url="Immagini/image/10_A.png" width="1667.33334px" height="3924.33334px"/>
@@ -3510,7 +3614,7 @@
     </TEI>
 
     <!-- LETTERA 14 MARZO 44 ANTWORT-POSTKARTE (GE-FR) da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_011" xml:base="LETTERE/11.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera11" xml:base="LETTERE/11.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -3603,7 +3707,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface type="fronte" xml:id="fronte_11">
                     <graphic url="Immagini/image/11_A.png" width="1793.33334px" height="1177.33334px"/>
@@ -3786,6 +3890,7 @@
                             <lb facs="#riga6_11B" n="6"/>pure io perchè tu veda che sono già dai tuoi; stò bene ti
                             <lb facs="#riga7_11B" n="7"/>penso tanto e prego tanto per te ti bacio caramente
                         </ab>
+                        <lb n="8"/>
                         <closer facs="#closer_11B">
                             <signed>tua <persName ref="#LM">Liana</persName></signed>
                         </closer>
@@ -3796,7 +3901,7 @@
     </TEI>
 
     <!-- LETTERA 19 MARZO 44 POSTA PER PRIGIONIERI E INTERNATI CIVILI DI GUERRA da Liana a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_012" xml:base="LETTERE/12.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera12" xml:base="LETTERE/12.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -3873,7 +3978,7 @@
                     <correspAction type="sent">
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
-                        <date type="writing" when="1943-03-19">19-3-1944</date>
+                        <date type="writing" when="1944-03-19">19-3-1944</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -3887,7 +3992,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_12" type="fronte">
                 <surface xml:id="fronte2_12" type="fronte">
                     <graphic url="Immagini/image/12_A.png" width="1732.33334px" height="3769.33334px"/>
@@ -4010,24 +4115,25 @@
                         <ab>
                             <address>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_12A">Al</stamp><persName ref="#AlP" facs="#nome_12A">Pacini Alberto di Angelo</persName>
                                     <stamp xml:lang="#IT" type="print" facs="#grado_12A">Grado del destinatario</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_12A">Al</stamp><persName ref="#AlP" facs="#nome_12A">Pacini Alberto di Angelo</persName>
                                 </addrLine>
                                 <addrLine>
-                                    <seg facs="#add1_12A">Siehe Rucheite vou au dos</seg>
                                     <stamp xml:lang="#IT" type="print" facs="#label_cognome_12A">Cognome, Nome, Paternità del destinatario</stamp>
+                                    <seg facs="#add1_12A">Siehe Rucheite vou au dos</seg>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_num_12A">Matricola N.</stamp><idno type="prigioniero" facs="#num_12A">158767</idno><seg facs="#add2_12A">Prigioniero di Guerra</seg>
                                     <stamp xml:lang="#IT" type="print" facs="#label_classificazione_12A">di seguito scrivere: "PRIGIONIERO DI GUERRA" oppure "INTERNATO CIVILE"</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num_12A">Matricola N.</stamp><idno type="prigioniero" facs="#num_12A">158767</idno>
+                                    <seg facs="#add2_12A">Prigioniero di Guerra</seg>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_12A">Campo N.</stamp><placeName ref="#LU" facs="#campo_12A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
                                     <stamp xml:lang="#IT" type="print" facs="#label_campo2_12A">Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo, ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile.</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_12A">Campo N.</stamp><placeName ref="#LU" facs="#campo_12A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
                                 </addrLine>
                                 <addrLine>
-                                    <placeName ref="#GE" facs="#stato_12A">Deutschland/Allegmagne</placeName>
                                     <stamp xml:lang="#IT" type="print" facs="#label_stato_12A">Stato o Paese di destinazione</stamp>
+                                    <placeName ref="#GE" facs="#stato_12A">Deutschland/Allegmagne</placeName>
                                 </addrLine>
                             </address>
                         </ab>
@@ -4117,6 +4223,7 @@
                             <lb facs="#riga8_12A" n="35"/>tegge perchè noi tutti la preghiamo tanto. Ricevi tanti cari baci
                             <lb facs="#riga9_12A" n="36"/>da tutti.
                         </ab>
+                        <lb n="37"/>
                         <closer facs="#signed_12A">
                             <signed>Tua per sempre Liana</signed>
                         </closer>
@@ -4127,7 +4234,7 @@
     </TEI>
 
     <!-- LETTERA 23 MARZO 44 da Liana a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_013" xml:base="LETTERE/13.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera13" xml:base="LETTERE/13.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -4204,7 +4311,7 @@
                     <correspAction type="sent">
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
-                        <date type="writing" when="1943-03-23">23-3-1944</date>
+                        <date type="writing" when="1944-03-23">23-3-1944</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -4218,7 +4325,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface type="fronte" xml:id="fronte_13">
                     <graphic url="Immagini/image/13_A.png" width="1865.33334px" height="1297.33334px"/>
@@ -4381,6 +4488,7 @@
                             <lb facs="#riga10_13B" n="11"/>sentiamo più vicini a te nostro adorato. Fatti coraggio, pensa che
                             <lb facs="#riga11_13B" n="12"/>presto tornerai tra le nostre braccia. Ti invio tanti cari baci
                         </ab>
+                        <lb n="13"/>
                         <closer>
                             <signed facs="#signed_13B">Tua <choice><abbr>affma</abbr><expan>affettuosissima</expan></choice><persName ref="#LM">Liana</persName></signed>
                         </closer>
@@ -4391,7 +4499,7 @@
     </TEI>
 
     <!-- LETTERA 26 MARZO 44 da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_014" xml:base="LETTERE/14.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera14" xml:base="LETTERE/14.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -4482,7 +4590,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_14" type="fronte">
                 <surface xml:id="fronte2_14" type="fronte">
                     <graphic url="Immagini/image/14_A.png" width="1673.33334px" height="3707.33334px"/>
@@ -4724,6 +4832,7 @@
                             <lb facs="#riga8_14A" n="35"/>Tanti 
                             <lb facs="#riga9_14A" n="36"/>saluti dalla mia nonna. Ti bacio eternamente
                         </ab>
+                        <lb n="37"/>
                         <closer>
                             <signed facs="#signed_14A">tua <persName ref="#LM">Liana</persName></signed>
                         </closer>
@@ -4734,7 +4843,7 @@
     </TEI>
 
     <!-- LETTERA 2 APRILE 44 da Liana a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_015" xml:base="LETTERE/15.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera15" xml:base="LETTERE/15.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -4811,7 +4920,7 @@
                     <correspAction type="sent">
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
-                        <date type="writing" when="1943-04-02">2-4-44</date>
+                        <date type="writing" when="1944-04-02">2-4-44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -4825,7 +4934,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_15" type="fronte">
                 <surface xml:id="fronte2_15" type="fronte">
                     <graphic url="Immagini/image/15_A.png" width="1672.33334px" height="3655.33334px"/>
@@ -4915,81 +5024,77 @@
             <!-- TRASCRIZIONE -->
             <body>
                 <div type="fronte">
-                    <div xml:id="fronte_14_1">
-                        <div type="stamp">
-                                <ab>
-                                    <stamp xml:lang="#IT" type="print" facs="#stamp1_15A">POSTA per PRIGIONIERI e INTERNATI CIVILI di GUERRA</stamp>
-                                </ab>
-                        </div>
-                        <div type="francobolli_e_timbri">
+                    <div type="stamp">
                             <ab>
-                                <stamp facs="#timbro1_15A" type="postmark">
-                                    <mentioned>SELVATELLE PISA</mentioned>
-                                    <date when="1944-04-03">3-4.44</date>
-                                </stamp>
-                                <stamp facs="#timbro2_15A" type="postmark">
-                                    <mentioned>MODULO NON AMMESSO</mentioned>
-                                    <mentioned>AL MITTENTE</mentioned>
-                                </stamp>
-                                <stamp facs="#timbro3_15A" type="postmark">
-                                    <mentioned>27</mentioned>
-                                </stamp>
-                                <stamp facs="#" type="postmark">
-                                    <mentioned facs="#men1_timbro4_15A">COMMISSIONE PROV. DI </mentioned><mentioned facs="#men2_timbro4_15A">CENSURA 67-R</mentioned>
-                                    <mentioned facs="#men3_timbro4_15A">PRELEVATA PER LA CENSURA IL</mentioned><mentioned facs="#men4_timbro4_15A"><date when="1944-04-05">5.APR.44XXII</date></mentioned>
-                                    <mentioned facs="#men5_timbro4_15A">RESTITITUITA ALLE RR. PP.</mentioned><mentioned facs="#men6_timbro4_15A"> IL <date when="1944-04-05">5.APR.44XXII</date></mentioned>
-                                </stamp>
+                                <stamp xml:lang="#IT" type="print" facs="#stamp1_15A">POSTA per PRIGIONIERI e INTERNATI CIVILI di GUERRA</stamp>
                             </ab>
-                        </div>
-                        <div type="destinatario">
-                            <ab>
-                                <address>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_grado1_15A">Al</stamp><seg hand="#LM" facs="#grado_15A">Prigioniero di Guerra</seg> 
-                                        <stamp xml:lang="#IT" type="print" facs="#label_grado2_15A">(Grado del destinatario)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <persName ref="#AlP" facs="#nome_15A">Pacini Alberto di Angelo</persName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_nome_15A">(Cognome, Nome, Paternità del destinatario)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_num1_15A">Matricola N.</stamp><idno type="prigioniero" facs="#num_15A">158767</idno><seg hand="#LM" facs="#seg_15A">Siehe Ruchseite voi au dois</seg>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_num2_15A">di seguito scrivere "PRIGIONIERO DI GUERRA" OPPURE "INTERNATO CIVILE"</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_campo1_15A">Campo N.</stamp><placeName ref="#LU" facs="#campo_15A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_campo2_15A">(Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile).</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#GE" facs="#stato_15A">Deutschland/Allemagne </placeName>
-                                        <stamp xml:lang="#IT" type="print" facs="#label_stato_15A">Stato o Paese di destinazione</stamp>
-                                    </addrLine>
-                                </address>
-                            </ab>
-                        </div>
                     </div>
-                    <div xml:id="fronte_14_2">
-                        <div type="mittente">
-                            <ab>
-                                <address>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_mittente_15A">Mittente:</stamp><persName ref="#LM" facs="#mit_nome_15A">Liana Pacini Martini</persName>
-                                        <stamp type="print" facs="#mit_label_nome_15A">cognome e nome</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_15A">Indirizzo</stamp>
-                                        <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_15A">via</stamp>
-                                        <placeName ref="#VO" facs="#mit_via_15A">Volterrana</placeName>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#PI" facs="#mit_provincia_15A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia15A">(Provincia)</stamp>
-                                    </addrLine>
-                                    <addrLine>
-                                        <placeName ref="#SE" facs="#mit_localita_15A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_15A">Paese o città di residenza)</stamp>
-                                    </addrLine>
-                                </address>
-                            </ab>
-                        </div>
+                    <div type="francobolli_e_timbri">
+                        <ab>
+                            <stamp facs="#timbro1_15A" type="postmark">
+                                <mentioned>SELVATELLE PISA</mentioned>
+                                <date when="1944-04-03">3-4.44</date>
+                            </stamp>
+                            <stamp facs="#timbro2_15A" type="postmark">
+                                <mentioned>MODULO NON AMMESSO</mentioned>
+                                <mentioned>AL MITTENTE</mentioned>
+                            </stamp>
+                            <stamp facs="#timbro3_15A" type="postmark">
+                                <mentioned>27</mentioned>
+                            </stamp>
+                            <stamp facs="#" type="postmark">
+                                <mentioned facs="#men1_timbro4_15A">COMMISSIONE PROV. DI </mentioned><mentioned facs="#men2_timbro4_15A">CENSURA 67-R</mentioned>
+                                <mentioned facs="#men3_timbro4_15A">PRELEVATA PER LA CENSURA IL</mentioned><mentioned facs="#men4_timbro4_15A"><date when="1944-04-05">5.APR.44XXII</date></mentioned>
+                                <mentioned facs="#men5_timbro4_15A">RESTITITUITA ALLE RR. PP.</mentioned><mentioned facs="#men6_timbro4_15A"> IL <date when="1944-04-05">5.APR.44XXII</date></mentioned>
+                            </stamp>
+                        </ab>
+                    </div>
+                    <div type="destinatario">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado1_15A">Al</stamp><seg hand="#LM" facs="#grado_15A">Prigioniero di Guerra</seg> 
+                                    <stamp xml:lang="#IT" type="print" facs="#label_grado2_15A">(Grado del destinatario)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <persName ref="#AlP" facs="#nome_15A">Pacini Alberto di Angelo</persName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome_15A">(Cognome, Nome, Paternità del destinatario)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num1_15A">Matricola N.</stamp><idno type="prigioniero" facs="#num_15A">158767</idno><seg hand="#LM" facs="#seg_15A">Siehe Ruchseite voi au dois</seg>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_15A">di seguito scrivere "PRIGIONIERO DI GUERRA" OPPURE "INTERNATO CIVILE"</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo1_15A">Campo N.</stamp><placeName ref="#LU" facs="#campo_15A">782 Selterhot c-1 M. Stammlager IIIA </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_15A">(Riportare tutte le indicazioni relative al numero e nome del campo, sezione del campo ecc. secondo le indicazioni fornite dal prigioniero di guerra o internato civile).</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#GE" facs="#stato_15A">Deutschland/Allemagne </placeName>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_stato_15A">Stato o Paese di destinazione</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
+                    </div>
+                    <div type="mittente">
+                        <ab>
+                            <address>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_mittente_15A">Mittente:</stamp><persName ref="#LM" facs="#mit_nome_15A">Liana Pacini Martini</persName>
+                                    <stamp type="print" facs="#mit_label_nome_15A">cognome e nome</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via1_15A">Indirizzo</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_15A">via</stamp>
+                                    <placeName ref="#VO" facs="#mit_via_15A">Volterrana</placeName>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#PI" facs="#mit_provincia_15A">Pisa</placeName><stamp xml:lang="#IT" facs="#mit_label_provincia15A">(Provincia)</stamp>
+                                </addrLine>
+                                <addrLine>
+                                    <placeName ref="#SE" facs="#mit_localita_15A">Selvatelle</placeName><stamp xml:lang="#IT" facs="#mit_label_localita_15A">Paese o città di residenza)</stamp>
+                                </addrLine>
+                            </address>
+                        </ab>
                     </div>
                 </div>
                 <div type="retro">
@@ -5051,10 +5156,10 @@
                             <lb facs="#riga5_15A" n="32"/>T'invio con i tuoi familiari e i miei, e parenti
                             <lb facs="#riga6_15A" n="33"/>tutti tanti saluti con più tanti forti baci.
                         </ab>
+                        <lb n="34"/>
                         <closer>
                             <signed facs="#signed_15A">
-                                Tua moglietti
-                                <lb n="33"/>na <persName ref="#LM">Liana</persName>
+                                Tua mogliettina <persName ref="#LM">Liana</persName>
                             </signed>
                         </closer>
                     </div>
@@ -5064,7 +5169,7 @@
     </TEI>
 
     <!-- LETTERA 5 APRILE 44 POSTKARTE (GE-IT) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_016" xml:base="LETTERE/16.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera16" xml:base="LETTERE/16.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -5156,7 +5261,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_16" type="fronte">
                     <graphic url="Immagini/image/16_A.png" width="1809.33334px" height="1177.33334px"/>
@@ -5321,9 +5426,9 @@
                             <lb facs="#riga5_16B" n="6"/>Ho tanto desiderio di ritornare per farti finalmente mia
                             <lb facs="#riga6_16B" n="7"/>per tutta la vita. Stai contenta, presto tutto finisce. 
                         </ab>
+                        <lb n="8"/>
                         <closer facs="#closer_16B">
-                            Ricevi 
-                            <lb n="8"/>tanti abbracci e bacioni <signed>dal tuo Berto.</signed> Affettuosità ai tuoi di casa e parenti.
+                            Ricevi tanti abbracci e bacioni <signed>dal tuo Berto.</signed> Affettuosità ai tuoi di casa e parenti.
                         </closer>
                     </div>
                 </div>
@@ -5332,7 +5437,7 @@
     </TEI>
 
     <!-- LETTERA 5 APRILE 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_017" xml:base="LETTERE/17.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera17" xml:base="LETTERE/17.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -5424,7 +5529,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_17" type="fronte">
                 <surface xml:id="fronte1_17" type="fronte">
                     <graphic url="Immagini/image/17_A.png" width="1722.33334px" height="4119.33334px"/>
@@ -5629,6 +5734,7 @@
                             <lb facs="#riga24_17B" n="25"/>che Dio e la Madonna di Montenero mi protegga.
                             <lb facs="#riga25_17B" n="26"/>Ciao a presto
                         </ab>
+                        <lb n="27"/>
                         <closer>
                             <signed facs="#signed_17B">il vostro <persName ref="#AlP">Berto</persName></signed>
                         </closer>
@@ -5639,7 +5745,7 @@
     </TEI>
 
     <!-- LETTERA 20 APRILE 44 ANTWORT-POST (GE-FR) da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_018" xml:base="LETTERE/18.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera18" xml:base="LETTERE/18.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -5717,7 +5823,7 @@
                         <persName ref="#LM">Liana Martini</persName>
                         <placeName ref="https://www.geonames.org/3166769/selvatelle.html">Selvatelle</placeName>
                         <date type="writing" when="1944-04-20">20-4-44</date>
-                        <date type="postage" when="1943-04-22">22.4.44</date>
+                        <date type="postage" when="1944-04-22">22.4.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -5732,7 +5838,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_18" type="fronte">
                     <graphic url="Immagini/image/18_A.png" width="1695.33334px" height="1139.33334px"/>
@@ -5909,6 +6015,7 @@
                             <lb facs="#riga6_18B" n="7"/>ci vediamo spesso, preghiamo tanto per te, perchè tu possa ritornare pres-
                             <lb facs="#riga7_18B" n="8"/>to tra le nostre braccia. Stai contento ti scrivo per tutti ti abbraccio e ti bacio
                         </ab>
+                        <lb n="9"/>
                         <closer>
                             <signed facs="#signed_18B">tua <persName ref="#LM">Liana</persName></signed>
                         </closer>
@@ -5926,7 +6033,7 @@
     </TEI>
 
     <!-- LETTERA 23 APRILE 44 KRIEGSGEFANGENENPOST (GE) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_019" xml:base="LETTERE/19.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera19" xml:base="LETTERE/19.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6018,7 +6125,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_19" type="fronte">
                 <surface xml:id="fronte1_19" type="fronte">
                     <graphic url="Immagini/image/19_A.png" width="1752.66666px" height="4000.66666px"/>
@@ -6188,6 +6295,7 @@
                             <lb facs="#riga23_19B" n="24"/>So che là la vita è difficile ma pazienza! Vi bacio e vi abbrac-
                             <lb facs="#riga24_19B" n="25"/>cio tutti con grande affetto. Ciao a presto.
                         </ab>
+                        <lb n="26"/>
                         <closer>
                             <signed facs="#signed_19B">Il vostro<persName ref="#AlP"><choice><abbr><hi rend="underline">Berto</hi></abbr><expan>Alberto</expan></choice></persName></signed>
                         </closer>
@@ -6198,7 +6306,7 @@
     </TEI>
 
     <!-- LETTERA 23 APRILE 44 con busta esterna da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_020" xml:base="LETTERE/20.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera20" xml:base="LETTERE/20.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6331,7 +6439,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_20">
                 <surface xml:id="busta_fronte_20" type="fronte">
                     <graphic url="Immagini/image/20_A.png" width="1761.33334px" height="1129.33334px"/>
@@ -6443,6 +6551,7 @@
                             <lb facs="#riga14_20D" n="28"/>abbracci dalla tua <persName ref="#LM">Liana</persName> che tanto ti ama
                             <lb facs="#riga15_20D" n="29"/>e ti pensa. Saluti da tutti i parenti.
                         </ab>
+                        <lb n="30"/>
                         <closer>
                             <signed facs="#signed_20D">Baci, <persName ref="#LM">Liana</persName></signed>
                         </closer>
@@ -6453,7 +6562,7 @@
     </TEI>
 
     <!-- LETTERA 23 APRILE 44 ANTWORT-POSTKARTE (GE-FR) da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_021" xml:base="LETTERE/21.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera21" xml:base="LETTERE/21.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6531,7 +6640,7 @@
                         <persName ref="#AnP">Angiolo Pacini</persName>
                         <placeName ref="http://www.geonames.org/3174659/livorno.html">Livorno</placeName>
                         <date type="writing" when="1944-04-23">23.4.944</date>
-                        <date type="postage" when="1943-04-24">24.2.44</date>
+                        <date type="postage" when="1944-04-24">24.2.44</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AlP">Alberto Pacini</persName>
@@ -6546,7 +6655,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_21" type="fronte">
                     <graphic url="Immagini/image/21_A.png" width="1769.33334px" height="1185.33334px"/>
@@ -6739,7 +6848,7 @@
     </TEI>
 
     <!-- LETTERA 30 APRILE 44 con busta esterna da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_022" xml:base="LETTERE/22.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera22" xml:base="LETTERE/22.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6876,7 +6985,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_22">
                 <surface xml:id="busta_fronte_22" type="fronte">
                     <graphic url="Immagini/image/22_A.png" width="2145.33334px" height="1201.33334px"/>
@@ -7039,6 +7148,7 @@
                             <lb facs="#riga25_22D" n="49"/>nonna di nuovo ti faccio forte forte tua per l'eternità
                             <lb facs="#riga26_22D" n="50"/>presa e spera tornerai presto
                         </ab>
+                        <lb n="51"/>
                         <closer>
                             <signed facs="#signed_22D">Ciao, <persName ref="#LM">Liana</persName></signed>
                             <seg facs="#seg_22D"><persName ref="#LM" facs="#seg_22D">Liana</persName></seg>
@@ -7050,7 +7160,7 @@
     </TEI>
 
     <!-- LETTERA 5 MAGGIO 44 con busta esterna da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_023" xml:base="LETTERE/23.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera23" xml:base="LETTERE/23.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7198,7 +7308,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_23">
                 <surface xml:id="busta_fronte_23" type="fronte">
                     <graphic url="Immagini/image/23_A.png" width="1689.33334px" height="1169.33334px"/>
@@ -7310,6 +7420,7 @@
                             <lb facs="#riga11_23D" n="26"/>da <persName ref="#AM">Anna</persName> e <persName ref="#FC">Franchina</persName> un'altro bacio dalla
                             <lb facs="#riga12_23D" n="27"/>tua per l'eternità
                         </ab>
+                        <lb n="28"/>
                         <closer>
                             <signed facs="#signed_23D"><persName ref="#LM">Liana Pacini</persName></signed>
                         </closer>
@@ -7320,7 +7431,7 @@
     </TEI>
 
     <!-- LETTERA 5 MAGGIO 44 POSTKARTE (GE-IT) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_024" xml:base="LETTERE/24.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera24" xml:base="LETTERE/24.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7412,7 +7523,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_24" type="fronte">
                     <graphic url="Immagini/image/24_A.png" width="1761.33334px" height="1161.33334px"/>
@@ -7592,7 +7703,7 @@
     </TEI>
 
     <!-- LETTERA 6 MAGGIO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_025" xml:base="LETTERE/25.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera25" xml:base="LETTERE/25.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7684,7 +7795,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_25" type="fronte">
                 <surface xml:id="fronte1_25" type="fronte">
                     <graphic url="Immagini/image/25_A.png" width="1739.66666px" height="4128.66666px"/>
@@ -7888,6 +7999,7 @@
                         <lb facs="#riga23_25B" n="24"/>mi da voi. Bacioni e abbracci forti forti a voi e
                         <lb facs="#riga24_25B" n="25"/>molti saluti affettuosi a parenti e amici
                     </ab>
+                    <lb n="26"/>
                     <closer>
                         <signed facs="#salute_25B">il vostro <persName ref="#AlP">Berto</persName></signed>
                     </closer>
@@ -7897,7 +8009,7 @@
     </TEI>
 
     <!-- LETTERA 17 MAGGIO 44 KRIEGSGEFANGENENPOST da Angiolo a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_026" xml:base="LETTERE/26.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera26" xml:base="LETTERE/26.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7990,7 +8102,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_26" type="fronte">
                 <surface xml:id="fronte1_26" type="fronte">
                     <graphic url="Immagini/image/26_A.png" width="1784.66666px" height="3488.66666px"/>
@@ -8207,6 +8319,7 @@
                             <lb facs="#riga23_26B" n="24"/>Figlio caro prego molto per te ti abraccio
                             <lb facs="#riga24_26B" n="25"/>e ti bacio con tanto affetto
                         </ab>
+                        <lb n="26"/>
                         <closer>
                             <signed facs="#signed_26B">tua <persName ref="#AE">mammina</persName></signed>
                         </closer>
@@ -8224,7 +8337,7 @@
     </TEI>
 
     <!-- LETTERA 23 MAGGIO 44 con busta esterna da Liana ai genitori di Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_027" xml:base="LETTERE/27.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera27" xml:base="LETTERE/27.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -8378,7 +8491,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_27">
                 <surface xml:id="busta_fronte_27" type="fronte">
                     <graphic url="Immagini/image/27_A.png" width="2121.33334px" height="1225.33334px"/>
@@ -8617,7 +8730,7 @@
     </TEI>
 
     <!-- LETTERA 4 GIUGNO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_028" xml:base="LETTERE/28.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera28" xml:base="LETTERE/28.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -8708,7 +8821,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_28" type="fronte">
                 <surface xml:id="fronte1_28" type="fronte">
                     <graphic url="Immagini/image/28_A.png" width="1746.33334px" height="3952.33334px"/>
@@ -8909,7 +9022,7 @@
     </TEI>
 
     <!-- LETTERA 4 GIUGNO 44 POSTKARTE (GE-IT) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_029" xml:base="LETTERE/29.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera29" xml:base="LETTERE/29.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -9000,7 +9113,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_29" type="fronte">
                     <graphic url="Immagini/image/29_A.png" width="1818.33334px" height="1177.33334px"/>
@@ -9170,7 +9283,7 @@
     </TEI>
 
     <!-- LETTERA 28 GIUGNO 44 con busta esterna da Liana a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_030" xml:base="LETTERE/30.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera30" xml:base="LETTERE/30.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -9313,7 +9426,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_30">
                 <surface xml:id="busta_fronte_30" type="fronte">
                     <graphic url="Immagini/image/30_A.png" width="1689.33334px" height="1177.33334px"/>
@@ -9451,7 +9564,7 @@
     </TEI>
 
     <!-- LETTERA 6 LUGLIO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_031" xml:base="LETTERE/31.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera31" xml:base="LETTERE/31.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -9542,7 +9655,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_31" type="fronte">
                 <surface xml:id="fronte1_31" type="fronte">
                     <graphic url="Immagini/image/31_A.png" width="1749.33334px" height="3975.33334px"/>
@@ -9758,7 +9871,7 @@
     </TEI>
 
     <!-- LETTERA 14 LUGLIO 44 KRIEGSGEFANGENENPOST (GE-FR con ruckantworbrief) da Alberto a Dino Martini -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_032" xml:base="LETTERE/32.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera32" xml:base="LETTERE/32.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -9849,7 +9962,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_32" type="fronte">
                 <surface xml:id="fronte1_32" type="fronte">
                     <graphic url="Immagini/image/32_A.png" width="3459.33334px" height="4038.33334px"/>
@@ -10183,6 +10296,7 @@
                                 <lb facs="#riga23_32B1" n="24"/>desidero tanto rivedere presto. State calmi
                                 <lb facs="#riga24_32B1" n="25"/>e tranquilli ancora un po'. <hi rend="underline">Ritornerò.</hi> Credetemi.
                             </ab>
+                            <lb n="26"/>
                             <closer>
                                 <signed facs="#signed_32B1" n="26">il vostro <choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice><hi rend="underline"><persName ref="#AlP">Alberto</persName></hi></signed>
                             </closer>
@@ -10202,7 +10316,7 @@
     </TEI>
 
     <!-- LETTERA 14 LUGLIO 44 POSTKARTE (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_033" xml:base="LETTERE/33.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera33" xml:base="LETTERE/33.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -10294,7 +10408,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_33" type="fronte">
                     <graphic url="Immagini/image/33_A.png" width="1809.33334px" height="1178.33334px"/>
@@ -10468,6 +10582,7 @@
                             <lb facs="#riga7_33B" n="8"/>nire. Tanti affettuosi baci e abbracci a tutti.
                             <lb facs="#riga8_33B" n="9"/>Oggi ho ricevuto una cartolina di <persName ref="#LM">Liana</persName> e una lettera vostra.
                         </ab>
+                        <lb n="10"/>
                         <closer>
                             <signed facs="#signed_33B"><choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice> figlio <choice><abbr rend="underline">Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
                         </closer>
@@ -10478,7 +10593,7 @@
     </TEI>
 
     <!-- LETTERA 21 LUGLIO 44 KRIEGSGEFANGENENPOST (GE-IT con ruckantworbrief) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_034" xml:base="LETTERE/34.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera34" xml:base="LETTERE/34.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -10569,7 +10684,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_34" type="fronte">
                 <surface xml:id="fronte1_34" type="fronte">
                     <graphic url="Immagini/image/34_A.png" width="3506.56666px" height="4144.56666px"/>
@@ -10870,6 +10985,7 @@
                                 <lb facs="#riga24_34B1" n="25"/>possa riabbracciarvi. Vi invio i miei caldi baci
                                 <lb facs="#riga25_34B1" n="26"/>e abbracci a voi parenti e amici
                             </ab>
+                            <lb n="27"/>
                             <closer>
                                 <signed facs="#signed_34B1">Il vostro <choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice>figlio <hi rend="underline"><persName ref="#AlP">Alberto</persName></hi></signed>
                             </closer>
@@ -10891,7 +11007,7 @@
     </TEI>
 
     <!-- LETTERA 28 LUGLIO 44 KRIEGSGEFANGENENPOST (GE-FR con ruckantworbrief) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_035" xml:base="LETTERE/35.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera35" xml:base="LETTERE/35.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -10982,7 +11098,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_35" type="fronte">
                 <surface xml:id="fronte1_35" type="fronte">
                     <graphic url="Immagini/image/35_A.png" width="1723.33334px" height="4034.33334px"/>
@@ -11225,7 +11341,7 @@
     </TEI>
 
     <!-- LETTERA 28 LUGLIO 44 CROCE ROSSA (IT-GE-EN) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_036" xml:base="LETTERE/36.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera36" xml:base="LETTERE/36.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -11316,7 +11432,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_36" type="fronte">
                     <graphic url="Immagini/image/36_A.png" width="1777.33334px" height="2489.33334px"/>
@@ -11607,7 +11723,7 @@
     </TEI>
 
     <!-- LETTERA 4 AGOSTO 44 POSTKARTE (GE-FR) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_037" xml:base="LETTERE/37.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera37" xml:base="LETTERE/37.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -11699,7 +11815,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_37" type="fronte">
                     <graphic url="Immagini/image/37_A.png" width="1785.33334px" height="1169.33334px"/>
@@ -11858,6 +11974,7 @@
                             <lb facs="#riga8_37B" n="9"/>dal tuo figlio che in un anno non ha cessato un momento di
                             <lb facs="#riga9_37B" n="10"/>pensarti. Ciao a presto.
                         </ab>
+                        <lb n="11"/>
                         <closer>
                             <signed facs="#signed_37B">il tuo<choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
                         </closer>
@@ -11868,7 +11985,7 @@
     </TEI>
 
     <!-- LETTERA 4 AGOSTO 44 POSTKARTE (GE-IT con ANTWORT-POSTKARTE) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_038" xml:base="LETTERE/38.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera38" xml:base="LETTERE/38.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -11960,7 +12077,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_38" type="fronte">
                 <surface xml:id="fronte1_38" type="fronte">
                     <graphic url="Immagini/image/38_A.png" width="1841.33334px" height="2299.33334px"/>
@@ -12243,7 +12360,7 @@
     </TEI>
 
     <!-- LETTERA 4 AGOSTO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_039" xml:base="LETTERE/39.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera39" xml:base="LETTERE/39.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -12334,7 +12451,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_39" type="fronte">
                 <surface xml:id="fronte1_39" type="fronte">
                     <graphic url="Immagini/image/39_A.png" width="1738.33334px" height="4061.33334px"/>
@@ -12561,7 +12678,7 @@
     </TEI>
 
     <!-- LETTERA 5 AGOSTO 44 POSTKARTE (GE-FR con ANTWORT-POSTKARTE) da Alberto a Maria Doveri -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_040" xml:base="LETTERE/40.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera40" xml:base="LETTERE/40.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -12652,7 +12769,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_40" type="fronte">
                 <surface xml:id="fronte1_40" type="fronte">
                     <graphic url="Immagini/image/40_A.png" width="1761.33334px" height="2369.33334px"/>
@@ -12878,6 +12995,7 @@
                                 <lb facs="#riga7_40B1" n="8"/>mi ha voluto far stare così lontani. Abbracci e affettuosità a
                                 <lb facs="#riga8_40B1" n="9"/>tutti
                             </ab>
+                            <lb n="10"/>
                             <closer>
                                 <signed facs="#signed_40B1">devotissimo<persName ref="#AlP" rend="underline">Alberto</persName></signed>
                             </closer>
@@ -12950,7 +13068,7 @@
     </TEI>
 
     <!-- LETTERA 6 AGOSTO 44 POSTKARTE (GE-FR con ANTWORT-POSTKARTE) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_041" xml:base="LETTERE/41.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera41" xml:base="LETTERE/41.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -13041,7 +13159,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_41" type="fronte">
                 <surface xml:id="fronte1_41" type="fronte">
                     <graphic url="Immagini/image/41_A.png" width="1761.33334px" height="2337.33334px"/>
@@ -13270,6 +13388,7 @@
                             <lb facs="#riga7_41B1" n="8"/>più e che presto ritornerò, per questo fatti ancora coraggio.
                             <lb facs="#riga8_41B1" n="9"/>Tanti bacioni e abbracci <choice><abbr>aff.si</abbr><expan>affettuosi</expan></choice>
                         </ab>
+                        <lb n="10"/>
                         <closer>
                             <signed facs="#signed_41B1">il tuo marito<choice><abbr rend="underline">Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
                         </closer>
@@ -13328,7 +13447,7 @@
     </TEI>
 
     <!-- LETTERA 12 AGOSTO 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_042" xml:base="LETTERE/42.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera42" xml:base="LETTERE/42.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -13419,7 +13538,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_42" type="fronte">
                 <surface xml:id="fronte1_42" type="fronte">
                     <graphic url="Immagini/image/42_A.png" width="1744.33334px" height="3996.33334px"/>
@@ -13649,7 +13768,7 @@
     </TEI>
 
     <!-- LETTERA 12 AGOSTO 44 POSTKARTE (GE-FR) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_043" xml:base="LETTERE/43.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera43" xml:base="LETTERE/43.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -13740,7 +13859,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_43" type="fronte">
                     <graphic url="Immagini/image/43_A.png" width="1769.33334px" height="1169.33334px"/>
@@ -13937,7 +14056,7 @@
     </TEI>
 
     <!-- LETTERA 17 AGOSTO 44 KRIEGSGEFANGENENPOST (GE-IT con ruckantworbrief) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_044" xml:base="LETTERE/44.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera44" xml:base="LETTERE/44.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -14028,7 +14147,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_44" type="fronte">
                 <surface xml:id="fronte1_44" type="fronte">
                     <graphic url="Immagini/image/44_A.png" width="3445.33334px" height="4065.33334px"/>
@@ -14337,6 +14456,7 @@
                                 <lb facs="#riga25_44B1" n="24"/>e abbracci a voi a <persName ref="#LM">Liana</persName> e tutti i parenti e amici.
                                 <lb facs="#riga26_44B1" n="25"/>Ciao a presto
                             </ab>
+                            <lb n="26"/>
                             <closer>
                                 <signed facs="#signed_44B1">il vostro <choice><abbr>aff.mo <hi rend="underline">Berto</hi></abbr><expan>affettuosissimo <persName ref="#AlP">Alberto</persName></expan></choice></signed>
                             </closer>
@@ -14358,7 +14478,7 @@
     </TEI>
 
     <!-- LETTERA 22 AGOSTO 44 POSTKARTE (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_045" xml:base="LETTERE/45.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera45" xml:base="LETTERE/45.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -14449,7 +14569,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_45" type="fronte">
                     <graphic url="Immagini/image/45_A.png" width="1841.33334px" height="1169.33334px"/>
@@ -14626,6 +14746,7 @@
                             <lb facs="#riga8_45B" n="9"/>1 anno dal distacco da <persName ref="#AE">mamma</persName> e <persName ref="#LM">Liana</persName> vi bacio forte e vi
                             <lb facs="#riga9_45B" n="10"/>abbraccio con amore
                         </ab>
+                        <lb n="11"/>
                         <closer>
                             <signed facs="#signed_45B">il vostro <choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
                         </closer>
@@ -14636,7 +14757,7 @@
     </TEI>
 
     <!-- LETTERA 4 SETTEMBRE 44 POSTKARTE (GE-IT) da Alberto a Liana -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_046" xml:base="LETTERE/46.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera46" xml:base="LETTERE/46.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -14727,7 +14848,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_46" type="fronte">
                     <graphic url="Immagini/image/46_A.png" width="1825.33334px" height="1169.33334px"/>
@@ -14912,7 +15033,7 @@
     </TEI>
 
     <!-- LETTERA 11 SETTEMBRE 44 KRIEGSGEFANGENENPOST (GE-IT) da Alberto a Angiolo -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_047" xml:base="LETTERE/47.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera47" xml:base="LETTERE/47.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -15003,7 +15124,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_47" type="fronte">
                 <surface xml:id="fronte1_47" type="fronte">
                     <graphic url="Immagini/image/47_A.png" width="864.1px" height="2033.1px"/>
@@ -15239,7 +15360,7 @@
     </TEI>
 
     <!-- LETTERA 26 FEBBRAIO 45 RUCKANTWORBRIEF (GE-IT) da Argia a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_048" xml:base="LETTERE/48.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera48" xml:base="LETTERE/48.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -15330,7 +15451,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1945">
             <surfaceGrp xml:id="fronte_48" type="fronte">
                 <surface xml:id="fronte1_48" type="fronte">
                     <graphic url="Immagini/image/48_A.png" width="877.1px" height="2033.1px"/>
@@ -15542,7 +15663,7 @@
     </TEI>
 
     <!-- LETTERA 26 FEBBRAIO 45 RUCKANTWORBRIEF (GE-IT) da Liana a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_049" xml:base="LETTERE/49.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera49" xml:base="LETTERE/49.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -15633,7 +15754,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1945">
             <surfaceGrp xml:id="fronte_49" type="fronte">
                 <surface xml:id="fronte1_49" type="fronte">
                     <graphic url="Immagini/image/49_A.png" width="851.1px" height="2001.1px"/>
@@ -15855,7 +15976,7 @@
     </TEI>
 
     <!-- LETTERA 22 GIUGNO 45 da Gaetano a Alberto -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_050" xml:base="LETTERE/50.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera50" xml:base="LETTERE/50.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -15946,7 +16067,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1945">
             <surfaceGrp>
                 <surface xml:id="fronte_50" type="fronte">
                     <graphic url="Immagini/image/50_A.png" width="2405.56666px" height="2986.56666px"/>
@@ -16098,98 +16219,5 @@
         </text>
     </TEI>
 
-    <text>
-        <back>
-            <div type="immagini_galleria">
-                <figure xml:id="img_primo_piano">
-                    <graphic url="Immagini/fotografie/alberto/primo_piano.png"/>
-                    <head>
-                        Alberto Pacini in divisa, 1938
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_abito">
-                    <graphic url="Immagini/fotografie/alberto/abito_bianco.png"/>
-                    <head>
-                        Alberto in abito bianco. Taranto, 14 luglio 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_carboncini">
-                    <graphic url="Immagini/fotografie/alberto/carboncini.png"/>
-                    <head>
-                        Alberto con il compagno Carboncini Vincenzo all'Accademia Navale di Taranto, 28 dicembre 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_acrobazie">
-                    <graphic url="Immagini/fotografie/alberto/acrobazie.png"/>
-                    <head>
-                        Alberto e i propri compagni sul Rimorchiatore Miseno nei pressi di Taranto, 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_pranzo">
-                    <graphic url="Immagini/fotografie/alberto/pranzo_miseno.png"/>
-                    <head>
-                        Altra foto con i compagni sul Rimorchiatore Miseno. 1939
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="img_terrazza">
-                    <graphic url="Immagini/fotografie/alberto/terrazza.png"/>
-                    <head>
-                        Alberto e Capo Marzi in Terrazza Mascagni. Livorno, 1942
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-            </div>
-            <div type="biografia">
-                <p class="p_biografia" n="1">Figlio di Angiolo Pacini (1892-1981) e Argia Ercoli (1894-1986), Alberto Pacini nasce a Livorno l’11 settembre 1919 in un contesto contadino che vive il fascismo come la normalità, in un periodo storico in cui le idee fasciste erano recepite positivamente da molte famiglie italiane.</p>
-                <p class="p_biografia" n="2">Ha una sorella maggiore (Maria Pacini, 1916-1999), frutto di un’unione prematrimoniale che a quell’epoca era considerata insindacabilmente disonorevole: durante il matrimonio del 1916, infatti, la sposa è costretta a vestire un giubbino nero in simbolo di vergogna.</p>
-                <p class="p_biografia" n="3">Anche - ma non solo - per questo, Alberto è il figlio prediletto: desiderato e benvoluto sin da subito, i suoi genitori non gli faranno mai mancare niente.</p>
-                <p class="p_biografia" n="4">La madre è figlia di contadini, il padre è cuoco sulle navi della Marina Militare e di conseguenza Alberto vive questa realtà quotidianamente: crescendo in un contesto militare con le ideologie che ne conseguono, ritiene dunque adeguato e consono intraprendere la carriera militare.</p>
-            </div>
-            <div type="immagini_biografia">
-                <figure xml:id="angiolo">
-                    <graphic url="Immagini/fotografie/genitori/angiolo.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="argia">
-                    <graphic url="Immagini/fotografie/genitori/argia.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="famiglia1">
-                    <graphic url="Immagini/fotografie/foto_famiglia/alberto_piccolo.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-                <figure xml:id="angiolo_cuoco">
-                    <graphic url="Immagini/fotografie/genitori/angiolo_cuoco2.png"/>
-                    <head>
-                        aaa
-                    </head>
-                    <figDesc>
-                    </figDesc>
-                </figure>
-            </div>
-        </back>
-    </text>
+    
 </teiCorpus>

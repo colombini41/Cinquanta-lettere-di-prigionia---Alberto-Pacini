@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_026">
+    <TEI xml:id="Lettera26">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -94,7 +94,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_26" type="fronte">
                 <surface xml:id="fronte1_26" type="fronte">
                     <graphic url='Immagini/image/26_A.png' width='1784.66666px' height='3488.66666px' />
@@ -311,6 +311,7 @@
                             <lb facs="#riga23_26B" n="24"/>Figlio caro prego molto per te ti abraccio
                             <lb facs="#riga24_26B" n="25"/>e ti bacio con tanto affetto
                         </ab>
+                        <lb n="26"/>
                         <closer>
                             <signed facs="#signed_26B">tua <persName ref="#AE">mammina</persName></signed>
                         </closer>

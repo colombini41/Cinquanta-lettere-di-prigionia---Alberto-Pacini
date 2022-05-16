@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_020">
+    <TEI xml:id="Lettera20">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -134,7 +134,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="busta_20">
                 <surface xml:id="busta_fronte_20" type="fronte">
                     <graphic url='Immagini/image/20_A.png' width='1761.33334px' height='1129.33334px' />
@@ -246,6 +246,7 @@
                             <lb facs="#riga14_20D" n="28"/>abbracci dalla tua <persName ref="#LM">Liana</persName> che tanto ti ama
                             <lb facs="#riga15_20D" n="29"/>e ti pensa. Saluti da tutti i parenti.
                         </ab>
+                        <lb n="30"/>
                         <closer>
                             <signed facs="#signed_20D">Baci, <persName ref="#LM">Liana</persName></signed>
                         </closer>

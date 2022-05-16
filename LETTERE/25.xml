@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_025">
+    <TEI xml:id="Lettera25">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -93,7 +93,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_25" type="fronte">
                 <surface xml:id="fronte1_25" type="fronte">
                     <graphic url='Immagini/image/25_A.png' width='1739.66666px' height='4128.66666px' />
@@ -297,6 +297,7 @@
                         <lb facs="#riga23_25B" n="24"/>mi da voi. Bacioni e abbracci forti forti a voi e
                         <lb facs="#riga24_25B" n="25"/>molti saluti affettuosi a parenti e amici
                     </ab>
+                    <lb n="26"/>
                     <closer>
                         <signed facs="#salute_25B">il vostro <persName ref="#AlP">Berto</persName></signed>
                     </closer>

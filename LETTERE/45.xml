@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_045">
+    <TEI xml:id="Lettera45">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_45" type="fronte">
                     <graphic url='Immagini/image/45_A.png' width='1841.33334px' height='1169.33334px' />
@@ -269,6 +269,7 @@
                             <lb facs="#riga8_45B" n="9"/>1 anno dal distacco da <persName ref="#AE">mamma</persName> e <persName ref="#LM">Liana</persName> vi bacio forte e vi
                             <lb facs="#riga9_45B" n="10"/>abbraccio con amore
                         </ab>
+                        <lb n="11"/>
                         <closer>
                             <signed facs="#signed_45B">il vostro <choice><abbr>Berto</abbr><expan><persName ref="#AlP">Alberto</persName></expan></choice></signed>
                         </closer>

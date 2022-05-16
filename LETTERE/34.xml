@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_034">
+    <TEI xml:id="Lettera34">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -92,7 +92,7 @@
             </profileDesc>
             
         </teiHeader>
-        <facsimile>
+        <facsimile n="1944">
             <surfaceGrp xml:id="fronte_34" type="fronte">
                 <surface xml:id="fronte1_34" type="fronte">
                     <graphic url='Immagini/image/34_A.png' width='3506.56666px' height='4144.56666px' />
@@ -393,6 +393,7 @@
                                 <lb facs="#riga24_34B1" n="25"/>possa riabbracciarvi. Vi invio i miei caldi baci
                                 <lb facs="#riga25_34B1" n="26"/>e abbracci a voi parenti e amici
                             </ab>
+                            <lb n="27"/>
                             <closer>
                                 <signed facs="#signed_34B1">Il vostro <choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice>figlio <hi rend="underline"><persName ref="#AlP">Alberto</persName></hi></signed>
                             </closer>
