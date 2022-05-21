@@ -58,9 +58,13 @@ header {
 
 #barra_navigazione ul { list-style-type: none;}
 
-#barra_navigazione li { padding: 17px; display:inline; color: #00111a; text-decoration: none; cursor: pointer; }
+#barra_navigazione li { padding: 17px; display:inline; text-decoration: none; cursor: pointer; }
 
 #barra_navigazione li:hover { background-color: #00111a; color: #faebd7; }
+
+.checked {
+    background-color: #00111a; color: #faebd7;
+}
 
 
 .contenitori_body{
@@ -70,8 +74,15 @@ header {
 
 #contenitore_contenuti {
     width: 100%;
-    margin-bottom: 10%;
-    overflow: hidden;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.titolo_contenuti{
+    width: 90%;
+    margin:auto;
+    margin-bottom: 4%;
 }
 
 /* contenitore galleria */
@@ -84,7 +95,7 @@ header {
     background-color: #00111a;
     overflow: hidden;
     margin-left: 10%;
-    margin-top: 4%;
+    margin-top: 3%;
     box-shadow: 0px 0px 0px ;
     border-radius: 4px;
 } 
@@ -147,7 +158,7 @@ header {
 #contenitore_presentazione{
     width: 50%;
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 #sottotitolo{
     margin-bottom: 5%;
@@ -166,12 +177,6 @@ header {
 
 /* contenitore anteprime */
 
-
-#titolo_anteprime {
-    width: 90%;
-    margin:auto;
-    margin-bottom: 4%;
-}
 
 .titolo_anteprima_lettera{
     font-size: 17px;
@@ -207,20 +212,19 @@ header {
     font-family: 'Zilla_reg', serif;;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 5%;
 }
 
-.indirizzi{
-    width: 45%;
-    float: right;
-}
 
 .dettagli {
-    width: 45%;
-    float: right;
-    position: relative;
+    width: 37%;
+    margin-left: 40%;
+    height: 100%;
+    position: absolute;
     text-align: left;
     font-size: 15px;
     font-family: 'Zilla_reg', serif;
+    overflow-y: scroll;
 }
 
 table, td{  
@@ -236,19 +240,46 @@ th{
     padding-top: 10px;
 }
 
+.immagini {
+    position: absolute;
+    overflow-y: scroll;
+    height: 110%;
+    width: 36%;
+    margin-left: 2%;
+    float: left;
+}
 
 .img_lettera {
-    width: 45%;
-    position: relative;
+    width: 100%;
     margin-bottom: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
     cursor: default;
+    float: left;
 }
 
 .img_lettera:hover, map:hover{
     cursor: crosshair;
 }
+
+/* statistiche */
+
+
+.analisi {
+    margin-top: 5%;
+}
+
+.div_analisi{
+    position: relative;
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.table_analisi{
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
 
 /* biografia */
 
@@ -317,7 +348,7 @@ footer{
     background-color: #faebd7;
     color: #00111a;
     font-family: 'Zilla_bold', serif;
-    position: relative; /* negative value of footer height */
+    position: relative; 
 	height: 420px;
 	clear:both;
     padding: 2%;

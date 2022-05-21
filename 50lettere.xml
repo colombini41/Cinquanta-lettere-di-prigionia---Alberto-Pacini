@@ -389,13 +389,12 @@
                         <country>Italia</country>
                         <note>Città natale di Alberto e città del padre di Alberto</note>
                     </place>
-                    <place xml:id="VDP">
+                    <place xml:id="vDP">
                         <placeName>Via della Pieve</placeName>
                         <settlement type="via">Via della Pieve 10 A</settlement>
                         <settlement type="città">Livorno</settlement>
                         <district type="provincia">LI</district>
                         <country>Italia</country>
-                        <note> Domicilio di ... </note>
                     </place>   
                     <place xml:id="vR">
                         <placeName>Via Roma</placeName>
@@ -403,7 +402,6 @@
                         <settlement type="città">Livorno</settlement>
                         <district type="provincia">LI</district>
                         <country>Italia</country>
-                        <note> Domicilio di ... </note>
                     </place>         
                     <place xml:id="CO">
                         <placeName>Collesalvetti</placeName>

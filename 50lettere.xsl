@@ -39,6 +39,7 @@
                     <li id="nav_1944">1944</li>
                     <li id="nav_1945">1945</li>
                     <li id="nav_tutte">Tutte le lettere</li>
+                    <li id="nav_stats">Analisi statistiche</li>
                     <li id="nav_bio">La biografia</li>
                 </ul>
             </nav>
@@ -147,6 +148,121 @@
         </xsl:result-document>
     </xsl:template>
 
+    <xsl:template name="stats">
+        <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
+            <h1 class="titolo_contenuti">Dati statistici del corpus di lettere analizzato</h1>
+            <div class="analisi" id="corr">
+                <h2 style="margin:auto">La corrispondenza</h2>
+                <xsl:call-template name="t_indirizzi"/>
+                <xsl:call-template name="t_luoghi"/>
+            </div>
+            <div class="analisi" id="entita">
+                <xsl:call-template name="entita"/>
+            </div>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template name="t_indirizzi">
+        <xsl:variable name="destinatari" as="xs:string*" select="//tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
+        <xsl:variable name="destinatari_unique" as="xs:string*" select="distinct-values($destinatari)"/>
+        <xsl:variable name="mittenti" as="xs:string*" select="//tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName" />
+        <xsl:variable name="mittenti_unique" as="xs:string*" select="distinct-values($mittenti)"/>
+
+        <div class="div_analisi" id="analisi_indirizzi">
+            <table class="table_analisi" id="mittenti">
+                <td>MITTENTI</td>
+                <xsl:for-each select="$mittenti_unique">
+                    <xsl:variable name="mittente" as="xs:string*" select="."/>
+                    <tr>Lettere scritte da <xsl:value-of select="$mittente"/>: <xsl:value-of select="count($mittenti[.=$mittente])"/></tr>
+                </xsl:for-each>
+            </table>
+            <table class="table_analisi" id="destinatari">
+                <td>DESTINATARI</td>
+                <xsl:for-each select="$destinatari_unique">
+                    <xsl:variable name="destinatario" as="xs:string*" select="."/>
+                    <tr>Lettere ricevute da <xsl:value-of select="$destinatario"/>: <xsl:value-of select="count($destinatari[.=$destinatario])"/></tr>
+                </xsl:for-each>
+                <tr>
+                    Le lettere 
+                    <xsl:for-each select="//tei:TEI"> 
+                        <xsl:if test="not(tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received'])">
+                            <xsl:variable name="lettera" as="xs:string*" select="@xml:id"/>
+                            <xsl:value-of select="substring-after($lettera, 'Lettera')"/><xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                    sono state rispedite al mittente
+                </tr>
+            </table>
+            
+        </div>
+    </xsl:template>
+
+    <xsl:template name="t_luoghi">
+        <xsl:variable name="luoghi" as="xs:string*" select="//tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
+        <xsl:variable name="luoghi_unique" as="xs:string*" select="distinct-values($luoghi)"/>
+        <div class="div_analisi" id="analisi_luoghi">    
+            <table class="table_analisi" id="luoghi_partenza">
+                <td>LUOGHI DI PARTENZA</td>
+                <xsl:for-each select="$luoghi_unique">
+                    <xsl:variable name="luogo" as="xs:string*" select="."/>
+                    <tr>Lettere partite da <xsl:value-of select="$luogo"/>: <xsl:value-of select="count($luoghi[.=$luogo])"/></tr>
+                </xsl:for-each>
+            </table>
+            <table class="table_analisi" id="luoghi_arrivo">
+                <td>LUOGHI DI ARRIVO</td>
+                <xsl:for-each select="$luoghi_unique">
+                    <xsl:variable name="luogo" as="xs:string*" select="."/>
+                    <tr>Lettere arrivate a <xsl:value-of select="$luogo"/>: <xsl:value-of select="count($luoghi[.=$luogo])"/></tr>
+                </xsl:for-each>
+            </table>
+        </div>
+    </xsl:template>
+
+    <xsl:template name="entita">
+        <h2>Analisi delle entità citate nelle lettere scritte da Alberto </h2>
+        <div class="div_analisi" id="persone">
+            <table class="table_analisi" id="table_persone">
+                <td>PERSONE CITATE NELLE LETTERE SCRITTE DA ALBERTO</td>
+                <!-- array con le singole persone del progetto -->
+                <xsl:variable name="id_pers_unique" as="xs:string*" select="//tei:listPerson/tei:person/@xml:id"/>
+
+                <!-- array con tutte le occorrenze delle persone del progetto all'interno dei messaggi scritti da Alberto-->
+                <xsl:variable name="ref_pers_trovate" as="xs:string*" select="//tei:correspAction[@type='sent']/tei:persName[.='Alberto Pacini']/../../../../..//tei:ab/tei:persName/@ref"/>
+
+                <xsl:for-each select="$id_pers_unique">
+                    <xsl:variable name="id_pers" as="xs:string*" select="."/>
+                    <xsl:variable name="ref_pers" as="xs:string*" select="concat('#', $id_pers)"/>
+
+                    <xsl:variable name="persona" as="xs:string*" select="tei:listPerson/tei:person[@xml:id=$id_pers]/tei:persName"/>
+
+                    <tr><xsl:value-of select="$id_pers"/> appare <xsl:value-of select="count($ref_pers_trovate[.=$ref_pers])"/> volte.</tr>
+                </xsl:for-each>
+                <br/>
+            </table>
+        </div>
+
+        <div class="div_analisi" id="luoghi">
+            <table class="table_analisi" id="table_luoghi">
+                <td>LUOGHI CITATI NELLE LETTERE SCRITTE DA ALBERTO</td>
+                <!-- array con le singole persone del progetto -->
+                <xsl:variable name="id_place_unique" as="xs:string*" select="//tei:listPlace/tei:place/@xml:id"/>
+
+                <!-- array con tutte le occorrenze delle persone del progetto all'interno dei messaggi scritti da Alberto-->
+                <xsl:variable name="ref_place_trovate" as="xs:string*" select="//tei:correspAction[@type='sent']/tei:persName[.='Alberto Pacini']/../../../../..//tei:ab/tei:placeName/@ref"/>
+
+                <xsl:for-each select="$id_place_unique">
+                    <xsl:variable name="id_place" as="xs:string*" select="."/>
+                    <xsl:variable name="ref_place" as="xs:string*" select="concat('#', $id_place)"/>
+
+                    <xsl:variable name="place" as="xs:string*" select="tei:listPerson/tei:place[@xml:id=$ref_place]/tei:placeName"/>
+
+                    <tr><xsl:value-of select="$id_place"/> appare <xsl:value-of select="count($ref_place_trovate[.=$ref_place])"/> volte.</tr>
+                </xsl:for-each>
+                <br/>
+            </table>
+        </div>
+    </xsl:template>
+
     <xsl:template name="biografia">
         <!-- contenitore che racchiude la biografia da visualizzare -->
         <xsl:result-document href="#contenitore_contenuti" method="ixsl:replace-content">
@@ -252,8 +368,13 @@
     <!-- template generico che richiama tutti i template di ogni lettera-->
     <xsl:template match="tei:teiCorpus/tei:TEI">
         <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/> <!-- prende titolo lettera -->
-        <div class="indirizzi">
-            <table class="tabella_partenza">
+        <div class="immagini">
+            <xsl:for-each select="tei:facsimile/tei:surfaceGrp">
+                <xsl:apply-templates select="tei:surface/tei:graphic/@url"/> <!-- prende immagini lettera -->
+            </xsl:for-each>
+        </div>
+        <div class="dettagli">
+            <table class="tabella_dettagli">
                 <tr class="tr_indirizzi">
                     <th colspan="5"> INDIRIZZO DI PARTENZA:</th>
                 </tr>
@@ -272,8 +393,6 @@
                         <td> Non disponibile </td>
                     </xsl:otherwise>
                 </xsl:choose>
-            </table>
-            <table class="tabella_destinazione">   
                 <tr class="tr_indirizzi">    
                     <th colspan="5">INDIRIZZO DI DESTINAZIONE:</th>
                 </tr>
@@ -292,25 +411,15 @@
                         <td> Non disponibile </td>
                     </xsl:otherwise>
                 </xsl:choose>  
-            </table>
-        </div>
-        <xsl:for-each select="tei:facsimile/tei:surfaceGrp">
-            <xsl:apply-templates select="tei:surface/tei:graphic/@url"/> <!-- prende immagini lettera -->
-        </xsl:for-each>
-        <div class="dettagli">
-            <table class="tabella_dettagli">
-                <tr>
-                    <th colspan="5">STAMPE:</th>
-                </tr>
                 <xsl:choose>
                     <xsl:when test="tei:text/tei:body/tei:div/tei:div[@type='stamp']/tei:ab">
+                        <tr>
+                            <th colspan="5">STAMPE:</th>
+                        </tr>
                         <xsl:for-each select="tei:text/tei:body/tei:div/tei:div[@type='stamp']/tei:ab">
                             <xsl:apply-templates select="tei:stamp"/> 
                         </xsl:for-each>
                     </xsl:when>
-                    <xsl:otherwise>
-                        <td> Non disponibili </td>
-                    </xsl:otherwise>
                 </xsl:choose>  
                 <tr>
                     <th colspan="5">TIMBRI E FRANCOBOLLI:</th>
@@ -357,11 +466,6 @@
                             <xsl:apply-templates select="tei:stamp"/> 
                         </xsl:for-each>
                     </xsl:when>
-                    <xsl:otherwise>
-                        <td> Non disponibili </td>
-                    </xsl:otherwise>
-                </xsl:choose>  
-                <xsl:choose>
                     <xsl:when test="//tei:div[@type='messaggio']/tei:ab">
                         <xsl:for-each select="//tei:div[@type='messaggio']/tei:ab">
                             <xsl:apply-templates select="tei:stamp"/> 
@@ -607,6 +711,17 @@
                 </xsl:when>
                 <xsl:otherwise>
                     &#160;<xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:template>
+
+        <xsl:template match="tei:placeName">
+            <xsl:choose>    
+                <xsl:when test="tei:choice">
+                    <xsl:apply-templates select="tei:choice"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>&#160;
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:template>

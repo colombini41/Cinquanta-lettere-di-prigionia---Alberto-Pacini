@@ -388,13 +388,12 @@
                         <country>Italia</country>
                         <note>Città natale di Alberto e città del padre di Alberto</note>
                     </place>
-                    <place xml:id="VDP">
+                    <place xml:id="vDP">
                         <placeName>Via della Pieve</placeName>
                         <settlement type="via">Via della Pieve 10 A</settlement>
                         <settlement type="città">Livorno</settlement>
                         <district type="provincia">LI</district>
                         <country>Italia</country>
-                        <note> Domicilio di ... </note>
                     </place>   
                     <place xml:id="vR">
                         <placeName>Via Roma</placeName>
@@ -402,7 +401,6 @@
                         <settlement type="città">Livorno</settlement>
                         <district type="provincia">LI</district>
                         <country>Italia</country>
-                        <note> Domicilio di ... </note>
                     </place>         
                     <place xml:id="CO">
                         <placeName>Collesalvetti</placeName>
@@ -956,7 +954,7 @@
                             <lb facs="#riga2_01B" n="4"/>grazio molto degli auguri che mi hai inviato, dimo=
                             <lb facs="#riga3_01B" n="5"/>strando che nulla ti passa per quel che riguarda i
                             <lb facs="#riga4_01B" n="6"/>tuoi figli. Non ho avuto ancora il piacere di
-                            <lb facs="#riga5_01B" n="7"/>ricevere da <persName ref="#LI">Liana</persName> posta da dopo che sono ritornato
+                            <lb facs="#riga5_01B" n="7"/>ricevere da <persName ref="#LM">Liana</persName> posta da dopo che sono ritornato
                             <lb facs="#riga6_01B" n="8"/>da <placeName ref="#LI">Livorno</placeName>. Ora scrivo a lungo a <persName ref="#AnP">babbo</persName> e gli ... 
                             <lb facs="#riga7_01B" n="9"/>per mezzo di un marinaio. Io di salute ora
                             <lb facs="#riga8_01B" n="10"/>sto bene. Non vedo l'ora di ritornare fra le
@@ -1556,7 +1554,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_03A">Straße:</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_via2_03A">Rue</stamp>
-                                    <placeName ref="#VDP" facs="#via_03A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_03A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_stato1_03A">Land:</stamp>
@@ -1635,7 +1633,7 @@
     </TEI>
 
     <!-- LETTERA 9 GENNAIO 44 ANTWORT-POST (GE-FR) da Angiolo a Alberto-->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera_4" xml:base="LETTERE/4.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Lettera4" xml:base="LETTERE/4.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -2110,7 +2108,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_05A">Straße:</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_via2_05A">Rue</stamp>
-                                    <placeName ref="#VDP" facs="#via_05A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_05A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_stato1_05A">Land:</stamp>
@@ -3232,7 +3230,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_09A">Straße:</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_via2_09A">Rue</stamp>
-                                    <placeName ref="#VDP" facs="#via_09A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_09A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_stato1_09A">Land:</stamp>
@@ -3519,7 +3517,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_10A">Straße:</stamp>
                                     <stamp xml:lang="#IT" type="print" facs="#label_via2_10A">Via</stamp>
-                                    <placeName ref="#VDP" facs="#via_10A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_10A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_provincia1_10A">Landesteil:</stamp>
@@ -8480,7 +8478,7 @@
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="#AnP">Angiolo Pacini</persName>
-                        <persName ref="#AE">Argia Pacini</persName>
+                        <!-- <persName ref="#AE">Argia Pacini</persName> -->
                         <placeName ref="https://www.geonames.org/3172160/nugola.html">Nugola</placeName>
                     </correspAction>
                     <correspContext>
@@ -15598,7 +15596,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_48A2">Straße:</stamp>
                                     <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_48A2">Via</stamp>
-                                    <placeName ref="#VDP" facs="#mit_via_48A2">Via della Pieve N-10 A</placeName>
+                                    <placeName ref="#vDP" facs="#mit_via_48A2">Via della Pieve N-10 A</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#mit_label_provincia1_48A2">Landesteil:</stamp>
@@ -15653,6 +15651,7 @@
                             <lb facs="#riga22_48B" n="23"/>spesso è qui con noi. Bacioni e abbr-
                             <lb facs="#riga23_48B" n="24"/>acci 
                         </ab>
+                        <lb n="25"/>
                         <closer facs="#closer_48B">
                             <signed>tuo <persName ref="#AnP">babbo</persName> <persName ref="#AE">mamma</persName></signed> e tutti stai contento.
                         </closer>
