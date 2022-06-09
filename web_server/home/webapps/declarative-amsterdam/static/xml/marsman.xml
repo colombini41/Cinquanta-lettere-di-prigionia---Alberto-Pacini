@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poetry</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="nl">
+            <head>Herinnering aan Holland</head>
+            <lg>
+               <l>Denkend aan Holland</l>
+               <l>zie ik breede rivieren</l>
+               <l>traag door oneindig</l>
+               <l>laagland gaan,</l>
+            </lg>
+
+            <lg>
+               <l>rijen ondenkbaar</l>
+               <l>ijle populieren</l>
+               <l>als hooge pluimen</l>
+               <l>aan den einder staan;</l>
+            </lg>
+
+            <lg>
+               <l>en in de geweldige</l>
+               <l>ruimte verzonken</l>
+               <l>de boerderijen</l>
+               <l>verspreid door het land,</l>
+            </lg>
+
+            <lg>
+               <l>boomgroepen, dorpen,</l>
+               <l>geknotte torens,</l>
+               <l>kerken en olmen</l>
+               <l>in een grootsch verband.</l>
+            </lg>
+
+            <lg>
+               <l>de lucht hangt er laag</l>
+               <l>en de zon wordt er langzaam</l>
+               <l>in grijze veelkleurige</l>
+               <l>dampen gesmoord,</l>
+            </lg>
+
+            <lg>
+               <l>en in alle gewesten</l>
+               <l>wordt de stem van het water</l>
+               <l>met zijn eeuwige rampen</l>
+               <l>gevreesd en gehoord.</l>
+            </lg>
+            <byline>Geschreven door de dichter <docAuthor><name>Hendrik Marsman</name> in <date>1936</date></docAuthor></byline>
+         </div>
+         <div xml:lang="en">
+            <head>Memories of Holland</head>
+
+            <lg>
+               <l>Thinking of Holland</l>
+               <l>I see broad lazy rivers</l>
+               <l>flowing through infinite</l>
+               <l>low-lying land,</l>
+            </lg>
+
+            <lg>
+               <l>rows of incredibly</l>
+               <l>delicate poplars</l>
+               <l>like plumy feathers</l>
+               <l>on the horizon, and</l>
+            </lg>
+
+            <lg>
+               <l>sunken and small in this</l>
+               <l>space so stupendous</l>
+               <l>the farmhouses</l>
+               <l>scattered about,</l>
+            </lg>
+
+            <lg>
+               <l>clumps of trees, villages,</l>
+               <l>squat stumpy towers,</l>
+               <l>churches and elm trees,</l>
+               <l>in one grand layout.</l>
+            </lg>
+
+            <lg>
+               <l>The skies hang low</l>
+               <l>and grey, multicoloured</l>
+               <l>mists slowly make the</l>
+               <l>sun disappear,</l>
+            </lg>
+
+            <lg>
+               <l>and in every region</l>
+               <l>the voice of the water</l>
+               <l>with its endless disasters</l>
+               <l>is heard and is feared.</l>
+            </lg>
+            <byline>Written by the Dutch poet <docAuthor> <name>Hendrik Marsman</name> in <date>1936</date></docAuthor>
+               and translated by <docAuthor><name>Renée Delhez</name> in <date>2006</date>.
+               </docAuthor>
+            </byline>
+         </div>
+      </body>
+   </text>
+</TEI>

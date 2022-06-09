@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_29" type="fronte">
-                    <graphic url='Immagini/image/29_A.png' width='1818.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/29A.png' width='1818.33334px' height='1177.33334px' />
                     <zone ulx="55" uly="220" lrx="394" lry="287" xml:id="seg_29A"/>
                     <zone ulx="500" uly="83" lrx="1020" lry="147" xml:id="kriegsg_29A"/>
                     <zone ulx="500" uly="148" lrx="1131" lry="194" xml:id="corr_29A"/>
@@ -132,7 +132,7 @@
                     
                 </surface>
                 <surface xml:id="retro_29" type="retro">
-                    <graphic url='Immagini/image/29_B.png' width='1809.33334px' height='1169.33334px' />
+                    <graphic url='Immagini/image/29B.png' width='1809.33334px' height='1169.33334px' />
                     <zone ulx="52" uly="66" lrx="596" lry="114" xml:id="stamp1_29B"/>
                     <zone ulx="48" uly="123" lrx="576" lry="166" xml:id="stamp2_29B"/>
                     <zone ulx="679" uly="64" lrx="1050" lry="107" xml:id="stamp3_29B"/>

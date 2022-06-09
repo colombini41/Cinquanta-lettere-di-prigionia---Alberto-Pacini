@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
 
-    <TEI xml:id="Lettera_4">
+    <TEI xml:id="Lettera4">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -97,7 +97,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_04" type="fronte">
-                    <graphic url='Immagini/image/04_A.png' width='1777.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/04A.png' width='1777.33334px' height='1185.33334px' />
                     <zone ulx="292" uly="46" lrx="819" lry="95" xml:id="kriegsg_04A"/>
                     <zone ulx="299" uly="102" lrx="1004" lry="147" xml:id="corr_04A"/>
                     <zone ulx="295" uly="168" lrx="890" lry="231" xml:id="antwort_04A"/>
@@ -109,7 +109,7 @@
                     <zone ulx="294" uly="300" lrx="832" lry="346" xml:id="label_nome1_04A"/>
                     <zone ulx="299" uly="358" lrx="530" lry="396" xml:id="label_nome2_04A"/>
                     <zone ulx="452" uly="388" lrx="680" lry="512" xml:id="data_ricezione_04A"/>
-                    <zone points = ' 708,352 850,349 840,414 1404,416 1410,528 719,520 ' xml:id="nome_04A"/>
+                    <zone points = " 708,352 850,349 840,414 1404,416 1410,528 719,520 " xml:id="nome_04A"/>
                     <zone ulx="827" uly="633" lrx="1174" lry="672" xml:id="label_num1_04A"/>
                     <zone ulx="832" uly="675" lrx="1076" lry="705" xml:id="label_num2_04A"/>
                     <zone ulx="1280" uly="583" lrx="1576" lry="672" xml:id="numero_04A"/>
@@ -134,7 +134,7 @@
                     <zone ulx="134" uly="1077" lrx="306" lry="1108" xml:id="mit_stato_04A"/>
                 </surface>
                 <surface xml:id="retro_04" type="retro">
-                    <graphic url='Immagini/image/04_B.png' width='1769.33334px' height='1193.33334px' />
+                    <graphic url='Immagini/image/04B.png' width='1769.33334px' height='1193.33334px' />
                     <zone ulx="356" uly="34" lrx="639" lry="80" xml:id="stamp1_04B"/>
                     <zone ulx="882" uly="34" lrx="1394" lry="78" xml:id="stamp2_04B"/>
                     <zone ulx="135" uly="138" lrx="835" lry="255" xml:id="stamp3_04B"/>
@@ -150,7 +150,7 @@
                     <zone ulx="142" uly="854" lrx="1708" lry="960" xml:id="riga6_04B"/>
                     <zone ulx="144" uly="964" lrx="1624" lry="1066" xml:id="riga7_04B"/>
                     <zone ulx="795" uly="1070" lrx="1298" lry="1145" xml:id="riga8_04B"/>
-                    <zone points = ' 998,1150 996,1170 1368,1171 1367,1150 1712,1145 1711,1071 1304,1070 1303,1151 ' xml:id="signed_04B"/>
+                    <zone points = " 998,1150 996,1170 1368,1171 1367,1150 1712,1145 1711,1071 1304,1070 1303,1151 " xml:id="signed_04B"/>
                 </surface>
             </surfaceGrp>
         </facsimile>

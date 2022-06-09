@@ -96,7 +96,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_33" type="fronte">
-                    <graphic url='Immagini/image/33_A.png' width='1809.33334px' height='1178.33334px' />
+                    <graphic url='Immagini/image/33A.png' width='1809.33334px' height='1178.33334px' />
                     <zone ulx="406" uly="84" lrx="924" lry="139" xml:id="kriegsg_33A"/>
                     <zone ulx="407" uly="152" lrx="1042" lry="186" xml:id="corr_33A"/>
                     <zone ulx="404" uly="228" lrx="715" lry="287" xml:id="postkarte_33A"/>
@@ -134,7 +134,7 @@
                     <zone ulx="270" uly="1076" lrx="658" lry="1122" xml:id="mit_stato_33A"/>
                 </surface>
                 <surface xml:id="retro_33" type="retro">
-                    <graphic url='Immagini/image/33_B.png' width='1809.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/33B.png' width='1809.33334px' height='1177.33334px' />
                     <zone ulx="94" uly="80" lrx="643" lry="127" xml:id="stamp1_33B"/>
                     <zone ulx="99" uly="135" lrx="615" lry="174" xml:id="stamp2_33B"/>
                     <zone ulx="731" uly="70" lrx="1084" lry="108" xml:id="stamp3_33B"/>

@@ -96,13 +96,13 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_09" type="retro">
-                    <graphic url='Immagini/image/09_A.png' width='1769.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/09A.png' width='1769.33334px' height='1185.33334px' />
                     <zone ulx="378" uly="67" lrx="878" lry="110" xml:id="kriegsg_09A"/>
                     <zone ulx="374" uly="124" lrx="1075" lry="163" xml:id="corr_09A"/>
                     <zone ulx="375" uly="204" lrx="684" lry="263" xml:id="postkarte_09A"/>
                     <zone ulx="695" uly="211" lrx="930" lry="258" xml:id="carte_09A"/>
                     <zone ulx="1432" uly="100" lrx="1762" lry="437" xml:id="timbro1_09A"/>
-                    <zone points = ' 718,99 770,459 1160,408 1114,44 ' xml:id="timbro2_09A"/>
+                    <zone points = " 718,99 770,459 1160,408 1114,44 " xml:id="timbro2_09A"/>
                     <zone ulx="59" uly="528" lrx="343" lry="579" xml:id="gebuh_09A"/>
                     <zone ulx="367" uly="528" lrx="679" lry="571" xml:id="franc_09A"/>
                     <zone ulx="382" uly="308" lrx="446" lry="348" xml:id="label_nome1_09A"/>
@@ -133,7 +133,7 @@
                     <zone ulx="222" uly="1058" lrx="652" lry="1101" xml:id="mit_stato_09A"/>
                 </surface>
                 <surface xml:id="retro_09" type="retro">
-                    <graphic url='Immagini/image/09_B.png' width='1770.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/09B.png' width='1770.33334px' height='1177.33334px' />
                     <zone ulx="87" uly="72" lrx="627" lry="128" xml:id="kriegsg_09B"/>
                     <zone ulx="91" uly="140" lrx="463" lry="184" xml:id="camp_09B"/>
                     <zone ulx="688" uly="76" lrx="1046" lry="118" xml:id="stammlager_09B"/>
@@ -195,7 +195,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_09A">Straße:</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_via2_09A">Rue</stamp>
-                                    <placeName ref="#VDP" facs="#via_09A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_09A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_stato1_09A">Land:</stamp>

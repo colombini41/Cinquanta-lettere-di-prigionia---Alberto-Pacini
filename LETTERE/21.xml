@@ -97,7 +97,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_21" type="fronte">
-                    <graphic url='Immagini/image/21_A.png' width='1769.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/21A.png' width='1769.33334px' height='1185.33334px' />
                     <zone ulx="278" uly="58" lrx="806" lry="118" xml:id="kriegsg_21A"/>
                     <zone ulx="282" uly="124" lrx="986" lry="168" xml:id="corr_21A"/>
                     <zone ulx="284" uly="188" lrx="874" lry="246" xml:id="antwort_21A"/>
@@ -135,7 +135,7 @@
                     <zone ulx="120" uly="1105" lrx="291" lry="1125" xml:id="mit_label_provincia2_21A"/>
                 </surface>
                 <surface xml:id="retro_21" type="retro">
-                    <graphic url='Immagini/image/21_B.png' width='1769.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/21B.png' width='1769.33334px' height='1185.33334px' />
                     <zone ulx="370" uly="38" lrx="662" lry="86" xml:id="stamp1_21B"/>
                     <zone ulx="891" uly="36" lrx="1414" lry="87" xml:id="stamp2_21B"/>
                     <zone ulx="148" uly="142" lrx="850" lry="260" xml:id="stamp3_21B"/>

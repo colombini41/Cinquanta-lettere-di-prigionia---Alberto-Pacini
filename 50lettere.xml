@@ -169,8 +169,8 @@
                     <person xml:id="BC">
                         <persName>
                             <forename>Francesco</forename>
+                            <note>(Beppino)</note>
                             <surname>Citi</surname>
-                            <note>Noto a tutti (così compare anche nelle lettere) come Beppino</note>
                         </persName>
                         <sex>M</sex>
                         <birth when="1914">1914

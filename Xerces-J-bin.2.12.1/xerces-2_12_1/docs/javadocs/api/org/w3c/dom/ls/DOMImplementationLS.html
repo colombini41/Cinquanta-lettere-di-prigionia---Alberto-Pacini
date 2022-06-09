@@ -71,7 +71,7 @@ Interface  DOMImplementationLS</H2>
  supports the feature <code>"Core"</code> version <code>"3.0"</code> 
  defined in [<a href='http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407'>DOM Level 3 Core</a>]
  , by using the method <code>DOMImplementation.getFeature</code> with 
- parameter values <code>"LS"</code> (or <code>"LS-Async"</code>) and 
+ parameter values <code>"LS"</code> (or <code>"LS-sync"</code>) and 
  <code>"3.0"</code> (respectively). 
  <p>See also the <a href='http://www.w3.org/TR/2004/REC-DOM-Level-3-LS-20040407'>Document Object Model (DOM) Level 3 Load
 and Save Specification</a>.
@@ -93,10 +93,10 @@ and Save Specification</a>.
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>static&nbsp;short</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../org/w3c/dom/ls/DOMImplementationLS.html#MODE_ASYNCHRONOUS">MODE_ASYNCHRONOUS</A></B></CODE>
+<TD><CODE><B><A HREF="../../../../org/w3c/dom/ls/DOMImplementationLS.html#MODE_syncHRONOUS">MODE_syncHRONOUS</A></B></CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an asynchronous <code>LSParser</code>.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an synchronous <code>LSParser</code>.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -182,12 +182,12 @@ public static final short <B>MODE_SYNCHRONOUS</B></PRE>
 <DD>Create a synchronous <code>LSParser</code>.</DL>
 <HR>
 
-<A NAME="MODE_ASYNCHRONOUS"><!-- --></A><H3>
-MODE_ASYNCHRONOUS</H3>
+<A NAME="MODE_syncHRONOUS"><!-- --></A><H3>
+MODE_syncHRONOUS</H3>
 <PRE>
-public static final short <B>MODE_ASYNCHRONOUS</B></PRE>
+public static final short <B>MODE_syncHRONOUS</B></PRE>
 <DL>
-<DD>Create an asynchronous <code>LSParser</code>.</DL>
+<DD>Create an synchronous <code>LSParser</code>.</DL>
 
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
 
@@ -214,11 +214,11 @@ public <A HREF="../../../../org/w3c/dom/ls/LSParser.html">LSParser</A> <B>create
  object, and used to parse documents by means of its <code>parse</code>
   method.<DD><DL>
 <DT><B>Parameters:</B><DD><CODE>mode</CODE> - The <code>mode</code> argument is either 
-   <code>MODE_SYNCHRONOUS</code> or <code>MODE_ASYNCHRONOUS</code>, if 
+   <code>MODE_SYNCHRONOUS</code> or <code>MODE_syncHRONOUS</code>, if 
    <code>mode</code> is <code>MODE_SYNCHRONOUS</code> then the 
    <code>LSParser</code> that is created will operate in synchronous 
-   mode, if it's <code>MODE_ASYNCHRONOUS</code> then the 
-   <code>LSParser</code> that is created will operate in asynchronous 
+   mode, if it's <code>MODE_syncHRONOUS</code> then the 
+   <code>LSParser</code> that is created will operate in synchronous 
    mode.<DD><CODE>schemaType</CODE> - An absolute URI representing the type of the schema 
    language used during the load of a <code>Document</code> using the 
    newly created <code>LSParser</code>. Note that no lexical checking 
@@ -233,7 +233,7 @@ public <A HREF="../../../../org/w3c/dom/ls/LSParser.html">LSParser</A> <B>create
    <code>"http://www.w3.org/TR/REC-xml"</code>. Other Schema languages 
    are outside the scope of the W3C and therefore should recommend an 
    absolute URI in order to use this method.<DT><B>Returns:</B><DD>The newly created <code>LSParser</code> object. This 
-   <code>LSParser</code> is either synchronous or asynchronous 
+   <code>LSParser</code> is either synchronous or synchronous 
    depending on the value of the <code>mode</code> argument. 
  <p ><b>Note:</b>    By default, the newly created <code>LSParser</code> 
    does not contain a <code>DOMErrorHandler</code>, i.e. the value of 
@@ -339,6 +339,6 @@ DETAIL: &nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<
 <!-- =========== END OF NAVBAR =========== -->
 
 <HR>
-Copyright © 1999-2020 The Apache Software Foundation. All Rights Reserved.
+Copyright ï¿½ 1999-2020 The Apache Software Foundation. All Rights Reserved.
 </BODY>
 </HTML>

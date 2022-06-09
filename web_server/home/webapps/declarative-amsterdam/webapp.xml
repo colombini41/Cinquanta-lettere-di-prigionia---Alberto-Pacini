@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<webapp 
+  xmlns="http://www.armatiek.com/xslweb/webapp"
+  xmlns:saxon-config="http://saxon.sf.net/ns/configuration"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.armatiek.com/xslweb/webapp ../../config/xsd/xslweb/webapp.xsd">
+  
+  <title>Declarative Amsterdam Saxon-JS web application</title>
+  <description>Declarative Amsterdam Saxon-JS web application</description>
+  <development-mode>true</development-mode>
+  <max-upload-size>10</max-upload-size>
+  
+  <saxon-config:configuration 
+    edition="EE"
+    licenseFileLocation="../../config/saxon-license.lic"
+    label="EE configuration">  
+  </saxon-config:configuration>
+  
+  <!-- Resources to serve straight away: -->
+  <resources>     
+    <resource pattern="/saxonjs/.+\.js" media-type="application/javascript" duration="P0DT0H0M0S"/>
+    <resource pattern="/images/.+\.png" media-type="image/png" duration="P0DT0H0M0S"/>
+    <resource pattern="/images/.+\.gif" media-type="image/gif" duration="P0DT0H0M0S"/>
+    <resource pattern="/images/.+\.(jpg|jpeg)" media-type="image/jpg" duration="P0DT0H0M0S"/>
+    <resource pattern="/css/.+\.css" media-type="text/css" duration="P0DT0H0M0S"/>
+    <resource pattern="/xml/.+" media-type="text/xml" duration="P0DT0H0M0S"/>
+  </resources>
+
+</webapp>

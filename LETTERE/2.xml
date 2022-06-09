@@ -157,7 +157,7 @@
         <facsimile n="1943">
             <surfaceGrp xml:id="busta_02">
                 <surface xml:id="busta_fronte_02" type="fronte">
-                    <graphic url='Immagini/image/02_A.png' width='1825.33334px' height='1201.33334px' />
+                    <graphic url='Immagini/image/02A.png' width='1825.33334px' height='1201.33334px' />
                     <zone ulx="230" uly="38" lrx="1144" lry="248" xml:id="seg_espresso_02A"/>
                     <zone ulx="1331" uly="82" lrx="1716" lry="483" xml:id="timbro1_02A"/>
                     <zone ulx="203" uly="617" lrx="632" lry="1005" xml:id="timbro2_02A"/>
@@ -169,7 +169,7 @@
                     <zone ulx="536" uly="500" lrx="1619" lry="728" xml:id="del_mittente_02A"/>
                 </surface>
                 <surface xml:id="busta_retro_02" type="retro">
-                    <graphic url='Immagini/image/02_B.png' width='1809.33334px' height='1209.33334px' />
+                    <graphic url='Immagini/image/02B.png' width='1809.33334px' height='1209.33334px' />
                     <zone ulx="242" uly="19" lrx="446" lry="83" xml:id="mit_add_02B"/>
                     <zone ulx="454" uly="15" lrx="1012" lry="94" xml:id="mit_nome_02B"/>
                     <zone ulx="1060" uly="12" lrx="1444" lry="92" xml:id="mit_localita_02B"/>
@@ -180,7 +180,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="fronte_02" type="fronte">
                 <surface xml:id="fronte1_02" type="fronte">
-                    <graphic url='Immagini/image/02_C.png' width='3309.56666px' height='2070.56666px'/>
+                    <graphic url='Immagini/image/02C.png' width='3309.56666px' height='2070.56666px'/>
                     <zone ulx="2525" uly="11" lrx="2771" lry="90" xml:id="luogo_02C_1"/>
                     <zone ulx="2784" uly="14" lrx="3309" lry="149" xml:id="data_02C_1"/>
                     <zone ulx="1727" uly="34" lrx="2523" lry="127" xml:id="salute_02C_1"/>
@@ -208,21 +208,21 @@
                     <zone ulx="64" uly="721" lrx="1629" lry="828" xml:id="riga6_02C_4"/>
                     <zone ulx="51" uly="837" lrx="1643" lry="976" xml:id="riga7_02C_4"/>
                     <zone ulx="53" uly="978" lrx="1640" lry="1116" xml:id="riga8_02C_4"/>
-                    <zone points = ' 79,1089 1585,1167 1580,1269 57,1191 ' xml:id="riga9_02C_4"/>
-                    <zone points = ' 64,1232 1649,1306 1642,1412 62,1342 ' xml:id="riga10_02C_4"/>
-                    <zone points = ' 64,1361 1579,1439 1565,1546 50,1472 ' xml:id="riga11_02C_4"/>
-                    <zone points = ' 50,1479 1657,1564 1652,1682 52,1574 ' xml:id="riga12_02C_4"/>
-                    <zone points = ' 56,1583 1552,1679 1558,1767 42,1692 ' xml:id="riga13_02C_4"/>
-                    <zone points = ' 38,1694 1643,1787 1643,1882 1483,1843 36,1814 ' xml:id="riga14_02C_4"/>
-                    <zone points = ' 40,1820 1476,1851 1647,1898 1645,2018 1576,2002 1572,1951 1133,1920 29,1902 ' xml:id="riga15_02C_4"/>
-                    <zone points = ' 24,1907 1563,1958 1563,2013 1640,2015 1640,2066 1474,2066 1410,2011 27,1964 ' xml:id="riga16_02C_4"/>
+                    <zone points = " 79,1089 1585,1167 1580,1269 57,1191 " xml:id="riga9_02C_4"/>
+                    <zone points = " 64,1232 1649,1306 1642,1412 62,1342 " xml:id="riga10_02C_4"/>
+                    <zone points = " 64,1361 1579,1439 1565,1546 50,1472 " xml:id="riga11_02C_4"/>
+                    <zone points = " 50,1479 1657,1564 1652,1682 52,1574 " xml:id="riga12_02C_4"/>
+                    <zone points = " 56,1583 1552,1679 1558,1767 42,1692 " xml:id="riga13_02C_4"/>
+                    <zone points = " 38,1694 1643,1787 1643,1882 1483,1843 36,1814 " xml:id="riga14_02C_4"/>
+                    <zone points = " 40,1820 1476,1851 1647,1898 1645,2018 1576,2002 1572,1951 1133,1920 29,1902 " xml:id="riga15_02C_4"/>
+                    <zone points = " 24,1907 1563,1958 1563,2013 1640,2015 1640,2066 1474,2066 1410,2011 27,1964 " xml:id="riga16_02C_4"/>
                     <zone ulx="9" uly="1980" lrx="541" lry="2066" xml:id="riga17_02C_4"/>
                     <zone ulx="548" uly="1989" lrx="1423" lry="2066" xml:id="closer_02C_4"/>
                 </surface>
             </surfaceGrp>
             <surfaceGrp xml:id="retro_02" type="retro">
                 <surface xml:id="retro2_02" type="retro">
-                    <graphic url='Immagini/image/02_D.png' width='3297.56666px' height='2088.56666px' />
+                    <graphic url='Immagini/image/02D.png' width='3297.56666px' height='2088.56666px' />
                     <zone ulx="891" uly="4" lrx="953" lry="60" xml:id="numpagina_02D_2"/>
                     <zone ulx="73" uly="4" lrx="1576" lry="146" xml:id="riga1_02D_2"/>
                     <zone ulx="62" uly="153" lrx="1654" lry="257" xml:id="riga2_02D_2"/>

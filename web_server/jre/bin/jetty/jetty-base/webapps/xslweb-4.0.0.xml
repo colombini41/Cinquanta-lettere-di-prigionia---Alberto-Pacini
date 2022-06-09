@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_3.dtd">
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <Set name="contextPath">/</Set>
+  <Set name="war"><Property name="jetty.webapps"/>/xslweb-4.0.0.war</Set>
+  <Set name="gzipHandler">
+    <New id="GzipHandler" class="org.eclipse.jetty.server.handler.gzip.GzipHandler">
+      <Set name="includedMimeTypes">
+        <Array type="java.lang.String">
+          <Item>application/json</Item>
+          <Item>text/json</Item>
+          <Item>text/html</Item>
+          <Item>text/plain</Item>
+          <Item>text/xml</Item>
+          <Item>application/xml</Item>
+          <Item>application/xhtml+xml</Item>
+          <Item>text/css</Item>
+          <Item>application/javascript</Item>
+          <Item>text/javascript</Item>
+          <Item>image/svg+xml</Item>
+        </Array>
+      </Set>
+      <Set name="minGzipSize">0</Set>
+      <Set name="includedMethods">
+        <Array type="java.lang.String">
+          <Item>GET</Item>
+          <Item>POST</Item>
+        </Array>
+      </Set>
+      <Set name="includedPaths">
+        <Array type="java.lang.String">
+          <Item>/*</Item>
+        </Array>
+      </Set>
+    </New>
+  </Set>
+</Configure>

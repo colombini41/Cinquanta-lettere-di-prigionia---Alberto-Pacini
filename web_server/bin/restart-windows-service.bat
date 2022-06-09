@@ -1,0 +1,1 @@
+nssm\nssm.exe restart XSLWeb_4_0_0

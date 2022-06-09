@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_28" type="fronte">
                 <surface xml:id="fronte1_28" type="fronte">
-                    <graphic url='Immagini/image/28_A.png' width='1746.33334px' height='3952.33334px' />
+                    <graphic url='Immagini/image/28A.png' width='1746.33334px' height='3952.33334px' />
                     <zone ulx="572" uly="856" lrx="1228" lry="934" xml:id="kriegsg_28A"/>
                     <zone ulx="560" uly="967" lrx="1232" lry="1012" xml:id="corr_28A"/>
                     <zone ulx="106" uly="839" lrx="459" lry="934" xml:id="seg_28A"/>
@@ -131,7 +131,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_83">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
                 <surface xml:id="retro_28" type="retro">
-                    <graphic url='Immagini/image/28_B.png' width='1801.33334px' height='4129.33334px' />
+                    <graphic url='Immagini/image/28B.png' width='1801.33334px' height='4129.33334px' />
                     <zone ulx="495" uly="642" lrx="1295" lry="686" xml:id="stamp1_28B"/>
                     <zone ulx="476" uly="689" lrx="1312" lry="736" xml:id="stamp2_28B"/>
                     <zone ulx="611" uly="741" lrx="1172" lry="782" xml:id="stamp3_28B"/>

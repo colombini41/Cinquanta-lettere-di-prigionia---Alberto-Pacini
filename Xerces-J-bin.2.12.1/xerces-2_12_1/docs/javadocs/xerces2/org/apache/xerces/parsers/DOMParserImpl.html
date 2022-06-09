@@ -351,10 +351,10 @@ This is Xerces DOM Builder class. It uses the abstract DOM
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;boolean</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../org/apache/xerces/parsers/DOMParserImpl.html#getAsync()">getAsync</A></B>()</CODE>
+<TD><CODE><B><A HREF="../../../../org/apache/xerces/parsers/DOMParserImpl.html#getsync()">getsync</A></B>()</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>true</code> if the <code>LSParser</code> is asynchronous, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>true</code> if the <code>LSParser</code> is synchronous, 
  <code>false</code> if it is synchronous.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
@@ -970,7 +970,7 @@ public org.w3c.dom.Document <B>parseURI</B>(java.lang.String&nbsp;uri)
 <DT><B>Parameters:</B><DD><CODE>uri</CODE> - The location of the XML document to be read.<DT><B>Returns:</B><DD>If the <code>LSParser</code> is a synchronous 
    <code>LSParser</code>, the newly created and populated 
    <code>Document</code> is returned, or <code>null</code> if an error 
-   occured. If the <code>LSParser</code> is asynchronous, 
+   occured. If the <code>LSParser</code> is synchronous, 
    <code>null</code> is returned since the document object may not yet 
    be constructed when this method returns.<DT><B>Throws:</B><DD><CODE>org.w3c.dom.DOMException</CODE> - INVALID_STATE_ERR: Raised if the <code>LSParser.busy</code> 
    attribute is <code>true</code>.<DD><CODE>org.w3c.dom.ls.LSException</CODE> - PARSE_ERR: Raised if the <code>LSParser</code> was unable to load 
@@ -997,7 +997,7 @@ public org.w3c.dom.Document <B>parse</B>(org.w3c.dom.ls.LSInput&nbsp;is)
    document is to be read.<DT><B>Returns:</B><DD>If the <code>LSParser</code> is a synchronous 
    <code>LSParser</code>, the newly created and populated 
    <code>Document</code> is returned. If the <code>LSParser</code> is 
-   asynchronous, <code>null</code> is returned since the document 
+   synchronous, <code>null</code> is returned since the document 
    object may not yet be constructed when this method returns.<DT><B>Throws:</B><DD><CODE>org.w3c.dom.DOMException</CODE> - INVALID_STATE_ERR: Raised if the <code>LSParser</code>'s 
    <code>LSParser.busy</code> attribute is <code>true</code>.<DD><CODE>org.w3c.dom.ls.LSException</CODE> - PARSE_ERR: Raised if the <code>LSParser</code> was unable to load 
    the XML document. DOM applications should attach a 
@@ -1035,18 +1035,18 @@ public org.w3c.dom.Node <B>parseWithContext</B>(org.w3c.dom.ls.LSInput&nbsp;is,
 </DL>
 <HR>
 
-<A NAME="getAsync()"><!-- --></A><H3>
-getAsync</H3>
+<A NAME="getsync()"><!-- --></A><H3>
+getsync</H3>
 <PRE>
-public boolean <B>getAsync</B>()</PRE>
+public boolean <B>getsync</B>()</PRE>
 <DL>
 <DD><B>Description copied from interface: <CODE>org.w3c.dom.ls.LSParser</CODE></B></DD>
-<DD><code>true</code> if the <code>LSParser</code> is asynchronous, 
+<DD><code>true</code> if the <code>LSParser</code> is synchronous, 
  <code>false</code> if it is synchronous.<DD><DL>
-<DT><B>Specified by: </B><DD><CODE>getAsync</CODE> in interface <CODE>org.w3c.dom.ls.LSParser</CODE></DL>
+<DT><B>Specified by: </B><DD><CODE>getsync</CODE> in interface <CODE>org.w3c.dom.ls.LSParser</CODE></DL>
 </DD>
 <DD><DL>
-<DT><B>See Also: </B><DD><CODE>LSParser.getAsync()</CODE></DL>
+<DT><B>See Also: </B><DD><CODE>LSParser.getsync()</CODE></DL>
 </DD>
 </DL>
 <HR>
@@ -1145,6 +1145,6 @@ DETAIL: &nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructo
 <!-- =========== END OF NAVBAR =========== -->
 
 <HR>
-Copyright © 1999-2020 The Apache Software Foundation. All Rights Reserved.
+Copyright ï¿½ 1999-2020 The Apache Software Foundation. All Rights Reserved.
 </BODY>
 </HTML>

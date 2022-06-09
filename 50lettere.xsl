@@ -219,6 +219,7 @@
     </xsl:template>
 
     <xsl:template name="entita">
+        <xsl:variable name="corpus" select="/tei:teiCorpus"/>
         <h2>Analisi delle entità citate nelle lettere scritte da Alberto </h2>
         <div class="div_analisi" id="persone">
             <table class="table_analisi" id="table_persone">
@@ -233,30 +234,41 @@
                     <xsl:variable name="id_pers" as="xs:string*" select="."/>
                     <xsl:variable name="ref_pers" as="xs:string*" select="concat('#', $id_pers)"/>
 
-                    <xsl:variable name="persona" as="xs:string*" select="tei:listPerson/tei:person[@xml:id=$id_pers]/tei:persName"/>
+                    <xsl:variable name="persona" as="xs:string*" select="$corpus//tei:listPerson/tei:person[@xml:id=$id_pers]/tei:persName"/>
 
-                    <tr><xsl:value-of select="$id_pers"/> appare <xsl:value-of select="count($ref_pers_trovate[.=$ref_pers])"/> volte.</tr>
+                    <tr><xsl:value-of select="$persona"/> appare <xsl:value-of select="count($ref_pers_trovate[.=$ref_pers])"/> volte.</tr>
                 </xsl:for-each>
                 <br/>
             </table>
         </div>
 
         <div class="div_analisi" id="luoghi">
+            <xsl:variable name="root" select="/tei:teiCorpus"/>
             <table class="table_analisi" id="table_luoghi">
                 <td>LUOGHI CITATI NELLE LETTERE SCRITTE DA ALBERTO</td>
                 <!-- array con le singole persone del progetto -->
                 <xsl:variable name="id_place_unique" as="xs:string*" select="//tei:listPlace/tei:place/@xml:id"/>
 
                 <!-- array con tutte le occorrenze delle persone del progetto all'interno dei messaggi scritti da Alberto-->
-                <xsl:variable name="ref_place_trovate" as="xs:string*" select="//tei:correspAction[@type='sent']/tei:persName[.='Alberto Pacini']/../../../../..//tei:ab/tei:placeName/@ref"/>
+                <xsl:variable name="ref_place_trovate" as="xs:string*" select="//tei:correspAction[@type='sent']/tei:persName[.='Alberto Pacini']/../../../../..//tei:body//tei:placeName/@ref"/>
 
                 <xsl:for-each select="$id_place_unique">
                     <xsl:variable name="id_place" as="xs:string*" select="."/>
                     <xsl:variable name="ref_place" as="xs:string*" select="concat('#', $id_place)"/>
 
-                    <xsl:variable name="place" as="xs:string*" select="tei:listPerson/tei:place[@xml:id=$ref_place]/tei:placeName"/>
+                    <xsl:variable name="place" as="xs:string*" select="$root//tei:listPlace/tei:place[@xml:id=$id_place]/tei:placeName"/>
 
-                    <tr><xsl:value-of select="$id_place"/> appare <xsl:value-of select="count($ref_place_trovate[.=$ref_place])"/> volte.</tr>
+                    <tr><xsl:value-of select="$place"/> appare <xsl:value-of select="count($ref_place_trovate[.=$ref_place])"/> volte.</tr>
+                    <!--<tr>Appare nelle lettere: 
+                        <xsl:for-each select="//tei:TEI"> 
+                            <xsl:if test="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[.='Alberto Pacini']/../../../../..//tei:body//tei:placeName[@ref=$ref_place]">
+                                <xsl:variable name="lettera" as="xs:string*" select="@xml:id"/>
+                                <xsl:message> <xsl:value-of select="$lettera"/> </xsl:message>
+                                <xsl:value-of select="substring-after($lettera, 'Lettera')"/><xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                        .
+                    </tr>-->
                 </xsl:for-each>
                 <br/>
             </table>
@@ -498,9 +510,15 @@
 
         <!-- immagine -->
         <xsl:template match="tei:surface/tei:graphic/@url">
+            <xsl:variable name="path">
+                <xsl:value-of select="."/>
+            </xsl:variable>
+            <xsl:variable name="imm">
+                <xsl:value-of select="substring-after($path, 'Immagini/image/')"/>
+            </xsl:variable>
             <xsl:element name="img">
                 <xsl:attribute name="src">
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="$path"/>
                 </xsl:attribute>
                 <xsl:attribute name="class">img_lettera</xsl:attribute>
                 <xsl:attribute name="id">
@@ -508,6 +526,9 @@
                 </xsl:attribute>
                 <xsl:attribute name="usemap">
                     <xsl:value-of select="concat('#mappa_', ../../@xml:id)"/>
+                </xsl:attribute>
+                <xsl:attribute name="ondblclick">
+                    <xsl:value-of select="concat('visualizzaImmagine(&quot;', $imm, '&quot;)' )"/>
                 </xsl:attribute>
             </xsl:element>
         </xsl:template>
@@ -645,9 +666,7 @@
         <!-- saluto iniziale -->
         <xsl:template match="tei:div/tei:div[@type='messaggio']/tei:opener/tei:salute">
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:value-of select="substring(@facs,2)"/>
                 </xsl:attribute>
@@ -665,9 +684,7 @@
             <br/>
             <br/>
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:value-of select="substring(@facs,2)"/>
                 </xsl:attribute>
@@ -680,9 +697,7 @@
         <xsl:template match="tei:ab/tei:lb[position() > 1]">
             <br/>
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:value-of select="substring(@facs,2)"/>
                 </xsl:attribute>
@@ -693,9 +708,7 @@
 
         <xsl:template match="tei:anchor">
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:value-of select="substring(@facs,2)"/>
                 </xsl:attribute>
@@ -733,9 +746,7 @@
             <br/>
             <br/>
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:choose>
                         <xsl:when test="@facs">
@@ -756,9 +767,7 @@
         <xsl:template match="tei:closer/tei:seg">
             <br/>
             <xsl:element name="span">
-                <xsl:attribute name="class">
-                    span_righe
-                </xsl:attribute>
+                <xsl:attribute name="class">span_righe</xsl:attribute>
                 <xsl:attribute name="id">
                     <xsl:value-of select="substring(@facs,2)"/>
                 </xsl:attribute>
@@ -810,23 +819,44 @@
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('zona_', @xml:id)"/>       
                         </xsl:attribute>
-                            <xsl:choose>
-                                <xsl:when test="@ulx">
-                                    <xsl:attribute name="shape">
-                                        <xsl:text>rect</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="coords">
-                                        <xsl:value-of select="@ulx div $rapp_width"/>,<xsl:value-of select="@uly div $rapp_width"/>,<xsl:value-of select="@lrx div $rapp_width"/>,<xsl:value-of select="@lry div $rapp_width"/>
-                                    </xsl:attribute>
-                                    <!-- moltiplico le coordinate originali (zona per zona) per i rapporti tra le grandezze delle immagini (originali e del sito), in questo modo ottengo le coordinate proporzionali delle zone appartenenti alle immagini sul sito-->
-                                </xsl:when>
-                               
-                            </xsl:choose>
+                        <xsl:choose>
+                            <xsl:when test="@ulx">
+                                <xsl:attribute name="shape">
+                                    <xsl:text>rect</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="coords">
+                                    <xsl:value-of select="@ulx div $rapp_width"/>,<xsl:value-of select="@uly div $rapp_width"/>,<xsl:value-of select="@lrx div $rapp_width"/>,<xsl:value-of select="@lry div $rapp_width"/>
+                                </xsl:attribute>
+                                <!-- moltiplico le coordinate originali (zona per zona) per i rapporti tra le grandezze delle immagini (originali e del sito), in questo modo ottengo le coordinate proporzionali delle zone appartenenti alle immagini sul sito-->
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:attribute name="shape">
+                                    <xsl:text>poly</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="coords">
+                                    <xsl:for-each select="tokenize(normalize-space(@points), ' ')">
+                                        <xsl:value-of select="substring-before(current(), ',') div $rapp_width"/>
+                                        <xsl:text>,</xsl:text>
+                                        <xsl:value-of select="substring-after(current(), ',') div $rapp_width"/>
+                                        <xsl:text>,</xsl:text>
+                                    </xsl:for-each>
+                                    
+                                </xsl:attribute>
+                            </xsl:otherwise>
+                            
+                        </xsl:choose>
                         <xsl:attribute name="onmouseover">
                             <xsl:value-of select="concat('gestoreEvidenzia(&quot;', @xml:id, '&quot;)' )"/>
                         </xsl:attribute>
                         <xsl:attribute name="onmouseout">
                             <xsl:value-of select="concat('gestoreDisEvidenzia(&quot;', @xml:id, '&quot;)' )"/>
+                        </xsl:attribute>
+                        
+                        <xsl:attribute name="onclick">
+                            <xsl:value-of select="concat('allinea(&quot;', @xml:id, '&quot;)' )"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="ondblclick">
+                            <xsl:value-of select="concat('visualizzaImm(&quot;', @xml:id, '&quot;)' )"/>
                         </xsl:attribute>
                     </xsl:element>
                 </xsl:for-each>
@@ -838,11 +868,6 @@
     <!-- ######################################################### -->
 
     <xsl:template match="tei:teiCorpus/tei:teiHeader/tei:fileDesc">
-        <h2 id="titolo_info_pubblicazione">Informazioni sulla pubblicazione</h2>
-        <div id="info_pubblicazione">
-            <xsl:apply-templates select="tei:publicationStmt"/>
-            <!-- <xsl:apply-templates select="tei:publicationStmt/tei:availability"/> -->
-        </div>
         <h2 id="titolo_info_edizione">Informazioni sull'edizione</h2>
         <div id="info_edizione">
             <xsl:for-each select="tei:titleStmt/tei:respStmt">
@@ -854,16 +879,11 @@
         </div>
     </xsl:template>
 
-    <!-- Pubblicato da e presso -->
+    <!-- Pubblicato da e presso 
     <xsl:template match="tei:publicationStmt">
         <p class="p_footer"> Pubblicato da: <xsl:value-of select="tei:publisher"/>, <xsl:value-of select="tei:pubPlace"/> </p>  
-    </xsl:template>
-    
-    <!-- Licenza, da capire se la devo inserire
-    <xsl:template match="tei:publicationStmt/tei:availability">
-        <p> Licenza: <xsl:value-of select="."/> </p> 
     </xsl:template> -->
-
+    
     <!-- Trascritto da -->
     <xsl:template match="tei:titleStmt/tei:respStmt">
         <p class="p_footer"> <xsl:value-of select="tei:resp"/>: <xsl:value-of select="tei:name"/> </p> 

@@ -97,15 +97,15 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_18" type="fronte">
-                    <graphic url='Immagini/image/18_A.png' width='1695.33334px' height='1139.33334px' />
+                    <graphic url='Immagini/image/18A.png' width='1695.33334px' height='1139.33334px' />
                     <zone ulx="235" uly="23" lrx="759" lry="85" xml:id="kriegsg_18A"/>
                     <zone ulx="243" uly="87" lrx="943" lry="122" xml:id="corr_18A"/>
                     <zone ulx="231" uly="146" lrx="834" lry="215" xml:id="postkarte_18A"/>
                     <zone ulx="239" uly="218" lrx="672" lry="253" xml:id="cart_18A"/>
                     <zone ulx="1126" uly="173" lrx="1548" lry="576" xml:id="timbro1_18A"/>
-                    <zone points = ' 730,233 942,569 1279,348 1055,36 ' xml:id="timbro2_18A"/>
+                    <zone points = " 730,233 942,569 1279,348 1055,36 " xml:id="timbro2_18A"/>
                     <zone ulx="878" uly="216" lrx="1020" lry="323" xml:id="timbro3_18A"/>
-                    <zone points = ' 236,289 316,1106 664,1068 572,256 ' xml:id="timbro4_18A"/>
+                    <zone points = " 236,289 316,1106 664,1068 572,256 " xml:id="timbro4_18A"/>
                     <zone ulx="22" uly="522" lrx="316" lry="571" xml:id="gebuh_18A"/>
                     <zone ulx="331" uly="515" lrx="647" lry="568" xml:id="franc_18A"/>
                     <zone ulx="240" uly="288" lrx="771" lry="327" xml:id="label_nome1_18A"/>
@@ -135,7 +135,7 @@
                     <zone ulx="354" uly="996" lrx="570" lry="1070" xml:id="mit_citta_18A"/>
                 </surface>
                 <surface xml:id="retro_18" type="retro">
-                    <graphic url='Immagini/image/18_B.png' width='1769.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/18B.png' width='1769.33334px' height='1177.33334px' />
                     <zone ulx="371" uly="35" lrx="651" lry="79" xml:id="stamp1_18B"/>
                     <zone ulx="894" uly="34" lrx="1406" lry="84" xml:id="stamp2_18B"/>
                     <zone ulx="139" uly="143" lrx="855" lry="255" xml:id="stamp3_18B"/>

@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_36" type="fronte">
-                    <graphic url='Immagini/image/36_A.png' width='1777.33334px' height='2489.33334px' />
+                    <graphic url='Immagini/image/36A.png' width='1777.33334px' height='2489.33334px' />
                     <zone ulx="123" uly="108" lrx="318" lry="290" xml:id="logocr_36A"/>
                     <zone ulx="351" uly="156" lrx="1530" lry="224" xml:id="comitato_36A"/>
                     <zone ulx="1572" uly="119" lrx="1635" lry="163" xml:id="numpag_36A"/>
@@ -133,8 +133,8 @@
                     <zone ulx="752" uly="983" lrx="980" lry="1038" xml:id="mitteilung_36A"/>
                     <zone ulx="1040" uly="986" lrx="1228" lry="1036" xml:id="message_36A"/>
                     <zone ulx="135" uly="1047" lrx="1367" lry="1091" xml:id="parole_36A"/>
-                    <zone points = ' 1439,1050 1635,1056 1634,1100 906,1095 903,1142 132,1130 134,1094 1438,1098 ' xml:id="worte_36A"/>
-                    <zone points = ' 951,1098 1644,1106 1644,1147 951,1151 468,1142 463,1180 135,1179 130,1134 938,1144 ' xml:id="words_36A"/>
+                    <zone points = " 1439,1050 1635,1056 1634,1100 906,1095 903,1142 132,1130 134,1094 1438,1098 " xml:id="worte_36A"/>
+                    <zone points = " 951,1098 1644,1106 1644,1147 951,1151 468,1142 463,1180 135,1179 130,1134 938,1144 " xml:id="words_36A"/>
                     <zone ulx="172" uly="1174" lrx="423" lry="1222" xml:id="salute_36A"/>
                     <zone ulx="451" uly="1171" lrx="1666" lry="1242" xml:id="iniziomessaggio_36A"/>
                     <zone ulx="168" uly="1235" lrx="1658" lry="1306" xml:id="riga2_36A"/>
@@ -180,10 +180,10 @@
 
                 </surface>
                 <surface xml:id="retro_36" type="retro">
-                    <graphic url='Immagini/image/36_B.png' width='1779.33334px' height='2489.33334px' />
-                    <zone points = ' 692,200 1650,191 1650,238 635,250 638,310 346,314 343,254 691,248 ' xml:id="stamp1_36B"/>
-                    <zone points = ' 1448,311 1640,315 1640,350 918,358 918,404 147,411 150,363 1443,351 ' xml:id="stamp2_36B"/>
-                    <zone points = ' 962,360 1646,359 1648,398 468,414 472,446 144,452 143,416 956,407 ' xml:id="stamp3_36B"/>
+                    <graphic url='Immagini/image/36B.png' width='1779.33334px' height='2489.33334px' />
+                    <zone points = " 692,200 1650,191 1650,238 635,250 638,310 346,314 343,254 691,248 " xml:id="stamp1_36B"/>
+                    <zone points = " 1448,311 1640,315 1640,350 918,358 918,404 147,411 150,363 1443,351 " xml:id="stamp2_36B"/>
+                    <zone points = " 962,360 1646,359 1648,398 468,414 472,446 144,452 143,416 956,407 " xml:id="stamp3_36B"/>
                     <zone ulx="270" uly="140" lrx="536" lry="184" xml:id="stamp4_36B"/>
                     <zone ulx="800" uly="134" lrx="1071" lry="182" xml:id="stamp5_36B"/>
                     <zone ulx="1330" uly="127" lrx="1504" lry="179" xml:id="stamp6_36B"/>

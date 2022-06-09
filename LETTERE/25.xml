@@ -96,7 +96,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_25" type="fronte">
                 <surface xml:id="fronte1_25" type="fronte">
-                    <graphic url='Immagini/image/25_A.png' width='1739.66666px' height='4128.66666px' />
+                    <graphic url='Immagini/image/25A.png' width='1739.66666px' height='4128.66666px' />
                     <zone ulx="599" uly="980" lrx="1255" lry="1060" xml:id="kriegsg_25A"/>
                     <zone ulx="597" uly="1088" lrx="1260" lry="1130" xml:id="corr_25A"/>
                     <zone ulx="1327" uly="870" lrx="1665" lry="1185" xml:id="timbro1_25A"/>
@@ -134,7 +134,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_25" type="retro">
                 <surface xml:id="retro1_25">
-                    <graphic url='Immagini/image/25_B.png' width='1729.66666px' height='4116.66666px' />
+                    <graphic url='Immagini/image/25B.png' width='1729.66666px' height='4116.66666px' />
                     <zone ulx="487" uly="665" lrx="1285" lry="702" xml:id="stamp1_25B"/>
                     <zone ulx="462" uly="709" lrx="1309" lry="749" xml:id="stamp2_25B"/>
                     <zone ulx="599" uly="759" lrx="1167" lry="800" xml:id="stamp3_25B"/>
@@ -167,7 +167,7 @@
                     <zone ulx="132" uly="3446" lrx="1707" lry="3546" xml:id="riga22_25B"/>
                     <zone ulx="140" uly="3564" lrx="1640" lry="3661" xml:id="riga23_25B"/>
                     <zone ulx="147" uly="3689" lrx="1395" lry="3769" xml:id="riga24_25B"/>
-                    <zone points = ' 1422,3676 1407,3783 1344,3786 1342,3898 1705,3896 1697,3676 ' xml:id="signed_25B"/>
+                    <zone points = " 1422,3676 1407,3783 1344,3786 1342,3898 1705,3896 1697,3676 " xml:id="signed_25B"/>
                 </surface>
             </surfaceGrp>
         </facsimile> 

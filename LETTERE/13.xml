@@ -95,12 +95,12 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface type="fronte" xml:id="fronte_13">
-                    <graphic url='Immagini/image/13_A.png' width='1865.33334px' height='1297.33334px' />
+                    <graphic url='Immagini/image/13A.png' width='1865.33334px' height='1297.33334px' />
                     <zone ulx="131" uly="100" lrx="1740" lry="287" xml:id="stamp1_13A"/>
-                    <zone points = ' 28,1190 404,1278 527,483 172,405 ' xml:id="timbro1_13A"/>
-                    <zone points = ' 971,375 1056,502 1174,427 1076,310 ' xml:id="timbro2_13A"/>
+                    <zone points = " 28,1190 404,1278 527,483 172,405 " xml:id="timbro1_13A"/>
+                    <zone points = " 971,375 1056,502 1174,427 1076,310 " xml:id="timbro2_13A"/>
                     <zone ulx="1367" uly="350" lrx="1812" lry="754" xml:id="timbro3_13A"/>
-                    <zone points = ' 1118,709 1215,905 1822,653 1754,419 ' xml:id="timbro4_13A"/>
+                    <zone points = " 1118,709 1215,905 1822,653 1754,419 " xml:id="timbro4_13A"/>
                     <zone ulx="500" uly="414" lrx="566" lry="474" xml:id="label_ruolo1_13A"/>
                     <zone ulx="634" uly="396" lrx="1446" lry="488" xml:id="ruolo_13A"/>
                     <zone ulx="659" uly="477" lrx="963" lry="516" xml:id="label_ruolo2_13A"/>
@@ -128,7 +128,7 @@
                     <zone ulx="352" uly="718" lrx="448" lry="940" xml:id="mit_stato_13A"/>
                 </surface>
                 <surface type="retro" xml:id="retro_13">
-                    <graphic url='Immagini/image/13_B.png' width='1857.33334px' height='1289.33334px' />
+                    <graphic url='Immagini/image/13B.png' width='1857.33334px' height='1289.33334px' />
                     <zone ulx="942" uly="119" lrx="1072" lry="183" xml:id="label_data_13B"/>
                     <zone ulx="1084" uly="87" lrx="1410" lry="176" xml:id="luogo_13B"/>
                     <zone ulx="1432" uly="103" lrx="1759" lry="182" xml:id="data_13B"/>

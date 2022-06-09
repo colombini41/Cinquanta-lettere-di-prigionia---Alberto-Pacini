@@ -605,7 +605,7 @@ The Document interface represents the entire HTML or XML document.
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;boolean</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../org/apache/xerces/dom/CoreDocumentImpl.html#getAsync()">getAsync</A></B>()</CODE>
+<TD><CODE><B><A HREF="../../../../org/apache/xerces/dom/CoreDocumentImpl.html#getsync()">getsync</A></B>()</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM Level 3 WD - Experimental.</TD>
@@ -1025,7 +1025,7 @@ The Document interface represents the entire HTML or XML document.
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../org/apache/xerces/dom/CoreDocumentImpl.html#setAsync(boolean)">setAsync</A></B>(boolean&nbsp;async)</CODE>
+<TD><CODE><B><A HREF="../../../../org/apache/xerces/dom/CoreDocumentImpl.html#setsync(boolean)">setsync</A></B>(boolean&nbsp;sync)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOM Level 3 WD - Experimental.</TD>
@@ -2339,21 +2339,21 @@ public void <B>setDocumentURI</B>(java.lang.String&nbsp;documentURI)</PRE>
 </DL>
 <HR>
 
-<A NAME="getAsync()"><!-- --></A><H3>
-getAsync</H3>
+<A NAME="getsync()"><!-- --></A><H3>
+getsync</H3>
 <PRE>
-public boolean <B>getAsync</B>()</PRE>
+public boolean <B>getsync</B>()</PRE>
 <DL>
 <DD>DOM Level 3 WD - Experimental.
  Indicates whether the method load should be synchronous or
- asynchronous. When the async attribute is set to <code>true</code>
+ synchronous. When the sync attribute is set to <code>true</code>
  the load method returns control to the caller before the document has
  completed loading. The default value of this property is
  <code>false</code>.
  <br>Setting the value of this attribute might throw NOT_SUPPORTED_ERR
  if the implementation doesn't support the mode the attribute is being
  set to. Should the DOM spec define the default value of this
- property? What if implementing both async and sync IO is impractical
+ property? What if implementing both sync and sync IO is impractical
  in some systems?  2001-09-14. default is <code>false</code> but we
  need to check with Mozilla and IE.<DD><DL>
 </DL>
@@ -2361,8 +2361,8 @@ public boolean <B>getAsync</B>()</PRE>
 </DL>
 <HR>
 
-<A NAME="setAsync(boolean)"><!-- --></A><H3>
-setAsync</H3>
+<A NAME="setsync(boolean)"><!-- --></A><H3>
+setsync</H3>
 <PRE>
 public void <B>setAsync</B>(boolean&nbsp;async)</PRE>
 <DL>
@@ -3183,6 +3183,6 @@ DETAIL: &nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructo
 <!-- =========== END OF NAVBAR =========== -->
 
 <HR>
-Copyright © 1999-2020 The Apache Software Foundation. All Rights Reserved.
+Copyright ï¿½ 1999-2020 The Apache Software Foundation. All Rights Reserved.
 </BODY>
 </HTML>

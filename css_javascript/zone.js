@@ -20,3 +20,37 @@ function gestoreDisEvidenzia(name){
     z.style.color="#faebd7";
                                     
 }
+
+
+function allinea (name){
+    document.getElementById(name).scrollIntoView({block: "center"});
+}
+
+
+function visualizzaImmagine(src){
+
+    var imm = src;
+    console.log(imm);
+    var path = "../Immagini/image/" + imm;
+
+    window.open(path);
+
+}
+
+
+function visualizzaImm(name){
+    var zone = document.getElementById(name).id;
+    var zona = "zona_" + zone;
+    
+    var dati = zona.slice(-3);
+    console.log(dati);
+    var num = dati.slice(-3, -1);
+    var lato = dati.slice(-1);
+
+    console.log(lato);
+    console.log(num);
+
+    var path = "../Immagini/image/" + num + lato + ".png";
+
+    window.open(path);
+}

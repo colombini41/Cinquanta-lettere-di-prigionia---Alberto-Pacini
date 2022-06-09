@@ -90,11 +90,11 @@ An interface to an object that is able to build, or augment, a DOM tree
  . 
  </li>
  </ul>
- <p> Asynchronous <code>LSParser</code> objects are expected to also 
+ <p> synchronous <code>LSParser</code> objects are expected to also 
  implement the <code>events::EventTarget</code> interface so that event 
- listeners can be registered on asynchronous <code>LSParser</code> 
+ listeners can be registered on synchronous <code>LSParser</code> 
  objects. 
- <p> Events supported by asynchronous <code>LSParser</code> objects are: 
+ <p> Events supported by synchronous <code>LSParser</code> objects are: 
  <dl>
  <dt>load</dt>
  <dd>
@@ -265,10 +265,10 @@ and Save Specification</a>.
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;boolean</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../org/w3c/dom/ls/LSParser.html#getAsync()">getAsync</A></B>()</CODE>
+<TD><CODE><B><A HREF="../../../../org/w3c/dom/ls/LSParser.html#getsync()">getsync</A></B>()</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>true</code> if the <code>LSParser</code> is asynchronous, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>true</code> if the <code>LSParser</code> is synchronous, 
  <code>false</code> if it is synchronous.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
@@ -569,12 +569,12 @@ public void <B>setFilter</B>(<A HREF="../../../../org/w3c/dom/ls/LSParserFilter.
  filter.</DL>
 <HR>
 
-<A NAME="getAsync()"><!-- --></A><H3>
-getAsync</H3>
+<A NAME="getsync()"><!-- --></A><H3>
+getsync</H3>
 <PRE>
-public boolean <B>getAsync</B>()</PRE>
+public boolean <B>getsync</B>()</PRE>
 <DL>
-<DD><code>true</code> if the <code>LSParser</code> is asynchronous, 
+<DD><code>true</code> if the <code>LSParser</code> is synchronous, 
  <code>false</code> if it is synchronous.</DL>
 <HR>
 
@@ -600,7 +600,7 @@ public <A HREF="../../../../org/w3c/dom/Document.html">Document</A> <B>parse</B>
    document is to be read.<DT><B>Returns:</B><DD>If the <code>LSParser</code> is a synchronous 
    <code>LSParser</code>, the newly created and populated 
    <code>Document</code> is returned. If the <code>LSParser</code> is 
-   asynchronous, <code>null</code> is returned since the document 
+   synchronous, <code>null</code> is returned since the document 
    object may not yet be constructed when this method returns.<DT><B>Throws:</B><DD><CODE><A HREF="../../../../org/w3c/dom/DOMException.html">DOMException</A></CODE> - INVALID_STATE_ERR: Raised if the <code>LSParser</code>'s 
    <code>LSParser.busy</code> attribute is <code>true</code>.<DD><CODE><A HREF="../../../../org/w3c/dom/ls/LSException.html">LSException</A></CODE> - PARSE_ERR: Raised if the <code>LSParser</code> was unable to load 
    the XML document. DOM applications should attach a 
@@ -624,7 +624,7 @@ public <A HREF="../../../../org/w3c/dom/Document.html">Document</A> <B>parseURI<
 <DT><B>Parameters:</B><DD><CODE>uri</CODE> - The location of the XML document to be read.<DT><B>Returns:</B><DD>If the <code>LSParser</code> is a synchronous 
    <code>LSParser</code>, the newly created and populated 
    <code>Document</code> is returned, or <code>null</code> if an error 
-   occured. If the <code>LSParser</code> is asynchronous, 
+   occured. If the <code>LSParser</code> is synchronous, 
    <code>null</code> is returned since the document object may not yet 
    be constructed when this method returns.<DT><B>Throws:</B><DD><CODE><A HREF="../../../../org/w3c/dom/DOMException.html">DOMException</A></CODE> - INVALID_STATE_ERR: Raised if the <code>LSParser.busy</code> 
    attribute is <code>true</code>.<DD><CODE><A HREF="../../../../org/w3c/dom/ls/LSException.html">LSException</A></CODE> - PARSE_ERR: Raised if the <code>LSParser</code> was unable to load 
@@ -665,7 +665,7 @@ public <A HREF="../../../../org/w3c/dom/Node.html">Node</A> <B>parseWithContext<
  what they would be set to if the input source was parsed using 
  <code>LSParser.parse()</code>. 
  <br> This method is always synchronous, even if the 
- <code>LSParser</code> is asynchronous (<code>LSParser.async</code> is 
+ <code>LSParser</code> is synchronous (<code>LSParser.sync</code> is 
  <code>true</code>). 
  <br> If an error occurs while parsing, the caller is notified through 
  the <code>ErrorHandler</code> instance associated with the "<a href='http://www.w3.org/TR/DOM-Level-3-Core/core.html#parameter-error-handler'>
@@ -767,6 +767,6 @@ DETAIL: &nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<
 <!-- =========== END OF NAVBAR =========== -->
 
 <HR>
-Copyright © 1999-2020 The Apache Software Foundation. All Rights Reserved.
+Copyright ï¿½ 1999-2020 The Apache Software Foundation. All Rights Reserved.
 </BODY>
 </HTML>

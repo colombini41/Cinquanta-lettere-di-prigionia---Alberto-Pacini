@@ -147,7 +147,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="busta_30">
                 <surface xml:id="busta_fronte_30" type="fronte">
-                    <graphic url='Immagini/image/30_A.png' width='1689.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/30A.png' width='1689.33334px' height='1177.33334px' />
                     <zone ulx="80" uly="216" lrx="1308" lry="368" xml:id="addrline1_30A"/>
                     <zone ulx="243" uly="459" lrx="999" lry="599" xml:id="nome_30A"/>
                     <zone ulx="1032" uly="512" lrx="1372" lry="620" xml:id="num_30A"/>
@@ -155,11 +155,11 @@
                     <zone ulx="922" uly="922" lrx="1526" lry="1049" xml:id="stato1_30A"/>
                     <zone ulx="543" uly="1018" lrx="947" lry="1132" xml:id="stato2_30A"/>
                     <zone ulx="1194" uly="58" lrx="1542" lry="400" xml:id="timbro1_30A"/>
-                    <zone points = ' 634,848 1114,388 1176,452 1130,488 1215,579 826,985 739,875 676,921 ' xml:id="timbro2_30A"/>
+                    <zone points = " 634,848 1114,388 1176,452 1130,488 1215,579 826,985 739,875 676,921 " xml:id="timbro2_30A"/>
                     <zone ulx="1399" uly="998" lrx="1679" lry="1172" xml:id="timbro3_30A"/>
                 </surface>
                 <surface xml:id="busta_retro_30" type="retro">
-                    <graphic url='Immagini/image/30_B.png' width='1689.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/30B.png' width='1689.33334px' height='1185.33334px' />
                     <zone ulx="150" uly="15" lrx="432" lry="102" xml:id="mittente_30B"/>
                     <zone ulx="444" uly="11" lrx="994" lry="99" xml:id="nome_30B"/>
                     <zone ulx="1012" uly="6" lrx="1342" lry="92" xml:id="localita_30B"/>
@@ -169,7 +169,7 @@
             </surfaceGrp>
             <surfaceGrp>
                 <surface xml:id="fronte_30" type="fronte">
-                    <graphic url='Immagini/image/30_C.png' width='1641.33334px' height='2153.33334px' />
+                    <graphic url='Immagini/image/30C.png' width='1641.33334px' height='2153.33334px' />
                     <zone ulx="992" uly="21" lrx="1310" lry="113" xml:id="luogo_30C"/>
                     <zone ulx="1312" uly="25" lrx="1619" lry="113" xml:id="data_30C"/>
                     <zone ulx="46" uly="13" lrx="923" lry="159" xml:id="salute_30C"/>
@@ -192,15 +192,15 @@
                     <zone ulx="15" uly="2033" lrx="1615" lry="2142" xml:id="riga17_30C"/>
                 </surface>
                 <surface xml:id="retro_30" type="retro">
-                    <graphic url='Immagini/image/30_D.png' width='1649.33334px' height='2153.33334px' />
+                    <graphic url='Immagini/image/30D.png' width='1649.33334px' height='2153.33334px' />
                     <zone ulx="46" uly="14" lrx="1611" lry="144" xml:id="riga1_30D"/>
                     <zone ulx="40" uly="142" lrx="1627" lry="256" xml:id="riga2_30D"/>
                     <zone ulx="52" uly="254" lrx="1634" lry="375" xml:id="riga3_30D"/>
                     <zone ulx="47" uly="375" lrx="1563" lry="499" xml:id="riga4_30D"/>
                     <zone ulx="50" uly="499" lrx="1566" lry="618" xml:id="riga5_30D"/>
                     <zone ulx="46" uly="620" lrx="1631" lry="736" xml:id="riga6_30D"/>
-                    <zone points = ' 46,738 1624,764 1623,906 1539,907 1486,854 34,820 ' xml:id="riga7_30D"/>
-                    <zone points = ' 35,828 1462,863 1524,924 1622,924 1626,1019 1534,1021 1511,972 32,936 ' xml:id="riga8_30D"/>
+                    <zone points = " 46,738 1624,764 1623,906 1539,907 1486,854 34,820 " xml:id="riga7_30D"/>
+                    <zone points = " 35,828 1462,863 1524,924 1622,924 1626,1019 1534,1021 1511,972 32,936 " xml:id="riga8_30D"/>
                     <zone ulx="42" uly="948" lrx="1488" lry="1081" xml:id="riga9_30D"/>
                     <zone ulx="42" uly="1084" lrx="1591" lry="1209" xml:id="riga10_30D"/>
                     <zone ulx="42" uly="1209" lrx="1599" lry="1339" xml:id="riga11_30D"/>
@@ -210,7 +210,7 @@
                     <zone ulx="39" uly="1708" lrx="1602" lry="1803" xml:id="riga15_30D"/>
                     <zone ulx="19" uly="1812" lrx="1611" lry="1946" xml:id="riga16_30D"/>
                     <zone ulx="19" uly="1943" lrx="1315" lry="2014" xml:id="riga17_30D"/>
-                    <zone points = ' 1319,1949 1610,1955 1603,2146 22,2126 20,2017 1320,2018 ' xml:id="closer_30D"/>
+                    <zone points = " 1319,1949 1610,1955 1603,2146 22,2126 20,2017 1320,2018 " xml:id="closer_30D"/>
                 </surface>
             </surfaceGrp>
         </facsimile>

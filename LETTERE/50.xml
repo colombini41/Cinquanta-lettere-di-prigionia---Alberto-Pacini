@@ -95,7 +95,7 @@
         <facsimile n="1945">
             <surfaceGrp>
                 <surface xml:id="fronte_50" type="fronte">
-                    <graphic url='Immagini/image/50_A.png' width='2405.56666px' height='2986.56666px' />
+                    <graphic url='Immagini/image/50A.png' width='2405.56666px' height='2986.56666px' />
                         <zone ulx="924" uly="30" lrx="1166" lry="221" xml:id="luogo_50A"/>
                         <zone ulx="1171" uly="68" lrx="1532" lry="196" xml:id="data_50A"/>
                         <zone ulx="160" uly="263" lrx="1366" lry="392" xml:id="salute_50A"/>
@@ -127,7 +127,7 @@
     
                 </surface>
                 <surface xml:id="retro_50" type="retro">
-                    <graphic url='Immagini/image/50_B.png' width='2399.56666px' height='2997.56666px' />
+                    <graphic url='Immagini/image/50B.png' width='2399.56666px' height='2997.56666px' />
                     <zone ulx="36" uly="135" lrx="2261" lry="219" xml:id="riga1_50B"/>
                     <zone ulx="0" uly="223" lrx="2290" lry="312" xml:id="riga2_50B"/>
                     <zone ulx="2" uly="319" lrx="2343" lry="432" xml:id="riga3_50B"/>

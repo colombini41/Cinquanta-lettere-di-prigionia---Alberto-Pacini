@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_35" type="fronte">
                 <surface xml:id="fronte1_35" type="fronte">
-                    <graphic url='Immagini/image/35_A.png' width='1723.33334px' height='4034.33334px' />
+                    <graphic url='Immagini/image/35A.png' width='1723.33334px' height='4034.33334px' />
                     <zone ulx="519" uly="959" lrx="1164" lry="1047" xml:id="kriegsg_35A"/>
                     <zone ulx="496" uly="1074" lrx="1194" lry="1120" xml:id="corr_35A"/>
                     <zone ulx="103" uly="1613" lrx="351" lry="1661" xml:id="besetzes_35A"/>
@@ -121,7 +121,7 @@
                     <zone ulx="1186" uly="1665" lrx="1507" lry="1746" xml:id="via_35A"/>
                     <zone ulx="840" uly="1781" lrx="958" lry="1830" xml:id="label_circoscrizione1_35A"/>
                     <zone ulx="843" uly="1834" lrx="1059" lry="1861" xml:id="label_circoscrizione2_35A"/>
-                    <zone ulx="1043" uly="1734" lrx="1451" lry="1832" xml:id="provincia_35A1"/>
+                    <zone ulx="1043" uly="1734" lrx="1451" lry="1832" xml:id="provincia_35A"/>
                     <zone ulx="1455" uly="1740" lrx="1707" lry="1870" xml:id="regione_35A"/>
                     <zone ulx="836" uly="1877" lrx="1040" lry="1913" xml:id="label_provincia1_35A"/>
                     <zone ulx="839" uly="1913" lrx="924" lry="1957" xml:id="label_provincia2_35A"/>
@@ -143,7 +143,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_35" type="retro">
                 <surface xml:id="retro1_35" type="retro">
-                    <graphic url='Immagini/image/35_B.png' width='1724.33334px' height='4029.33334px' />
+                    <graphic url='Immagini/image/35B.png' width='1724.33334px' height='4029.33334px' />
                     <zone ulx="439" uly="599" lrx="1316" lry="638" xml:id="stamp1_35B"/>
                     <zone ulx="439" uly="646" lrx="1315" lry="682" xml:id="stamp2_35B"/>
                     <zone ulx="584" uly="703" lrx="1182" lry="741" xml:id="stamp3_35B"/>
@@ -238,7 +238,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_circoscrizione1_35A">Kreis</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_circoscrizione2_35A">Arrondissement</stamp>
-                                    <placeName ref="#LI" facs="#provincia_35A1">Livorno</placeName>
+                                    <placeName ref="#LI" facs="#provincia_35A">Livorno</placeName>
                                     <placeName ref="#TO" facs="#regione_35A">(Toscana)</placeName>
                                 </addrLine>
                                 <addrLine>

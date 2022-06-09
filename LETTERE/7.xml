@@ -96,13 +96,13 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_07" type="fronte">
-                    <graphic url='Immagini/image/07_A.png' width='1785.33334px' height='1179.33334px' />
+                    <graphic url='Immagini/image/07A.png' width='1785.33334px' height='1179.33334px' />
                     <zone ulx="292" uly="35" lrx="823" lry="96" xml:id="kriegsg_07A"/>
                     <zone ulx="294" uly="102" lrx="998" lry="136" xml:id="corr_07A"/>
                     <zone ulx="287" uly="164" lrx="890" lry="231" xml:id="antwort_07A"/>
                     <zone ulx="295" uly="228" lrx="728" lry="266" xml:id="carte_07A"/>
                     <zone ulx="1223" uly="59" lrx="1572" lry="402" xml:id="timbro1_07A"/>
-                    <zone points = ' 652,587 719,899 1071,841 1027,551 ' xml:id="timbro2_07A"/>
+                    <zone points = " 652,587 719,899 1071,841 1027,551 " xml:id="timbro2_07A"/>
                     <zone ulx="843" uly="845" lrx="1122" lry="1104" xml:id="timbro3_07A"/>
                     <zone ulx="771" uly="143" lrx="1142" lry="503" xml:id="timbro4_07A"/>
                     <zone ulx="78" uly="528" lrx="364" lry="586" xml:id="gebuh_07A"/>
@@ -138,7 +138,7 @@
 
                 </surface>
                 <surface xml:id="retro_07" type="retro">
-                    <graphic url='Immagini/image/07_B.png' width='1785.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/07B.png' width='1785.33334px' height='1177.33334px' />
                     <zone ulx="395" uly="27" lrx="668" lry="72" xml:id="stamp1_07B"/>
                     <zone ulx="910" uly="32" lrx="1418" lry="75" xml:id="stamp2_07B"/>
                     <zone ulx="166" uly="139" lrx="864" lry="254" xml:id="stamp3_07B"/>

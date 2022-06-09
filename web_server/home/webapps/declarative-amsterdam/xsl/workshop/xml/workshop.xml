@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workshop>
+    <exercises>
+        <exercise file="hello-world.html">Hello, world!</exercise>
+        <exercise file="hiding-and-showing.html">Hiding and showing</exercise>
+        <exercise file="hiding-and-showing-next.html">Hiding and showing (continued)</exercise>
+        <exercise file="hiding-and-showing-diy.html">Hiding and showing (exercise)</exercise>
+        <exercise file="changing-content.html">Changing content</exercise>
+        <exercise file="changing-content-diy.html">Changing content (exercise)</exercise>
+        <exercise file="controls.html">Controls</exercise>
+        <exercise file="mousemove.html">The moving mouse</exercise>
+        <exercise file="mousemove-diy.html">The moving mouse (exercise)</exercise>
+        <exercise file="motion.html">Motion</exercise>
+        <exercise file="motion-diy.html">Motion (exercise)</exercise>
+        <exercise file="load-doc-diy.html">Loading an external document (correct it yourself)</exercise>
+        <exercise file="tangram.html">Some fun at the end</exercise>
+    </exercises>
+</workshop>

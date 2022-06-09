@@ -225,6 +225,7 @@ header {
     font-size: 15px;
     font-family: 'Zilla_reg', serif;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 table, td{  
@@ -349,7 +350,7 @@ footer{
     color: #00111a;
     font-family: 'Zilla_bold', serif;
     position: relative; 
-	height: 420px;
+	height: 320px;
 	clear:both;
     padding: 2%;
 }

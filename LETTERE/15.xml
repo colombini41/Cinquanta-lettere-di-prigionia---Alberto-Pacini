@@ -95,17 +95,17 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_15" type="fronte">
                 <surface xml:id="fronte2_15" type="fronte">
-                    <graphic url='Immagini/image/15_A.png' width='1672.33334px' height='3655.33334px' />
+                    <graphic url='Immagini/image/15A.png' width='1672.33334px' height='3655.33334px' />
                     <zone ulx="88" uly="911" lrx="1532" lry="1009" xml:id="stamp1_15A"/>
                     <zone ulx="1178" uly="979" lrx="1603" lry="1362" xml:id="timbro1_15A"/>
-                    <zone points = ' 930,1520 1520,1185 1616,1369 1023,1716 ' xml:id="timbro2_15A"/>
+                    <zone points = " 930,1520 1520,1185 1616,1369 1023,1716 " xml:id="timbro2_15A"/>
                     <zone ulx="1080" uly="1034" lrx="1218" lry="1134" xml:id="timbro3_15A"/>
-                    <zone points = ' 816,555 1010,128 1043,184 870,586 ' xml:id="men1_timbro4_15A"/>
-                    <zone points = ' 876,591 1024,240 1099,268 935,626 ' xml:id="men3_timbro4_15A"/>
-                    <zone points = ' 1004,558 1126,299 1187,326 1052,584 ' xml:id="men4_timbro4_15A"/>
-                    <zone points = ' 1023,2021 1140,1809 1187,1833 1071,2062 ' xml:id="men2_timbro4_15A"/>
-                    <zone points = ' 1060,2075 1207,1797 1272,1834 1126,2122 ' xml:id="men5_timbro4_15A"/>
-                    <zone points = ' 1178,2107 1308,1821 1356,1845 1211,2135 ' xml:id="men6_timbro4_15A"/>
+                    <zone points = " 816,555 1010,128 1043,184 870,586 " xml:id="men1_timbro4_15A"/>
+                    <zone points = " 876,591 1024,240 1099,268 935,626 " xml:id="men3_timbro4_15A"/>
+                    <zone points = " 1004,558 1126,299 1187,326 1052,584 " xml:id="men4_timbro4_15A"/>
+                    <zone points = " 1023,2021 1140,1809 1187,1833 1071,2062 " xml:id="men2_timbro4_15A"/>
+                    <zone points = " 1060,2075 1207,1797 1272,1834 1126,2122 " xml:id="men5_timbro4_15A"/>
+                    <zone points = " 1178,2107 1308,1821 1356,1845 1211,2135 " xml:id="men6_timbro4_15A"/>
                     <zone ulx="126" uly="1083" lrx="212" lry="1163" xml:id="label_grado1_15A"/>
                     <zone ulx="270" uly="1067" lrx="1152" lry="1160" xml:id="grado_15A"/>
                     <zone ulx="302" uly="1159" lrx="603" lry="1192" xml:id="label_grado2_15A"/>
@@ -144,7 +144,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_15" type="retro">
                 <surface xml:id="retro1_15" type="retro">
-                    <graphic url='Immagini/image/15_B.png' width='1680.33334px' height='3678.33334px' />
+                    <graphic url='Immagini/image/15B.png' width='1680.33334px' height='3678.33334px' />
                     <zone ulx="139" uly="344" lrx="1600" lry="476" xml:id="stamp1_15B"/>
                     <zone ulx="1040" uly="517" lrx="1398" lry="620" xml:id="luogo_15B"/>
                     <zone ulx="1408" uly="546" lrx="1604" lry="624" xml:id="data_15B"/>

@@ -97,7 +97,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface type="fronte" xml:id="fronte_11">
-                    <graphic url='Immagini/image/11_A.png' width='1793.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/11A.png' width='1793.33334px' height='1177.33334px' />
                     <zone ulx="299" uly="44" lrx="824" lry="109" xml:id="kriegsg_11A"/>
                     <zone ulx="303" uly="113" lrx="1006" lry="145" xml:id="corr_11A"/>
                     <zone ulx="298" uly="169" lrx="899" lry="237" xml:id="antwort_11A"/>
@@ -134,7 +134,7 @@
                     <zone ulx="406" uly="1001" lrx="680" lry="1094" xml:id="mit_stato_11A"/>
                 </surface>
                 <surface type="retro" xml:id="retro_11">
-                    <graphic url='Immagini/image/11_B.png' width='1769.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/11B.png' width='1769.33334px' height='1177.33334px' />
                     <zone ulx="374" uly="34" lrx="652" lry="79" xml:id="stamp1_11B"/>
                     <zone ulx="896" uly="31" lrx="1410" lry="86" xml:id="stamp2_11B"/>
                     <zone ulx="146" uly="142" lrx="847" lry="255" xml:id="stamp3_11B"/>
@@ -271,7 +271,7 @@
                         <ab>
                             <anchor facs="#iniziomessaggio_11B" type="start_message"/>abbiamo ricevuto
                             <lb facs="#riga2_11B" n="2"/>tue care notizie stiamo tutti bene ti pensiamo
-                            <lb facs="#riga3_11B" n="3"/>tanto farti coraggio presto sarai con noi che ti
+                            <lb facs="#riga3_11B" n="3"/>tanto fatti coraggio presto sarai con noi che ti
                             <lb facs="#riga4_11B" n="4"/>attendiamo con ansia tanti baci cari dal tuo <persName ref="#AnP">babbo</persName>
                             <lb facs="#riga5_11B" n="5"/><persName ref="#AE">mamma</persName> e tutti. <handShift new="#LM"/><persName ref="#AlP">Alberto</persName> caro ti scrivo un poco
                             <lb facs="#riga6_11B" n="6"/>pure io perchè tu veda che sono già dai tuoi; stò bene ti

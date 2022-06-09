@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_05" type="fronte">   
-                    <graphic url='Immagini/image/05_A.png' width='1769.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/05A.png' width='1769.33334px' height='1177.33334px' />
                     <zone ulx="103" uly="103" lrx="351" lry="158" xml:id="besetzes_05A"/>
                     <zone ulx="126" uly="156" lrx="331" lry="195" xml:id="terrocc_05A"/>
                     <zone ulx="90" uly="220" lrx="363" lry="266" xml:id="unbesetzes_05A"/>
@@ -106,7 +106,7 @@
                     <zone ulx="398" uly="126" lrx="1094" lry="170" xml:id="corr_05A"/>
                     <zone ulx="395" uly="207" lrx="707" lry="267" xml:id="postkarte_05A"/>
                     <zone ulx="712" uly="214" lrx="950" lry="258" xml:id="carte_05A"/>
-                    <zone points = ' 282,200 362,576 735,518 642,135 ' xml:id="timbro1_05A"/>
+                    <zone points = " 282,200 362,576 735,518 642,135 " xml:id="timbro1_05A"/>
                     <zone ulx="75" uly="536" lrx="362" lry="579" xml:id="gebu_05A"/>
                     <zone ulx="383" uly="527" lrx="692" lry="572" xml:id="franco_05A"/>
                     <zone ulx="400" uly="310" lrx="467" lry="351" xml:id="label_nome1_05A"/>
@@ -137,7 +137,7 @@
                     <zone ulx="238" uly="1054" lrx="664" lry="1102" xml:id="mit_stato_05A"/>
                 </surface>
                 <surface xml:id="retro_05" type="retro">
-                    <graphic url='Immagini/image/05_B.png' width='1769.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/05B.png' width='1769.33334px' height='1177.33334px' />
                     <zone ulx="80" uly="83" lrx="612" lry="144" xml:id="kriegsg_05B"/>
                     <zone ulx="70" uly="155" lrx="448" lry="200" xml:id="campdp_05B"/>
                     <zone ulx="672" uly="86" lrx="1043" lry="132" xml:id="campo_05B"/>
@@ -201,7 +201,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_05A">Straße:</stamp>
                                     <stamp xml:lang="#FR" type="print" facs="#label_via2_05A">Rue</stamp>
-                                    <placeName ref="#VDP" facs="#via_05A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_05A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_stato1_05A">Land:</stamp>

@@ -95,46 +95,46 @@
         <facsimile n="1945">
             <surfaceGrp xml:id="fronte_48" type="fronte">
                 <surface xml:id="fronte1_48" type="fronte">
-                    <graphic url='Immagini/image/48_A.png' width='877.1px' height='2033.1px' />
-                    <zone ulx="287" uly="474" lrx="615" lry="515" xml:id="kriegsg_48A1"/>
-                    <zone ulx="312" uly="530" lrx="583" lry="571" xml:id="ruckant_48A1"/>
-                    <zone ulx="369" uly="573" lrx="541" lry="594" xml:id="lett_48A1"/>
-                    <zone ulx="114" uly="697" lrx="292" lry="866" xml:id="timbro1_48A1"/>
-                    <zone ulx="335" uly="586" lrx="610" lry="737" xml:id="timbro2_48A1"/>
-                    <zone ulx="54" uly="971" lrx="198" lry="995" xml:id="gebuh_48A1"/>
-                    <zone ulx="202" uly="972" lrx="370" lry="999" xml:id="franco_48A1"/>
-                    <zone ulx="160" uly="658" lrx="422" lry="684" xml:id="label_nome1_48A1"/>
-                    <zone ulx="159" uly="687" lrx="322" lry="706" xml:id="label_nome2_48A1"/>
-                    <zone ulx="481" uly="614" lrx="811" lry="689" xml:id="nome_48A1"/>
-                    <zone ulx="267" uly="791" lrx="472" lry="812" xml:id="label_num1_48A1"/>
-                    <zone ulx="263" uly="817" lrx="422" lry="835" xml:id="label_num2_48A1"/>
-                    <zone ulx="539" uly="760" lrx="713" lry="828" xml:id="num_48A1"/>
-                    <zone ulx="265" uly="847" lrx="432" lry="874" xml:id="label_campo1_48A1"/>
-                    <zone ulx="265" uly="877" lrx="419" lry="895" xml:id="label_campo2_48A1"/>
-                    <zone ulx="441" uly="844" lrx="701" lry="869" xml:id="campo_48A1"/>
-                    <zone ulx="710" uly="832" lrx="791" lry="879" xml:id="seg_48A1"/>
-                    <zone ulx="533" uly="957" lrx="805" lry="997" xml:id="stato_48A1"/>
+                    <graphic url='Immagini/image/48A.png' width='877.1px' height='2033.1px' />
+                    <zone ulx="287" uly="474" lrx="615" lry="515" xml:id="kriegsg_48A"/>
+                    <zone ulx="312" uly="530" lrx="583" lry="571" xml:id="ruckant_48A"/>
+                    <zone ulx="369" uly="573" lrx="541" lry="594" xml:id="lett_48A"/>
+                    <zone ulx="114" uly="697" lrx="292" lry="866" xml:id="timbro1_48A"/>
+                    <zone ulx="335" uly="586" lrx="610" lry="737" xml:id="timbro2_48A"/>
+                    <zone ulx="54" uly="971" lrx="198" lry="995" xml:id="gebuh_48A"/>
+                    <zone ulx="202" uly="972" lrx="370" lry="999" xml:id="franco_48A"/>
+                    <zone ulx="160" uly="658" lrx="422" lry="684" xml:id="label_nome1_48A"/>
+                    <zone ulx="159" uly="687" lrx="322" lry="706" xml:id="label_nome2_48A"/>
+                    <zone ulx="481" uly="614" lrx="811" lry="689" xml:id="nome_48A"/>
+                    <zone ulx="267" uly="791" lrx="472" lry="812" xml:id="label_num1_48A"/>
+                    <zone ulx="263" uly="817" lrx="422" lry="835" xml:id="label_num2_48A"/>
+                    <zone ulx="539" uly="760" lrx="713" lry="828" xml:id="num_48A"/>
+                    <zone ulx="265" uly="847" lrx="432" lry="874" xml:id="label_campo1_48A"/>
+                    <zone ulx="265" uly="877" lrx="419" lry="895" xml:id="label_campo2_48A"/>
+                    <zone ulx="441" uly="844" lrx="701" lry="869" xml:id="campo_48A"/>
+                    <zone ulx="710" uly="832" lrx="791" lry="879" xml:id="seg_48A"/>
+                    <zone ulx="533" uly="957" lrx="805" lry="997" xml:id="stato_48A"/>
                     
-                    <zone ulx="752" uly="1420" lrx="861" lry="1451" rotate="180" xml:id="mit_absender_48A2"/>
-                    <zone ulx="777" uly="1400" lrx="859" lry="1420" rotate="180" xml:id="mit_mittente_48A2"/>
-                    <zone ulx="696" uly="1352" lrx="856" lry="1375" rotate="180" xml:id="mit_label_nome1_48A2"/>
-                    <zone ulx="695" uly="1330" lrx="806" lry="1351" rotate="180" xml:id="mit_label_nome2_48A2"/>
-                    <zone ulx="356" uly="1344" lrx="671" lry="1418" rotate="180" xml:id="mit_nome_48A2"/>
-                    <zone ulx="696" uly="1280" lrx="734" lry="1305" rotate="180" xml:id="mit_label_domicilio1_48A2"/>
-                    <zone ulx="696" uly="1262" lrx="842" lry="1278" rotate="180" xml:id="mit_label_domicilio2_48A2"/>
-                    <zone ulx="441" uly="1291" lrx="613" lry="1342" rotate="180" xml:id="mit_domicilio_48A2"/>
-                    <zone ulx="699" uly="1210" lrx="766" lry="1232" rotate="180" xml:id="mit_label_via1_48A2"/>
-                    <zone ulx="693" uly="1195" lrx="720" lry="1209" rotate="180" xml:id="mit_label_via2_48A2"/>
-                    <zone ulx="206" uly="1206" lrx="669" lry="1267" rotate="180" xml:id="mit_via_48A2"/>
-                    <zone ulx="698" uly="1142" lrx="793" lry="1161" rotate="180" xml:id="mit_label_provincia1_48A2"/>
-                    <zone ulx="696" uly="1122" lrx="755" lry="1140" rotate="180" xml:id="mit_label_provincia2_48A2"/>
-                    <zone ulx="449" uly="1143" lrx="629" lry="1203" rotate="180" xml:id="mit_provincia_48A2"/>
-                    <zone ulx="220" uly="1139" lrx="353" lry="1204" rotate="180" xml:id="mit_stato_48A2"/>
+                    <zone ulx="752" uly="1420" lrx="861" lry="1451" rotate="180" xml:id="mit_absender_48A"/>
+                    <zone ulx="777" uly="1400" lrx="859" lry="1420" rotate="180" xml:id="mit_mittente_48A"/>
+                    <zone ulx="696" uly="1352" lrx="856" lry="1375" rotate="180" xml:id="mit_label_nome1_48A"/>
+                    <zone ulx="695" uly="1330" lrx="806" lry="1351" rotate="180" xml:id="mit_label_nome2_48A"/>
+                    <zone ulx="356" uly="1344" lrx="671" lry="1418" rotate="180" xml:id="mit_nome_48A"/>
+                    <zone ulx="696" uly="1280" lrx="734" lry="1305" rotate="180" xml:id="mit_label_domicilio1_48A"/>
+                    <zone ulx="696" uly="1262" lrx="842" lry="1278" rotate="180" xml:id="mit_label_domicilio2_48A"/>
+                    <zone ulx="441" uly="1291" lrx="613" lry="1342" rotate="180" xml:id="mit_domicilio_48A"/>
+                    <zone ulx="699" uly="1210" lrx="766" lry="1232" rotate="180" xml:id="mit_label_via1_48A"/>
+                    <zone ulx="693" uly="1195" lrx="720" lry="1209" rotate="180" xml:id="mit_label_via2_48A"/>
+                    <zone ulx="206" uly="1206" lrx="669" lry="1267" rotate="180" xml:id="mit_via_48A"/>
+                    <zone ulx="698" uly="1142" lrx="793" lry="1161" rotate="180" xml:id="mit_label_provincia1_48A"/>
+                    <zone ulx="696" uly="1122" lrx="755" lry="1140" rotate="180" xml:id="mit_label_provincia2_48A"/>
+                    <zone ulx="449" uly="1143" lrx="629" lry="1203" rotate="180" xml:id="mit_provincia_48A"/>
+                    <zone ulx="220" uly="1139" lrx="353" lry="1204" rotate="180" xml:id="mit_stato_48A"/>
                 </surface>
             </surfaceGrp>
             <surfaceGrp>
                 <surface xml:id="retro_48" type="retro">
-                    <graphic url='Immagini/image/48_B.png' width='853.1px' height='2036.1px' />
+                    <graphic url='Immagini/image/48B.png' width='853.1px' height='2036.1px' />
                     <zone ulx="244" uly="276" lrx="570" lry="318" xml:id="stamp1_48B"/>
                     <zone ulx="251" uly="318" lrx="572" lry="360" xml:id="stamp2_48B"/>
                     <zone ulx="270" uly="364" lrx="555" lry="383" xml:id="stamp3_48B"/>
@@ -177,45 +177,45 @@
                 <div type="fronte">
                     <div type="stamp">
                         <ab>
-                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_48A1">Kriegsgenfangenenpost</stamp>
-                            <stamp xml:lang="#GE" type="print" facs="#ruckant_48A1">Ruckantwortbrief</stamp>
-                            <stamp xml:lang="#IT" type="print" facs="#lett_48A1">Lettera di risposta</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#kriegsg_48A">Kriegsgenfangenenpost</stamp>
+                            <stamp xml:lang="#GE" type="print" facs="#ruckant_48A">Ruckantwortbrief</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#lett_48A">Lettera di risposta</stamp>
                         </ab>
                     </div>
                     <div type="francobolli_e_timbri">
                         <ab>
-                            <stamp facs="#timbro1_48A1" type="postmark">
+                            <stamp facs="#timbro1_48A" type="postmark">
                                 <mentioned>LIVORNO PIAZZA VITT. EMANUELE</mentioned>
                                 <date when="1945-02-28">28.2.45</date>
                             </stamp>
-                            <stamp facs="#timbro2_48A1" type="postmark">
+                            <stamp facs="#timbro2_48A" type="postmark">
                                 <mentioned>U.S ARMY P/W EXAMINER</mentioned>
                             </stamp>
                         </ab>
                     </div>
                     <div type="destinatario">
                         <ab>
-                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#gebuh_48A1">Gebührenfrei!</stamp>
-                            <stamp xml:lang="#IT" type="print" facs="#franco_48A1">Franco di porto!</stamp>
+                            <stamp xml:lang="#GE" type="print" rend="bold" facs="#gebuh_48A">Gebührenfrei!</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#franco_48A">Franco di porto!</stamp>
                             <address>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_48A1">An den Kriegsgefangenen</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_nome2_48A1">Al prigioniero di guerra</stamp>
-                                    <persName ref="#AlP" facs="#nome_48A1">Pacini Alberto</persName>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_nome1_48A">An den Kriegsgefangenen</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_nome2_48A">Al prigioniero di guerra</stamp>
+                                    <persName ref="#AlP" facs="#nome_48A">Pacini Alberto</persName>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_48A1">Gefangenennummer:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_48A1">Numero del prigioniero</stamp>
-                                    <idno type="prigioniero" facs="#num_48A1">158767</idno>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_num1_48A">Gefangenennummer:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_num2_48A">Numero del prigioniero</stamp>
+                                    <idno type="prigioniero" facs="#num_48A">158767</idno>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_48A1">Lager-Bezeichnung:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_48A1">Designazione del campo</stamp>
-                                    <stamp type="print" facs="#campo_48A1"><placeName ref="#LU"><hi rend="bold">M.-Stammlager III A</hi></placeName></stamp><seg facs="#seg_48A1" hand="#AnP"><idno type="reparto">782c</idno></seg>
+                                    <stamp xml:lang="#GE" type="print" facs="#label_campo1_48A">Lager-Bezeichnung:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#label_campo2_48A">Designazione del campo</stamp>
+                                    <stamp type="print" facs="#campo_48A"><placeName ref="#LU"><hi rend="bold">M.-Stammlager III A</hi></placeName></stamp><seg facs="#seg_48A" hand="#AnP"><idno type="reparto">782c</idno></seg>
                                 </addrLine>
                                 <addrLine>
                                     <stamp rend="bold underline">
-                                        <placeName ref="#GE" facs="#stato_48A1">Deutschland (Germania)</placeName>
+                                        <placeName ref="#GE" facs="#stato_48A">Deutschland (Germania)</placeName>
                                     </stamp>
                                 </addrLine>
                             </address>
@@ -223,29 +223,29 @@
                     </div>
                     <div type="mittente">
                         <ab>
-                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_48A2">Absender:</stamp>
-                            <stamp xml:lang="#IT" type="print" facs="#mit_mittente_48A2">Mittente:</stamp>
+                            <stamp rend="Bold" xml:lang="#GE" type="print" facs="#mit_absender_48A">Absender:</stamp>
+                            <stamp xml:lang="#IT" type="print" facs="#mit_mittente_48A">Mittente:</stamp>
                             <address>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_48A2">Vor-und Zuname:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome2_48A2">Nome e cognome</stamp>
-                                    <persName ref="#AnP" facs="#mit_nome_48A2">Pacini Angelo</persName>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_nome1_48A">Vor-und Zuname:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_nome2_48A">Nome e cognome</stamp>
+                                    <persName ref="#AnP" facs="#mit_nome_48A">Pacini Angelo</persName>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_domicilio1_48A2">Ort:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_domicilio2_48A2">Domicilio del mittente</stamp>
-                                    <placeName ref="#LI" facs="#mit_domicilio_48A2">Livorno</placeName>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_domicilio1_48A">Ort:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_domicilio2_48A">Domicilio del mittente</stamp>
+                                    <placeName ref="#LI" facs="#mit_domicilio_48A">Livorno</placeName>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_48A2">Straße:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_48A2">Via</stamp>
-                                    <placeName ref="#VDP" facs="#mit_via_48A2">Via della Pieve N-10 A</placeName>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_via1_48A">Straße:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_via2_48A">Via</stamp>
+                                    <placeName ref="#vDP" facs="#mit_via_48A">Via della Pieve N-10 A</placeName>
                                 </addrLine>
                                 <addrLine>
-                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_provincia1_48A2">Landesteil:</stamp>
-                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_provincia2_48A2">Provincia</stamp>
-                                    <placeName ref="#LI" facs="#mit_provincia_48A2">Livorno</placeName>
-                                    <placeName ref="#IT" facs="#mit_stato_48A2">Italia</placeName>
+                                    <stamp xml:lang="#GE" type="print" facs="#mit_label_provincia1_48A">Landesteil:</stamp>
+                                    <stamp xml:lang="#IT" type="print" facs="#mit_label_provincia2_48A">Provincia</stamp>
+                                    <placeName ref="#LI" facs="#mit_provincia_48A">Livorno</placeName>
+                                    <placeName ref="#IT" facs="#mit_stato_48A">Italia</placeName>
                                 </addrLine>
                             </address>
                         </ab>
@@ -294,6 +294,7 @@
                             <lb facs="#riga22_48B" n="23"/>spesso è qui con noi. Bacioni e abbr-
                             <lb facs="#riga23_48B" n="24"/>acci 
                         </ab>
+                        <lb n="25"/>
                         <closer facs="#closer_48B">
                             <signed>tuo <persName ref="#AnP">babbo</persName> <persName ref="#AE">mamma</persName></signed> e tutti stai contento.
                         </closer>

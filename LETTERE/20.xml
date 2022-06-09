@@ -137,7 +137,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="busta_20">
                 <surface xml:id="busta_fronte_20" type="fronte">
-                    <graphic url='Immagini/image/20_A.png' width='1761.33334px' height='1129.33334px' />
+                    <graphic url='Immagini/image/20A.png' width='1761.33334px' height='1129.33334px' />
                     <zone ulx="264" uly="160" lrx="1562" lry="338" xml:id="addrline1_20A"/>
                     <zone ulx="790" uly="389" lrx="1532" lry="541" xml:id="nome_20A"/>
                     <zone ulx="306" uly="538" lrx="839" lry="684" xml:id="seg_num_20A"/>
@@ -148,7 +148,7 @@
                     <zone ulx="1006" uly="641" lrx="1706" lry="857" xml:id="timbro2_20A"/>
                 </surface>
                 <surface xml:id="busta_retro_20" type="retro">
-                    <graphic url='Immagini/image/20_B.png' width='1769.33334px' height='1137.33334px' />
+                    <graphic url='Immagini/image/20B.png' width='1769.33334px' height='1137.33334px' />
                     <zone ulx="294" uly="10" lrx="484" lry="135" xml:id="seg_mitt_20B"/>
                     <zone ulx="499" uly="11" lrx="1115" lry="126" xml:id="nome_20B"/>
                     <zone ulx="1164" uly="16" lrx="1499" lry="114" xml:id="localita_20B"/>
@@ -158,7 +158,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="corpo_20">
                 <surface xml:id="fronte_20" type="fronte">
-                    <graphic url='Immagini/image/20_C.png' width='1657.33334px' height='2066.33334px' />
+                    <graphic url='Immagini/image/20C.png' width='1657.33334px' height='2066.33334px' />
                     <zone ulx="1018" uly="7" lrx="1316" lry="119" xml:id="luogo_20C"/>
                     <zone ulx="1319" uly="13" lrx="1604" lry="113" xml:id="data_20C"/>
                     <zone ulx="63" uly="70" lrx="986" lry="222" xml:id="salute_20C"/>
@@ -169,14 +169,14 @@
                     <zone ulx="50" uly="847" lrx="1456" lry="975" xml:id="riga5_20C"/>
                     <zone ulx="51" uly="976" lrx="1612" lry="1131" xml:id="riga6_20C"/>
                     <zone ulx="34" uly="1137" lrx="1619" lry="1279" xml:id="riga7_20C"/>
-                    <zone points = ' 43,1230 1270,1299 1634,1298 1623,1442 1234,1440 39,1348 ' xml:id="riga8_20C"/>
-                    <zone points = ' 35,1362 1080,1450 1559,1453 1559,1581 771,1583 23,1499 ' xml:id="riga9_20C"/>
-                    <zone points = ' 34,1527 768,1593 1583,1596 1584,1716 684,1711 27,1656 ' xml:id="riga10_20C"/>
-                    <zone points = ' 34,1665 672,1729 1566,1738 1563,1866 618,1857 35,1785 ' xml:id="riga11_20C"/>
+                    <zone points = " 43,1230 1270,1299 1634,1298 1623,1442 1234,1440 39,1348 " xml:id="riga8_20C"/>
+                    <zone points = " 35,1362 1080,1450 1559,1453 1559,1581 771,1583 23,1499 " xml:id="riga9_20C"/>
+                    <zone points = " 34,1527 768,1593 1583,1596 1584,1716 684,1711 27,1656 " xml:id="riga10_20C"/>
+                    <zone points = " 34,1665 672,1729 1566,1738 1563,1866 618,1857 35,1785 " xml:id="riga11_20C"/>
                     <zone ulx="26" uly="1845" lrx="1628" lry="1999" xml:id="riga12_20C"/>
                 </surface>
                 <surface xml:id="retro_20" type="retro">
-                    <graphic url='Immagini/image/20_D.png' width='1638.33334px' height='2052.33334px' />
+                    <graphic url='Immagini/image/20D.png' width='1638.33334px' height='2052.33334px' />
                     <zone ulx="42" uly="28" lrx="1626" lry="158" xml:id="riga1_20D"/>
                     <zone ulx="31" uly="158" lrx="1614" lry="271" xml:id="riga2_20D"/>
                     <zone ulx="39" uly="266" lrx="1548" lry="385" xml:id="riga3_20D"/>

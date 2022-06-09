@@ -1,0 +1,28 @@
+<stx:transform
+  version="1.0"
+  xmlns:stx="http://stx.sourceforge.net/2002/ns" 
+  xmlns:config="http://www.armatiek.com/xslweb/configuration"
+  xmlns:req="http://www.armatiek.com/xslweb/request"
+  exclude-result-prefixes="config req" 
+  pass-through="none"
+  strip-space="yes">
+  
+  <stx:param name="config:webapp-dir"/>
+  
+  <stx:template match="/req:request">
+    <root>
+      <stx:message select="'Start of transformation'"/>
+      <!-- Process external document, initially not producing any output because of /*/@pass-through='none': -->
+      <stx:process-document href="'huge-file.xml'"/>
+      <stx:message select="'End of transformation'"/>
+    </root>
+  </stx:template>
+  
+  <stx:template match="interesting-stuff">
+    <!-- Interesting stuff!, let's copy to output: -->
+    <stx:process-self group="copy"/>  
+  </stx:template>
+  
+  <stx:group name="copy" pass-through="all"/>
+  
+</stx:transform>

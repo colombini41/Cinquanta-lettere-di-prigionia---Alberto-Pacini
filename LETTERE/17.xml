@@ -96,10 +96,10 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_17" type="fronte">
                 <surface xml:id="fronte1_17" type="fronte">
-                    <graphic url='Immagini/image/17_A.png' width='1722.33334px' height='4119.33334px' />
+                    <graphic url='Immagini/image/17A.png' width='1722.33334px' height='4119.33334px' />
                     <zone ulx="538" uly="1000" lrx="1192" lry="1070" xml:id="kriegsg_17A"/>
                     <zone ulx="528" uly="1111" lrx="1200" lry="1147" xml:id="corr_17A"/>
-                    <zone points = ' 564,804 944,736 1030,1114 634,1198 ' xml:id="timbro1_17A"/>
+                    <zone points = " 564,804 944,736 1030,1114 634,1198 " xml:id="timbro1_17A"/>
                     <zone ulx="118" uly="1896" lrx="404" lry="1955" xml:id="gebuh_17A"/>
                     <zone ulx="410" uly="1896" lrx="714" lry="1942" xml:id="franco_17A"/>
                     <zone ulx="328" uly="1361" lrx="399" lry="1408" xml:id="label_nome1_17A"/>
@@ -133,7 +133,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_17" type="retro">
                 <surface xml:id="retro1_17" type="retro">
-                    <graphic url='Immagini/image/17_B.png' width='1716.33334px' height='4108.33334px' />
+                    <graphic url='Immagini/image/17B.png' width='1716.33334px' height='4108.33334px' />
                     <zone ulx="415" uly="686" lrx="1238" lry="721" xml:id="stamp1_17B"/>
                     <zone ulx="418" uly="736" lrx="1255" lry="762" xml:id="stamp2_17B"/>
                     <zone ulx="554" uly="784" lrx="1115" lry="826" xml:id="stamp3_17B"/>

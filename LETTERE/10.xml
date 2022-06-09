@@ -96,7 +96,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_10" type="fronte">
                 <surface xml:id="fronte1_10" type="fronte">
-                    <graphic url='Immagini/image/10_A.png' width='1667.33334px' height='3924.33334px' />
+                    <graphic url='Immagini/image/10A.png' width='1667.33334px' height='3924.33334px' />
                     <zone ulx="464" uly="836" lrx="1116" lry="900" xml:id="stamp1_10A"/>
                     <zone ulx="456" uly="943" lrx="1130" lry="986" xml:id="stamp2_10A"/>
                     <zone ulx="1240" uly="774" lrx="1604" lry="1119" xml:id="timbro1_10A"/>
@@ -133,7 +133,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_10" type="retro">
                 <surface xml:id="retro1_10" type="retro">
-                    <graphic url='Immagini/image/10_B.png' width='1642.33334px' height='3639.33334px' />
+                    <graphic url='Immagini/image/10B.png' width='1642.33334px' height='3639.33334px' />
                     <zone ulx="427" uly="467" lrx="1235" lry="502" xml:id="stamp1_10B"/>
                     <zone ulx="414" uly="515" lrx="1248" lry="552" xml:id="stamp2_10B"/>
                     <zone ulx="544" uly="562" lrx="1110" lry="604" xml:id="stamp3_10B"/>
@@ -210,7 +210,7 @@
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_via1_10A">Straße:</stamp>
                                     <stamp xml:lang="#IT" type="print" facs="#label_via2_10A">Via</stamp>
-                                    <placeName ref="#VDP" facs="#via_10A">Via Della Pieve n 10</placeName>
+                                    <placeName ref="#vDP" facs="#via_10A">Via Della Pieve n 10</placeName>
                                 </addrLine>
                                 <addrLine>
                                     <stamp xml:lang="#GE" type="print" facs="#label_provincia1_10A">Landesteil:</stamp>

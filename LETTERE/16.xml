@@ -96,13 +96,13 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_16" type="fronte">
-                    <graphic url='Immagini/image/16_A.png' width='1809.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/16A.png' width='1809.33334px' height='1177.33334px' />
                     <zone ulx="460" uly="98" lrx="983" lry="156" xml:id="kriegsg_16A"/>
                     <zone ulx="462" uly="162" lrx="1102" lry="202" xml:id="corr_16A"/>
                     <zone ulx="460" uly="238" lrx="770" lry="302" xml:id="postkarte_16A"/>
                     <zone ulx="779" uly="258" lrx="1059" lry="292" xml:id="cart_16A"/>
                     <zone ulx="1447" uly="103" lrx="1787" lry="455" xml:id="timbro1_16A"/>
-                    <zone points = ' 54,227 199,562 564,411 387,58 ' xml:id="timbro2_16A"/>
+                    <zone points = " 54,227 199,562 564,411 387,58 " xml:id="timbro2_16A"/>
                     <zone ulx="144" uly="561" lrx="431" lry="608" xml:id="gebuh_16A"/>
                     <zone ulx="448" uly="561" lrx="775" lry="605" xml:id="franco_16A"/>
                     <zone ulx="468" uly="340" lrx="534" lry="384" xml:id="label_nome1_16A"/>
@@ -132,7 +132,7 @@
                     <zone ulx="320" uly="1084" lrx="722" lry="1132" xml:id="mit_stato_16A"/>
                 </surface>
                 <surface xml:id="retro_16" type="retro">
-                    <graphic url='Immagini/image/16_B.png' width='1809.33334px' height='1177.33334px' />
+                    <graphic url='Immagini/image/16B.png' width='1809.33334px' height='1177.33334px' />
                     <zone ulx="54" uly="67" lrx="604" lry="124" xml:id="stamp1_16B"/>
                     <zone ulx="58" uly="128" lrx="574" lry="167" xml:id="stamp2_16B"/>
                     <zone ulx="682" uly="66" lrx="1044" lry="104" xml:id="campo_16B"/>
@@ -147,7 +147,7 @@
                     <zone ulx="88" uly="588" lrx="1676" lry="684" xml:id="riga4_16B"/>
                     <zone ulx="112" uly="707" lrx="1675" lry="808" xml:id="riga5_16B"/>
                     <zone ulx="110" uly="812" lrx="1482" lry="904" xml:id="riga6_16B"/>               
-                    <zone points = ' 1492,805 1503,921 106,934 96,1037 1740,1031 1715,793 ' xml:id="closer_16B"/>
+                    <zone points = " 1492,805 1503,921 106,934 96,1037 1740,1031 1715,793 " xml:id="closer_16B"/>
                 </surface>
             </surfaceGrp>
         </facsimile>

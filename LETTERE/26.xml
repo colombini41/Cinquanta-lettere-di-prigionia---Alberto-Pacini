@@ -97,7 +97,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_26" type="fronte">
                 <surface xml:id="fronte1_26" type="fronte">
-                    <graphic url='Immagini/image/26_A.png' width='1784.66666px' height='3488.66666px' />
+                    <graphic url='Immagini/image/26A.png' width='1784.66666px' height='3488.66666px' />
                     <zone ulx="550" uly="326" lrx="1199" lry="434" xml:id="kriegsg_26A"/>
                     <zone ulx="610" uly="454" lrx="1140" lry="519" xml:id="ruck_26A"/>
                     <zone ulx="720" uly="524" lrx="1062" lry="568" xml:id="lettera_26A"/>
@@ -139,7 +139,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_26" type="retro">
                 <surface xml:id="retro1_26" type="retro">
-                    <graphic url='Immagini/image/26_B.png' width='1784.66666px' height='3488.66666px' />
+                    <graphic url='Immagini/image/26B.png' width='1784.66666px' height='3488.66666px' />
                     <zone ulx="542" uly="52" lrx="619" lry="84" xml:id="stamp1_26B"/>
                     <zone ulx="880" uly="69" lrx="1154" lry="100" xml:id="stamp2_26B"/>
                     <zone ulx="562" uly="105" lrx="1135" lry="147" xml:id="stamp3_26B"/>
@@ -167,12 +167,12 @@
                     <zone ulx="117" uly="2108" lrx="1712" lry="2223" xml:id="riga17_26B"/>
                     <zone ulx="155" uly="2369" lrx="1007" lry="2451" xml:id="gap2_26B"/>
                     <zone ulx="1017" uly="2372" lrx="1642" lry="2444" xml:id="riga18_26B"/>
-                    <zone points = ' 114,2493 1699,2426 1715,2529 112,2598 ' xml:id="riga19_26B"/>
-                    <zone points = ' 115,2609 1655,2546 1660,2644 124,2714 ' xml:id="riga20_26B"/>
-                    <zone points = ' 124,2733 1680,2654 1689,2749 137,2816 ' xml:id="riga21_26B"/>
-                    <zone points = ' 122,2838 1605,2769 1610,2863 124,2921 ' xml:id="riga22_26B"/>
-                    <zone points = ' 147,2944 1694,2886 1702,2974 152,3051 ' xml:id="riga23_26B"/>
-                    <zone points = ' 142,3066 1305,3009 1310,3111 149,3156 ' xml:id="riga24_26B"/>
+                    <zone points = " 114,2493 1699,2426 1715,2529 112,2598 " xml:id="riga19_26B"/>
+                    <zone points = " 115,2609 1655,2546 1660,2644 124,2714 " xml:id="riga20_26B"/>
+                    <zone points = " 124,2733 1680,2654 1689,2749 137,2816 " xml:id="riga21_26B"/>
+                    <zone points = " 122,2838 1605,2769 1610,2863 124,2921 " xml:id="riga22_26B"/>
+                    <zone points = " 147,2944 1694,2886 1702,2974 152,3051 " xml:id="riga23_26B"/>
+                    <zone points = " 142,3066 1305,3009 1310,3111 149,3156 " xml:id="riga24_26B"/>
                     <zone ulx="1312" uly="3006" lrx="1699" lry="3161" xml:id="signed_26B"/>
                     <zone ulx="1250" uly="2145" lrx="1555" lry="2419" xml:id="timbro_26B"/>
                 </surface>

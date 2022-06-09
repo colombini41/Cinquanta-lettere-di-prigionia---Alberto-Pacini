@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_39" type="fronte">
                 <surface xml:id="fronte1_39" type="fronte">
-                    <graphic url='Immagini/image/39_A.png' width='1738.33334px' height='4061.33334px' />
+                    <graphic url='Immagini/image/39A.png' width='1738.33334px' height='4061.33334px' />
                     <zone ulx="496" uly="922" lrx="1155" lry="994" xml:id="kriegsg_39A"/>
                     <zone ulx="495" uly="1035" lrx="1166" lry="1071" xml:id="corr_39A"/>
                     <zone ulx="690" uly="747" lrx="1034" lry="1103" xml:id="timbro1_39A"/>
@@ -139,7 +139,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_39" type="retro">
                 <surface xml:id="retro1_39" type="retro">
-                    <graphic url='Immagini/image/39_B.png' width='1760.33334px' height='4034.33334px' />
+                    <graphic url='Immagini/image/39B.png' width='1760.33334px' height='4034.33334px' />
                     <zone ulx="498" uly="624" lrx="1286" lry="665" xml:id="stamp1_39B"/>
                     <zone ulx="476" uly="673" lrx="1302" lry="711" xml:id="stamp2_39B"/>
                     <zone ulx="611" uly="724" lrx="1168" lry="761" xml:id="stamp3_39B"/>
@@ -172,8 +172,8 @@
                     <zone ulx="147" uly="3267" lrx="1663" lry="3383" xml:id="riga22_39B"/>
                     <zone ulx="135" uly="3380" lrx="1628" lry="3467" xml:id="riga23_39B"/>
                     <zone ulx="168" uly="3478" lrx="1720" lry="3611" xml:id="riga24_39B"/>
-                    <zone points = ' 158,3611 1759,3617 1759,3803 1648,3791 1555,3714 156,3694 ' xml:id="riga25_39B"/>
-                    <zone points = ' 1035,3717 1543,3726 1668,3821 1667,3931 1035,3921 ' xml:id="signed_39B"/>
+                    <zone points = " 158,3611 1759,3617 1759,3803 1648,3791 1555,3714 156,3694 " xml:id="riga25_39B"/>
+                    <zone points = " 1035,3717 1543,3726 1668,3821 1667,3931 1035,3921 " xml:id="signed_39B"/>
                 </surface>
             </surfaceGrp>
         </facsimile>

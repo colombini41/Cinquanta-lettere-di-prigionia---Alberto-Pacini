@@ -95,7 +95,7 @@
         <facsimile n="1944">
             <surfaceGrp>
                 <surface xml:id="fronte_06" type="fronte">
-                    <graphic url='Immagini/image/06_A.png' width='1779.33334px' height='1185.33334px' />
+                    <graphic url='Immagini/image/06A.png' width='1779.33334px' height='1185.33334px' />
                     <zone ulx="312" uly="30" lrx="844" lry="95" xml:id="kriegsg_06A"/>
                     <zone ulx="319" uly="95" lrx="1016" lry="146" xml:id="corr_06A"/>
                     <zone ulx="315" uly="155" lrx="907" lry="222" xml:id="antwort_06A"/>
@@ -108,7 +108,7 @@
                     <zone ulx="410" uly="524" lrx="722" lry="582" xml:id="franco_06A"/>
                     <zone ulx="316" uly="288" lrx="844" lry="348" xml:id="label_nome1_06A"/>
                     <zone ulx="315" uly="343" lrx="546" lry="383" xml:id="label_nome2_06A"/>
-                    <zone points = ' 690,350 806,341 814,414 1294,402 1320,521 691,505 ' xml:id="nome_06A"/>
+                    <zone points = " 690,350 806,341 814,414 1294,402 1320,521 691,505 " xml:id="nome_06A"/>
                     <zone ulx="1110" uly="516" lrx="1336" lry="625" xml:id="dataricezione_06A"/>
                     <zone ulx="842" uly="629" lrx="1184" lry="676" xml:id="label_num1_06A"/>
                     <zone ulx="846" uly="669" lrx="1094" lry="702" xml:id="numero_06A"/>
@@ -134,7 +134,7 @@
                     <zone ulx="318" uly="1068" lrx="616" lry="1161" xml:id="mit_stato_06A"/>
                 </surface>
                 <surface xml:id="retro_06" type="retro">
-                    <graphic url='Immagini/image/06_B.png' width='1777.33334px' height='1169.33334px' />
+                    <graphic url='Immagini/image/06B.png' width='1777.33334px' height='1169.33334px' />
                     <zone ulx="370" uly="24" lrx="656" lry="68" xml:id="stamp1_06B"/>
                     <zone ulx="891" uly="22" lrx="1404" lry="60" xml:id="stamp2_06B"/>
                     <zone ulx="146" uly="131" lrx="854" lry="242" xml:id="stamp3_06B"/>

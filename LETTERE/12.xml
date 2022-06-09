@@ -95,17 +95,17 @@
         <facsimile n="1944">
             <surfaceGrp xml:id="fronte_12" type="fronte">
                 <surface xml:id="fronte2_12" type="fronte">
-                    <graphic url='Immagini/image/12_A.png' width='1732.33334px' height='3769.33334px' />
+                    <graphic url='Immagini/image/12A.png' width='1732.33334px' height='3769.33334px' />
                     <zone ulx="98" uly="790" lrx="1596" lry="882" xml:id="stamp1_12A"/>
                     <zone ulx="1151" uly="860" lrx="1611" lry="1250" xml:id="timbro1_12A"/>
-                    <zone points = ' 984,1354 1602,1038 1699,1235 1083,1562 ' xml:id="timbro2_12A"/>
+                    <zone points = " 984,1354 1602,1038 1699,1235 1083,1562 " xml:id="timbro2_12A"/>
                     <zone ulx="879" uly="905" lrx="991" lry="980" xml:id="timbro3_12A"/>
-                    <zone points = ' 734,312 998,138 1012,191 766,356 ' xml:id="men1_timbro4_12A"/>
-                    <zone points = ' 766,364 1016,195 1030,266 871,386 858,362 790,403 766,368 ' xml:id="men3_timbro4_12A"/>
-                    <zone points = ' 823,454 1055,303 1090,351 858,515 ' xml:id="men4_timbro4_12A"/>
-                    <zone points = ' 1018,2032 1386,1796 1412,1846 1023,2090 ' xml:id="men2_timbro4_12A"/>
-                    <zone points = ' 1095,2052 1414,1856 1446,1882 1366,1933 1378,1962 1210,2066 1186,2037 1114,2082 ' xml:id="men5_timbro4_12A"/>
-                    <zone points = ' 1151,2142 1472,1934 1506,1992 1186,2200 ' xml:id="men6_timbro4_12A"/>
+                    <zone points = " 734,312 998,138 1012,191 766,356 " xml:id="men1_timbro4_12A"/>
+                    <zone points = " 766,364 1016,195 1030,266 871,386 858,362 790,403 766,368 " xml:id="men3_timbro4_12A"/>
+                    <zone points = " 823,454 1055,303 1090,351 858,515 " xml:id="men4_timbro4_12A"/>
+                    <zone points = " 1018,2032 1386,1796 1412,1846 1023,2090 " xml:id="men2_timbro4_12A"/>
+                    <zone points = " 1095,2052 1414,1856 1446,1882 1366,1933 1378,1962 1210,2066 1186,2037 1114,2082 " xml:id="men5_timbro4_12A"/>
+                    <zone points = " 1151,2142 1472,1934 1506,1992 1186,2200 " xml:id="men6_timbro4_12A"/>
                     <zone ulx="94" uly="995" lrx="159" lry="1051" xml:id="label_nome_12A"/>
                     <zone ulx="210" uly="976" lrx="1314" lry="1054" xml:id="nome_12A"/>
                     <zone ulx="203" uly="1060" lrx="508" lry="1094" xml:id="grado_12A"/>
@@ -148,7 +148,7 @@
             </surfaceGrp>
             <surfaceGrp xml:id="retro_12" type="retro">
                 <surface xml:id="retro1_12" type="retro">
-                    <graphic url='Immagini/image/12_B.png' width='1728.33334px' height='3779.33334px' />
+                    <graphic url='Immagini/image/12B.png' width='1728.33334px' height='3779.33334px' />
                     <zone ulx="151" uly="418" lrx="1598" lry="574" xml:id="stamp1_12B"/>
                     <zone ulx="998" uly="622" lrx="1306" lry="722" xml:id="luogo_12B"/>
                     <zone ulx="1312" uly="640" lrx="1615" lry="722" xml:id="data_12B"/>
